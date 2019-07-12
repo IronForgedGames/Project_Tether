@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Project_Tether.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C649CB9C-5D22-4B0B-A253-314180A486AB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Project_Tether.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Project_TetherEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9354A2E2-4713-4A34-A48C-A271FE80F58B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Project_Tether">
+      <UniqueIdentifier>{10C18713-1AAD-4675-912D-4DE316BD4058}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Project_Tether\Project_Tether.Build.cs">
+      <Filter>Source\Project_Tether</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Project_Tether\Project_Tether.cpp">
+      <Filter>Source\Project_Tether</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_Tether\Project_Tether.h">
+      <Filter>Source\Project_Tether</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project_Tether\Project_TetherCharacter.cpp">
+      <Filter>Source\Project_Tether</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_Tether\Project_TetherCharacter.h">
+      <Filter>Source\Project_Tether</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project_Tether\Project_TetherGameMode.cpp">
+      <Filter>Source\Project_Tether</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project_Tether\Project_TetherGameMode.h">
+      <Filter>Source\Project_Tether</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Project_Tether\Public">
+      <UniqueIdentifier>{06e58d21-be96-4d16-a285-ac24ef86473f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project_Tether\Public\Core">
+      <UniqueIdentifier>{b9160f2a-6ef1-4799-93db-93513e3a6d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project_Tether\Public\Core\Entity">
+      <UniqueIdentifier>{7bce5726-f9d4-4b98-9558-acbad7e4895c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project_Tether\Private">
+      <UniqueIdentifier>{f9ab69a3-1f9c-46fc-9739-635b83847226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project_Tether\Private\Core">
+      <UniqueIdentifier>{9ab27518-69f2-40fb-85f9-c70d8bd07b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project_Tether\Private\Core\Entity">
+      <UniqueIdentifier>{35ae5912-6b37-4c21-a303-b1bd0d72e55c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Entity\Group.h">
+      <Filter>Source\Project_Tether\Public\Core\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Entity\Identity.h">
+      <Filter>Source\Project_Tether\Public\Core\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Entity\EntityComponent.h">
+      <Filter>Source\Project_Tether\Public\Core\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Entity\Group.cpp">
+      <Filter>Source\Project_Tether\Private\Core\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Entity\Identity.cpp">
+      <Filter>Source\Project_Tether\Private\Core\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Entity\EntityComponent.cpp">
+      <Filter>Source\Project_Tether\Private\Core\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
