@@ -185,11 +185,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/I "E:\Projects\GitHub Repos\Unreal\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine"
-/Yc"E:\Projects\GitHub Repos\Unreal\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\Projects\GitHub Repos\Unreal\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"E:\Projects\GitHub Repos\Unreal\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"E:\Projects\GitHub Repos\Unreal\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine
+/Yc"E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

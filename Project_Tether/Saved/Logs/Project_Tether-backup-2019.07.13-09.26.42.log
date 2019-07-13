@@ -1,0 +1,848 @@
+﻿Log file open, 07/12/19 23:09:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Project_Tether
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.396126
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin UE4EditorCustomize
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.063s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: E:/Epic Games Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.07.13-03.09.33:870][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.13-03.09.33:870][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.13-03.09.33:879][  0]LogHAL: Display: Platform has ~ 16 GB [17121992704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.13-03.09.33:879][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.07.13-03.09.33:879][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.13-03.09.33:879][  0]LogInit: Computer: AARONS-DESKTOP
+[2019.07.13-03.09.33:879][  0]LogInit: User: AaronsDesktop
+[2019.07.13-03.09.33:879][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.07.13-03.09.33:879][  0]LogInit: High frequency timer resolution =3.609378 MHz
+[2019.07.13-03.09.33:879][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.07.13-03.09.33:879][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.13-03.09.33:879][  0]LogMemory: Process Physical Memory: 102.50 MB used, 102.50 MB peak
+[2019.07.13-03.09.33:879][  0]LogMemory: Process Virtual Memory: 94.35 MB used, 94.35 MB peak
+[2019.07.13-03.09.33:879][  0]LogMemory: Physical Memory: 6301.50 MB used,  10027.30 MB free, 16328.80 MB total
+[2019.07.13-03.09.33:879][  0]LogMemory: Virtual Memory: 4665.73 MB used,  10027.30 MB free, 134217728.00 MB total
+[2019.07.13-03.09.33:895][  0]LogInit: Using OS detected language (en-US).
+[2019.07.13-03.09.33:895][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.13-03.09.33:896][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.13-03.09.34:180][  0]LogStreaming: Display: Took  0.284s to InitEngineTextLocalization.
+[2019.07.13-03.09.34:180][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.13-03.09.34:210][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.13-03.09.34:210][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.13-03.09.34:353][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.13-03.09.34:353][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.13-03.09.34:403][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.07.13-03.09.34:403][  0]LogD3D11RHI:       6052/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.07.13-03.09.34:404][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.13-03.09.34:404][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.13-03.09.34:404][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.13-03.09.34:409][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.13-03.09.34:409][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.13-03.09.34:409][  0]LogWindows: EnumDisplayDevices:
+[2019.07.13-03.09.34:410][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.07.13-03.09.34:410][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.07.13-03.09.34:410][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.07.13-03.09.34:410][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.07.13-03.09.34:410][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.13-03.09.34:410][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.07.13-03.09.34:410][  0]LogD3D11RHI:   Driver Version: 418.81 (internal:25.21.14.1881, unified:418.81)
+[2019.07.13-03.09.34:410][  0]LogD3D11RHI:      Driver Date: 1-30-2019
+[2019.07.13-03.09.34:410][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.07.13-03.09.34:441][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.13-03.09.34:455][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.13-03.09.34:554][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Intermediate/Shaders/WorkingDirectory/2664/).
+[2019.07.13-03.09.34:554][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aaron's Desktop/AppData/Local/Temp/UnrealShaderWorkingDir/C79E8C2041F49A789D36E8A3C4B38986/'.
+[2019.07.13-03.09.34:769][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.13-03.09.34:778][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.13-03.09.34:788][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.13-03.09.34:797][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.13-03.09.34:806][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.13-03.09.34:816][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.13-03.09.34:826][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.13-03.09.34:837][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.13-03.09.34:841][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:901][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:901][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:901][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:901][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:901][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:901][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:901][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.13-03.09.34:901][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.13-03.09.34:966][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.13-03.09.34:966][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.13-03.09.34:996][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.13-03.09.34:996][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.13-03.09.35:009][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.13-03.09.35:019][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.13-03.09.35:028][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.13-03.09.35:039][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.13-03.09.35:046][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.13-03.09.35:046][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.13-03.09.35:080][  0]LogXGEController: Cleaning working directory: C:/Users/Aaron's Desktop/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.13-03.09.35:081][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.13-03.09.35:081][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.13-03.09.35:081][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.13-03.09.35:648][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.13-03.09.35:705][  0]LogDerivedDataCache: Loaded boot cache 0.06s 87MB C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.13-03.09.35:705][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.07.13-03.09.35:705][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.13-03.09.35:705][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.13-03.09.35:705][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.13-03.09.35:705][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.13-03.09.35:718][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.13-03.09.35:730][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.13-03.09.35:730][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.13-03.09.35:730][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.13-03.09.35:745][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.13-03.09.35:746][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.13-03.09.35:747][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.13-03.09.35:810][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2019.07.13-03.09.36:055][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.13-03.09.36:162][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.13-03.09.36:165][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.13-03.09.36:165][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.13-03.09.36:165][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.13-03.09.36:165][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.13-03.09.36:179][  0]LogNetVersion: Project_Tether 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2290113244)
+[2019.07.13-03.09.36:569][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.072424 seconds
+[2019.07.13-03.09.36:575][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.07.13-03.09.36:575][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.07.13-03.09.36:575][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.13-03.09.37:206][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.13-03.09.37:218][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.13-03.09.37:345][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.07.13-03.09.37:345][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.07.13-03.09.37:345][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2019.07.13-03.09.37:345][  0]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.13-03.09.37:345][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.07.13-03.09.37:345][  0]LogUObjectBase: Warning: Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.13-03.09.37:358][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.13-03.10.02:465][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.13-03.10.02:512][  0]SourceControl: Source control is disabled
+[2019.07.13-03.10.02:513][  0]SourceControl: Source control is disabled
+[2019.07.13-03.10.02:514][  0]SourceControl: Source control is disabled
+[2019.07.13-03.10.02:515][  0]SourceControl: Source control is disabled
+[2019.07.13-03.10.02:693][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.13-03.10.02:750][  0]LogOcInput: OculusInput pre-init called
+[2019.07.13-03.10.02:804][  0]LogEngine: Initializing Engine...
+[2019.07.13-03.10.02:805][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.13-03.10.02:806][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.13-03.10.02:806][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.13-03.10.02:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.13-03.10.02:807][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.13-03.10.02:999][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.13-03.10.03:008][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.13-03.10.03:027][  0]LogInit: XAudio2 using 'G257HL (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.13-03.10.03:038][  0]LogInit: FAudioDevice initialized.
+[2019.07.13-03.10.03:039][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.13-03.10.03:097][  0]LogDerivedDataCache: Saved boot cache 0.06s 87MB C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.13-03.10.03:105][  0]LogInit: Texture streaming: Enabled
+[2019.07.13-03.10.03:115][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.13-03.10.03:126][  0]LogInit: Transaction tracking system initialized
+[2019.07.13-03.10.03:141][  0]BlueprintLog: New page: Editor Load
+[2019.07.13-03.10.03:196][  0]LocalizationService: Localization service is disabled
+[2019.07.13-03.10.03:437][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.13-03.10.03:437][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.13-03.10.03:437][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.13-03.10.03:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.13-03.10.03:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.13-03.10.03:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.13-03.10.03:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.13-03.10.03:517][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/' took 0.01s
+[2019.07.13-03.10.03:517][  0]SourceControl: Source control is disabled
+[2019.07.13-03.10.03:517][  0]Cmd: MAP LOAD FILE="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.13-03.10.03:517][  0]LightingResults: New page: Lighting Build
+[2019.07.13-03.10.03:519][  0]MapCheck: New page: Map Check
+[2019.07.13-03.10.03:519][  0]LightingResults: New page: Lighting Build
+[2019.07.13-03.10.03:819][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.13-03.10.03:827][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.13-03.10.03:849][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.13-03.10.03:895][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.094ms to complete.
+[2019.07.13-03.10.03:895][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.378
+[2019.07.13-03.10.03:975][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.13-03.10.04:030][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-03.10.04:036][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-03.10.04:042][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-03.10.04:047][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.13-03.10.04:051][  0]LogCollectionManager: Loaded 0 collections in 0.000733 seconds
+[2019.07.13-03.10.04:104][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Collections/' took 0.01s
+[2019.07.13-03.10.04:104][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Developers/AaronsDesktop/Collections/' took 0.01s
+[2019.07.13-03.10.04:104][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Collections/' took 0.01s
+[2019.07.13-03.10.04:104][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.07.13-03.10.04:123][  0]LogContentBrowser: Native class hierarchy populated in 0.0186 seconds. Added 2582 classes and 611 folders.
+[2019.07.13-03.10.04:134][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.07.13-03.10.04:175][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.13-03.10.04:183][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.07.13-03.10.05:008][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.07.13-03.10.06:501][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectTether
+[2019.07.13-03.10.06:501][  0]LogTemp: CWD: E:\Epic Games Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.13-03.10.06:501][  0]LogTemp: Initial Dir: E:\Epic Games Games\UE_4.20
+[2019.07.13-03.10.06:502][  0]LogTemp: Env CWD: E:\Epic Games Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.13-03.10.06:502][  0]LogTemp: BranchPath = AARONS-DESKTOP/E/Epic Games Games/UE_4.20/Engine/Binaries --- GameBranchPath = AARONS-DESKTOP/E/Epic Games Games/UE_4.20/Engine/Binaries
+[2019.07.13-03.10.06:502][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Aaron's Desktop\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.07.13-03.10.06:502][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.13-03.10.06:506][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.13-03.10.06:509][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.13-03.10.06:557][  0]LogRenderer: Reallocating scene render targets to support 1304x520 Format 10 NumSamples 1 (Frame:1).
+[2019.07.13-03.10.06:670][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.07.13-03.10.06:671][  0]LogLoad: (Engine Initialization) Total time: 34.20 seconds
+[2019.07.13-03.10.06:671][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.13-03.10.06:713][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.13-03.10.06:762][  1]LogAssetRegistry: Asset discovery search completed in 30.9754 seconds
+[2019.07.13-03.10.06:764][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.13-03.10.06:764][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2019.07.13-03.10.07:705][ 93]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.13-03.10.09:800][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-03.10.53:751][144]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.13-03.11.00:638][967]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.07.13-03.11.00:642][967]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.07.13-03.11.02:540][191]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Starter/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.07.13-03.11.02:884][191]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.07.13-03.11.04:322][284]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.13-03.11.10:027][911]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.07.13-03.11.10:265][911]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonCharacterD455C4ED4C1FD18E0734678185538601.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Starter/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.07.13-03.11.11:896][ 99]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.07.13-03.11.11:900][ 99]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.07.13-03.11.39:468][349]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-03.11.39:559][360]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.07.13-03.11.39:562][360]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.07.13-03.11.46:773][217]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Starter/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.07.13-03.11.49:395][444]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.07.13-03.11.50:748][601]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.07.13-03.11.50:814][601]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Starter/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.07.13-03.11.52:092][706]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.07.13-03.12.15:029][381]Running E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -game -rocket -progress
+[2019.07.13-03.12.15:335][381]Discovering modules, targets and source code for project...
+[2019.07.13-03.12.17:249][381]E:\Epic Games Games\UE_4.20\Engine\Source\ThirdParty\Expat\Expat.Build.cs: warning: Referenced directory 'E:\Epic Games Games\UE_4.20\Engine\Source\ThirdParty\Expat\expat-2.2.0\Win64\VS2015\Release' does not exist.
+[2019.07.13-03.12.24:234][381]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.07.13-03.12.24:276][381]Candidate modules for hot reload:
+[2019.07.13-03.12.24:276][381]  Project_Tether
+[2019.07.13-03.12.24:277][381]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,4395 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.12.37:149][381]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:12:37 PM
+[2019.07.13-03.12.37:149][381]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.12.37:149][381]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (game project files are newer)
+[2019.07.13-03.12.37:149][381]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.12.37:149][381]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.13-03.12.37:149][381]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.13-03.12.37:149][381]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.13-03.12.37:149][381]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.0946825 seconds
+[2019.07.13-03.12.37:149][381]CompilerResultsLog: Building 7 actions with 12 processes...
+[2019.07.13-03.12.37:149][381]CompilerResultsLog:   [1/7] E_Character.gen.cpp
+[2019.07.13-03.12.37:149][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(11) : error C2504: 'IIEntity': base class undefined
+[2019.07.13-03.12.37:149][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(29) : error C3646: 'entityComponent': unknown override specifier
+[2019.07.13-03.12.37:149][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.07.13-03.12.37:149][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2061: syntax error: identifier 'IIEntity'
+[2019.07.13-03.12.37:149][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2143: syntax error: missing ';' before '}'
+[2019.07.13-03.12.37:149][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2059: syntax error: '}'
+[2019.07.13-03.12.37:149][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(125) : error C2143: syntax error: missing ';' before '}'
+[2019.07.13-03.12.37:149][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(125) : error C2059: syntax error: '}'
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137) : error C2672: 'ArrayCountHelper': no matching overloaded function found
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137) : error C2893: Failed to specialize function template 'char (&ArrayCountHelper(const T (&)[N]))[N+]'
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: With the following template arguments:
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: 'T=UE4CodeGen_Private::FImplementedInterfaceParams'
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: 'N=0'
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(138) : error C2078: too many initializers
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139) : error C2440: 'initializing': cannot convert from 'const UE4CodeGen_Private::FMetaDataPairParam [3]' to 'int32'
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139): note: There is no context in which this conversion is possible
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139) : error C2440: 'initializing': cannot convert from 'unsigned __int64' to 'const UE4CodeGen_Private::FMetaDataPairParam *'
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:   [2/7] E_Character.cpp
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(11) : error C2504: 'IIEntity': base class undefined
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(29) : error C3646: 'entityComponent': unknown override specifier
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\E_Character.cpp(3): fatal error C1083: Cannot open include file: 'Public/Core/Entity/EntityComponent.h': No such file or directory
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:   [3/7] Entity.cpp
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:   [4/7] Project_Tether.init.gen.cpp
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:   [5/7] Entity.gen.cpp
+[2019.07.13-03.12.37:150][381]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4395.dll
+[2019.07.13-03.12.37:150][381]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.13-03.12.37:150][381]CompilerResultsLog: Total build time: 12.57 seconds (Parallel executor: 0.00 seconds)
+[2019.07.13-03.12.37:150][381]LogMainFrame: MainFrame: Module compiling took 12.917 seconds
+[2019.07.13-03.12.37:150][381]Warning: HotReload failed, recompile failed
+[2019.07.13-03.12.37:155][381]Warning: RebindPackages failed because compilation failed.
+[2019.07.13-03.12.44:200][381]LogSlate: Window 'Message' being destroyed
+[2019.07.13-03.12.44:207][381]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.07.13-03.12.44:217][381]LogSlate: Took 0.003884 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.07.13-03.12.55:010][656]LogSlate: Window 'Asset Audit' being destroyed
+[2019.07.13-03.12.55:013][656]LogSlate: Window 'Asset Audit' being destroyed
+[2019.07.13-03.17.04:196][331]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.13-03.17.05:052][420]Candidate modules for hot reload:
+[2019.07.13-03.17.05:053][420]  Project_Tether
+[2019.07.13-03.17.05:053][420]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,9843 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.17.05:055][420]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.17.16:729][658]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:17:16 PM
+[2019.07.13-03.17.16:729][658]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.17.16:729][658]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.17.16:729][658]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.13-03.17.16:729][658]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.13-03.17.16:730][658]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.9751602 seconds
+[2019.07.13-03.17.16:730][658]CompilerResultsLog: Building 12 actions with 12 processes...
+[2019.07.13-03.17.16:730][658]CompilerResultsLog:   [1/12] E_Character.cpp
+[2019.07.13-03.17.16:730][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(11) : error C2504: 'IIEntity': base class undefined
+[2019.07.13-03.17.16:730][658]CompilerResultsLog:   [2/12] EntityManager.gen.cpp
+[2019.07.13-03.17.16:730][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(24) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.16:730][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(24) : error C2059: syntax error: '>'
+[2019.07.13-03.17.16:731][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(27) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.16:731][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(28) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.16:731][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(30) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.16:731][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(30) : error C2059: syntax error: '>'
+[2019.07.13-03.17.16:732][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(31) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.16:732][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(31) : error C2059: syntax error: '>'
+[2019.07.13-03.17.16:732][658]CompilerResultsLog:   [3/12] EntityManager.cpp
+[2019.07.13-03.17.16:732][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(24) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.16:732][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(24) : error C2059: syntax error: '>'
+[2019.07.13-03.17.16:732][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(27) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.16:732][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(28) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.16:733][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.16:733][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30) : error C2059: syntax error: '>'
+[2019.07.13-03.17.16:733][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.16:733][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31) : error C2059: syntax error: '>'
+[2019.07.13-03.17.16:733][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(14) : error C2511: 'void UEntityManager::RegisterEntity(UEntity *)': overloaded member function not found in 'UEntityManager'
+[2019.07.13-03.17.16:734][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(17): note: see declaration of 'UEntityManager'
+[2019.07.13-03.17.16:734][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(18) : error C2511: 'void UEntityManager::DeRegisterEntity(UEntity *)': overloaded member function not found in 'UEntityManager'
+[2019.07.13-03.17.16:734][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(17): note: see declaration of 'UEntityManager'
+[2019.07.13-03.17.16:734][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(22) : error C2556: 'TArray<UEntity *,FDefaultAllocator> UEntityManager::GetEntities(TSubclassOf<UIdentity>)': overloaded function differs only by return type from 'unknown-type UEntityManager::GetEntities(TSubclassOf<UIdentity>)'
+[2019.07.13-03.17.16:735][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30): note: see declaration of 'UEntityManager::GetEntities'
+[2019.07.13-03.17.16:735][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(21) : error C2371: 'UEntityManager::GetEntities': redefinition; different basic types
+[2019.07.13-03.17.16:735][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30): note: see declaration of 'UEntityManager::GetEntities'
+[2019.07.13-03.17.16:735][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(27) : error C2556: 'TArray<UEntity *,FDefaultAllocator> UEntityManager::GetEntities(TSubclassOf<UGroup>)': overloaded function differs only by return type from 'unknown-type UEntityManager::GetEntities(TSubclassOf<UGroup>)'
+[2019.07.13-03.17.16:736][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31): note: see declaration of 'UEntityManager::GetEntities'
+[2019.07.13-03.17.16:736][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(26) : error C2371: 'UEntityManager::GetEntities': redefinition; different basic types
+[2019.07.13-03.17.16:736][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31): note: see declaration of 'UEntityManager::GetEntities'
+[2019.07.13-03.17.16:736][658]CompilerResultsLog:   [4/12] E_GameModeBase.cpp
+[2019.07.13-03.17.16:736][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(24) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.16:737][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(24) : error C2059: syntax error: '>'
+[2019.07.13-03.17.16:737][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(27) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.16:737][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(28) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.16:737][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.16:737][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30) : error C2059: syntax error: '>'
+[2019.07.13-03.17.16:738][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.16:738][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31) : error C2059: syntax error: '>'
+[2019.07.13-03.17.16:738][658]CompilerResultsLog:   [5/12] E_Character.gen.cpp
+[2019.07.13-03.17.16:738][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(11) : error C2504: 'IIEntity': base class undefined
+[2019.07.13-03.17.16:738][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2061: syntax error: identifier 'IIEntity'
+[2019.07.13-03.17.16:739][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2143: syntax error: missing ';' before '}'
+[2019.07.13-03.17.16:739][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2059: syntax error: '}'
+[2019.07.13-03.17.16:739][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(125) : error C2143: syntax error: missing ';' before '}'
+[2019.07.13-03.17.16:739][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(125) : error C2059: syntax error: '}'
+[2019.07.13-03.17.16:739][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137) : error C2672: 'ArrayCountHelper': no matching overloaded function found
+[2019.07.13-03.17.16:740][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137) : error C2893: Failed to specialize function template 'char (&ArrayCountHelper(const T (&)[N]))[N+]'
+[2019.07.13-03.17.16:740][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: With the following template arguments:
+[2019.07.13-03.17.16:740][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: 'T=UE4CodeGen_Private::FImplementedInterfaceParams'
+[2019.07.13-03.17.16:740][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: 'N=0'
+[2019.07.13-03.17.16:740][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(138) : error C2078: too many initializers
+[2019.07.13-03.17.16:741][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139) : error C2440: 'initializing': cannot convert from 'const UE4CodeGen_Private::FMetaDataPairParam [3]' to 'int32'
+[2019.07.13-03.17.16:741][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139): note: There is no context in which this conversion is possible
+[2019.07.13-03.17.16:741][658]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139) : error C2440: 'initializing': cannot convert from 'unsigned __int64' to 'const UE4CodeGen_Private::FMetaDataPairParam *'
+[2019.07.13-03.17.16:741][658]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+[2019.07.13-03.17.16:742][658]CompilerResultsLog:   [6/12] IEntity.cpp
+[2019.07.13-03.17.16:742][658]CompilerResultsLog:   [7/12] Group.cpp
+[2019.07.13-03.17.16:742][658]CompilerResultsLog:   [8/12] Identity.cpp
+[2019.07.13-03.17.16:742][658]CompilerResultsLog:   [9/12] IEntity.gen.cpp
+[2019.07.13-03.17.16:742][658]CompilerResultsLog:   [10/12] Identity.gen.cpp
+[2019.07.13-03.17.16:742][658]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9843.dll
+[2019.07.13-03.17.16:742][658]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.13-03.17.16:742][658]CompilerResultsLog: Total build time: 11.45 seconds (Parallel executor: 0.00 seconds)
+[2019.07.13-03.17.16:742][658]LogMainFrame: MainFrame: Module compiling took 11.697 seconds
+[2019.07.13-03.17.16:742][658]Warning: HotReload failed, recompile failed
+[2019.07.13-03.17.32:657][470]Candidate modules for hot reload:
+[2019.07.13-03.17.32:657][470]  Project_Tether
+[2019.07.13-03.17.32:657][470]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,4549 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.17.32:660][470]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.17.34:590][654]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:17:34 PM
+[2019.07.13-03.17.34:590][654]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.17.34:590][654]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.17.34:590][654]CompilerResultsLog: Building 7 actions with 12 processes...
+[2019.07.13-03.17.34:590][654]CompilerResultsLog:   [1/7] EntityManager.cpp
+[2019.07.13-03.17.34:590][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(24) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.34:591][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(24) : error C2059: syntax error: '>'
+[2019.07.13-03.17.34:591][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(27) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.34:591][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(28) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.34:591][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.34:591][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30) : error C2059: syntax error: '>'
+[2019.07.13-03.17.34:592][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.34:592][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31) : error C2059: syntax error: '>'
+[2019.07.13-03.17.34:592][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(14) : error C2511: 'void UEntityManager::RegisterEntity(UEntity *)': overloaded member function not found in 'UEntityManager'
+[2019.07.13-03.17.34:592][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(17): note: see declaration of 'UEntityManager'
+[2019.07.13-03.17.34:592][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(18) : error C2511: 'void UEntityManager::DeRegisterEntity(UEntity *)': overloaded member function not found in 'UEntityManager'
+[2019.07.13-03.17.34:593][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(17): note: see declaration of 'UEntityManager'
+[2019.07.13-03.17.34:593][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(22) : error C2556: 'TArray<UEntity *,FDefaultAllocator> UEntityManager::GetEntities(TSubclassOf<UIdentity>)': overloaded function differs only by return type from 'unknown-type UEntityManager::GetEntities(TSubclassOf<UIdentity>)'
+[2019.07.13-03.17.34:593][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30): note: see declaration of 'UEntityManager::GetEntities'
+[2019.07.13-03.17.34:593][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(21) : error C2371: 'UEntityManager::GetEntities': redefinition; different basic types
+[2019.07.13-03.17.34:594][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30): note: see declaration of 'UEntityManager::GetEntities'
+[2019.07.13-03.17.34:594][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(27) : error C2556: 'TArray<UEntity *,FDefaultAllocator> UEntityManager::GetEntities(TSubclassOf<UGroup>)': overloaded function differs only by return type from 'unknown-type UEntityManager::GetEntities(TSubclassOf<UGroup>)'
+[2019.07.13-03.17.34:594][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31): note: see declaration of 'UEntityManager::GetEntities'
+[2019.07.13-03.17.34:594][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\EntityManager.cpp(26) : error C2371: 'UEntityManager::GetEntities': redefinition; different basic types
+[2019.07.13-03.17.34:595][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31): note: see declaration of 'UEntityManager::GetEntities'
+[2019.07.13-03.17.34:595][654]CompilerResultsLog:   [2/7] EntityManager.gen.cpp
+[2019.07.13-03.17.34:595][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(24) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.34:595][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(24) : error C2059: syntax error: '>'
+[2019.07.13-03.17.34:595][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(27) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.34:595][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(28) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.34:596][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(30) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.34:596][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(30) : error C2059: syntax error: '>'
+[2019.07.13-03.17.34:596][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(31) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.34:596][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/EntityManager.h(31) : error C2059: syntax error: '>'
+[2019.07.13-03.17.34:596][654]CompilerResultsLog:   [3/7] E_Character.gen.cpp
+[2019.07.13-03.17.34:596][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(11) : error C2504: 'IIEntity': base class undefined
+[2019.07.13-03.17.34:597][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2061: syntax error: identifier 'IIEntity'
+[2019.07.13-03.17.34:597][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2143: syntax error: missing ';' before '}'
+[2019.07.13-03.17.34:597][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2059: syntax error: '}'
+[2019.07.13-03.17.34:597][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(125) : error C2143: syntax error: missing ';' before '}'
+[2019.07.13-03.17.34:597][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(125) : error C2059: syntax error: '}'
+[2019.07.13-03.17.34:598][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137) : error C2672: 'ArrayCountHelper': no matching overloaded function found
+[2019.07.13-03.17.34:598][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137) : error C2893: Failed to specialize function template 'char (&ArrayCountHelper(const T (&)[N]))[N+]'
+[2019.07.13-03.17.34:598][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: With the following template arguments:
+[2019.07.13-03.17.34:598][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: 'T=UE4CodeGen_Private::FImplementedInterfaceParams'
+[2019.07.13-03.17.34:599][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: 'N=0'
+[2019.07.13-03.17.34:599][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(138) : error C2078: too many initializers
+[2019.07.13-03.17.34:599][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139) : error C2440: 'initializing': cannot convert from 'const UE4CodeGen_Private::FMetaDataPairParam [3]' to 'int32'
+[2019.07.13-03.17.34:599][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139): note: There is no context in which this conversion is possible
+[2019.07.13-03.17.34:599][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139) : error C2440: 'initializing': cannot convert from 'unsigned __int64' to 'const UE4CodeGen_Private::FMetaDataPairParam *'
+[2019.07.13-03.17.34:600][654]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+[2019.07.13-03.17.34:600][654]CompilerResultsLog:   [4/7] E_GameModeBase.cpp
+[2019.07.13-03.17.34:600][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(24) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.34:600][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(24) : error C2059: syntax error: '>'
+[2019.07.13-03.17.34:600][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(27) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.34:601][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(28) : error C2061: syntax error: identifier 'UEntity'
+[2019.07.13-03.17.34:601][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.34:601][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(30) : error C2059: syntax error: '>'
+[2019.07.13-03.17.34:601][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31) : error C2065: 'UEntity': undeclared identifier
+[2019.07.13-03.17.34:601][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/EntityManager.h(31) : error C2059: syntax error: '>'
+[2019.07.13-03.17.34:602][654]CompilerResultsLog:   [5/7] E_Character.cpp
+[2019.07.13-03.17.34:602][654]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(11) : error C2504: 'IIEntity': base class undefined
+[2019.07.13-03.17.34:602][654]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4549.dll
+[2019.07.13-03.17.34:602][654]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.13-03.17.34:602][654]CompilerResultsLog: Total build time: 1.70 seconds (Parallel executor: 0.00 seconds)
+[2019.07.13-03.17.34:602][654]LogMainFrame: MainFrame: Module compiling took 1.952 seconds
+[2019.07.13-03.17.34:602][654]Warning: HotReload failed, recompile failed
+[2019.07.13-03.19.47:919][318]Candidate modules for hot reload:
+[2019.07.13-03.19.47:919][318]  Project_Tether
+[2019.07.13-03.19.47:919][318]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,1327 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.19.47:921][318]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.19.58:936][522]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:19:58 PM
+[2019.07.13-03.19.58:937][522]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.19.58:937][522]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.19.58:937][522]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.13-03.19.58:937][522]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.13-03.19.58:937][522]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.7868031 seconds
+[2019.07.13-03.19.58:938][522]CompilerResultsLog: Building 7 actions with 12 processes...
+[2019.07.13-03.19.58:938][522]CompilerResultsLog:   [1/7] E_Character.gen.cpp
+[2019.07.13-03.19.58:938][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(11) : error C2504: 'IIEntity': base class undefined
+[2019.07.13-03.19.58:938][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2061: syntax error: identifier 'IIEntity'
+[2019.07.13-03.19.58:938][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2143: syntax error: missing ';' before '}'
+[2019.07.13-03.19.58:938][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(124) : error C2059: syntax error: '}'
+[2019.07.13-03.19.58:939][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(125) : error C2143: syntax error: missing ';' before '}'
+[2019.07.13-03.19.58:939][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(125) : error C2059: syntax error: '}'
+[2019.07.13-03.19.58:939][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137) : error C2672: 'ArrayCountHelper': no matching overloaded function found
+[2019.07.13-03.19.58:939][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137) : error C2893: Failed to specialize function template 'char (&ArrayCountHelper(const T (&)[N]))[N+]'
+[2019.07.13-03.19.58:939][522]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: With the following template arguments:
+[2019.07.13-03.19.58:940][522]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: 'T=UE4CodeGen_Private::FImplementedInterfaceParams'
+[2019.07.13-03.19.58:940][522]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(137): note: 'N=0'
+[2019.07.13-03.19.58:940][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(138) : error C2078: too many initializers
+[2019.07.13-03.19.58:940][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139) : error C2440: 'initializing': cannot convert from 'const UE4CodeGen_Private::FMetaDataPairParam [3]' to 'int32'
+[2019.07.13-03.19.58:941][522]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139): note: There is no context in which this conversion is possible
+[2019.07.13-03.19.58:941][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139) : error C2440: 'initializing': cannot convert from 'unsigned __int64' to 'const UE4CodeGen_Private::FMetaDataPairParam *'
+[2019.07.13-03.19.58:941][522]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_Character.gen.cpp(139): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+[2019.07.13-03.19.58:941][522]CompilerResultsLog:   [2/7] E_Character.cpp
+[2019.07.13-03.19.58:942][522]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(11) : error C2504: 'IIEntity': base class undefined
+[2019.07.13-03.19.58:942][522]CompilerResultsLog:   [3/7] EntityManager.cpp
+[2019.07.13-03.19.58:942][522]CompilerResultsLog:   [4/7] E_GameModeBase.cpp
+[2019.07.13-03.19.58:942][522]CompilerResultsLog:   [5/7] EntityManager.gen.cpp
+[2019.07.13-03.19.58:942][522]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1327.dll
+[2019.07.13-03.19.58:942][522]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.13-03.19.58:942][522]CompilerResultsLog: Total build time: 10.80 seconds (Parallel executor: 0.00 seconds)
+[2019.07.13-03.19.58:942][522]LogMainFrame: MainFrame: Module compiling took 11.030 seconds
+[2019.07.13-03.19.58:942][522]Warning: HotReload failed, recompile failed
+[2019.07.13-03.21.09:441][871]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_Auto1B85B9A9E477027A95332E28FE21541C8.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Autosaves/Game/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2019.07.13-03.21.09:444][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.166
+[2019.07.13-03.21.09:444][871]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.166
+[2019.07.13-03.21.29:566][ 24]Candidate modules for hot reload:
+[2019.07.13-03.21.29:566][ 24]  Project_Tether
+[2019.07.13-03.21.29:566][ 24]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,1474 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.21.29:569][ 24]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.21.41:970][447]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:21:41 PM
+[2019.07.13-03.21.41:970][447]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.21.41:970][447]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.21.41:970][447]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.13-03.21.41:970][447]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.13-03.21.41:971][447]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.2106506 seconds
+[2019.07.13-03.21.41:971][447]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.07.13-03.21.41:971][447]CompilerResultsLog:   [1/5] Project_Tether.init.gen.cpp
+[2019.07.13-03.21.41:971][447]CompilerResultsLog:   [2/5] E_Character.cpp
+[2019.07.13-03.21.41:971][447]CompilerResultsLog:   [3/5] E_Character.gen.cpp
+[2019.07.13-03.21.41:971][447]CompilerResultsLog:   [4/5] UE4Editor-Project_Tether-1474.lib
+[2019.07.13-03.21.41:971][447]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1474.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1474.exp
+[2019.07.13-03.21.41:972][447]CompilerResultsLog:   [5/5] UE4Editor-Project_Tether-1474.dll
+[2019.07.13-03.21.41:972][447]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1474.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1474.suppressed.exp
+[2019.07.13-03.21.41:972][447]CompilerResultsLog: Total build time: 11.08 seconds (Parallel executor: 1.46 seconds)
+[2019.07.13-03.21.41:972][447]LogMainFrame: MainFrame: Module compiling took 12.413 seconds
+[2019.07.13-03.21.42:016][447]LogClass: Could not find existing class Entity in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.13-03.21.42:017][447]LogClass: Could not find existing class E_Character in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.13-03.21.42:018][447]LogClass: Function GetIdentity is new.
+[2019.07.13-03.21.42:031][447]LogHotReload: Re-instancing E_Character after hot-reload.
+[2019.07.13-03.21.42:106][447]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.13-03.21.42:107][447]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0004 seconds. Added 10 classes and 5 folders.
+[2019.07.13-03.21.42:107][447]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.13-03.21.42:110][447]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2019.07.13-03.21.42:501][447]LogContentBrowser: Native class hierarchy populated in 0.0203 seconds. Added 2584 classes and 613 folders.
+[2019.07.13-03.21.42:513][447]Display: HotReload took 13.0s.
+[2019.07.13-03.22.10:056][734]LogAssetEditorManager: Opening Asset editor for Class /Script/Project_Tether.IEntity
+[2019.07.13-03.22.28:420][706]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.07.13-03.22.28:424][706]LogSlate: Window 'Reference Viewer' being destroyed
+[2019.07.13-03.23.57:726][139]LogSlate: Window 'Class Viewer' being destroyed
+[2019.07.13-03.23.57:731][139]LogSlate: Window 'Class Viewer' being destroyed
+[2019.07.13-03.25.36:524][344]Candidate modules for hot reload:
+[2019.07.13-03.25.36:524][344]  Project_Tether
+[2019.07.13-03.25.36:524][344]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,9242 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.25.36:526][344]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.25.44:429][146]LogSlate: Window 'Output Log' being destroyed
+[2019.07.13-03.25.47:410][465]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:25:47 PM
+[2019.07.13-03.25.47:410][465]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.25.47:410][465]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.25.47:410][465]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.13-03.25.47:410][465]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.13-03.25.47:411][465]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.7083799 seconds
+[2019.07.13-03.25.47:411][465]CompilerResultsLog: Building 4 actions with 12 processes...
+[2019.07.13-03.25.47:411][465]CompilerResultsLog:   [1/4] E_Character.cpp
+[2019.07.13-03.25.47:411][465]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(29) : error C3646: 'entity': unknown override specifier
+[2019.07.13-03.25.47:411][465]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.07.13-03.25.47:412][465]CompilerResultsLog:   [2/4] E_Character.gen.cpp
+[2019.07.13-03.25.47:412][465]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(29) : error C3646: 'entity': unknown override specifier
+[2019.07.13-03.25.47:412][465]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.07.13-03.25.47:412][465]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9242.dll
+[2019.07.13-03.25.47:412][465]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.13-03.25.47:412][465]CompilerResultsLog: Total build time: 10.64 seconds (Parallel executor: 0.00 seconds)
+[2019.07.13-03.25.47:413][465]LogMainFrame: MainFrame: Module compiling took 10.895 seconds
+[2019.07.13-03.25.47:413][465]Warning: HotReload failed, recompile failed
+[2019.07.13-03.25.50:800][854]Candidate modules for hot reload:
+[2019.07.13-03.25.50:800][854]  Project_Tether
+[2019.07.13-03.25.50:800][854]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,3835 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.25.50:802][854]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.25.52:748][ 47]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:25:52 PM
+[2019.07.13-03.25.52:748][ 47]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.25.52:748][ 47]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.25.52:748][ 47]CompilerResultsLog: Building 4 actions with 12 processes...
+[2019.07.13-03.25.52:749][ 47]CompilerResultsLog:   [1/4] E_Character.cpp
+[2019.07.13-03.25.52:749][ 47]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(29) : error C3646: 'entity': unknown override specifier
+[2019.07.13-03.25.52:749][ 47]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.07.13-03.25.52:749][ 47]CompilerResultsLog:   [2/4] E_Character.gen.cpp
+[2019.07.13-03.25.52:749][ 47]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(29) : error C3646: 'entity': unknown override specifier
+[2019.07.13-03.25.52:749][ 47]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(29) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2019.07.13-03.25.52:750][ 47]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-3835.dll
+[2019.07.13-03.25.52:750][ 47]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.13-03.25.52:750][ 47]CompilerResultsLog: Total build time: 1.74 seconds (Parallel executor: 0.00 seconds)
+[2019.07.13-03.25.52:750][ 47]LogMainFrame: MainFrame: Module compiling took 1.955 seconds
+[2019.07.13-03.25.52:751][ 47]Warning: HotReload failed, recompile failed
+[2019.07.13-03.26.32:963][968]Candidate modules for hot reload:
+[2019.07.13-03.26.32:963][968]  Project_Tether
+[2019.07.13-03.26.32:964][968]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,4535 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.26.32:965][968]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.26.44:341][173]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:26:44 PM
+[2019.07.13-03.26.44:342][173]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.26.44:342][173]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.26.44:342][173]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.13-03.26.44:342][173]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.13-03.26.44:342][173]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 9.2709979 seconds
+[2019.07.13-03.26.44:343][173]CompilerResultsLog: Building 4 actions with 12 processes...
+[2019.07.13-03.26.44:343][173]CompilerResultsLog:   [1/4] E_Character.gen.cpp
+[2019.07.13-03.26.44:343][173]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(31) : error C2079: 'AE_Character::entity' uses undefined class 'UEntity'
+[2019.07.13-03.26.44:343][173]CompilerResultsLog:   [2/4] E_Character.cpp
+[2019.07.13-03.26.44:343][173]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(31) : error C2079: 'AE_Character::entity' uses undefined class 'UEntity'
+[2019.07.13-03.26.44:343][173]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4535.dll
+[2019.07.13-03.26.44:343][173]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.13-03.26.44:343][173]CompilerResultsLog: Total build time: 11.17 seconds (Parallel executor: 0.00 seconds)
+[2019.07.13-03.26.44:344][173]LogMainFrame: MainFrame: Module compiling took 11.387 seconds
+[2019.07.13-03.26.44:344][173]Warning: HotReload failed, recompile failed
+[2019.07.13-03.29.23:596][ 68]Candidate modules for hot reload:
+[2019.07.13-03.29.23:596][ 68]  Project_Tether
+[2019.07.13-03.29.23:596][ 68]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,233 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.29.23:599][ 68]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.29.25:542][259]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:29:25 PM
+[2019.07.13-03.29.25:542][259]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.29.25:542][259]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.29.25:542][259]CompilerResultsLog: Building 4 actions with 12 processes...
+[2019.07.13-03.29.25:542][259]CompilerResultsLog:   [1/4] E_Character.cpp
+[2019.07.13-03.29.25:543][259]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Entity/E_Character.h(31) : error C2079: 'AE_Character::entity' uses undefined class 'UEntity'
+[2019.07.13-03.29.25:543][259]CompilerResultsLog:   [2/4] E_Character.gen.cpp
+[2019.07.13-03.29.25:543][259]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Entity/E_Character.h(31) : error C2079: 'AE_Character::entity' uses undefined class 'UEntity'
+[2019.07.13-03.29.25:543][259]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-233.dll
+[2019.07.13-03.29.25:543][259]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.13-03.29.25:543][259]CompilerResultsLog: Total build time: 1.73 seconds (Parallel executor: 0.00 seconds)
+[2019.07.13-03.29.25:544][259]LogMainFrame: MainFrame: Module compiling took 1.954 seconds
+[2019.07.13-03.29.25:544][259]Warning: HotReload failed, recompile failed
+[2019.07.13-03.32.07:991][153]Candidate modules for hot reload:
+[2019.07.13-03.32.07:991][153]  Project_Tether
+[2019.07.13-03.32.07:991][153]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,8594 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.32.07:993][153]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.32.20:107][499]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:32:20 PM
+[2019.07.13-03.32.20:107][499]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.32.20:107][499]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.32.20:107][499]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.13-03.32.20:107][499]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.13-03.32.20:107][499]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.9608059 seconds
+[2019.07.13-03.32.20:107][499]CompilerResultsLog: Building 4 actions with 12 processes...
+[2019.07.13-03.32.20:107][499]CompilerResultsLog:   [1/4] E_Character.cpp
+[2019.07.13-03.32.20:107][499]CompilerResultsLog:   [2/4] E_Character.gen.cpp
+[2019.07.13-03.32.20:107][499]CompilerResultsLog:   [3/4] UE4Editor-Project_Tether-8594.lib
+[2019.07.13-03.32.20:107][499]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8594.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8594.exp
+[2019.07.13-03.32.20:107][499]CompilerResultsLog:   [4/4] UE4Editor-Project_Tether-8594.dll
+[2019.07.13-03.32.20:107][499]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8594.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8594.suppressed.exp
+[2019.07.13-03.32.20:107][499]CompilerResultsLog: Total build time: 11.89 seconds (Parallel executor: 1.58 seconds)
+[2019.07.13-03.32.20:107][499]LogMainFrame: MainFrame: Module compiling took 12.124 seconds
+[2019.07.13-03.32.20:184][499]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.13-03.32.20:185][499]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0004 seconds. Added 10 classes and 5 folders.
+[2019.07.13-03.32.20:185][499]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.13-03.32.20:188][499]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2019.07.13-03.32.20:441][499]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2584 classes and 613 folders.
+[2019.07.13-03.32.20:445][499]Display: HotReload took 12.5s.
+[2019.07.13-03.52.42:258][264]Candidate modules for hot reload:
+[2019.07.13-03.52.42:258][264]  Project_Tether
+[2019.07.13-03.52.42:258][264]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,7615 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.52.42:261][264]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.52.53:549][497]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:52:53 PM
+[2019.07.13-03.52.53:549][497]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.52.53:549][497]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.52.53:549][497]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.13-03.52.53:550][497]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.13-03.52.53:550][497]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.9027256 seconds
+[2019.07.13-03.52.53:550][497]CompilerResultsLog: Building 8 actions with 12 processes...
+[2019.07.13-03.52.53:550][497]CompilerResultsLog:   [1/8] Entity.cpp
+[2019.07.13-03.52.53:550][497]CompilerResultsLog:   [2/8] Project_Tether.init.gen.cpp
+[2019.07.13-03.52.53:550][497]CompilerResultsLog:   [3/8] Entity.gen.cpp
+[2019.07.13-03.52.53:550][497]CompilerResultsLog:   [4/8] E_Character.cpp
+[2019.07.13-03.52.53:550][497]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\E_Character.cpp(30) : error C2027: use of undefined type 'UEntityManager'
+[2019.07.13-03.52.53:551][497]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_GameModeBase.generated.h(11): note: see declaration of 'UEntityManager'
+[2019.07.13-03.52.53:551][497]CompilerResultsLog:    E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\E_Character.cpp(39) : error C2027: use of undefined type 'UEntityManager'
+[2019.07.13-03.52.53:551][497]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\E_GameModeBase.generated.h(11): note: see declaration of 'UEntityManager'
+[2019.07.13-03.52.53:551][497]CompilerResultsLog:   [5/8] E_Character.gen.cpp
+[2019.07.13-03.52.53:551][497]CompilerResultsLog:   [6/8] EntityManager.cpp
+[2019.07.13-03.52.53:551][497]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-7615.dll
+[2019.07.13-03.52.53:551][497]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.13-03.52.53:552][497]CompilerResultsLog: Total build time: 11.08 seconds (Parallel executor: 0.00 seconds)
+[2019.07.13-03.52.53:552][497]LogMainFrame: MainFrame: Module compiling took 11.300 seconds
+[2019.07.13-03.52.53:552][497]Warning: HotReload failed, recompile failed
+[2019.07.13-03.53.21:267][786]Candidate modules for hot reload:
+[2019.07.13-03.53.21:268][786]  Project_Tether
+[2019.07.13-03.53.21:268][786]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,5374 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.13-03.53.21:270][786]Warning: Starting HotReload took  0.0s.
+[2019.07.13-03.53.24:628][ 56]CompilerResultsLog: New page: Compilation - Jul 12, 2019, 6:53:24 PM
+[2019.07.13-03.53.24:628][ 56]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.13-03.53.24:629][ 56]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.13-03.53.24:629][ 56]CompilerResultsLog: Building 3 actions with 12 processes...
+[2019.07.13-03.53.24:629][ 56]CompilerResultsLog:   [1/3] E_Character.cpp
+[2019.07.13-03.53.24:629][ 56]CompilerResultsLog:   [2/3] UE4Editor-Project_Tether-5374.lib
+[2019.07.13-03.53.24:629][ 56]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-5374.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-5374.exp
+[2019.07.13-03.53.24:630][ 56]CompilerResultsLog:   [3/3] UE4Editor-Project_Tether-5374.dll
+[2019.07.13-03.53.24:630][ 56]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-5374.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-5374.suppressed.exp
+[2019.07.13-03.53.24:631][ 56]CompilerResultsLog: Total build time: 2.92 seconds (Parallel executor: 1.73 seconds)
+[2019.07.13-03.53.24:632][ 56]LogMainFrame: MainFrame: Module compiling took 3.372 seconds
+[2019.07.13-03.53.24:713][ 56]LogClass: Could not find existing class Entity in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.13-03.53.24:714][ 56]LogClass: Function GetIdentity is new.
+[2019.07.13-03.53.24:716][ 56]LogClass: Could not find existing class E_Character in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.13-03.53.24:735][ 56]LogHotReload: Re-instancing Entity after hot-reload.
+[2019.07.13-03.53.24:866][ 56]LogHotReload: Re-instancing E_Character after hot-reload.
+[2019.07.13-03.53.25:047][ 56]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.13-03.53.25:049][ 56]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0012 seconds. Added 10 classes and 5 folders.
+[2019.07.13-03.53.25:050][ 56]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.13-03.53.25:057][ 56]Display: HotReload successful (5 functions remapped  0 scriptstructs remapped)
+[2019.07.13-03.53.25:384][ 56]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 2584 classes and 613 folders.
+[2019.07.13-03.53.25:399][ 56]Display: HotReload took  4.1s.
+[2019.07.13-03.53.53:354][539]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMapE5B645E04C5A2DCE885ADFA50C155AB4.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.13-03.53.53:521][539]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_BuiltData4C7261CA4AC12AD01653E8B00106C233.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.07.13-03.54.10:313][228]LogSlate: Window 'Delete Assets' being destroyed
+[2019.07.13-03.54.18:030][640]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.07.13-03.54.24:122][ 45]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.07.13-03.54.29:965][711]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap23DF158A4043C212DD6028A8C7674DF0.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.13-03.54.30:125][711]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_BuiltData78B3BC614A6F5306650CA49E977420B3.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.07.13-03.54.31:795][875]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap971A0EFF4E0FAA0390370ABBA1D0DA11.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.13-03.54.31:914][875]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_BuiltDataCF74430946A8D01AC01020AFC257652A.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.07.13-03.54.34:709][175]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/PlayerIdenittyD40607474494F17263995C84F14C8E04.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/PlayerIdenitty.uasset'
+[2019.07.13-03.54.42:307][360]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.07.13-03.54.49:755][238]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Player7FBC3A6D4A2D1A2D2C6B928DAF7F7420.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/Player.uasset'
+[2019.07.13-03.54.51:134][396]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Core/Entity/Test/Player.Player
+[2019.07.13-03.54.51:522][397]LogRenderer: Reallocating scene render targets to support 1304x712 Format 10 NumSamples 1 (Frame:1).
+[2019.07.13-03.54.58:897][272]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.13-03.57.44:808][145]BlueprintLog: New page: Compile Player
+[2019.07.13-03.57.45:236][145]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Player8DD79E6547B4BA8AE620BB8E6A54EADB.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/Player.uasset'
+[2019.07.13-03.57.47:699][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-03.57.58:595][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-04.04.31:692][712]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.030
+[2019.07.13-04.04.31:694][712]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/IronForgedGames/Core/Entity/Test/Player] ([1] browsable assets)...
+[2019.07.13-04.04.31:704][712]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/IronForgedGames/Core/Entity/Test/Player.Player]
+[2019.07.13-04.04.31:705][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/IronForgedGames/Core/Entity/Test/Player]
+[2019.07.13-04.04.31:727][712]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Player_Auto2E2DEFC6547667FF48EE5C0A7F55F1AAD.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Autosaves/Game/IronForgedGames/Core/Entity/Test/Player_Auto2.uasset'
+[2019.07.13-04.04.31:728][712]LogFileHelpers: Auto-saving content packages took 0.035
+[2019.07.13-04.12.03:864][863]BlueprintLog: New page: Compile Player
+[2019.07.13-04.12.04:088][863]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/PlayerBE2746DF4D96873B49AA8DA99833CD7E.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/Player.uasset'
+[2019.07.13-04.12.06:441][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.13-04.12.18:850][594]BlueprintLog: New page: Compile Player
+[2019.07.13-04.12.19:101][594]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/PlayerFEEC709842EC3CE912F8B09A52CC24F9.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/Player.uasset'

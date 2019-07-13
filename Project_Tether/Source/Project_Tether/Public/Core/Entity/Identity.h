@@ -39,5 +39,4 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Group Properties")
 	TSubclassOf<AActor> actorBlueprint;
-
 };

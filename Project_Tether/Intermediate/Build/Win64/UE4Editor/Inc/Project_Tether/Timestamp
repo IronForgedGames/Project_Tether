@@ -1,5 +1,12 @@
-E:\Projects\GitHub Repos\Unreal\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\EntityComponent.h
-E:\Projects\GitHub Repos\Unreal\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\Group.h
-E:\Projects\GitHub Repos\Unreal\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\Identity.h
-E:\Projects\GitHub Repos\Unreal\Project_Tether\Project_Tether\Source\Project_Tether\Project_TetherCharacter.h
-E:\Projects\GitHub Repos\Unreal\Project_Tether\Project_Tether\Source\Project_Tether\Project_TetherGameMode.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\Entity.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\EntityManager.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\E_Actor.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\E_Character.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\E_GameModeBase.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\E_Pawn.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\Group.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\Identity.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\IEntity.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Implementation\Gameplay\Player\E_PlayerCharacter.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Project_TetherCharacter.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Project_TetherGameMode.h
