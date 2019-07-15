@@ -133,6 +133,18 @@
     <Filter Include="Source\Project_Tether\Private\Implementation\Gameplay\Player">
       <UniqueIdentifier>{4b36365a-b0f7-4ec1-bdd8-1b613eb7de81}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Project_Tether\Public\Implementation\Gameplay\PlayerController">
+      <UniqueIdentifier>{94cca876-c3f3-474b-86db-9d840025501f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project_Tether\Private\Implementation\Gameplay\PlayerController">
+      <UniqueIdentifier>{41a9d2ae-253f-48c2-b7c7-5be584156987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components">
+      <UniqueIdentifier>{ee296ff8-4c52-4495-a07e-d64a9b4cda1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components">
+      <UniqueIdentifier>{85ba764e-102c-4f91-9f58-a383459bdbec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\Player\E_PlayerCharacter.h">
@@ -144,6 +156,12 @@
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Entity\E_Pawn.h">
       <Filter>Source\Project_Tether\Public\Core\Entity</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\TopDown_E_Character.h">
+      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\EvadeComponent.h">
+      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\Player\E_PlayerCharacter.cpp">
@@ -154,6 +172,12 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Entity\E_Pawn.cpp">
       <Filter>Source\Project_Tether\Private\Core\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\TopDown_E_Character.cpp">
+      <Filter>Source\Project_Tether\Private\Implementation\Gameplay\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\EvadeComponent.cpp">
+      <Filter>Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

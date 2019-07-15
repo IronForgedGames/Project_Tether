@@ -7,6 +7,8 @@ E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\
 E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\Group.h
 E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\Identity.h
 E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\IEntity.h
-E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Implementation\Gameplay\Player\E_PlayerCharacter.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\EvadeComponent.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\TopDown_E_Character.h
+E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public\Implementation\Gameplay\Player_Delete\E_PlayerCharacter.h
 E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Project_TetherCharacter.h
 E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Project_TetherGameMode.h

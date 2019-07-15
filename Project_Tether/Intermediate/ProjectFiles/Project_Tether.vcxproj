@@ -259,6 +259,8 @@
   <ItemGroup>
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Entity\E_Actor.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Entity\E_Pawn.h" />
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\EvadeComponent.h" />
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\TopDown_E_Character.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\Player\E_PlayerCharacter.h" />
     <None Include="..\..\Project_Tether.uproject" />
     <None Include="..\..\Source\Project_Tether.Target.cs" />
@@ -271,6 +273,8 @@
     <None Include="..\..\Source\Project_Tether\Project_Tether.Build.cs" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Entity\E_Actor.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Entity\E_Pawn.cpp" />
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\EvadeComponent.cpp" />
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\TopDown_E_Character.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\Player\E_PlayerCharacter.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Project_Tether.cpp" />
     <ClInclude Include="..\..\Source\Project_Tether\Project_Tether.h" />
