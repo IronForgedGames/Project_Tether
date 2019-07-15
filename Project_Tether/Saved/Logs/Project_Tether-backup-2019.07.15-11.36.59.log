@@ -1,0 +1,1445 @@
+﻿Log file open, 07/14/19 20:52:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Project_Tether
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.692496
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin UE4EditorCustomize
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.267s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: E:/Epic Games Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.055s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.07.15-00.52.22:835][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.15-00.52.22:836][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.15-00.52.22:916][  0]LogHAL: Display: Platform has ~ 16 GB [17121992704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.15-00.52.22:917][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.07.15-00.52.22:917][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.15-00.52.22:936][  0]LogInit: Computer: AARONS-DESKTOP
+[2019.07.15-00.52.22:936][  0]LogInit: User: AaronsDesktop
+[2019.07.15-00.52.22:936][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.07.15-00.52.22:936][  0]LogInit: High frequency timer resolution =3.609378 MHz
+[2019.07.15-00.52.22:937][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.07.15-00.52.22:937][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.15-00.52.22:937][  0]LogMemory: Process Physical Memory: 103.04 MB used, 103.04 MB peak
+[2019.07.15-00.52.22:937][  0]LogMemory: Process Virtual Memory: 92.75 MB used, 92.75 MB peak
+[2019.07.15-00.52.22:937][  0]LogMemory: Physical Memory: 4948.84 MB used,  11379.96 MB free, 16328.80 MB total
+[2019.07.15-00.52.22:937][  0]LogMemory: Virtual Memory: 4664.17 MB used,  11379.96 MB free, 134217728.00 MB total
+[2019.07.15-00.52.23:318][  0]LogInit: Using OS detected language (en-US).
+[2019.07.15-00.52.23:318][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.15-00.52.23:375][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.15-00.52.24:216][  0]LogStreaming: Display: Took  0.905s to InitEngineTextLocalization.
+[2019.07.15-00.52.24:216][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.15-00.52.24:577][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.15-00.52.24:577][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.15-00.52.26:328][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.15-00.52.26:345][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.15-00.52.26:397][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.07.15-00.52.26:397][  0]LogD3D11RHI:       6052/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.07.15-00.52.26:399][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.15-00.52.26:399][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.15-00.52.26:399][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.15-00.52.26:405][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.15-00.52.26:405][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.15-00.52.26:425][  0]LogWindows: EnumDisplayDevices:
+[2019.07.15-00.52.26:425][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.07.15-00.52.26:425][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.07.15-00.52.26:425][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.07.15-00.52.26:425][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.07.15-00.52.26:425][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.15-00.52.26:425][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.07.15-00.52.26:425][  0]LogD3D11RHI:   Driver Version: 418.81 (internal:25.21.14.1881, unified:418.81)
+[2019.07.15-00.52.26:425][  0]LogD3D11RHI:      Driver Date: 1-30-2019
+[2019.07.15-00.52.26:425][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.07.15-00.52.26:467][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.15-00.52.26:529][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.15-00.52.26:678][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Intermediate/Shaders/WorkingDirectory/18464/).
+[2019.07.15-00.52.26:678][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aaron's Desktop/AppData/Local/Temp/UnrealShaderWorkingDir/16B6DC5F4E852AF193B48DA2937168EC/'.
+[2019.07.15-00.52.27:278][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.15-00.52.27:303][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.15-00.52.27:332][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.15-00.52.27:350][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.15-00.52.27:383][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.15-00.52.27:431][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.15-00.52.27:469][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.15-00.52.27:490][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.15-00.52.27:512][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.15-00.52.27:630][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.15-00.52.27:786][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.15-00.52.27:786][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.15-00.52.27:836][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.15-00.52.27:836][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.15-00.52.27:855][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.15-00.52.27:873][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.15-00.52.27:897][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.15-00.52.27:929][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.15-00.52.27:945][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.15-00.52.27:945][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.15-00.52.28:543][  0]LogXGEController: Cleaning working directory: C:/Users/Aaron's Desktop/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.15-00.52.28:544][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.15-00.52.28:544][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.15-00.52.28:544][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.15-00.52.30:867][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.15-00.52.31:344][  0]LogDerivedDataCache: Loaded boot cache 0.48s 73MB C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.15-00.52.31:344][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.07.15-00.52.31:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.15-00.52.31:345][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.15-00.52.31:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.15-00.52.31:345][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.15-00.52.31:421][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.15-00.52.31:433][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.15-00.52.31:433][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.15-00.52.31:433][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.15-00.52.31:535][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.15-00.52.31:547][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.15-00.52.31:653][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.15-00.52.32:273][  0]LogAssetRegistry: FAssetRegistry took 0.0365 seconds to start up
+[2019.07.15-00.52.34:677][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.15-00.52.36:503][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.15-00.52.36:634][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.15-00.52.36:635][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.15-00.52.36:635][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.15-00.52.36:635][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.15-00.52.36:806][  0]LogNetVersion: Project_Tether 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2290113244)
+[2019.07.15-00.52.40:275][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.211850 seconds
+[2019.07.15-00.52.40:309][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.07.15-00.52.40:309][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.07.15-00.52.40:309][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.15-00.52.55:464][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.15-00.52.55:492][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.15-00.52.56:141][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.07.15-00.52.56:141][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.07.15-00.52.56:141][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2019.07.15-00.52.56:142][  0]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.15-00.52.56:142][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.07.15-00.52.56:142][  0]LogUObjectBase: Warning: Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.15-00.53.00:087][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.15-00.53.00:446][  0]SourceControl: Source control is disabled
+[2019.07.15-00.53.00:447][  0]SourceControl: Source control is disabled
+[2019.07.15-00.53.00:496][  0]SourceControl: Source control is disabled
+[2019.07.15-00.53.00:525][  0]SourceControl: Source control is disabled
+[2019.07.15-00.53.01:795][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.15-00.53.01:965][  0]LogOcInput: OculusInput pre-init called
+[2019.07.15-00.53.02:394][  0]LogEngine: Initializing Engine...
+[2019.07.15-00.53.02:415][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.15-00.53.02:444][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.008 s
+[2019.07.15-00.53.02:444][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.15-00.53.02:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.15-00.53.02:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.15-00.53.02:820][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.15-00.53.02:913][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.15-00.53.02:967][  0]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-00.53.02:981][  0]LogInit: FAudioDevice initialized.
+[2019.07.15-00.53.02:982][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.15-00.53.03:043][  0]LogDerivedDataCache: Saved boot cache 0.06s 81MB C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.15-00.53.03:048][  0]LogInit: Texture streaming: Enabled
+[2019.07.15-00.53.03:166][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.15-00.53.03:222][  0]LogInit: Transaction tracking system initialized
+[2019.07.15-00.53.03:391][  0]BlueprintLog: New page: Editor Load
+[2019.07.15-00.53.04:081][  0]LocalizationService: Localization service is disabled
+[2019.07.15-00.53.05:182][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.15-00.53.05:182][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.15-00.53.05:182][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.15-00.53.05:182][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.15-00.53.05:182][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.15-00.53.05:182][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.15-00.53.05:182][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.15-00.53.05:685][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/' took 0.02s
+[2019.07.15-00.53.06:359][  0]SourceControl: Source control is disabled
+[2019.07.15-00.53.06:359][  0]Cmd: MAP LOAD FILE="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.15-00.53.06:367][  0]LogEditorServer: Warning: Can't find file '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Starter/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.15-00.53.06:382][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.15-00.53.06:431][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.066ms to complete.
+[2019.07.15-00.53.06:431][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.071
+[2019.07.15-00.53.06:516][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.15-00.53.06:701][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.53.06:707][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.53.06:713][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.53.06:718][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.53.06:747][  0]LogCollectionManager: Loaded 0 collections in 0.000573 seconds
+[2019.07.15-00.53.06:788][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Collections/' took 0.01s
+[2019.07.15-00.53.06:788][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Developers/AaronsDesktop/Collections/' took 0.01s
+[2019.07.15-00.53.06:788][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Collections/' took 0.01s
+[2019.07.15-00.53.06:788][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.15-00.53.06:803][  0]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 2586 classes and 615 folders.
+[2019.07.15-00.53.06:808][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.15-00.53.07:740][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.15-00.53.07:801][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.07.15-00.53.10:760][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectTether
+[2019.07.15-00.53.10:760][  0]LogTemp: CWD: E:\Epic Games Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.15-00.53.10:760][  0]LogTemp: Initial Dir: E:\Epic Games Games\UE_4.20
+[2019.07.15-00.53.10:760][  0]LogTemp: Env CWD: E:\Epic Games Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.15-00.53.10:760][  0]LogTemp: BranchPath = AARONS-DESKTOP/E/Epic Games Games/UE_4.20/Engine/Binaries --- GameBranchPath = AARONS-DESKTOP/E/Epic Games Games/UE_4.20/Engine/Binaries
+[2019.07.15-00.53.10:760][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Aaron's Desktop\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.07.15-00.53.10:760][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.07.15-00.53.12:274][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.15-00.53.12:274][  0]LogLoad: (Engine Initialization) Total time: 62.89 seconds
+[2019.07.15-00.53.12:274][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.15-00.53.12:337][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.15-00.53.12:356][  0]LogSlate: Took 0.016652 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.15-00.53.12:384][  0]LogSlate: Took 0.024818 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.15-00.53.12:397][  0]LogSlate: Took 0.010990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.15-00.53.12:423][  0]LogSlate: Took 0.024029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.07.15-00.53.12:655][  1]LogRenderer: Reallocating scene render targets to support 824x332 Format 10 NumSamples 1 (Frame:1).
+[2019.07.15-00.53.12:791][  1]LogAssetRegistry: Asset discovery search completed in 40.5404 seconds
+[2019.07.15-00.53.12:792][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.15-00.53.12:793][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000181 seconds (updated 0 objects)
+[2019.07.15-00.53.13:960][ 12]LogSlate: Took 0.009449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.15-00.53.22:531][348]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-00.53.22:748][373]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-00.53.22:820][379]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-00.53.22:847][381]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-00.53.27:119][887]LogRenderer: Reallocating scene render targets to support 1240x520 Format 10 NumSamples 1 (Frame:650).
+[2019.07.15-00.53.45:561][931]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-00.53.45:617][931]LogAssetEditorManager: Opening Asset editor for World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2019.07.15-00.53.45:669][931]LightingResults: New page: Lighting Build
+[2019.07.15-00.53.45:676][931]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2019.07.15-00.53.45:677][931]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2019.07.15-00.53.45:683][931]MapCheck: New page: Map Check
+[2019.07.15-00.53.45:683][931]LightingResults: New page: Lighting Build
+[2019.07.15-00.53.45:804][931]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.15-00.53.45:862][931]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.15-00.53.45:906][931]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.413ms to complete.
+[2019.07.15-00.53.45:907][931]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.239
+[2019.07.15-00.53.50:432][459]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownAnim_BP.TopDownAnim_BP
+[2019.07.15-00.53.50:513][459]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.07.15-00.53.50:939][459]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-00.53.50:941][459]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.07.15-00.53.51:802][459]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 116 classes and 0 folders.
+[2019.07.15-00.53.52:504][459]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.15-00.53.52:814][459]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP
+[2019.07.15-00.53.53:190][459]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/IronForgedGames/Content/Assets/Animations/Sword/UE4_Mann_Retargeted/InPlace/Attack_10.Attack_10
+[2019.07.15-00.53.53:217][459]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-00.53.53:243][459]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.15-00.53.53:600][459]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2019.07.15-00.53.53:640][459]LogRenderer: Reallocating scene render targets to support 1240x548 Format 10 NumSamples 1 (Frame:1).
+[2019.07.15-00.53.53:640][459]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.07.15-00.53.57:086][695]LogSlate: Took 0.009240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.15-00.53.57:214][696]LogSlate: Took 0.004055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.15-00.54.00:873][ 74]LogSlate: Window 'Attack_10' being destroyed
+[2019.07.15-00.54.37:786][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-00.54.37:878][489]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-00.54.37:895][489]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.54.37:896][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-00.54.37:931][489]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 3:54:37 PM)
+[2019.07.15-00.54.37:931][489]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.15-00.54.37:948][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016601s)
+[2019.07.15-00.54.37:949][489]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-00.54.37:950][489]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2019.07.15-00.54.37:950][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018338s)
+[2019.07.15-00.54.38:000][489]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-00.54.38:008][489]LogInit: FAudioDevice initialized.
+[2019.07.15-00.54.38:048][489]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-00.54.38:050][489]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-20.54.38
+[2019.07.15-00.54.38:050][489]LogWorld: Bringing up level for play took: 0.001552
+[2019.07.15-00.54.38:074][489]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.07.15-00.54.38:074][489]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.147
+[2019.07.15-00.54.38:074][489]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.54.57:331][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.54.57:332][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.54.57:366][792]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-00.54.57:367][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.54.57:393][792]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.54.57:436][794]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.07.15-00.54.58:346][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-00.55.03:209][472]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.15-00.55.03:483][472]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP2BDBFBE04686FB9EECE5CBACBC53F32A.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.15-00.55.29:236][538]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-00.55.29:258][538]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.55.29:259][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-00.55.29:259][538]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 3:55:29 PM)
+[2019.07.15-00.55.29:259][538]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.15-00.55.29:272][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012325s)
+[2019.07.15-00.55.29:273][538]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-00.55.29:273][538]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2019.07.15-00.55.29:273][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013534s)
+[2019.07.15-00.55.29:319][538]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-00.55.29:326][538]LogInit: FAudioDevice initialized.
+[2019.07.15-00.55.29:337][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.55.29:380][538]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-00.55.29:381][538]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-20.55.29
+[2019.07.15-00.55.29:382][538]LogWorld: Bringing up level for play took: 0.001660
+[2019.07.15-00.55.29:396][538]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.825
+[2019.07.15-00.55.29:396][538]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.55.29:441][538]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.07.15-00.56.19:498][519]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.56.19:498][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.56.19:515][519]LogSlate: Window 'Project_Tether Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.15-00.56.19:554][519]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-00.56.19:555][519]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.56.19:625][520]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.07.15-00.56.27:420][436]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.15-00.56.27:612][436]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP96B804074E60D52E8D6EAEBB0ECAC7CC.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.15-00.56.30:748][802]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-00.56.30:767][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.56.30:768][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-00.56.30:768][802]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 3:56:30 PM)
+[2019.07.15-00.56.30:768][802]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.15-00.56.30:780][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011416s)
+[2019.07.15-00.56.30:781][802]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-00.56.30:781][802]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2019.07.15-00.56.30:781][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012671s)
+[2019.07.15-00.56.30:823][802]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-00.56.30:830][802]LogInit: FAudioDevice initialized.
+[2019.07.15-00.56.30:840][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.56.30:883][802]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-00.56.30:885][802]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-20.56.30
+[2019.07.15-00.56.30:885][802]LogWorld: Bringing up level for play took: 0.001634
+[2019.07.15-00.56.30:899][802]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.677
+[2019.07.15-00.56.30:899][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.56.44:792][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.56.44:793][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.56.44:815][433]LogSlate: Window 'Project_Tether Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.15-00.56.44:849][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-00.56.44:850][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.56.44:918][434]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.07.15-00.56.50:856][140]LogAssetEditorManager: Opening Asset editor for BlendSpace /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/Omnidirectional_BS.Omnidirectional_BS
+[2019.07.15-00.57.36:594][591]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-00.57.36:611][591]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.57.36:612][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-00.57.36:612][591]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 3:57:36 PM)
+[2019.07.15-00.57.36:612][591]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.15-00.57.36:625][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012665s)
+[2019.07.15-00.57.36:626][591]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-00.57.36:626][591]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2019.07.15-00.57.36:626][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014328s)
+[2019.07.15-00.57.36:666][591]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-00.57.36:673][591]LogInit: FAudioDevice initialized.
+[2019.07.15-00.57.36:704][591]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-00.57.36:706][591]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-20.57.36
+[2019.07.15-00.57.36:706][591]LogWorld: Bringing up level for play took: 0.001550
+[2019.07.15-00.57.36:719][591]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.497
+[2019.07.15-00.57.36:719][591]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.57.44:316][497]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.57.44:316][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.57.44:352][497]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-00.57.44:352][497]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.57.44:378][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-00.57.44:422][499]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.07.15-00.57.45:037][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-00.57.53:332][557]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.15-00.57.53:523][557]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP103C34644E4734F695B335B7193E70AC.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.15-00.57.56:002][849]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-00.57.56:021][849]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-00.57.56:022][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-00.57.56:022][849]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 3:57:56 PM)
+[2019.07.15-00.57.56:022][849]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.15-00.57.56:034][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010938s)
+[2019.07.15-00.57.56:034][849]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-00.57.56:035][849]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2019.07.15-00.57.56:035][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012114s)
+[2019.07.15-00.57.56:079][849]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-00.57.56:087][849]LogInit: FAudioDevice initialized.
+[2019.07.15-00.57.56:114][849]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-00.57.56:116][849]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-20.57.56
+[2019.07.15-00.57.56:116][849]LogWorld: Bringing up level for play took: 0.001407
+[2019.07.15-00.57.56:129][849]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.093
+[2019.07.15-00.57.56:129][849]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.00.30:627][274]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.00.30:629][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.00.30:668][274]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-01.00.30:669][274]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.00.30:701][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.00.30:726][275]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.07.15-01.00.31:747][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.00.32:397][442]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap0DEEF69E415C29AE2DB5A18CDC7128B2.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.15-01.00.32:431][442]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.229
+[2019.07.15-01.00.35:461][791]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Omnidirectional_BS15E8A21E46435406031C4CA0379469E0.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/Omnidirectional_BS.uasset'
+[2019.07.15-01.00.38:783][171]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP0DCE445C492CC68F2EF4A597FF1DB345.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.15-01.00.40:522][375]LogAssetEditorManager: Opening Asset editor for BlendSpace1D /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/Forward_BS.Forward_BS
+[2019.07.15-01.01.30:229][353]Cmd: TRANSACTION UNDO
+[2019.07.15-01.01.30:229][353]LogEditorTransaction: Undo Move Actors
+[2019.07.15-01.01.30:396][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-01.01.30:398][353]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-01.01.32:187][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.01.35:327][919]Cmd: TRANSACTION UNDO
+[2019.07.15-01.01.35:327][919]LogEditorTransaction: Undo Move Actors
+[2019.07.15-01.01.35:492][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-01.01.35:494][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-01.01.44:643][952]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2019.07.15-01.01.54:058][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.01.54:207][ 59]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap4799912F49B73F212C83F88AFF939EFC.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.15-01.01.54:400][ 59]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_BuiltData962A3CAB4D872BB2A15A8886B77EBAC9.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.07.15-01.02.16:516][692]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.07.15-01.02.17:842][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.02.25:816][771]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.02.25:874][778]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-01.02.25:889][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.02.25:890][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-01.02.25:890][778]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:02:25 PM)
+[2019.07.15-01.02.25:890][778]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.15-01.02.25:902][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011416s)
+[2019.07.15-01.02.25:903][778]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.02.25:903][778]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2019.07.15-01.02.25:903][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012594s)
+[2019.07.15-01.02.25:946][778]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-01.02.25:953][778]LogInit: FAudioDevice initialized.
+[2019.07.15-01.02.25:986][778]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-01.02.25:987][778]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.02.25
+[2019.07.15-01.02.25:988][778]LogWorld: Bringing up level for play took: 0.001342
+[2019.07.15-01.02.25:999][778]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.222
+[2019.07.15-01.02.26:000][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.02.56:483][408]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.02.56:484][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.02.56:526][408]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-01.02.56:526][408]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.02.56:579][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.02.56:605][409]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.07.15-01.03.26:457][783]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.03.33:129][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.03.42:147][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.03.51:310][694]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.15-01.03.51:851][752]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.15-01.03.53:938][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.03.53:996][  4]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.15-01.03.54:199][  4]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP5CC1A14D4DC4D91A763A0686C0031581.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.15-01.04.31:569][422]LogAssetEditorManager: Opening Asset editor for BlendSpace /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/Omnidirectional_BS.Omnidirectional_BS
+[2019.07.15-01.05.21:001][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.05.29:349][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.06.03:777][496]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-01.06.03:802][496]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.06.03:803][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-01.06.03:803][496]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:06:03 PM)
+[2019.07.15-01.06.03:803][496]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.15-01.06.03:814][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010223s)
+[2019.07.15-01.06.03:815][496]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.06.03:815][496]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2019.07.15-01.06.03:815][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011637s)
+[2019.07.15-01.06.03:903][496]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-01.06.03:911][496]LogInit: FAudioDevice initialized.
+[2019.07.15-01.06.03:923][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.06.03:964][496]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-01.06.03:966][496]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.06.03
+[2019.07.15-01.06.03:966][496]LogWorld: Bringing up level for play took: 0.001985
+[2019.07.15-01.06.03:982][496]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.239
+[2019.07.15-01.06.03:982][496]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.06.23:998][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.06.23:999][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.06.24:018][431]LogSlate: Window 'Project_Tether Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.15-01.06.24:052][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-01.06.24:052][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.06.24:104][433]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.07.15-01.06.36:223][835]LogSlate: Window 'TopDownCharacter_BP' being destroyed
+[2019.07.15-01.06.46:238][  6]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownAnim_BP28CF10D44A18A2FE282DF2917F329A70.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownAnim_BP.uasset'
+[2019.07.15-01.08.36:869][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.09.57:148][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.09.57:869][700]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMapF5C56632443181BF315B208F11DBFE0B.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.15-01.09.57:977][700]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_BuiltData1A541A954099E2EA5D228BBF3859F9D8.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.07.15-01.10.00:038][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.10.04:870][503]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-01.10.04:886][503]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.10.04:886][503]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-01.10.04:891][503]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:10:04 PM)
+[2019.07.15-01.10.04:892][503]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2019.07.15-01.10.04:906][503]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013795s)
+[2019.07.15-01.10.04:906][503]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.10.04:907][503]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2019.07.15-01.10.04:907][503]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015105s)
+[2019.07.15-01.10.04:960][503]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-01.10.04:970][503]LogInit: FAudioDevice initialized.
+[2019.07.15-01.10.05:021][503]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-01.10.05:023][503]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.10.05
+[2019.07.15-01.10.05:024][503]LogWorld: Bringing up level for play took: 0.001738
+[2019.07.15-01.10.05:125][503]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.10.05:134][503]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.07.15-01.10.05:134][503]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.10.05:142][503]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.07.15-01.10.05:149][503]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.07.15-01.10.05:150][503]LogInit: WinSock: I am Aarons-Desktop (192.168.0.5:0)
+[2019.07.15-01.10.05:150][503]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.10.05:152][503]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.07.15-01.10.05:152][503]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.93
+[2019.07.15-01.10.05:157][503]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:10:05 PM)
+[2019.07.15-01.10.05:166][503]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.10.05:170][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.10.05:222][503]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2019.07.15-01.10.05:225][503]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.10.05:225][503]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.07.15-01.10.05:225][503]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.07.15-01.10.05:225][503]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.07.15-01.10.05:226][503]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.10.05:233][503]LogNet: Game client on port 17777, rate 10000
+[2019.07.15-01.10.05:243][503]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 1.022
+[2019.07.15-01.10.05:256][503]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.10.05:258][503]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59329
+[2019.07.15-01.10.05:258][503]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 184039056160130102175203086181232103095148027084135020098061
+[2019.07.15-01.10.05:263][503]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 184039056160130102175203086181232103095148027084135020098061
+[2019.07.15-01.10.05:326][504]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59329
+[2019.07.15-01.10.05:326][504]LogHandshake: SendChallengeAck. InCookie: 184039056160130102175203086181232103095148027084135020098061
+[2019.07.15-01.10.05:327][504]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59329
+[2019.07.15-01.10.05:327][504]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.10.05:328][504]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/14/19 21:10:05, [UNetConnection] RemoteAddr: 127.0.0.1:59329, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.10.05:328][504]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59329, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.10.05:330][504]LogNetVersion: Project_Tether 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3851458300)
+[2019.07.15-01.10.05:330][504]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.10.05:349][505]LogNet: NotifyAcceptingChannel Control 0 server World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2019.07.15-01.10.05:358][505]LogNet: Remote platform little endian=1
+[2019.07.15-01.10.05:358][505]LogNet: This platform little endian=1
+[2019.07.15-01.10.05:384][506]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=Aarons-Desktop-475E720F4AD960CC6347B19636FE61A9 userId: Aarons-Desktop-475E720F4AD960CC6347B19636FE61A9
+[2019.07.15-01.10.05:396][506]LogNet: Welcomed by server (Level: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Script/Project_Tether.E_GameModeBase)
+[2019.07.15-01.10.05:399][506]LogLoad: LoadMap: 127.0.0.1:17777//Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Script/Project_Tether.E_GameModeBase
+[2019.07.15-01.10.05:452][506]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.10.05:453][506]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.10.05:455][506]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.10.05
+[2019.07.15-01.10.05:456][506]LogWorld: Bringing up level for play took: 0.001855
+[2019.07.15-01.10.05:456][506]LogLoad: Took 0.056780 seconds to LoadMap(/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2019.07.15-01.10.05:477][507]LogNet: Client netspeed is 10000
+[2019.07.15-01.10.05:477][507]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=Aarons-Desktop-475E720F4AD960CC6347B19636FE61A9?SplitscreenCount=1
+[2019.07.15-01.10.05:478][507]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.10.05:533][507]LogNet: Join succeeded: Aarons-Desktop-475E7
+[2019.07.15-01.10.05:574][508]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.10.05:574][508]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.10.08:077][680]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.10.13:457][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.10.13:458][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.10.13:476][223]LogSlate: Window 'Project_Tether Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.15-01.10.13:514][223]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2019.07.15-01.10.13:530][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.10.13:567][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-01.10.13:568][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.10.13:597][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.10.13:598][223]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59329, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-475E720F4AD960CC6347B19636FE61A9
+[2019.07.15-01.10.13:598][223]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59329, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-475E720F4AD960CC6347B19636FE61A9, Channels: 2, Time: 2019.07.15-01.10.13
+[2019.07.15-01.10.13:598][223]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59329, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-475E720F4AD960CC6347B19636FE61A9
+[2019.07.15-01.10.13:599][223]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-475E720F4AD960CC6347B19636FE61A9
+[2019.07.15-01.10.13:599][223]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-475E720F4AD960CC6347B19636FE61A9, Channels: 2, Time: 2019.07.15-01.10.13
+[2019.07.15-01.10.13:599][223]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-475E720F4AD960CC6347B19636FE61A9
+[2019.07.15-01.10.13:601][223]LogExit: GameNetDriver None shut down
+[2019.07.15-01.10.13:601][223]LogExit: GameNetDriver None shut down
+[2019.07.15-01.10.13:628][224]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.07.15-01.10.13:628][224]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.07.15-01.10.21:767][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.10.34:925][594]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-01.10.34:941][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.10.34:942][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-01.10.34:947][594]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:10:34 PM)
+[2019.07.15-01.10.34:947][594]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2019.07.15-01.10.34:959][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011382s)
+[2019.07.15-01.10.34:959][594]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.10.34:960][594]LogPlayLevel: PIE: World Init took: (0.001054s)
+[2019.07.15-01.10.34:960][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013111s)
+[2019.07.15-01.10.35:015][594]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-01.10.35:025][594]LogInit: FAudioDevice initialized.
+[2019.07.15-01.10.35:035][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.10.35:079][594]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-01.10.35:081][594]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.10.35
+[2019.07.15-01.10.35:082][594]LogWorld: Bringing up level for play took: 0.001639
+[2019.07.15-01.10.35:094][594]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.10.35:094][594]LogTemp: Display: ParseSettings for IpNetDriver_2
+[2019.07.15-01.10.35:095][594]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.10.35:095][594]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.07.15-01.10.35:095][594]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.07.15-01.10.35:095][594]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.10.35:095][594]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2019.07.15-01.10.35:097][594]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap 0.875
+[2019.07.15-01.10.35:101][594]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:10:35 PM)
+[2019.07.15-01.10.35:110][594]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.10.35:114][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.10.35:157][594]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2019.07.15-01.10.35:158][594]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.10.35:158][594]LogTemp: Display: ParseSettings for IpNetDriver_3
+[2019.07.15-01.10.35:158][594]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.07.15-01.10.35:158][594]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.07.15-01.10.35:158][594]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.10.35:159][594]LogNet: Game client on port 17777, rate 10000
+[2019.07.15-01.10.35:160][594]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap 0.939
+[2019.07.15-01.10.35:169][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.10.35:170][594]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59330
+[2019.07.15-01.10.35:170][594]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 002146083112033242121212099164043246245255061025195193072184
+[2019.07.15-01.10.35:171][594]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 002146083112033242121212099164043246245255061025195193072184
+[2019.07.15-01.10.35:286][595]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59330
+[2019.07.15-01.10.35:286][595]LogHandshake: SendChallengeAck. InCookie: 002146083112033242121212099164043246245255061025195193072184
+[2019.07.15-01.10.35:287][595]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59330
+[2019.07.15-01.10.35:287][595]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.10.35:287][595]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/14/19 21:10:35, [UNetConnection] RemoteAddr: 127.0.0.1:59330, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.10.35:288][595]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59330, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.10.35:289][595]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.10.35:303][596]LogNet: NotifyAcceptingChannel Control 0 server World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2019.07.15-01.10.35:303][596]LogNet: Remote platform little endian=1
+[2019.07.15-01.10.35:303][596]LogNet: This platform little endian=1
+[2019.07.15-01.10.35:326][597]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=Aarons-Desktop-A69FD24C42A0691B4AA35E99B7DFB118 userId: Aarons-Desktop-A69FD24C42A0691B4AA35E99B7DFB118
+[2019.07.15-01.10.35:327][597]LogNet: Welcomed by server (Level: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Script/Project_Tether.E_GameModeBase)
+[2019.07.15-01.10.35:328][597]LogLoad: LoadMap: 127.0.0.1:17777//Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Script/Project_Tether.E_GameModeBase
+[2019.07.15-01.10.35:366][597]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.10.35:366][597]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.10.35:369][597]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.10.35
+[2019.07.15-01.10.35:370][597]LogWorld: Bringing up level for play took: 0.002180
+[2019.07.15-01.10.35:370][597]LogLoad: Took 0.042573 seconds to LoadMap(/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2019.07.15-01.10.35:380][598]LogNet: Client netspeed is 10000
+[2019.07.15-01.10.35:380][598]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=Aarons-Desktop-A69FD24C42A0691B4AA35E99B7DFB118?SplitscreenCount=1
+[2019.07.15-01.10.35:381][598]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.10.35:382][598]LogNet: Join succeeded: Aarons-Desktop-A69FD
+[2019.07.15-01.10.35:403][600]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.10.35:422][602]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.10.41:766][255]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.10.48:011][978]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.11.02:523][673]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.11.02:524][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.11.02:542][673]LogSlate: Window 'Project_Tether Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.15-01.11.02:577][673]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2019.07.15-01.11.02:578][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.11.02:591][673]LogSlate: Window 'Project_Tether Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.15-01.11.02:626][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-01.11.02:626][673]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.11.02:652][673]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59330, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-A69FD24C42A0691B4AA35E99B7DFB118
+[2019.07.15-01.11.02:653][673]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59330, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-A69FD24C42A0691B4AA35E99B7DFB118, Channels: 2, Time: 2019.07.15-01.11.02
+[2019.07.15-01.11.02:653][673]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59330, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-A69FD24C42A0691B4AA35E99B7DFB118
+[2019.07.15-01.11.02:654][673]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-A69FD24C42A0691B4AA35E99B7DFB118
+[2019.07.15-01.11.02:654][673]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-A69FD24C42A0691B4AA35E99B7DFB118, Channels: 2, Time: 2019.07.15-01.11.02
+[2019.07.15-01.11.02:654][673]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-A69FD24C42A0691B4AA35E99B7DFB118
+[2019.07.15-01.11.02:657][673]LogExit: GameNetDriver None shut down
+[2019.07.15-01.11.02:657][673]LogExit: GameNetDriver None shut down
+[2019.07.15-01.11.02:743][674]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.07.15-01.11.02:743][674]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.07.15-01.11.16:649][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.11.33:395][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.11.44:860][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.11.46:397][806]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.07.15-01.11.47:921][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.11.58:301][173]Cmd: TRANSACTION UNDO
+[2019.07.15-01.11.58:301][173]LogEditorTransaction: Undo Move Actors
+[2019.07.15-01.11.58:305][173]LogActorComponent: ~FComponentReregisterContext: (/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2019.07.15-01.11.58:307][173]LogGeometryMode: Warning: Unable to find 1 Vertex(s) in new BSP
+[2019.07.15-01.11.58:307][173]LogGeometryMode: Warning: Unable to resolve BoxBrush3 Brush in new BSP, see above
+[2019.07.15-01.11.58:307][173]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.07.15-01.11.58:473][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-01.11.58:475][173]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.15-01.12.10:329][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.12.12:383][473]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
+[2019.07.15-01.12.15:534][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.12.31:178][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.12.31:235][632]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-01.12.31:257][632]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.12.31:257][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-01.12.31:264][632]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:12:31 PM)
+[2019.07.15-01.12.31:264][632]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2019.07.15-01.12.31:278][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013472s)
+[2019.07.15-01.12.31:279][632]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.12.31:279][632]LogPlayLevel: PIE: World Init took: (0.001071s)
+[2019.07.15-01.12.31:279][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015279s)
+[2019.07.15-01.12.31:329][632]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-01.12.31:337][632]LogInit: FAudioDevice initialized.
+[2019.07.15-01.12.31:369][632]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-01.12.31:371][632]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.12.31
+[2019.07.15-01.12.31:371][632]LogWorld: Bringing up level for play took: 0.001746
+[2019.07.15-01.12.31:384][632]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.12.31:384][632]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2019.07.15-01.12.31:384][632]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.12.31:384][632]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.07.15-01.12.31:385][632]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.07.15-01.12.31:385][632]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.12.31:385][632]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2019.07.15-01.12.31:385][632]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap -0.835
+[2019.07.15-01.12.31:390][632]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:12:31 PM)
+[2019.07.15-01.12.31:397][632]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.12.31:401][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.12.31:447][632]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2019.07.15-01.12.31:447][632]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.12.31:448][632]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2019.07.15-01.12.31:448][632]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.07.15-01.12.31:448][632]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.07.15-01.12.31:448][632]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.12.31:448][632]LogNet: Game client on port 17777, rate 10000
+[2019.07.15-01.12.31:452][632]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -0.769
+[2019.07.15-01.12.31:460][632]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.12.31:461][632]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65084
+[2019.07.15-01.12.31:462][632]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 068213061051066255064255007056095122106173075217012082185123
+[2019.07.15-01.12.31:463][632]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 068213061051066255064255007056095122106173075217012082185123
+[2019.07.15-01.12.31:522][633]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65084
+[2019.07.15-01.12.31:523][633]LogHandshake: SendChallengeAck. InCookie: 068213061051066255064255007056095122106173075217012082185123
+[2019.07.15-01.12.31:523][633]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65084
+[2019.07.15-01.12.31:523][633]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.12.31:523][633]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/14/19 21:12:31, [UNetConnection] RemoteAddr: 127.0.0.1:65084, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.12.31:524][633]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65084, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.12.31:524][633]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.12.31:533][634]LogNet: NotifyAcceptingChannel Control 0 server World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2019.07.15-01.12.31:533][634]LogNet: Remote platform little endian=1
+[2019.07.15-01.12.31:533][634]LogNet: This platform little endian=1
+[2019.07.15-01.12.31:550][635]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=Aarons-Desktop-0324EB3B4CA09625831C67A10B9BCB49 userId: Aarons-Desktop-0324EB3B4CA09625831C67A10B9BCB49
+[2019.07.15-01.12.31:551][635]LogNet: Welcomed by server (Level: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Script/Project_Tether.E_GameModeBase)
+[2019.07.15-01.12.31:551][635]LogLoad: LoadMap: 127.0.0.1:17777//Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Script/Project_Tether.E_GameModeBase
+[2019.07.15-01.12.31:589][635]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.12.31:590][635]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.12.31:592][635]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.12.31
+[2019.07.15-01.12.31:593][635]LogWorld: Bringing up level for play took: 0.002203
+[2019.07.15-01.12.31:593][635]LogLoad: Took 0.041929 seconds to LoadMap(/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2019.07.15-01.12.31:613][636]LogNet: Client netspeed is 10000
+[2019.07.15-01.12.31:613][636]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=Aarons-Desktop-0324EB3B4CA09625831C67A10B9BCB49?SplitscreenCount=1
+[2019.07.15-01.12.31:614][636]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.12.31:614][636]LogNet: Join succeeded: Aarons-Desktop-0324E
+[2019.07.15-01.12.31:650][640]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.12.31:676][643]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.12.46:395][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.12.46:396][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.12.46:415][400]LogSlate: Window 'Project_Tether Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.15-01.12.46:443][400]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2019.07.15-01.12.46:444][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.12.46:484][400]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-01.12.46:485][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.12.46:508][400]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65084, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0324EB3B4CA09625831C67A10B9BCB49
+[2019.07.15-01.12.46:508][400]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65084, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0324EB3B4CA09625831C67A10B9BCB49, Channels: 2, Time: 2019.07.15-01.12.46
+[2019.07.15-01.12.46:509][400]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65084, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0324EB3B4CA09625831C67A10B9BCB49
+[2019.07.15-01.12.46:509][400]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0324EB3B4CA09625831C67A10B9BCB49
+[2019.07.15-01.12.46:509][400]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0324EB3B4CA09625831C67A10B9BCB49, Channels: 2, Time: 2019.07.15-01.12.46
+[2019.07.15-01.12.46:510][400]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0324EB3B4CA09625831C67A10B9BCB49
+[2019.07.15-01.12.46:512][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.12.46:513][400]LogExit: GameNetDriver None shut down
+[2019.07.15-01.12.46:513][400]LogExit: GameNetDriver None shut down
+[2019.07.15-01.12.46:538][401]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.07.15-01.12.46:538][401]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.07.15-01.12.47:129][469]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.12.47:290][469]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMapBD932A9C4AC3D71B2939039B17F99D1A.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.15-01.12.47:394][469]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_BuiltDataC08F27824087BA338EC21EBED564768E.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.07.15-01.14.59:033][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.14.59:116][ 44]Candidate modules for hot reload:
+[2019.07.15-01.14.59:116][ 44]  Project_Tether
+[2019.07.15-01.14.59:117][ 44]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,1935 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.15-01.14.59:119][ 44]Warning: Starting HotReload took  0.0s.
+[2019.07.15-01.15.55:227][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.15.57:988][975]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP15A41D0D41BAB89830A0C780C60FD154.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.15-01.16.06:486][991]CompilerResultsLog: New page: Compilation - Jul 14, 2019, 4:16:06 PM
+[2019.07.15-01.16.06:486][991]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.15-01.16.06:487][991]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (ini files are newer than UBTMakefile)
+[2019.07.15-01.16.06:487][991]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.15-01.16.06:487][991]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.15-01.16.06:487][991]CompilerResultsLog: Building 30 actions with 12 processes...
+[2019.07.15-01.16.06:487][991]CompilerResultsLog:   [1/30] Project_Tether.init.gen.cpp
+[2019.07.15-01.16.06:487][991]CompilerResultsLog:   [2/30] TopDown_E_Character.gen.cpp
+[2019.07.15-01.16.06:487][991]CompilerResultsLog:   [3/30] E_PlayerCharacter.gen.cpp
+[2019.07.15-01.16.06:487][991]CompilerResultsLog:   [4/30] E_Actor.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [5/30] IEntity.gen.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [6/30] E_Pawn.gen.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [7/30] EntityManager.gen.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [8/30] E_Actor.gen.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [9/30] IEntity.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [10/30] Group.gen.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [11/30] E_Pawn.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [12/30] Entity.gen.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [13/30] Identity.gen.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [14/30] Group.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [15/30] Identity.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [16/30] Project_TetherGameMode.gen.cpp
+[2019.07.15-01.16.06:488][991]CompilerResultsLog:   [17/30] E_GameModeBase.gen.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [18/30] TopDown_E_Character.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [19/30] Project_Tether.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [20/30] E_Character.gen.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [21/30] E_GameModeBase.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [22/30] E_PlayerCharacter.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [23/30] Project_TetherCharacter.gen.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [24/30] E_Character.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [25/30] Entity.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [26/30] Project_TetherGameMode.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [27/30] EntityManager.cpp
+[2019.07.15-01.16.06:489][991]CompilerResultsLog:   [28/30] Project_TetherCharacter.cpp
+[2019.07.15-01.16.06:490][991]CompilerResultsLog:   [29/30] UE4Editor-Project_Tether-1935.lib
+[2019.07.15-01.16.06:490][991]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1935.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1935.exp
+[2019.07.15-01.16.06:490][991]CompilerResultsLog:   [30/30] UE4Editor-Project_Tether-1935.dll
+[2019.07.15-01.16.06:490][991]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1935.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1935.suppressed.exp
+[2019.07.15-01.16.06:491][991]CompilerResultsLog: Total build time: 67.10 seconds (Parallel executor: 32.41 seconds)
+[2019.07.15-01.16.06:491][991]LogMainFrame: MainFrame: Module compiling took 67.382 seconds
+[2019.07.15-01.16.06:554][991]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.15-01.16.06:557][991]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0004 seconds. Added 13 classes and 9 folders.
+[2019.07.15-01.16.06:557][991]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.15-01.16.06:560][991]Display: HotReload successful (15 functions remapped  0 scriptstructs remapped)
+[2019.07.15-01.16.06:972][991]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2588 classes and 619 folders.
+[2019.07.15-01.16.07:010][991]Display: HotReload took 67.9s.
+[2019.07.15-01.16.29:896][730]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-01.16.29:912][730]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.16.29:913][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-01.16.29:918][730]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:16:29 PM)
+[2019.07.15-01.16.29:918][730]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap
+[2019.07.15-01.16.29:931][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011834s)
+[2019.07.15-01.16.29:932][730]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.16.29:932][730]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2019.07.15-01.16.29:932][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013919s)
+[2019.07.15-01.16.30:003][730]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-01.16.30:011][730]LogInit: FAudioDevice initialized.
+[2019.07.15-01.16.30:044][730]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-01.16.30:046][730]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.16.30
+[2019.07.15-01.16.30:047][730]LogWorld: Bringing up level for play took: 0.001465
+[2019.07.15-01.16.30:059][730]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.16.30:059][730]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2019.07.15-01.16.30:060][730]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.16.30:060][730]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.07.15-01.16.30:060][730]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.07.15-01.16.30:060][730]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.16.30:060][730]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2019.07.15-01.16.30:061][730]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap -0.161
+[2019.07.15-01.16.30:066][730]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:16:30 PM)
+[2019.07.15-01.16.30:074][730]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.16.30:077][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.16.30:122][730]LogNet: Browse: 127.0.0.1:17777//Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap
+[2019.07.15-01.16.30:122][730]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.16.30:123][730]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2019.07.15-01.16.30:123][730]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.07.15-01.16.30:123][730]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.07.15-01.16.30:123][730]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.16.30:123][730]LogNet: Game client on port 17777, rate 10000
+[2019.07.15-01.16.30:126][730]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -0.095
+[2019.07.15-01.16.30:135][730]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.16.30:136][730]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55715
+[2019.07.15-01.16.30:136][730]LogHandshake: SendConnectChallenge. Timestamp: 0.008356, Cookie: 140009166117255083132086218135251076000143241105111053170006
+[2019.07.15-01.16.30:137][730]LogHandshake: SendChallengeResponse. Timestamp: 0.008356, Cookie: 140009166117255083132086218135251076000143241105111053170006
+[2019.07.15-01.16.30:190][731]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:55715
+[2019.07.15-01.16.30:190][731]LogHandshake: SendChallengeAck. InCookie: 140009166117255083132086218135251076000143241105111053170006
+[2019.07.15-01.16.30:191][731]LogNet: Server accepting post-challenge connection from: 127.0.0.1:55715
+[2019.07.15-01.16.30:191][731]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.07.15-01.16.30:191][731]LogNet: NotifyAcceptedConnection: Name: ThirdPersonExampleMap, TimeStamp: 07/14/19 21:16:30, [UNetConnection] RemoteAddr: 127.0.0.1:55715, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.16.30:191][731]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:55715, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.16.30:193][731]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.07.15-01.16.30:199][732]LogNet: NotifyAcceptingChannel Control 0 server World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap.ThirdPersonExampleMap: Accepted
+[2019.07.15-01.16.30:199][732]LogNet: Remote platform little endian=1
+[2019.07.15-01.16.30:200][732]LogNet: This platform little endian=1
+[2019.07.15-01.16.30:220][733]LogNet: Login request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=Aarons-Desktop-0632F44E4D5A37B7D7430D9E4A836EF6 userId: Aarons-Desktop-0632F44E4D5A37B7D7430D9E4A836EF6
+[2019.07.15-01.16.30:220][733]LogNet: Welcomed by server (Level: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap, Game: /Script/Project_Tether.E_GameModeBase)
+[2019.07.15-01.16.30:221][733]LogLoad: LoadMap: 127.0.0.1:17777//Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap?game=/Script/Project_Tether.E_GameModeBase
+[2019.07.15-01.16.30:258][733]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.16.30:259][733]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.07.15-01.16.30:261][733]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_2_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.16.30
+[2019.07.15-01.16.30:261][733]LogWorld: Bringing up level for play took: 0.001631
+[2019.07.15-01.16.30:262][733]LogLoad: Took 0.040769 seconds to LoadMap(/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_1_ThirdPersonExampleMap)
+[2019.07.15-01.16.30:281][734]LogNet: Client netspeed is 10000
+[2019.07.15-01.16.30:281][734]LogNet: Join request: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap?Name=Aarons-Desktop-0632F44E4D5A37B7D7430D9E4A836EF6?SplitscreenCount=1
+[2019.07.15-01.16.30:282][734]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.16.30:282][734]LogNet: Join succeeded: Aarons-Desktop-0632F
+[2019.07.15-01.16.30:313][737]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.16.30:339][740]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.07.15-01.16.33:634][  5]LogSlate: Window 'Project_Tether Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.15-01.16.33:866][  5]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.16.33:908][  5]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2019.07.15-01.16.33:909][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.16.33:958][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-01.16.33:959][  5]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.16.34:009][  5]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55715, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0632F44E4D5A37B7D7430D9E4A836EF6
+[2019.07.15-01.16.34:009][  5]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:55715, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0632F44E4D5A37B7D7430D9E4A836EF6, Channels: 2, Time: 2019.07.15-01.16.34
+[2019.07.15-01.16.34:010][  5]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:55715, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0632F44E4D5A37B7D7430D9E4A836EF6
+[2019.07.15-01.16.34:010][  5]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0632F44E4D5A37B7D7430D9E4A836EF6
+[2019.07.15-01.16.34:011][  5]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0632F44E4D5A37B7D7430D9E4A836EF6, Channels: 2, Time: 2019.07.15-01.16.34
+[2019.07.15-01.16.34:011][  5]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:Aarons-Desktop-0632F44E4D5A37B7D7430D9E4A836EF6
+[2019.07.15-01.16.34:014][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.16.34:015][  5]LogExit: GameNetDriver None shut down
+[2019.07.15-01.16.34:016][  5]LogExit: GameNetDriver None shut down
+[2019.07.15-01.16.34:200][  6]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.07.15-01.16.34:200][  6]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.07.15-01.16.35:029][  9]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.16.39:830][555]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.16.40:014][555]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap3F18B059497B8476BBBAC3917450ECAB.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.15-01.16.40:120][555]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_BuiltData63BFBD2B452F9F12160A5490BACFFE53.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.07.15-01.16.40:545][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.16.40:628][615]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-01.16.40:644][615]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.16.40:644][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-01.16.40:645][615]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:16:40 PM)
+[2019.07.15-01.16.40:645][615]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.15-01.16.40:653][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008167s)
+[2019.07.15-01.16.40:654][615]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.16.40:654][615]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2019.07.15-01.16.40:654][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009361s)
+[2019.07.15-01.16.40:704][615]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-01.16.40:713][615]LogInit: FAudioDevice initialized.
+[2019.07.15-01.16.40:757][615]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-01.16.40:759][615]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.16.40
+[2019.07.15-01.16.40:760][615]LogWorld: Bringing up level for play took: 0.001417
+[2019.07.15-01.16.40:772][615]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.55
+[2019.07.15-01.16.40:778][615]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.16.53:653][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.16.55:410][166]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.16.55:411][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.16.55:449][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-01.16.55:450][166]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.16.55:478][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.16.55:519][169]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.07.15-01.17.55:187][165]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2019.07.15-01.17.56:162][280]Cmd: DELETE
+[2019.07.15-01.17.56:162][280]Cmd: ACTOR DELETE
+[2019.07.15-01.17.56:262][280]LogEditorActor: Deleted Actor: PlayerStart
+[2019.07.15-01.17.56:311][280]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2019.07.15-01.18.19:136][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.18.19:227][ 25]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.15-01.18.19:245][ 25]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.18.19:246][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.15-01.18.19:246][ 25]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 14, 2019, 4:18:19 PM)
+[2019.07.15-01.18.19:246][ 25]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.15-01.18.19:256][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009483s)
+[2019.07.15-01.18.19:256][ 25]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.15-01.18.19:257][ 25]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2019.07.15-01.18.19:257][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010815s)
+[2019.07.15-01.18.19:316][ 25]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.15-01.18.19:324][ 25]LogInit: FAudioDevice initialized.
+[2019.07.15-01.18.19:355][ 25]LogLoad: Game class is 'E_GameModeBase'
+[2019.07.15-01.18.19:357][ 25]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.14-21.18.19
+[2019.07.15-01.18.19:358][ 25]LogWorld: Bringing up level for play took: 0.001419
+[2019.07.15-01.18.19:369][ 25]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.852
+[2019.07.15-01.18.19:370][ 25]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.18.36:828][114]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.18.36:829][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.18.36:869][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.15-01.18.36:869][114]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.15-01.18.36:893][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.15-01.18.36:937][116]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.07.15-01.18.39:348][403]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.15-01.18.39:532][403]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMapCD629F1B4927302E68BE9497868F63C3.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.15-01.18.39:672][403]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_BuiltData717C18964BBB89BCB51025B87F34241C.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.07.15-01.18.43:672][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-01.19.48:615][273]Running E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -invalidatemakefilesonly
+[2019.07.15-01.19.49:120][273]Invalidating makefiles only in this run.
+[2019.07.15-01.19.49:254][273]Candidate modules for hot reload:
+[2019.07.15-01.19.49:255][273]  Project_Tether
+[2019.07.15-01.19.49:255][273]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,2661 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.15-01.20.07:019][273]CompilerResultsLog: New page: Compilation - Jul 14, 2019, 4:20:07 PM
+[2019.07.15-01.20.07:019][273]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.15-01.20.07:020][273]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (no existing makefile)
+[2019.07.15-01.20.07:020][273]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.15-01.20.07:020][273]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.15-01.20.07:020][273]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.15-01.20.07:020][273]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.15-01.20.07:021][273]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 9.6570766 seconds
+[2019.07.15-01.20.07:021][273]CompilerResultsLog: Building 32 actions with 12 processes...
+[2019.07.15-01.20.07:022][273]CompilerResultsLog:   [1/32] Project_Tether.init.gen.cpp
+[2019.07.15-01.20.07:022][273]CompilerResultsLog:   [2/32] Project_TetherGameMode.gen.cpp
+[2019.07.15-01.20.07:022][273]CompilerResultsLog:   [3/32] IEntity.gen.cpp
+[2019.07.15-01.20.07:022][273]CompilerResultsLog:   [4/32] Group.gen.cpp
+[2019.07.15-01.20.07:022][273]CompilerResultsLog:   [5/32] Identity.gen.cpp
+[2019.07.15-01.20.07:022][273]CompilerResultsLog:   [6/32] E_Pawn.gen.cpp
+[2019.07.15-01.20.07:022][273]CompilerResultsLog:   [7/32] E_Actor.gen.cpp
+[2019.07.15-01.20.07:022][273]CompilerResultsLog:   [8/32] E_GameModeBase.gen.cpp
+[2019.07.15-01.20.07:022][273]CompilerResultsLog:   [9/32] E_Character.gen.cpp
+[2019.07.15-01.20.07:022][273]CompilerResultsLog:   [10/32] E_PlayerCharacter.gen.cpp
+[2019.07.15-01.20.07:023][273]CompilerResultsLog:   [11/32] Project_TetherCharacter.gen.cpp
+[2019.07.15-01.20.07:023][273]CompilerResultsLog:   [12/32] TopDown_E_Character.gen.cpp
+[2019.07.15-01.20.07:023][273]CompilerResultsLog:   [13/32] IEntity.cpp
+[2019.07.15-01.20.07:023][273]CompilerResultsLog:   [14/32] Group.cpp
+[2019.07.15-01.20.07:023][273]CompilerResultsLog:   [15/32] EntityManager.gen.cpp
+[2019.07.15-01.20.07:023][273]CompilerResultsLog:   [16/32] Entity.gen.cpp
+[2019.07.15-01.20.07:023][273]CompilerResultsLog:   [17/32] Identity.cpp
+[2019.07.15-01.20.07:023][273]CompilerResultsLog:   [18/32] E_Pawn.cpp
+[2019.07.15-01.20.07:024][273]CompilerResultsLog:   [19/32] EvadeComponent.cpp
+[2019.07.15-01.20.07:024][273]CompilerResultsLog:   [20/32] EvadeComponent.gen.cpp
+[2019.07.15-01.20.07:024][273]CompilerResultsLog:   [21/32] E_GameModeBase.cpp
+[2019.07.15-01.20.07:024][273]CompilerResultsLog:   [22/32] E_PlayerCharacter.cpp
+[2019.07.15-01.20.07:024][273]CompilerResultsLog:   [23/32] E_Character.cpp
+[2019.07.15-01.20.07:024][273]CompilerResultsLog:   [24/32] E_Actor.cpp
+[2019.07.15-01.20.07:024][273]CompilerResultsLog:   [25/32] Project_Tether.cpp
+[2019.07.15-01.20.07:024][273]CompilerResultsLog:   [26/32] TopDown_E_Character.cpp
+[2019.07.15-01.20.07:024][273]CompilerResultsLog:   [27/32] Entity.cpp
+[2019.07.15-01.20.07:024][273]CompilerResultsLog:   [28/32] EntityManager.cpp
+[2019.07.15-01.20.07:025][273]CompilerResultsLog:   [29/32] Project_TetherGameMode.cpp
+[2019.07.15-01.20.07:025][273]CompilerResultsLog:   [30/32] Project_TetherCharacter.cpp
+[2019.07.15-01.20.07:025][273]CompilerResultsLog:   [31/32] UE4Editor-Project_Tether-2661.lib
+[2019.07.15-01.20.07:025][273]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2661.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2661.exp
+[2019.07.15-01.20.07:025][273]CompilerResultsLog:   [32/32] UE4Editor-Project_Tether-2661.dll
+[2019.07.15-01.20.07:025][273]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2661.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2661.suppressed.exp
+[2019.07.15-01.20.07:026][273]CompilerResultsLog: Total build time: 17.54 seconds (Parallel executor: 3.92 seconds)
+[2019.07.15-01.20.07:026][273]LogMainFrame: MainFrame: Module compiling took 17.786 seconds
+[2019.07.15-01.20.07:081][273]LogClass: Could not find existing class EvadeComponent in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.15-01.20.07:110][273]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.15-01.20.07:113][273]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0004 seconds. Added 14 classes and 10 folders.
+[2019.07.15-01.20.07:113][273]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.15-01.20.07:118][273]Display: HotReload successful (15 functions remapped  0 scriptstructs remapped)
+[2019.07.15-01.20.07:420][273]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2589 classes and 620 folders.
+[2019.07.15-01.20.07:425][273]Display: HotReload took 18.2s.
+[2019.07.15-01.20.07:426][273]Warning: HotReload operation took 18.2s.
+[2019.07.15-01.20.07:889][273]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.07.15-01.20.07:902][273]LogHotReload: New module detected: UE4Editor-Project_Tether-2661.dll
+[2019.07.15-01.20.07:944][274]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.15-01.20.08:035][274]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0005 seconds. Added 14 classes and 10 folders.
+[2019.07.15-01.20.08:039][274]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.15-01.20.08:325][274]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2589 classes and 620 folders.
+[2019.07.15-01.20.08:338][274]Display: HotReload took  0.4s.
+[2019.07.15-12.18.36:911][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.15-12.18.40:073][289]LogSlate: Window 'Project_Tether - Unreal Editor' being destroyed
+[2019.07.15-12.18.40:078][289]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.15-12.18.40:525][290]Cmd: QUIT_EDITOR
+[2019.07.15-12.18.40:676][290]LogExit: Preparing to exit.
+[2019.07.15-12.18.41:219][290]LogExit: Editor shut down
+[2019.07.15-12.18.41:219][290]LogExit: Transaction tracking system shut down
+[2019.07.15-12.18.41:570][290]LogExit: Object subsystem successfully closed.
+[2019.07.15-12.18.41:591][290]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.15-12.18.41:594][290]LogD3D11RHI: Shutdown
+[2019.07.15-12.18.41:594][290]LogD3D11RHI: CleanupD3DDevice
+[2019.07.15-12.18.41:595][290]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module Project_Tether (637)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (632)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module Voice (630)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (628)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module AnimationEditor (626)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module BlueprintGraph (624)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module PinnedCommandList (622)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module SkeletonEditor (620)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (618)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module StatsViewer (616)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (612)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.07.15-12.18.41:604][290]LogModuleManager: Shutting down and abandoning module FoliageEdit (600)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module LandscapeEditor (598)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module MeshPaintMode (596)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (594)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module ActorPickerMode (592)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module GeometryMode (590)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module TextureAlignMode (588)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module BspMode (586)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (584)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (582)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module AutomationWorker (580)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (578)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module SequenceRecorder (577)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (574)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (572)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module PlacementMode (571)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module MaterialEditor (570)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (566)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (564)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (562)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.07.15-12.18.41:605][290]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.07.15-12.18.41:831][290]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.07.15-12.18.41:831][290]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.07.15-12.18.41:831][290]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.07.15-12.18.41:831][290]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.07.15-12.18.41:831][290]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.07.15-12.18.41:831][290]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.07.15-12.18.41:831][290]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.07.15-12.18.41:831][290]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.07.15-12.18.41:831][290]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.07.15-12.18.41:832][290]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.07.15-12.18.41:887][290]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.07.15-12.18.41:887][290]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.07.15-12.18.41:887][290]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.07.15-12.18.41:887][290]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.07.15-12.18.41:887][290]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.07.15-12.18.41:887][290]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.07.15-12.18.41:887][290]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.07.15-12.18.41:887][290]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.07.15-12.18.41:887][290]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.07.15-12.18.41:887][290]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.07.15-12.18.41:897][290]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.07.15-12.18.41:897][290]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.07.15-12.18.41:898][290]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.07.15-12.18.41:899][290]LogModuleManager: Shutting down and abandoning module ProfilerService (404)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module TaskGraph (402)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (374)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.07.15-12.18.42:126][290]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module UE4EditorCustomize (366)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.07.15-12.18.42:132][290]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.07.15-12.18.42:133][290]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.07.15-12.18.42:133][290]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.07.15-12.18.42:133][290]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.07.15-12.18.42:133][290]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.07.15-12.18.42:133][290]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.07.15-12.18.42:133][290]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.07.15-12.18.42:133][290]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.07.15-12.18.42:133][290]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.07.15-12.18.42:133][290]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.07.15-12.18.42:134][290]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.07.15-12.18.42:135][290]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.07.15-12.18.42:135][290]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.07.15-12.18.42:135][290]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.07.15-12.18.42:135][290]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.07.15-12.18.42:135][290]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.07.15-12.18.42:135][290]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.07.15-12.18.42:236][290]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.07.15-12.18.42:337][290]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.07.15-12.18.42:337][290]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.07.15-12.18.42:337][290]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.07.15-12.18.42:337][290]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.07.15-12.18.42:337][290]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.07.15-12.18.42:337][290]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.07.15-12.18.42:337][290]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.07.15-12.18.42:337][290]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.07.15-12.18.42:337][290]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.07.15-12.18.42:338][290]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.07.15-12.18.42:338][290]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.07.15-12.18.42:338][290]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.07.15-12.18.42:339][290]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.07.15-12.18.42:339][290]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.07.15-12.18.42:339][290]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.07.15-12.18.42:339][290]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.07.15-12.18.42:339][290]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.07.15-12.18.42:339][290]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.07.15-12.18.42:340][290]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.07.15-12.18.42:346][290]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.07.15-12.18.42:348][290]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.07.15-12.18.42:371][290]LogDerivedDataCache: Shutdown
+[2019.07.15-12.18.42:371][290]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.07.15-12.18.42:371][290]LogXGEController: Cleaning working directory: C:/Users/Aaron's Desktop/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.15-12.18.42:371][290]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.07.15-12.18.42:371][290]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.07.15-12.18.42:371][290]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.07.15-12.18.42:371][290]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.07.15-12.18.42:371][290]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.07.15-12.18.42:371][290]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.07.15-12.18.42:371][290]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.07.15-12.18.42:372][290]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.07.15-12.18.42:373][290]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.07.15-12.18.42:373][290]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.07.15-12.18.42:381][290]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.07.15-12.18.42:382][290]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.07.15-12.18.42:382][290]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.07.15-12.18.42:382][290]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.07.15-12.18.42:382][290]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.07.15-12.18.42:382][290]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.07.15-12.18.42:382][290]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.07.15-12.18.42:395][290]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.07.15-12.18.42:395][290]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.07.15-12.18.42:395][290]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC6F611A7-4611-D8F1-94D2-52AF4015B0E1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=fffd5b9e4c9290f2f3f0769658e4954d%7C5e0c94b460c94235a6f9d9aa0432c0f9%7Ce69b9451-45eb-4241-b5dd-357878922232&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.07.15-12.18.42:398][290]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.07.15-12.18.42:401][290]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.07.15-12.18.42:401][290]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.07.15-12.18.42:402][290]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.07.15-12.18.42:402][290]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.07.15-12.18.42:402][290]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.07.15-12.18.42:402][290]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.07.15-12.18.42:402][290]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.07.15-12.18.42:402][290]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.07.15-12.18.42:402][290]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.07.15-12.18.42:402][290]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.15-12.18.42:402][290]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.07.15-12.18.42:403][290]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.07.15-12.18.42:403][290]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.07.15-12.18.42:403][290]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.07.15-12.18.42:403][290]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.07.15-12.18.42:404][290]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.07.15-12.18.42:404][290]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.07.15-12.18.42:404][290]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.07.15-12.18.42:406][290]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.07.15-12.18.42:407][290]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.07.15-12.18.42:407][290]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.07.15-12.18.42:407][290]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.07.15-12.18.42:407][290]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.07.15-12.18.42:407][290]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.07.15-12.18.42:407][290]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.07.15-12.18.42:407][290]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.07.15-12.18.42:407][290]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.07.15-12.18.42:407][290]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.07.15-12.18.42:407][290]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.07.15-12.18.42:443][290]LogExit: Exiting.
+[2019.07.15-12.18.42:513][290]Log file closed, 07/15/19 08:18:42
