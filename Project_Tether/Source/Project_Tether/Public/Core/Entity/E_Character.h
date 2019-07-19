@@ -10,6 +10,7 @@ Studio: Iron Forged Games
 #include "E_Character.generated.h"
 
 class UEntity;
+class UStatComponent;
 
 UCLASS()
 class PROJECT_TETHER_API AE_Character : public ACharacter
@@ -25,6 +26,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Entity")
 	UEntity* entity;
+
+	UPROPERTY(EditAnywhere, Category = "Entity")
+	UStatComponent* statComponent;
 
 public:	
 

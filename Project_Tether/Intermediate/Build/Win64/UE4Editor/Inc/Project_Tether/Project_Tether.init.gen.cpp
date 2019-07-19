@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeProject_Tether_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Project_Tether",
 				PKG_CompiledIn | 0x00000000,
-				0x8C20AAA0,
-				0x51DF087E,
+				0x72F0E1B2,
+				0xD8035CB6,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

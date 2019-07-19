@@ -4,12 +4,15 @@ Studio: Iron Forged Games
 */
 #include "Public/Core/Entity/E_Character.h"
 #include "Public/Core/Entity/Entity.h"
+#include "Public/Core/Components/Stats/StatComponent.h"
 
 // Sets default values
 AE_Character::AE_Character()
 {
 	PrimaryActorTick.bCanEverTick = true;
+
 	entity = CreateDefaultSubobject<UEntity>(TEXT("Entity Component"));
+	statComponent = CreateDefaultSubobject<UStatComponent>(TEXT("Stat Component"));
 }
 
 void AE_Character::BeginPlay()
