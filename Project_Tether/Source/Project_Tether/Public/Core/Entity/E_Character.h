@@ -11,6 +11,7 @@ Studio: Iron Forged Games
 
 class UEntity;
 class UStatComponent;
+class UVitalsComponent;
 
 UCLASS()
 class PROJECT_TETHER_API AE_Character : public ACharacter
@@ -30,6 +31,9 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Entity")
 	UStatComponent* statComponent;
 
+	UPROPERTY(EditAnywhere, Category = "Entity")
+	UVitalsComponent* vitalsComponent;
+
 public:	
 
 	virtual void Tick(float DeltaTime) override;
@@ -37,4 +41,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Entity")
 	UEntity* GetEntity() { return entity; }
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "JoyBall")
+	void OnDeath() const;
 };

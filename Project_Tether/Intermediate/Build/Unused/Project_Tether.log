@@ -1,4 +1,19 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Creating makefile for hot reloading Project_TetherEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for Project_TetherEditor
+    Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for Project_TetherEditor in 7.6665916 seconds
+  Building 7 actions with 12 processes...
+    [1/7] Project_Tether.init.gen.cpp
+    [2/7] E_Character.cpp
+    [3/7] StatComponent.gen.cpp
+    [4/7] VitalsComponent.cpp
+    [5/7] StatComponent.cpp
+    [6/7] UE4Editor-Project_Tether-2872.lib
+       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2872.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2872.exp
+    [7/7] UE4Editor-Project_Tether-2872.dll
+       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2872.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2872.suppressed.exp
   Deploying Project_TetherEditor Win64 Development...
-  Total build time: 0.95 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 14.10 seconds (Parallel executor: 2.38 seconds)
