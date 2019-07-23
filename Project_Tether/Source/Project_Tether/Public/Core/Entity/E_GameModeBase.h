@@ -21,10 +21,13 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Entity Manager")
 	UEntityManager* entityManager;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Inventory")
+	TSubclassOf<UInventory> inventory;
 public:
 
 	UFUNCTION(BlueprintCallable, Category = "Entity Manager")
 	UEntityManager* GetEntityManager();
 	
-	
+	UFUNCTION(BlueprintCallable, Category = "Inventory")
+	TSubclassOf<UInventory> GetInventory() { return inventory; }
 };

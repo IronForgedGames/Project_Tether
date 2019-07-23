@@ -18,6 +18,9 @@ class UGroup;
 class UEntity;
 
 UCLASS(Blueprintable, BlueprintType)
+/**
+ *Manages Entities
+ */
 class PROJECT_TETHER_API UEntityManager : public UObject
 {
 	GENERATED_BODY()

@@ -13,9 +13,8 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeVitalsComponent() {}
 // Cross Module References
-	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature();
-	UPackage* Z_Construct_UPackage__Script_Project_Tether();
 	PROJECT_TETHER_API UEnum* Z_Construct_UEnum_Project_Tether_Status();
+	UPackage* Z_Construct_UPackage__Script_Project_Tether();
 	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FResistanceModifier();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UE_DamageType_NoRegister();
@@ -30,46 +29,6 @@ void EmptyLinkFunctionForGeneratedCodeVitalsComponent() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UVitalsComponent_HealAll();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UVitalsComponent_KillImmediately();
 // End Cross Module References
-	struct Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics
-	{
-		struct _Script_Project_Tether_eventGameStateTimeOfDayChanged_Parms
-		{
-			float Houer;
-			int32 Minute;
-			int32 Sec;
-		};
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Sec;
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_Minute;
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Houer;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::NewProp_Sec = { UE4CodeGen_Private::EPropertyClass::Int, "Sec", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(_Script_Project_Tether_eventGameStateTimeOfDayChanged_Parms, Sec), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::NewProp_Minute = { UE4CodeGen_Private::EPropertyClass::Int, "Minute", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(_Script_Project_Tether_eventGameStateTimeOfDayChanged_Parms, Minute), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::NewProp_Houer = { UE4CodeGen_Private::EPropertyClass::Float, "Houer", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(_Script_Project_Tether_eventGameStateTimeOfDayChanged_Parms, Houer), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::NewProp_Sec,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::NewProp_Minute,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::NewProp_Houer,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/Core/Components/VitalsComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_Project_Tether, "GameStateTimeOfDayChanged__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, sizeof(_Script_Project_Tether_eventGameStateTimeOfDayChanged_Parms), Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	static UEnum* Status_StaticEnum()
 	{
 		static UEnum* Singleton = nullptr;
@@ -566,10 +525,6 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFDamageInfo
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OnTimeUpdated_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnTimeUpdated;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_resistanceModifiers_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_resistanceModifiers;
@@ -602,13 +557,6 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFDamageInfo
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVitalsComponent_Statics::NewProp_OnTimeUpdated_MetaData[] = {
-		{ "ModuleRelativePath", "Public/Core/Components/VitalsComponent.h" },
-		{ "ToolTip", "UPROPERTY(BlueprintAssignable, Category = \"Components|Activation\")" },
-	};
-#endif
-	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVitalsComponent_Statics::NewProp_OnTimeUpdated = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "OnTimeUpdated", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UVitalsComponent, OnTimeUpdated), Z_Construct_UDelegateFunction_Project_Tether_GameStateTimeOfDayChanged__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UVitalsComponent_Statics::NewProp_OnTimeUpdated_MetaData, ARRAY_COUNT(Z_Construct_UClass_UVitalsComponent_Statics::NewProp_OnTimeUpdated_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVitalsComponent_Statics::NewProp_resistanceModifiers_MetaData[] = {
 		{ "Category", "Status" },
 		{ "ModuleRelativePath", "Public/Core/Components/VitalsComponent.h" },
@@ -624,7 +572,6 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFDamageInfo
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UVitalsComponent_Statics::NewProp_status = { UE4CodeGen_Private::EPropertyClass::Byte, "status", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(UVitalsComponent, status), Z_Construct_UEnum_Project_Tether_Status, METADATA_PARAMS(Z_Construct_UClass_UVitalsComponent_Statics::NewProp_status_MetaData, ARRAY_COUNT(Z_Construct_UClass_UVitalsComponent_Statics::NewProp_status_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UVitalsComponent_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVitalsComponent_Statics::NewProp_OnTimeUpdated,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVitalsComponent_Statics::NewProp_resistanceModifiers,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVitalsComponent_Statics::NewProp_resistanceModifiers_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVitalsComponent_Statics::NewProp_status,
@@ -652,7 +599,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFDamageInfo
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UVitalsComponent, 4073136005);
+	IMPLEMENT_CLASS(UVitalsComponent, 4235827863);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UVitalsComponent(Z_Construct_UClass_UVitalsComponent, &UVitalsComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UVitalsComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UVitalsComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -15,39 +15,22 @@ struct FDamageInfo;
 #endif
 #define PROJECT_TETHER_VitalsComponent_generated_h
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_109_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_107_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FResistanceModifier_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_65_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_63_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FHealInfo_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_20_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_18_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDamageInfo_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_15_DELEGATE \
-struct _Script_Project_Tether_eventGameStateTimeOfDayChanged_Parms \
-{ \
-	float Houer; \
-	int32 Minute; \
-	int32 Sec; \
-}; \
-static inline void FGameStateTimeOfDayChanged_DelegateWrapper(const FMulticastScriptDelegate& GameStateTimeOfDayChanged, float Houer, int32 Minute, int32 Sec) \
-{ \
-	_Script_Project_Tether_eventGameStateTimeOfDayChanged_Parms Parms; \
-	Parms.Houer=Houer; \
-	Parms.Minute=Minute; \
-	Parms.Sec=Sec; \
-	GameStateTimeOfDayChanged.ProcessMulticastDelegate<UObject>(&Parms); \
-}
-
-
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_RPC_WRAPPERS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetHealth) \
 	{ \
@@ -94,7 +77,7 @@ static inline void FGameStateTimeOfDayChanged_DelegateWrapper(const FMulticastSc
 	}
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetHealth) \
 	{ \
@@ -141,7 +124,7 @@ static inline void FGameStateTimeOfDayChanged_DelegateWrapper(const FMulticastSc
 	}
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_INCLASS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUVitalsComponent(); \
 	friend struct Z_Construct_UClass_UVitalsComponent_Statics; \
@@ -150,7 +133,7 @@ public: \
 	DECLARE_SERIALIZER(UVitalsComponent)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_INCLASS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_INCLASS \
 private: \
 	static void StaticRegisterNativesUVitalsComponent(); \
 	friend struct Z_Construct_UClass_UVitalsComponent_Statics; \
@@ -159,7 +142,7 @@ public: \
 	DECLARE_SERIALIZER(UVitalsComponent)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_STANDARD_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UVitalsComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVitalsComponent) \
@@ -172,7 +155,7 @@ private: \
 public:
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_ENHANCED_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UVitalsComponent(UVitalsComponent&&); \
@@ -183,30 +166,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVitalsComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVitalsComponent)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_PRIVATE_PROPERTY_OFFSET \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__status() { return STRUCT_OFFSET(UVitalsComponent, status); } \
 	FORCEINLINE static uint32 __PPO__resistanceModifiers() { return STRUCT_OFFSET(UVitalsComponent, resistanceModifiers); }
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_127_PROLOG
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_GENERATED_BODY_LEGACY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_125_PROLOG
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_RPC_WRAPPERS \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_INCLASS \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_STANDARD_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_RPC_WRAPPERS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_INCLASS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_INCLASS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_130_ENHANCED_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_INCLASS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_VitalsComponent_h_128_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
