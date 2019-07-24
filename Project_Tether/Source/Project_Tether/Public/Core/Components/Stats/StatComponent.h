@@ -101,15 +101,15 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	TArray <FStat> stats;
 
+	void TickModifiers(float deltaTime);
+	float GetModifiedAmount(FStat* stat);
+
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-	void TickModifiers(float deltaTime);
-	float GetModifiedAmount(FStat stat);
 
-
-	UFUNCTION(BlueprintCallable)
-	FStat GetStat(TSubclassOf<UStatType> type);
+	//UFUNCTION(BlueprintCallable)
+	FStat* GetStat(TSubclassOf<UStatType> type);
 	
 	UFUNCTION(BlueprintCallable)
 	float GetValue(TSubclassOf<UStatType> type);
@@ -130,7 +130,7 @@ public:
 	bool AddModifier(FStatModifier mod);
 
 	UFUNCTION(BlueprintCallable)
-	bool RemoveModifier(TSubclassOf<UIdentity> source);
+	void RemoveModifier(TSubclassOf<UIdentity> source);
 
 	UFUNCTION(BlueprintCallable)
 	void RemoveAllModifiersForStat(TSubclassOf<UStatType> type);
@@ -148,7 +148,7 @@ public:
 	float SetMinValue(TSubclassOf<UStatType> type, float value);
 	
 	UFUNCTION(BlueprintCallable)
-	float ResetValue(TSubclassOf<UStatType> type);
+	float SetToMax(TSubclassOf<UStatType> type);
 	
 	UFUNCTION(BlueprintCallable)
 	float SetToMin(TSubclassOf<UStatType> type);

@@ -11,7 +11,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UStatType;
 class UIdentity;
 struct FStatModifier;
-struct FStat;
 #ifdef PROJECT_TETHER_StatComponent_generated_h
 #error "StatComponent.generated.h already included, missing '#pragma once' in StatComponent.h"
 #endif
@@ -46,12 +45,12 @@ struct FStat;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execResetValue) \
+	DECLARE_FUNCTION(execSetToMax) \
 	{ \
 		P_GET_OBJECT(UClass,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(float*)Z_Param__Result=P_THIS->ResetValue(Z_Param_type); \
+		*(float*)Z_Param__Result=P_THIS->SetToMax(Z_Param_type); \
 		P_NATIVE_END; \
 	} \
  \
@@ -107,7 +106,7 @@ struct FStat;
 		P_GET_OBJECT(UClass,Z_Param_source); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->RemoveModifier(Z_Param_source); \
+		P_THIS->RemoveModifier(Z_Param_source); \
 		P_NATIVE_END; \
 	} \
  \
@@ -164,15 +163,6 @@ struct FStat;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetValue(Z_Param_type); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetStat) \
-	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(FStat*)Z_Param__Result=P_THIS->GetStat(Z_Param_type); \
 		P_NATIVE_END; \
 	}
 
@@ -196,12 +186,12 @@ struct FStat;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execResetValue) \
+	DECLARE_FUNCTION(execSetToMax) \
 	{ \
 		P_GET_OBJECT(UClass,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(float*)Z_Param__Result=P_THIS->ResetValue(Z_Param_type); \
+		*(float*)Z_Param__Result=P_THIS->SetToMax(Z_Param_type); \
 		P_NATIVE_END; \
 	} \
  \
@@ -257,7 +247,7 @@ struct FStat;
 		P_GET_OBJECT(UClass,Z_Param_source); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->RemoveModifier(Z_Param_source); \
+		P_THIS->RemoveModifier(Z_Param_source); \
 		P_NATIVE_END; \
 	} \
  \
@@ -314,15 +304,6 @@ struct FStat;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetValue(Z_Param_type); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetStat) \
-	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(FStat*)Z_Param__Result=P_THIS->GetStat(Z_Param_type); \
 		P_NATIVE_END; \
 	}
 

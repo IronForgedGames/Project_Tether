@@ -234,6 +234,12 @@
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\ItemCategory.h">
       <Filter>Source\Project_Tether\Public\Core\Item</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\InventoryComponent.h">
+      <Filter>Source\Project_Tether\Public\Core\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\ItemSlot.h">
+      <Filter>Source\Project_Tether\Public\Core\Item</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\Inventory.cpp">
@@ -243,6 +249,12 @@
       <Filter>Source\Project_Tether\Private\Core\Item</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\ItemCategory.cpp">
+      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\InventoryComponent.cpp">
+      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\ItemSlot.cpp">
       <Filter>Source\Project_Tether\Private\Core\Item</Filter>
     </ClCompile>
   </ItemGroup>

@@ -169,7 +169,7 @@ bool UVitalsComponent::HealAll()
 {
 	if (isInitialized)
 	{
-		statComponent->ResetValue(healthStat);
+		statComponent->SetToMax(healthStat);
 		return true;
 	}
 	return false;

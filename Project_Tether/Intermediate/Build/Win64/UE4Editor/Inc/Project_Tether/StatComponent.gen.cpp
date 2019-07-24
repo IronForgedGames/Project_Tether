@@ -25,16 +25,15 @@ void EmptyLinkFunctionForGeneratedCodeStatComponent() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_AddModifier();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_GetMaxValue();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_GetMinValue();
-	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_GetStat();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_GetValue();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_RemoveAllModifiers();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_RemoveModifier();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UIdentity_NoRegister();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_ResetAll();
-	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_ResetValue();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_SetMaxValue();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_SetMinValue();
+	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_SetToMax();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_SetToMin();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_SetValue();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_Subtract();
@@ -228,15 +227,14 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 			{ "AddModifier", &UStatComponent::execAddModifier },
 			{ "GetMaxValue", &UStatComponent::execGetMaxValue },
 			{ "GetMinValue", &UStatComponent::execGetMinValue },
-			{ "GetStat", &UStatComponent::execGetStat },
 			{ "GetValue", &UStatComponent::execGetValue },
 			{ "RemoveAllModifiers", &UStatComponent::execRemoveAllModifiers },
 			{ "RemoveAllModifiersForStat", &UStatComponent::execRemoveAllModifiersForStat },
 			{ "RemoveModifier", &UStatComponent::execRemoveModifier },
 			{ "ResetAll", &UStatComponent::execResetAll },
-			{ "ResetValue", &UStatComponent::execResetValue },
 			{ "SetMaxValue", &UStatComponent::execSetMaxValue },
 			{ "SetMinValue", &UStatComponent::execSetMinValue },
+			{ "SetToMax", &UStatComponent::execSetToMax },
 			{ "SetToMin", &UStatComponent::execSetToMin },
 			{ "SetValue", &UStatComponent::execSetValue },
 			{ "Subtract", &UStatComponent::execSubtract },
@@ -396,42 +394,6 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_UStatComponent_GetStat_Statics
-	{
-		struct StatComponent_eventGetStat_Parms
-		{
-			TSubclassOf<UStatType>  type;
-			FStat ReturnValue;
-		};
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UStatComponent_GetStat_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetStat_Parms, ReturnValue), Z_Construct_UScriptStruct_FStat, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_GetStat_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetStat_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_GetStat_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_GetStat_Statics::NewProp_ReturnValue,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_GetStat_Statics::NewProp_type,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStatComponent_GetStat_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/Core/Components/Stats/StatComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UStatComponent_GetStat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStatComponent, "GetStat", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(StatComponent_eventGetStat_Parms), Z_Construct_UFunction_UStatComponent_GetStat_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UStatComponent_GetStat_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UStatComponent_GetStat_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UStatComponent_GetStat_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UStatComponent_GetStat()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UStatComponent_GetStat_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	struct Z_Construct_UFunction_UStatComponent_GetValue_Statics
 	{
 		struct StatComponent_eventGetValue_Parms
@@ -527,10 +489,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		struct StatComponent_eventRemoveModifier_Parms
 		{
 			TSubclassOf<UIdentity>  source;
-			bool ReturnValue;
 		};
-		static void NewProp_ReturnValue_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_source;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -538,14 +497,8 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	void Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::NewProp_ReturnValue_SetBit(void* Obj)
-	{
-		((StatComponent_eventRemoveModifier_Parms*)Obj)->ReturnValue = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(StatComponent_eventRemoveModifier_Parms), &Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::NewProp_source = { UE4CodeGen_Private::EPropertyClass::Class, "source", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventRemoveModifier_Parms, source), Z_Construct_UClass_UIdentity_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::NewProp_source,
 	};
 #if WITH_METADATA
@@ -582,42 +535,6 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UStatComponent_ResetAll_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_UStatComponent_ResetValue_Statics
-	{
-		struct StatComponent_eventResetValue_Parms
-		{
-			TSubclassOf<UStatType>  type;
-			float ReturnValue;
-		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_ResetValue_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventResetValue_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_ResetValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventResetValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_ResetValue_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_ResetValue_Statics::NewProp_ReturnValue,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_ResetValue_Statics::NewProp_type,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStatComponent_ResetValue_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/Core/Components/Stats/StatComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UStatComponent_ResetValue_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStatComponent, "ResetValue", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(StatComponent_eventResetValue_Parms), Z_Construct_UFunction_UStatComponent_ResetValue_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UStatComponent_ResetValue_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UStatComponent_ResetValue_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UStatComponent_ResetValue_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UStatComponent_ResetValue()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UStatComponent_ResetValue_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -698,6 +615,42 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UStatComponent_SetMinValue_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UStatComponent_SetToMax_Statics
+	{
+		struct StatComponent_eventSetToMax_Parms
+		{
+			TSubclassOf<UStatType>  type;
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_SetToMax_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetToMax_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_SetToMax_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetToMax_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_SetToMax_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetToMax_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetToMax_Statics::NewProp_type,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStatComponent_SetToMax_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Core/Components/Stats/StatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UStatComponent_SetToMax_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStatComponent, "SetToMax", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(StatComponent_eventSetToMax_Parms), Z_Construct_UFunction_UStatComponent_SetToMax_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UStatComponent_SetToMax_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UStatComponent_SetToMax_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UStatComponent_SetToMax_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UStatComponent_SetToMax()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UStatComponent_SetToMax_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -846,15 +799,14 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		{ &Z_Construct_UFunction_UStatComponent_AddModifier, "AddModifier" }, // 3296718051
 		{ &Z_Construct_UFunction_UStatComponent_GetMaxValue, "GetMaxValue" }, // 1162109833
 		{ &Z_Construct_UFunction_UStatComponent_GetMinValue, "GetMinValue" }, // 2413643383
-		{ &Z_Construct_UFunction_UStatComponent_GetStat, "GetStat" }, // 1208102290
 		{ &Z_Construct_UFunction_UStatComponent_GetValue, "GetValue" }, // 3941772766
 		{ &Z_Construct_UFunction_UStatComponent_RemoveAllModifiers, "RemoveAllModifiers" }, // 4220253171
 		{ &Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat, "RemoveAllModifiersForStat" }, // 3649491444
-		{ &Z_Construct_UFunction_UStatComponent_RemoveModifier, "RemoveModifier" }, // 3608183702
+		{ &Z_Construct_UFunction_UStatComponent_RemoveModifier, "RemoveModifier" }, // 1510300703
 		{ &Z_Construct_UFunction_UStatComponent_ResetAll, "ResetAll" }, // 807572928
-		{ &Z_Construct_UFunction_UStatComponent_ResetValue, "ResetValue" }, // 1559366892
 		{ &Z_Construct_UFunction_UStatComponent_SetMaxValue, "SetMaxValue" }, // 2102263676
 		{ &Z_Construct_UFunction_UStatComponent_SetMinValue, "SetMinValue" }, // 1986609788
+		{ &Z_Construct_UFunction_UStatComponent_SetToMax, "SetToMax" }, // 3591797170
 		{ &Z_Construct_UFunction_UStatComponent_SetToMin, "SetToMin" }, // 2160278460
 		{ &Z_Construct_UFunction_UStatComponent_SetValue, "SetValue" }, // 134064431
 		{ &Z_Construct_UFunction_UStatComponent_Subtract, "Subtract" }, // 662584944
@@ -902,7 +854,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UStatComponent, 4053879760);
+	IMPLEMENT_CLASS(UStatComponent, 441192292);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UStatComponent(Z_Construct_UClass_UStatComponent, &UStatComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UStatComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UStatComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

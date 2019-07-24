@@ -1,0 +1,1253 @@
+﻿Log file open, 07/23/19 12:23:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Project_Tether
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.280815
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.148s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: E:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.07.23-16.23.21:071][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.23-16.23.21:071][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.23-16.23.21:083][  0]LogHAL: Display: Platform has ~ 32 GB [34316865536 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.23-16.23.21:083][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.07.23-16.23.21:083][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.23-16.23.21:084][  0]LogInit: Computer: WSROLLER45
+[2019.07.23-16.23.21:084][  0]LogInit: User: aaronhines
+[2019.07.23-16.23.21:084][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.23-16.23.21:084][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.07.23-16.23.21:084][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.07.23-16.23.21:084][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.23-16.23.21:084][  0]LogMemory: Process Physical Memory: 101.36 MB used, 101.36 MB peak
+[2019.07.23-16.23.21:085][  0]LogMemory: Process Virtual Memory: 89.36 MB used, 89.36 MB peak
+[2019.07.23-16.23.21:085][  0]LogMemory: Physical Memory: 13010.36 MB used,  19716.75 MB free, 32727.11 MB total
+[2019.07.23-16.23.21:085][  0]LogMemory: Virtual Memory: 4612.47 MB used,  19716.75 MB free, 134217728.00 MB total
+[2019.07.23-16.23.21:111][  0]LogInit: Using OS detected language (en-US).
+[2019.07.23-16.23.21:111][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.23-16.23.21:112][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.23-16.23.21:495][  0]LogStreaming: Display: Took  0.385s to InitEngineTextLocalization.
+[2019.07.23-16.23.21:495][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.23-16.23.21:527][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.23-16.23.21:527][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.23-16.23.21:790][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.07.23-16.23.21:790][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.23-16.23.21:861][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.07.23-16.23.21:861][  0]LogD3D11RHI:       6052/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.07.23-16.23.21:863][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.23-16.23.21:863][  0]LogD3D11RHI:       0/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.23-16.23.21:863][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.23-16.23.21:873][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.23-16.23.21:873][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.23-16.23.21:873][  0]LogWindows: EnumDisplayDevices:
+[2019.07.23-16.23.21:874][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.07.23-16.23.21:874][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.07.23-16.23.21:875][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.07.23-16.23.21:875][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.07.23-16.23.21:876][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.23-16.23.21:876][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.07.23-16.23.21:876][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2019.07.23-16.23.21:876][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2019.07.23-16.23.21:876][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.07.23-16.23.21:919][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.23-16.23.21:930][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.23-16.23.22:030][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../Tether/Project_Tether/Project_Tether/Intermediate/Shaders/WorkingDirectory/21028/).
+[2019.07.23-16.23.22:030][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aaron.hines/AppData/Local/Temp/UnrealShaderWorkingDir/57F03F0B4B7CEBE4DA8701AEE247781E/'.
+[2019.07.23-16.23.22:371][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.23-16.23.22:383][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.23-16.23.22:397][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.23-16.23.22:409][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.23-16.23.22:421][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.23-16.23.22:437][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.23-16.23.22:449][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.23-16.23.22:463][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.23-16.23.22:471][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:581][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:582][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:582][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:582][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-16.23.22:583][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.23-16.23.22:644][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.23-16.23.22:644][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.23-16.23.22:674][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.23-16.23.22:674][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.23-16.23.22:688][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.23-16.23.22:706][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.23-16.23.22:725][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.23-16.23.22:741][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.23-16.23.22:752][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.23-16.23.22:752][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.23-16.23.22:819][  0]LogXGEController: Cleaning working directory: C:/Users/aaron.hines/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.23-16.23.22:819][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.23-16.23.22:819][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.23-16.23.22:819][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.23-16.23.23:607][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.23-16.23.23:655][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/aaron.hines/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.23-16.23.23:655][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aaron.hines/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.07.23-16.23.23:655][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Tether/Project_Tether/Project_Tether/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.23-16.23.23:655][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.23-16.23.23:655][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Tether/Project_Tether/Project_Tether/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.23-16.23.23:655][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.23-16.23.23:670][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.23-16.23.23:683][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aaron.hines/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.23-16.23.23:683][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.23-16.23.23:683][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.23-16.23.23:701][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.23-16.23.23:703][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.23-16.23.23:703][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.23-16.23.23:783][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2019.07.23-16.23.24:108][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.23-16.23.24:228][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.23-16.23.24:230][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.23-16.23.24:230][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.23-16.23.24:230][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.23-16.23.24:230][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.23-16.23.24:251][  0]LogNetVersion: Project_Tether 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2290113244)
+[2019.07.23-16.23.24:748][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.123954 seconds
+[2019.07.23-16.23.24:755][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.07.23-16.23.24:755][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.07.23-16.23.24:755][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.23-16.23.25:679][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.23-16.23.25:691][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.23-16.23.25:797][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.07.23-16.23.25:797][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.07.23-16.23.25:797][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2019.07.23-16.23.25:797][  0]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.23-16.23.25:797][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.07.23-16.23.25:797][  0]LogUObjectBase: Warning: Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.23-16.23.33:859][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.23-16.23.33:905][  0]SourceControl: Source control is disabled
+[2019.07.23-16.23.33:905][  0]SourceControl: Source control is disabled
+[2019.07.23-16.23.33:906][  0]SourceControl: Source control is disabled
+[2019.07.23-16.23.33:907][  0]SourceControl: Source control is disabled
+[2019.07.23-16.23.34:076][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.23-16.23.34:206][  0]LogOcInput: OculusInput pre-init called
+[2019.07.23-16.23.34:266][  0]LogEngine: Initializing Engine...
+[2019.07.23-16.23.34:294][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.07.23-16.23.34:295][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.23-16.23.34:295][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.23-16.23.34:295][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.23-16.23.34:295][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.23-16.23.34:508][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.23-16.23.34:523][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.23-16.23.34:573][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.23-16.23.34:615][  0]LogInit: FAudioDevice initialized.
+[2019.07.23-16.23.34:615][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.23-16.23.34:700][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/aaron.hines/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.23-16.23.34:703][  0]LogInit: Texture streaming: Enabled
+[2019.07.23-16.23.34:724][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.23-16.23.34:737][  0]LogInit: Transaction tracking system initialized
+[2019.07.23-16.23.34:764][  0]BlueprintLog: New page: Editor Load
+[2019.07.23-16.23.34:853][  0]LocalizationService: Localization service is disabled
+[2019.07.23-16.23.35:089][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.23-16.23.35:089][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.23-16.23.35:089][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.23-16.23.35:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.23-16.23.35:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.23-16.23.35:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.23-16.23.35:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.23-16.23.35:201][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Content/' took 0.02s
+[2019.07.23-16.23.35:202][  0]SourceControl: Source control is disabled
+[2019.07.23-16.23.35:202][  0]Cmd: MAP LOAD FILE="../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.23-16.23.35:202][  0]LightingResults: New page: Lighting Build
+[2019.07.23-16.23.35:205][  0]MapCheck: New page: Map Check
+[2019.07.23-16.23.35:205][  0]LightingResults: New page: Lighting Build
+[2019.07.23-16.23.35:612][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.23-16.23.35:622][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.23-16.23.35:645][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.23-16.23.35:710][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.433ms to complete.
+[2019.07.23-16.23.35:710][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.509
+[2019.07.23-16.23.35:779][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.23-16.23.35:824][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-16.23.35:834][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-16.23.35:841][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-16.23.35:847][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-16.23.35:854][  0]LogCollectionManager: Loaded 0 collections in 0.001430 seconds
+[2019.07.23-16.23.35:899][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Saved/Collections/' took 0.01s
+[2019.07.23-16.23.35:899][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Content/Developers/aaronhines/Collections/' took 0.01s
+[2019.07.23-16.23.35:899][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Content/Collections/' took 0.01s
+[2019.07.23-16.23.35:899][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.23-16.23.35:910][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2592 classes and 616 folders.
+[2019.07.23-16.23.35:916][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.07.23-16.23.35:981][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.07.23-16.23.35:989][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.07.23-16.23.36:941][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.07.23-16.23.36:990][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.23-16.23.36:993][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.23-16.23.37:001][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.23-16.23.37:005][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.07.23-16.23.37:135][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectTether
+[2019.07.23-16.23.37:135][  0]LogTemp: CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.23-16.23.37:135][  0]LogTemp: Initial Dir: E:\Epic Games\UE_4.20
+[2019.07.23-16.23.37:135][  0]LogTemp: Env CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.23-16.23.37:136][  0]LogTemp: BranchPath = WSROLLER45/E/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = WSROLLER45/E/Epic Games/UE_4.20/Engine/Binaries
+[2019.07.23-16.23.37:136][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\aaron.hines\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.07.23-16.23.37:136][  0]LogRenderer: Reallocating scene render targets to support 1208x516 Format 10 NumSamples 1 (Frame:1).
+[2019.07.23-16.23.37:274][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.07.23-16.23.37:274][  0]LogLoad: (Engine Initialization) Total time: 18.20 seconds
+[2019.07.23-16.23.37:274][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.23-16.23.37:315][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.23-16.23.37:371][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.23-16.23.37:451][  2]LogAssetRegistry: Asset discovery search completed in 13.6911 seconds
+[2019.07.23-16.23.37:454][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.23-16.23.37:454][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000329 seconds (updated 0 objects)
+[2019.07.23-16.24.38:777][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-16.24.40:582][564]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP
+[2019.07.23-16.24.41:074][564]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.07.23-16.24.41:896][564]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.23-16.24.41:902][564]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.23-16.24.43:136][686]LogSlate: Window 'TopDownCharacter_BP' being destroyed
+[2019.07.23-16.24.48:055][269]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.23-16.24.51:283][640]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.23-16.24.51:342][640]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP5B98D791433CD9F81A0816963F2051F2.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.23-16.24.55:643][154]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.23-16.24.55:661][154]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.23-16.24.55:663][154]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.23-16.24.55:665][154]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.23-16.24.55:667][154]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.23-16.24.55:668][154]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.23-16.24.55:670][154]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.23-16.24.55:827][154]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.23-16.25.17:365][182]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownAnim_BP.TopDownAnim_BP
+[2019.07.23-16.25.17:460][182]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2019.07.23-16.25.17:858][182]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.23-16.25.17:869][182]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2019.07.23-16.25.18:315][182]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.23-16.25.18:816][182]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2019.07.23-16.25.49:439][699]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownAnim_BP60E474204DF9DD9F9644D590D68ADEE8.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownAnim_BP.uasset'
+[2019.07.23-16.25.50:376][810]BlueprintLog: New page: Compile TopDownAnim_BP
+[2019.07.23-16.26.08:704][364]Running E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -invalidatemakefilesonly
+[2019.07.23-16.26.09:618][364]Invalidating makefiles only in this run.
+[2019.07.23-16.26.09:744][364]Candidate modules for hot reload:
+[2019.07.23-16.26.09:744][364]  Project_Tether
+[2019.07.23-16.26.09:745][364]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,2644 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-16.26.28:361][364]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 8:26:28 AM
+[2019.07.23-16.26.28:361][364]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-16.26.28:362][364]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (no existing makefile)
+[2019.07.23-16.26.28:362][364]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-16.26.28:362][364]CompilerResultsLog: Using Visual Studio 2017 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.23-16.26.28:362][364]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-16.26.28:362][364]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-16.26.28:363][364]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 10.3819424 seconds
+[2019.07.23-16.26.28:363][364]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.07.23-16.26.28:363][364]CompilerResultsLog:   [1/7] Inventory.cpp
+[2019.07.23-16.26.28:363][364]CompilerResultsLog:   [2/7] Item.cpp
+[2019.07.23-16.26.28:363][364]CompilerResultsLog:   [3/7] Project_Tether.init.gen.cpp
+[2019.07.23-16.26.28:363][364]CompilerResultsLog:   [4/7] Inventory.gen.cpp
+[2019.07.23-16.26.28:363][364]CompilerResultsLog:   [5/7] Item.gen.cpp
+[2019.07.23-16.26.28:363][364]CompilerResultsLog:   [6/7] UE4Editor-Project_Tether-2644.lib
+[2019.07.23-16.26.28:363][364]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2644.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2644.exp
+[2019.07.23-16.26.28:364][364]CompilerResultsLog:   [7/7] UE4Editor-Project_Tether-2644.dll
+[2019.07.23-16.26.28:364][364]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2644.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2644.suppressed.exp
+[2019.07.23-16.26.28:364][364]CompilerResultsLog: Total build time: 18.30 seconds (Parallel executor: 2.18 seconds)
+[2019.07.23-16.26.28:365][364]LogMainFrame: MainFrame: Module compiling took 18.629 seconds
+[2019.07.23-16.26.28:644][364]LogClass: Could not find existing class Item in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.23-16.26.28:654][364]LogClass: Status HotReload.
+[2019.07.23-16.26.28:654][364]LogClass: StatModifier HotReload.
+[2019.07.23-16.26.28:654][364]LogClass: Stat HotReload.
+[2019.07.23-16.26.28:655][364]LogClass: ResistanceModifier HotReload.
+[2019.07.23-16.26.28:655][364]LogClass: HealInfo HotReload.
+[2019.07.23-16.26.28:655][364]LogClass: DamageInfo HotReload.
+[2019.07.23-16.26.28:662][364]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.23-16.26.28:665][364]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0010 seconds. Added 21 classes and 13 folders.
+[2019.07.23-16.26.28:666][364]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.23-16.26.28:669][364]Display: HotReload successful (42 functions remapped  5 scriptstructs remapped)
+[2019.07.23-16.26.29:153][364]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2595 classes and 620 folders.
+[2019.07.23-16.26.29:153][364]Display: HotReload took 19.4s.
+[2019.07.23-16.26.29:155][364]Warning: HotReload operation took 19.4s.
+[2019.07.23-16.26.29:458][364]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.07.23-16.26.29:471][364]LogHotReload: New module detected: UE4Editor-Project_Tether-2644.dll
+[2019.07.23-16.26.29:528][365]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-16.26.29:605][365]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0007 seconds. Added 21 classes and 13 folders.
+[2019.07.23-16.26.29:609][365]Display: HotReload successful (0 functions remapped  5 scriptstructs remapped)
+[2019.07.23-16.26.29:966][365]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2595 classes and 620 folders.
+[2019.07.23-16.26.29:979][365]Display: HotReload took  0.4s.
+[2019.07.23-16.27.31:209][104]Running E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -invalidatemakefilesonly
+[2019.07.23-16.27.32:123][104]Invalidating makefiles only in this run.
+[2019.07.23-16.27.32:247][104]Candidate modules for hot reload:
+[2019.07.23-16.27.32:247][104]  Project_Tether
+[2019.07.23-16.27.32:247][104]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,1178 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-16.27.50:892][104]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 8:27:50 AM
+[2019.07.23-16.27.50:892][104]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-16.27.50:892][104]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (no existing makefile)
+[2019.07.23-16.27.50:892][104]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-16.27.50:892][104]CompilerResultsLog: Using Visual Studio 2017 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.23-16.27.50:893][104]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-16.27.50:893][104]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-16.27.50:893][104]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 10.5402396 seconds
+[2019.07.23-16.27.50:893][104]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.07.23-16.27.50:893][104]CompilerResultsLog:   [1/7] ItemCategory.cpp
+[2019.07.23-16.27.50:894][104]CompilerResultsLog:   [2/7] Project_Tether.init.gen.cpp
+[2019.07.23-16.27.50:894][104]CompilerResultsLog:   [3/7] Item.cpp
+[2019.07.23-16.27.50:894][104]CompilerResultsLog:   [4/7] ItemCategory.gen.cpp
+[2019.07.23-16.27.50:894][104]CompilerResultsLog:   [5/7] Item.gen.cpp
+[2019.07.23-16.27.50:894][104]CompilerResultsLog:   [6/7] UE4Editor-Project_Tether-1178.lib
+[2019.07.23-16.27.50:894][104]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1178.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1178.exp
+[2019.07.23-16.27.50:894][104]CompilerResultsLog:   [7/7] UE4Editor-Project_Tether-1178.dll
+[2019.07.23-16.27.50:895][104]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1178.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1178.suppressed.exp
+[2019.07.23-16.27.50:895][104]CompilerResultsLog: Total build time: 18.34 seconds (Parallel executor: 2.09 seconds)
+[2019.07.23-16.27.50:895][104]LogMainFrame: MainFrame: Module compiling took 18.656 seconds
+[2019.07.23-16.27.51:071][104]LogClass: Could not find existing class Item in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.23-16.27.51:072][104]LogClass: Could not find existing class ItemCategory in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.23-16.27.51:085][104]LogClass: Status HotReload.
+[2019.07.23-16.27.51:085][104]LogClass: StatModifier HotReload.
+[2019.07.23-16.27.51:085][104]LogClass: Stat HotReload.
+[2019.07.23-16.27.51:085][104]LogClass: ResistanceModifier HotReload.
+[2019.07.23-16.27.51:085][104]LogClass: HealInfo HotReload.
+[2019.07.23-16.27.51:085][104]LogClass: DamageInfo HotReload.
+[2019.07.23-16.27.51:099][104]LogHotReload: Re-instancing Item after hot-reload.
+[2019.07.23-16.27.51:250][104]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.23-16.27.51:252][104]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0008 seconds. Added 22 classes and 13 folders.
+[2019.07.23-16.27.51:253][104]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.23-16.27.51:257][104]Display: HotReload successful (42 functions remapped  5 scriptstructs remapped)
+[2019.07.23-16.27.51:594][104]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2596 classes and 620 folders.
+[2019.07.23-16.27.51:594][104]Display: HotReload took 19.4s.
+[2019.07.23-16.27.51:595][104]Warning: HotReload operation took 19.4s.
+[2019.07.23-16.27.51:822][104]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.07.23-16.27.51:829][104]LogHotReload: New module detected: UE4Editor-Project_Tether-1178.dll
+[2019.07.23-16.27.51:878][105]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.23-16.27.51:980][105]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0012 seconds. Added 22 classes and 13 folders.
+[2019.07.23-16.27.51:985][105]Display: HotReload successful (0 functions remapped  5 scriptstructs remapped)
+[2019.07.23-16.27.52:361][105]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2596 classes and 620 folders.
+[2019.07.23-16.27.52:367][105]Display: HotReload took  0.5s.
+[2019.07.23-16.32.51:893][371]Candidate modules for hot reload:
+[2019.07.23-16.32.51:893][371]  Project_Tether
+[2019.07.23-16.32.51:893][371]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,2709 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-16.32.51:904][371]Warning: Starting HotReload took  0.0s.
+[2019.07.23-16.33.09:235][436]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 8:33:09 AM
+[2019.07.23-16.33.09:235][436]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-16.33.09:236][436]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-16.33.09:236][436]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-16.33.09:236][436]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-16.33.09:237][436]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 12.2516256 seconds
+[2019.07.23-16.33.09:237][436]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.07.23-16.33.09:237][436]CompilerResultsLog:   [1/7] Project_Tether.init.gen.cpp
+[2019.07.23-16.33.09:237][436]CompilerResultsLog:   [2/7] Item.cpp
+[2019.07.23-16.33.09:237][436]CompilerResultsLog:   [3/7] ItemCategory.cpp
+[2019.07.23-16.33.09:238][436]CompilerResultsLog:   [4/7] Item.gen.cpp
+[2019.07.23-16.33.09:238][436]CompilerResultsLog:   [5/7] ItemCategory.gen.cpp
+[2019.07.23-16.33.09:238][436]CompilerResultsLog:   [6/7] UE4Editor-Project_Tether-2709.lib
+[2019.07.23-16.33.09:238][436]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2709.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2709.exp
+[2019.07.23-16.33.09:239][436]CompilerResultsLog:   [7/7] UE4Editor-Project_Tether-2709.dll
+[2019.07.23-16.33.09:239][436]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2709.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2709.suppressed.exp
+[2019.07.23-16.33.09:239][436]CompilerResultsLog: Total build time: 16.96 seconds (Parallel executor: 2.78 seconds)
+[2019.07.23-16.33.09:240][436]LogMainFrame: MainFrame: Module compiling took 17.355 seconds
+[2019.07.23-16.33.09:543][436]LogClass: Could not find existing class Item in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.23-16.33.09:544][436]LogClass: Could not find existing class ItemCategory in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.23-16.33.09:553][436]LogClass: Status HotReload.
+[2019.07.23-16.33.09:553][436]LogClass: StatModifier HotReload.
+[2019.07.23-16.33.09:553][436]LogClass: Stat HotReload.
+[2019.07.23-16.33.09:553][436]LogClass: ResistanceModifier HotReload.
+[2019.07.23-16.33.09:554][436]LogClass: HealInfo HotReload.
+[2019.07.23-16.33.09:554][436]LogClass: DamageInfo HotReload.
+[2019.07.23-16.33.09:565][436]LogHotReload: Re-instancing Item after hot-reload.
+[2019.07.23-16.33.09:721][436]LogHotReload: Re-instancing ItemCategory after hot-reload.
+[2019.07.23-16.33.09:855][436]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.23-16.33.09:859][436]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0010 seconds. Added 22 classes and 13 folders.
+[2019.07.23-16.33.09:860][436]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.23-16.33.09:866][436]Display: HotReload successful (42 functions remapped  5 scriptstructs remapped)
+[2019.07.23-16.33.10:235][436]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2596 classes and 620 folders.
+[2019.07.23-16.33.10:235][436]Display: HotReload took 18.4s.
+[2019.07.23-16.33.43:177][373]Cmd: POLY SELECT ALL
+[2019.07.23-16.33.43:384][397]Cmd: POLY SELECT MEMORY UNION
+[2019.07.23-16.33.58:574][210]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-16.34.00:417][405]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.23-16.34.00:719][405]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMapBA22AA25422F50EAEEE8BE95B688EF35.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.23-16.34.02:955][571]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.07.23-16.34.03:051][574]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectTether
+[2019.07.23-16.34.03:051][574]LogTemp: CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.23-16.34.03:051][574]LogTemp: Initial Dir: E:\Epic Games\UE_4.20
+[2019.07.23-16.34.03:051][574]LogTemp: Env CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.23-16.34.03:052][574]LogTemp: BranchPath = WSROLLER45/E/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = WSROLLER45/E/Epic Games/UE_4.20/Engine/Binaries
+[2019.07.23-16.34.03:066][576]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\aaron.hines\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.07.23-16.49.58:348][644]Candidate modules for hot reload:
+[2019.07.23-16.49.58:348][644]  Project_Tether
+[2019.07.23-16.49.58:349][644]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,1818 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-16.49.58:359][644]Warning: Starting HotReload took  0.0s.
+[2019.07.23-16.50.00:261][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-16.50.17:550][908]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 8:50:17 AM
+[2019.07.23-16.50.17:551][908]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-16.50.17:551][908]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (ini files are newer than UBTMakefile)
+[2019.07.23-16.50.17:551][908]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-16.50.17:551][908]CompilerResultsLog: Using Visual Studio 2017 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.23-16.50.17:551][908]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-16.50.17:551][908]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-16.50.17:551][908]CompilerResultsLog: Error: E:/Tether/Project_Tether/Project_Tether/Source/Project_Tether/Public/Core/Item/Inventory.h(14)  : Error: Expected a GENERATED_BODY() at the start of struct
+[2019.07.23-16.50.17:551][908]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Project_TetherEditor' (platform: Win64, module info: E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2019.07.23-16.50.17:551][908]LogMainFrame: MainFrame: Module compiling took 19.210 seconds
+[2019.07.23-16.50.17:551][908]Warning: HotReload failed, recompile failed
+[2019.07.23-16.51.15:464][332]Candidate modules for hot reload:
+[2019.07.23-16.51.15:464][332]  Project_Tether
+[2019.07.23-16.51.15:464][332]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,8302 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-16.51.15:475][332]Warning: Starting HotReload took  0.0s.
+[2019.07.23-16.51.37:618][916]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 8:51:37 AM
+[2019.07.23-16.51.37:619][916]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-16.51.37:619][916]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (ini files are newer than UBTMakefile)
+[2019.07.23-16.51.37:619][916]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-16.51.37:619][916]CompilerResultsLog: Using Visual Studio 2017 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.23-16.51.37:619][916]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-16.51.37:619][916]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-16.51.37:619][916]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 12.6899154 seconds
+[2019.07.23-16.51.37:619][916]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.07.23-16.51.37:619][916]CompilerResultsLog:   [1/7] Inventory.gen.cpp
+[2019.07.23-16.51.37:619][916]CompilerResultsLog:    E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UItem'
+[2019.07.23-16.51.37:619][916]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(9): note: see declaration of 'UItem'
+[2019.07.23-16.51.37:619][916]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UItem>::operator *(void) const'
+[2019.07.23-16.51.37:619][916]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77): note: see reference to function template instantiation 'UClass *TSubclassOf<UItem>::operator *(void) const' being compiled
+[2019.07.23-16.51.37:619][916]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(18): note: see reference to class template instantiation 'TSubclassOf<UItem>' being compiled
+[2019.07.23-16.51.37:619][916]CompilerResultsLog:    E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.23-16.51.37:619][916]CompilerResultsLog:   [2/7] Project_Tether.init.gen.cpp
+[2019.07.23-16.51.37:620][916]CompilerResultsLog:   [3/7] Item.cpp
+[2019.07.23-16.51.37:620][916]CompilerResultsLog:   [4/7] Item.gen.cpp
+[2019.07.23-16.51.37:620][916]CompilerResultsLog:   [5/7] Inventory.cpp
+[2019.07.23-16.51.37:620][916]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-8302.dll
+[2019.07.23-16.51.37:620][916]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.23-16.51.37:620][916]CompilerResultsLog: Total build time: 21.77 seconds (Parallel executor: 0.00 seconds)
+[2019.07.23-16.51.37:620][916]LogMainFrame: MainFrame: Module compiling took 22.163 seconds
+[2019.07.23-16.51.37:620][916]Warning: HotReload failed, recompile failed
+[2019.07.23-16.52.50:624][579]Candidate modules for hot reload:
+[2019.07.23-16.52.50:624][579]  Project_Tether
+[2019.07.23-16.52.50:624][579]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,6751 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-16.52.50:634][579]Warning: Starting HotReload took  0.0s.
+[2019.07.23-16.52.53:856][945]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 8:52:53 AM
+[2019.07.23-16.52.53:857][945]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-16.52.53:857][945]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-16.52.53:857][945]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.07.23-16.52.53:857][945]CompilerResultsLog:   [1/3] Inventory.gen.cpp
+[2019.07.23-16.52.53:857][945]CompilerResultsLog:    E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UItem'
+[2019.07.23-16.52.53:858][945]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(9): note: see declaration of 'UItem'
+[2019.07.23-16.52.53:858][945]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UItem>::operator *(void) const'
+[2019.07.23-16.52.53:858][945]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77): note: see reference to function template instantiation 'UClass *TSubclassOf<UItem>::operator *(void) const' being compiled
+[2019.07.23-16.52.53:859][945]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(18): note: see reference to class template instantiation 'TSubclassOf<UItem>' being compiled
+[2019.07.23-16.52.53:859][945]CompilerResultsLog:    E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.23-16.52.53:859][945]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-6751.dll
+[2019.07.23-16.52.53:859][945]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.23-16.52.53:859][945]CompilerResultsLog: Total build time: 2.88 seconds (Parallel executor: 0.00 seconds)
+[2019.07.23-16.52.53:860][945]LogMainFrame: MainFrame: Module compiling took 3.244 seconds
+[2019.07.23-16.52.53:860][945]Warning: HotReload failed, recompile failed
+[2019.07.23-16.54.00:570][179]Candidate modules for hot reload:
+[2019.07.23-16.54.00:570][179]  Project_Tether
+[2019.07.23-16.54.00:570][179]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,1458 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-16.54.00:581][179]Warning: Starting HotReload took  0.0s.
+[2019.07.23-16.54.16:508][ 57]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 8:54:16 AM
+[2019.07.23-16.54.16:508][ 57]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-16.54.16:509][ 57]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-16.54.16:509][ 57]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-16.54.16:509][ 57]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-16.54.16:509][ 57]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 12.7385499 seconds
+[2019.07.23-16.54.16:509][ 57]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.07.23-16.54.16:509][ 57]CompilerResultsLog:   [1/4] Inventory.gen.cpp
+[2019.07.23-16.54.16:510][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(18) : error C2065: 'UItem': undeclared identifier
+[2019.07.23-16.54.16:510][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(18) : error C2923: 'TSubclassOf': 'UItem' is not a valid template type argument for parameter 'TClass'
+[2019.07.23-16.54.16:510][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(22) : error C2678: binary '==': no operator found which takes a left-hand operand of type 'const TSubclassOf' (or there is no acceptable conversion)
+[2019.07.23-16.54.16:511][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Animation/AnimNotifyQueue.h(46): note: could be 'bool operator ==(const FAnimNotifyEventReference &,const FAnimNotifyEvent &)'
+[2019.07.23-16.54.16:511][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/SkeletalMesh.h(347): note: or       'bool operator ==(const UMaterialInterface &,const FSkeletalMaterial &)'
+[2019.07.23-16.54.16:512][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/SkeletalMesh.h(346): note: or       'bool operator ==(const FSkeletalMaterial &,const UMaterialInterface &)'
+[2019.07.23-16.54.16:512][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/SkeletalMesh.h(345): note: or       'bool operator ==(const FSkeletalMaterial &,const FSkeletalMaterial &)'
+[2019.07.23-16.54.16:512][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h(392): note: or       'bool operator ==(const UMaterialInterface &,const FStaticMaterial &)'
+[2019.07.23-16.54.16:513][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h(391): note: or       'bool operator ==(const FStaticMaterial &,const UMaterialInterface &)'
+[2019.07.23-16.54.16:513][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h(390): note: or       'bool operator ==(const FStaticMaterial &,const FStaticMaterial &)'
+[2019.07.23-16.54.16:514][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h(261): note: or       'bool operator ==(const FMeshSectionInfo &,const FMeshSectionInfo &)'
+[2019.07.23-16.54.16:514][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\EdGraph/EdGraphPin.h(82): note: or       'bool operator ==(const FEdGraphTerminalType &,const FEdGraphTerminalType &)'
+[2019.07.23-16.54.16:515][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\RHI\Public\RHIResources.h(307): note: or       'bool operator ==(const FRHIUniformBufferLayout &,const FRHIUniformBufferLayout &)'
+[2019.07.23-16.54.16:515][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Misc/FrameRate.h(196): note: or       'bool operator ==(const FFrameRate &,const FFrameRate &)'
+[2019.07.23-16.54.16:515][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Misc/FrameTime.h(154): note: or       'bool operator ==(FFrameTime,FFrameTime)'
+[2019.07.23-16.54.16:516][ 57]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(22): note: while trying to match the argument list '(const TSubclassOf, const TSubclassOf)'
+[2019.07.23-16.54.16:517][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(45) : error C2065: 'UItem': undeclared identifier
+[2019.07.23-16.54.16:517][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(45) : error C2923: 'TSubclassOf': 'UItem' is not a valid template type argument for parameter 'TClass'
+[2019.07.23-16.54.16:518][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(46) : error C2065: 'UItem': undeclared identifier
+[2019.07.23-16.54.16:518][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(46) : error C2923: 'TSubclassOf': 'UItem' is not a valid template type argument for parameter 'TClass'
+[2019.07.23-16.54.16:519][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(48) : error C2065: 'UItem': undeclared identifier
+[2019.07.23-16.54.16:519][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(48) : error C2923: 'TSubclassOf': 'UItem' is not a valid template type argument for parameter 'TClass'
+[2019.07.23-16.54.16:519][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(49) : error C2065: 'UItem': undeclared identifier
+[2019.07.23-16.54.16:520][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(49) : error C2923: 'TSubclassOf': 'UItem' is not a valid template type argument for parameter 'TClass'
+[2019.07.23-16.54.16:520][ 57]CompilerResultsLog:   [2/4] Inventory.cpp
+[2019.07.23-16.54.16:520][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(18) : error C2065: 'UItem': undeclared identifier
+[2019.07.23-16.54.16:521][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(18) : error C2923: 'TSubclassOf': 'UItem' is not a valid template type argument for parameter 'TClass'
+[2019.07.23-16.54.16:521][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(22) : error C2678: binary '==': no operator found which takes a left-hand operand of type 'const TSubclassOf' (or there is no acceptable conversion)
+[2019.07.23-16.54.16:522][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Animation/AnimNotifyQueue.h(46): note: could be 'bool operator ==(const FAnimNotifyEventReference &,const FAnimNotifyEvent &)'
+[2019.07.23-16.54.16:522][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/SkeletalMesh.h(347): note: or       'bool operator ==(const UMaterialInterface &,const FSkeletalMaterial &)'
+[2019.07.23-16.54.16:523][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/SkeletalMesh.h(346): note: or       'bool operator ==(const FSkeletalMaterial &,const UMaterialInterface &)'
+[2019.07.23-16.54.16:523][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/SkeletalMesh.h(345): note: or       'bool operator ==(const FSkeletalMaterial &,const FSkeletalMaterial &)'
+[2019.07.23-16.54.16:523][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h(392): note: or       'bool operator ==(const UMaterialInterface &,const FStaticMaterial &)'
+[2019.07.23-16.54.16:523][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h(391): note: or       'bool operator ==(const FStaticMaterial &,const UMaterialInterface &)'
+[2019.07.23-16.54.16:524][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h(390): note: or       'bool operator ==(const FStaticMaterial &,const FStaticMaterial &)'
+[2019.07.23-16.54.16:524][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h(261): note: or       'bool operator ==(const FMeshSectionInfo &,const FMeshSectionInfo &)'
+[2019.07.23-16.54.16:524][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\EdGraph/EdGraphPin.h(82): note: or       'bool operator ==(const FEdGraphTerminalType &,const FEdGraphTerminalType &)'
+[2019.07.23-16.54.16:525][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\RHI\Public\RHIResources.h(307): note: or       'bool operator ==(const FRHIUniformBufferLayout &,const FRHIUniformBufferLayout &)'
+[2019.07.23-16.54.16:525][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Misc/FrameRate.h(196): note: or       'bool operator ==(const FFrameRate &,const FFrameRate &)'
+[2019.07.23-16.54.16:525][ 57]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Misc/FrameTime.h(154): note: or       'bool operator ==(FFrameTime,FFrameTime)'
+[2019.07.23-16.54.16:525][ 57]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(22): note: while trying to match the argument list '(const TSubclassOf, const TSubclassOf)'
+[2019.07.23-16.54.16:526][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(45) : error C2065: 'UItem': undeclared identifier
+[2019.07.23-16.54.16:526][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(45) : error C2923: 'TSubclassOf': 'UItem' is not a valid template type argument for parameter 'TClass'
+[2019.07.23-16.54.16:526][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(46) : error C2065: 'UItem': undeclared identifier
+[2019.07.23-16.54.16:527][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(46) : error C2923: 'TSubclassOf': 'UItem' is not a valid template type argument for parameter 'TClass'
+[2019.07.23-16.54.16:527][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(48) : error C2065: 'UItem': undeclared identifier
+[2019.07.23-16.54.16:527][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(48) : error C2923: 'TSubclassOf': 'UItem' is not a valid template type argument for parameter 'TClass'
+[2019.07.23-16.54.16:527][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(49) : error C2065: 'UItem': undeclared identifier
+[2019.07.23-16.54.16:528][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(49) : error C2923: 'TSubclassOf': 'UItem' is not a valid template type argument for parameter 'TClass'
+[2019.07.23-16.54.16:528][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Item\Inventory.cpp(12) : error C2511: 'FSlot UInventory::GetSlot(TSubclassOf<UItem>)': overloaded member function not found in 'UInventory'
+[2019.07.23-16.54.16:528][ 57]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(32): note: see declaration of 'UInventory'
+[2019.07.23-16.54.16:528][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Item\Inventory.cpp(17) : error C2511: 'float UInventory::GetQuantity(TSubclassOf<UItem>)': overloaded member function not found in 'UInventory'
+[2019.07.23-16.54.16:529][ 57]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(32): note: see declaration of 'UInventory'
+[2019.07.23-16.54.16:529][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Item\Inventory.cpp(22) : error C2511: 'float UInventory::Add(TSubclassOf<UItem>,float)': overloaded member function not found in 'UInventory'
+[2019.07.23-16.54.16:529][ 57]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(32): note: see declaration of 'UInventory'
+[2019.07.23-16.54.16:529][ 57]CompilerResultsLog:    E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Item\Inventory.cpp(27) : error C2511: 'float UInventory::Subtract(TSubclassOf<UItem>,float)': overloaded member function not found in 'UInventory'
+[2019.07.23-16.54.16:530][ 57]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h(32): note: see declaration of 'UInventory'
+[2019.07.23-16.54.16:530][ 57]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1458.dll
+[2019.07.23-16.54.16:530][ 57]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.23-16.54.16:530][ 57]CompilerResultsLog: Total build time: 15.58 seconds (Parallel executor: 0.00 seconds)
+[2019.07.23-16.54.16:530][ 57]LogMainFrame: MainFrame: Module compiling took 15.969 seconds
+[2019.07.23-16.54.16:530][ 57]Warning: HotReload failed, recompile failed
+[2019.07.23-16.56.27:132][588]Candidate modules for hot reload:
+[2019.07.23-16.56.27:132][588]  Project_Tether
+[2019.07.23-16.56.27:132][588]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,7815 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-16.56.27:143][588]Warning: Starting HotReload took  0.0s.
+[2019.07.23-16.56.43:380][487]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 8:56:43 AM
+[2019.07.23-16.56.43:380][487]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-16.56.43:380][487]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-16.56.43:380][487]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-16.56.43:380][487]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-16.56.43:380][487]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 12.4729154 seconds
+[2019.07.23-16.56.43:380][487]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.07.23-16.56.43:380][487]CompilerResultsLog:   [1/5] Project_Tether.init.gen.cpp
+[2019.07.23-16.56.43:380][487]CompilerResultsLog:   [2/5] Inventory.gen.cpp
+[2019.07.23-16.56.43:380][487]CompilerResultsLog:    E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UItemCategory'
+[2019.07.23-16.56.43:380][487]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether/Public/Core/Item/Inventory.h(11): note: see declaration of 'UItemCategory'
+[2019.07.23-16.56.43:380][487]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UItemCategory>::operator *(void) const'
+[2019.07.23-16.56.43:380][487]CompilerResultsLog:   E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77): note: see reference to function template instantiation 'UClass *TSubclassOf<UItemCategory>::operator *(void) const' being compiled
+[2019.07.23-16.56.43:380][487]CompilerResultsLog:   E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public/Core/Item/Item.h(29): note: see reference to class template instantiation 'TSubclassOf<UItemCategory>' being compiled
+[2019.07.23-16.56.43:380][487]CompilerResultsLog:    E:\Epic Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.23-16.56.43:380][487]CompilerResultsLog:   [3/5] Inventory.cpp
+[2019.07.23-16.56.43:380][487]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-7815.dll
+[2019.07.23-16.56.43:381][487]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.23-16.56.43:381][487]CompilerResultsLog: Total build time: 15.88 seconds (Parallel executor: 0.00 seconds)
+[2019.07.23-16.56.43:381][487]LogMainFrame: MainFrame: Module compiling took 16.255 seconds
+[2019.07.23-16.56.43:381][487]Warning: HotReload failed, recompile failed
+[2019.07.23-16.57.09:608][650]Candidate modules for hot reload:
+[2019.07.23-16.57.09:608][650]  Project_Tether
+[2019.07.23-16.57.09:608][650]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,2397 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-16.57.09:621][650]Warning: Starting HotReload took  0.0s.
+[2019.07.23-16.57.27:867][763]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 8:57:27 AM
+[2019.07.23-16.57.27:867][763]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-16.57.27:867][763]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-16.57.27:867][763]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-16.57.27:867][763]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-16.57.27:868][763]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 12.8719607 seconds
+[2019.07.23-16.57.27:868][763]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.07.23-16.57.27:868][763]CompilerResultsLog:   [1/5] Project_Tether.init.gen.cpp
+[2019.07.23-16.57.27:868][763]CompilerResultsLog:   [2/5] Inventory.gen.cpp
+[2019.07.23-16.57.27:868][763]CompilerResultsLog:   [3/5] Inventory.cpp
+[2019.07.23-16.57.27:869][763]CompilerResultsLog:   [4/5] UE4Editor-Project_Tether-2397.lib
+[2019.07.23-16.57.27:869][763]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2397.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2397.exp
+[2019.07.23-16.57.27:869][763]CompilerResultsLog:   [5/5] UE4Editor-Project_Tether-2397.dll
+[2019.07.23-16.57.27:869][763]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2397.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2397.suppressed.exp
+[2019.07.23-16.57.27:870][763]CompilerResultsLog: Total build time: 17.91 seconds (Parallel executor: 3.02 seconds)
+[2019.07.23-16.57.27:870][763]LogMainFrame: MainFrame: Module compiling took 18.268 seconds
+[2019.07.23-16.57.28:033][763]LogClass: Could not find existing class Inventory in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.23-16.57.28:033][763]LogClass: Could not find existing class Item in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.23-16.57.28:045][763]LogClass: Status HotReload.
+[2019.07.23-16.57.28:045][763]LogClass: Could not find existing type Slot for HotReload. Assuming new
+[2019.07.23-16.57.28:045][763]LogClass: StatModifier HotReload.
+[2019.07.23-16.57.28:045][763]LogClass: Stat HotReload.
+[2019.07.23-16.57.28:045][763]LogClass: ResistanceModifier HotReload.
+[2019.07.23-16.57.28:046][763]LogClass: HealInfo HotReload.
+[2019.07.23-16.57.28:046][763]LogClass: DamageInfo HotReload.
+[2019.07.23-16.57.28:057][763]LogHotReload: Re-instancing Inventory after hot-reload.
+[2019.07.23-16.57.28:206][763]LogHotReload: Re-instancing Item after hot-reload.
+[2019.07.23-16.57.28:370][763]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.23-16.57.28:373][763]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0008 seconds. Added 22 classes and 13 folders.
+[2019.07.23-16.57.28:373][763]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.23-16.57.28:377][763]Display: HotReload successful (42 functions remapped  6 scriptstructs remapped)
+[2019.07.23-16.57.28:775][763]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2596 classes and 620 folders.
+[2019.07.23-16.57.28:775][763]Display: HotReload took 19.2s.
+[2019.07.23-17.00.39:467][481]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.07.23-17.00.40:011][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-17.01.05:403][558]LogAssetEditorManager: Opening Asset editor for World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2019.07.23-17.01.05:463][558]Cmd: MAP LOAD FILE="../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.23-17.01.05:463][558]LightingResults: New page: Lighting Build
+[2019.07.23-17.01.05:464][558]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2019.07.23-17.01.05:465][558]MapCheck: New page: Map Check
+[2019.07.23-17.01.05:465][558]LightingResults: New page: Lighting Build
+[2019.07.23-17.01.05:544][558]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.23-17.01.05:556][558]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.23-17.01.05:612][558]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.23-17.01.05:690][558]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.942ms to complete.
+[2019.07.23-17.01.05:692][558]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.230
+[2019.07.23-17.01.07:726][792]LogAssetEditorManager: Opening Asset editor for World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2019.07.23-17.01.07:754][792]Cmd: MAP LOAD FILE="../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.23-17.01.07:754][792]LightingResults: New page: Lighting Build
+[2019.07.23-17.01.07:755][792]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2019.07.23-17.01.07:756][792]MapCheck: New page: Map Check
+[2019.07.23-17.01.07:756][792]LightingResults: New page: Lighting Build
+[2019.07.23-17.01.07:809][792]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.23-17.01.07:821][792]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.23-17.01.07:880][792]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.23-17.01.07:952][792]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.245ms to complete.
+[2019.07.23-17.01.07:953][792]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.200
+[2019.07.23-17.01.17:274][888]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.23-17.01.58:664][103]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.07.23-17.02.01:786][456]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestGamemode7465884247934BF43F1F61A28F3AA71A.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TestGamemode.uasset'
+[2019.07.23-17.02.02:569][544]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TestGamemode.TestGamemode
+[2019.07.23-17.02.02:993][545]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2019.07.23-17.04.17:461][824]Candidate modules for hot reload:
+[2019.07.23-17.04.17:461][824]  Project_Tether
+[2019.07.23-17.04.17:461][824]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,9433 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-17.04.17:472][824]Warning: Starting HotReload took  0.0s.
+[2019.07.23-17.04.19:534][ 57]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.07.23-17.04.31:758][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-17.04.40:772][535]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 9:04:40 AM
+[2019.07.23-17.04.40:772][535]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-17.04.40:772][535]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (ini files are newer than UBTMakefile)
+[2019.07.23-17.04.40:772][535]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-17.04.40:772][535]CompilerResultsLog: Using Visual Studio 2017 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.23-17.04.40:773][535]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-17.04.40:773][535]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-17.04.40:773][535]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 12.6812182 seconds
+[2019.07.23-17.04.40:773][535]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.07.23-17.04.40:773][535]CompilerResultsLog:   [1/8] Project_Tether.init.gen.cpp
+[2019.07.23-17.04.40:774][535]CompilerResultsLog:   [2/8] E_GameModeBase.gen.cpp
+[2019.07.23-17.04.40:774][535]CompilerResultsLog:   [3/8] Inventory.cpp
+[2019.07.23-17.04.40:774][535]CompilerResultsLog:   [4/8] Entity.cpp
+[2019.07.23-17.04.40:774][535]CompilerResultsLog:   [5/8] E_GameModeBase.cpp
+[2019.07.23-17.04.40:774][535]CompilerResultsLog:   [6/8] Inventory.gen.cpp
+[2019.07.23-17.04.40:774][535]CompilerResultsLog:   [7/8] UE4Editor-Project_Tether-9433.lib
+[2019.07.23-17.04.40:774][535]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9433.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9433.exp
+[2019.07.23-17.04.40:774][535]CompilerResultsLog:   [8/8] UE4Editor-Project_Tether-9433.dll
+[2019.07.23-17.04.40:775][535]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9433.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9433.suppressed.exp
+[2019.07.23-17.04.40:775][535]CompilerResultsLog: Total build time: 22.97 seconds (Parallel executor: 3.58 seconds)
+[2019.07.23-17.04.40:775][535]LogMainFrame: MainFrame: Module compiling took 23.323 seconds
+[2019.07.23-17.04.41:049][535]LogClass: Could not find existing class E_GameModeBase in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.23-17.04.41:049][535]LogClass: Function GetEntityManager is new.
+[2019.07.23-17.04.41:050][535]LogClass: Function GetInventory is new.
+[2019.07.23-17.04.41:076][535]LogClass: Status HotReload.
+[2019.07.23-17.04.41:076][535]LogClass: Slot HotReload.
+[2019.07.23-17.04.41:076][535]LogClass: StatModifier HotReload.
+[2019.07.23-17.04.41:076][535]LogClass: Stat HotReload.
+[2019.07.23-17.04.41:076][535]LogClass: ResistanceModifier HotReload.
+[2019.07.23-17.04.41:076][535]LogClass: HealInfo HotReload.
+[2019.07.23-17.04.41:076][535]LogClass: DamageInfo HotReload.
+[2019.07.23-17.04.41:088][535]LogHotReload: Re-instancing E_GameModeBase after hot-reload.
+[2019.07.23-17.04.41:376][535]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.23-17.04.41:379][535]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0013 seconds. Added 22 classes and 13 folders.
+[2019.07.23-17.04.41:380][535]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.23-17.04.41:385][535]Display: HotReload successful (41 functions remapped  6 scriptstructs remapped)
+[2019.07.23-17.04.41:749][535]LogContentBrowser: Native class hierarchy populated in 0.0164 seconds. Added 2596 classes and 620 folders.
+[2019.07.23-17.04.41:749][535]Display: HotReload took 24.3s.
+[2019.07.23-17.04.51:058][437]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMapD5D7FE3D40BF89BDE8F3E7B115BF6157.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.23-17.04.58:588][592]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.07.23-17.05.02:896][ 86]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/PlayerInventoryE354BB0546C17CC9E693EEA58EAE1306.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/PlayerInventory.uasset'
+[2019.07.23-17.06.12:136][280]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.23-17.06.13:983][448]Candidate modules for hot reload:
+[2019.07.23-17.06.13:983][448]  Project_Tether
+[2019.07.23-17.06.13:983][448]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,8830 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-17.06.13:993][448]Warning: Starting HotReload took  0.0s.
+[2019.07.23-17.06.30:012][ 19]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 9:06:30 AM
+[2019.07.23-17.06.30:012][ 19]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-17.06.30:012][ 19]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-17.06.30:012][ 19]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-17.06.30:012][ 19]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-17.06.30:013][ 19]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 11.4833906 seconds
+[2019.07.23-17.06.30:013][ 19]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.07.23-17.06.30:013][ 19]CompilerResultsLog:   [1/6] Project_Tether.init.gen.cpp
+[2019.07.23-17.06.30:013][ 19]CompilerResultsLog:   [2/6] E_GameModeBase.gen.cpp
+[2019.07.23-17.06.30:013][ 19]CompilerResultsLog:   [3/6] Entity.cpp
+[2019.07.23-17.06.30:013][ 19]CompilerResultsLog:   [4/6] E_GameModeBase.cpp
+[2019.07.23-17.06.30:013][ 19]CompilerResultsLog:   [5/6] UE4Editor-Project_Tether-8830.lib
+[2019.07.23-17.06.30:013][ 19]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8830.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8830.exp
+[2019.07.23-17.06.30:014][ 19]CompilerResultsLog:   [6/6] UE4Editor-Project_Tether-8830.dll
+[2019.07.23-17.06.30:014][ 19]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8830.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8830.suppressed.exp
+[2019.07.23-17.06.30:015][ 19]CompilerResultsLog: Total build time: 15.68 seconds (Parallel executor: 2.32 seconds)
+[2019.07.23-17.06.30:015][ 19]LogMainFrame: MainFrame: Module compiling took 16.039 seconds
+[2019.07.23-17.06.30:307][ 19]LogClass: Could not find existing class E_GameModeBase in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.23-17.06.30:308][ 19]LogClass: Function GetEntityManager is new.
+[2019.07.23-17.06.30:308][ 19]LogClass: Function GetInventory is new.
+[2019.07.23-17.06.30:344][ 19]LogClass: Status HotReload.
+[2019.07.23-17.06.30:345][ 19]LogClass: Slot HotReload.
+[2019.07.23-17.06.30:345][ 19]LogClass: StatModifier HotReload.
+[2019.07.23-17.06.30:345][ 19]LogClass: Stat HotReload.
+[2019.07.23-17.06.30:345][ 19]LogClass: ResistanceModifier HotReload.
+[2019.07.23-17.06.30:345][ 19]LogClass: HealInfo HotReload.
+[2019.07.23-17.06.30:345][ 19]LogClass: DamageInfo HotReload.
+[2019.07.23-17.06.30:359][ 19]LogHotReload: Re-instancing E_GameModeBase after hot-reload.
+[2019.07.23-17.06.30:834][ 19]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.23-17.06.30:852][ 19]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0011 seconds. Added 22 classes and 13 folders.
+[2019.07.23-17.06.30:853][ 19]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.23-17.06.30:862][ 19]Display: HotReload successful (41 functions remapped  6 scriptstructs remapped)
+[2019.07.23-17.06.31:321][ 19]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 2596 classes and 620 folders.
+[2019.07.23-17.06.31:321][ 19]Display: HotReload took 17.4s.
+[2019.07.23-17.06.40:501][544]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.23-17.06.46:953][287]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/PlayerInventory.PlayerInventory
+[2019.07.23-17.07.22:278][598]BlueprintLog: New page: Compile PlayerInventory
+[2019.07.23-17.07.22:369][598]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/PlayerInventory88799B35405FC61FDF168BBB91710414.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/PlayerInventory.uasset'
+[2019.07.23-17.07.23:485][724]Candidate modules for hot reload:
+[2019.07.23-17.07.23:485][724]  Project_Tether
+[2019.07.23-17.07.23:486][724]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,3121 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-17.07.23:497][724]Warning: Starting HotReload took  0.0s.
+[2019.07.23-17.07.42:726][195]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 9:07:42 AM
+[2019.07.23-17.07.42:726][195]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-17.07.42:727][195]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-17.07.42:727][195]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-17.07.42:727][195]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-17.07.42:728][195]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 13.9112584 seconds
+[2019.07.23-17.07.42:728][195]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.07.23-17.07.42:728][195]CompilerResultsLog:   [1/6] Project_Tether.init.gen.cpp
+[2019.07.23-17.07.42:728][195]CompilerResultsLog:   [2/6] Inventory.gen.cpp
+[2019.07.23-17.07.42:728][195]CompilerResultsLog:   [3/6] Inventory.cpp
+[2019.07.23-17.07.42:728][195]CompilerResultsLog:   [4/6] E_GameModeBase.cpp
+[2019.07.23-17.07.42:728][195]CompilerResultsLog:   [5/6] UE4Editor-Project_Tether-3121.lib
+[2019.07.23-17.07.42:729][195]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-3121.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-3121.exp
+[2019.07.23-17.07.42:729][195]CompilerResultsLog:   [6/6] UE4Editor-Project_Tether-3121.dll
+[2019.07.23-17.07.42:729][195]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-3121.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-3121.suppressed.exp
+[2019.07.23-17.07.42:730][195]CompilerResultsLog: Total build time: 18.69 seconds (Parallel executor: 2.74 seconds)
+[2019.07.23-17.07.42:730][195]LogMainFrame: MainFrame: Module compiling took 19.251 seconds
+[2019.07.23-17.07.43:069][195]LogClass: Status HotReload.
+[2019.07.23-17.07.43:070][195]LogClass: StatModifier HotReload.
+[2019.07.23-17.07.43:070][195]LogClass: Stat HotReload.
+[2019.07.23-17.07.43:070][195]LogClass: ResistanceModifier HotReload.
+[2019.07.23-17.07.43:070][195]LogClass: HealInfo HotReload.
+[2019.07.23-17.07.43:070][195]LogClass: DamageInfo HotReload.
+[2019.07.23-17.07.43:079][195]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.23-17.07.43:082][195]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0009 seconds. Added 22 classes and 13 folders.
+[2019.07.23-17.07.43:082][195]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.23-17.07.43:090][195]Display: HotReload successful (43 functions remapped  6 scriptstructs remapped)
+[2019.07.23-17.07.43:532][195]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2596 classes and 620 folders.
+[2019.07.23-17.07.43:532][195]Display: HotReload took 20.1s.
+[2019.07.23-17.07.46:582][377]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.07.23-17.08.23:515][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.23-17.08.25:195][929]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.23-17.08.27:974][259]BlueprintLog: New page: Compile PlayerInventory
+[2019.07.23-17.08.28:055][259]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/PlayerInventory7E79764840C3779A5A124E893C1A7405.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/PlayerInventory.uasset'
+[2019.07.23-17.08.40:145][659]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/PlayerInventory.PlayerInventory
+[2019.07.23-17.08.45:998][316]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.23-17.08.47:463][485]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/PlayerInventory40736FA3416D816E864D33BF1AEBAC76.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/PlayerInventory.uasset'
+[2019.07.23-17.08.47:834][529]BlueprintLog: New page: Compile PlayerInventory
+[2019.07.23-17.08.48:593][609]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/PlayerInventory3F029AD147A8A063CEC082B5CC266DB8.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/PlayerInventory.uasset'
+[2019.07.23-17.09.28:291][178]Candidate modules for hot reload:
+[2019.07.23-17.09.28:291][178]  Project_Tether
+[2019.07.23-17.09.28:291][178]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,3345 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.23-17.09.28:303][178]Warning: Starting HotReload took  0.0s.
+[2019.07.23-17.09.30:721][441]BlueprintLog: New page: Compile TestGamemode
+[2019.07.23-17.09.31:015][441]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestGamemode3E821D8F4CD1369E6B3245B6CB5F2BD1.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TestGamemode.uasset'
+[2019.07.23-17.09.43:470][600]CompilerResultsLog: New page: Compilation - Jul 23, 2019, 9:09:43 AM
+[2019.07.23-17.09.43:470][600]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.23-17.09.43:471][600]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.23-17.09.43:471][600]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.23-17.09.43:471][600]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.23-17.09.43:472][600]CompilerResultsLog: Error: E:/Tether/Project_Tether/Project_Tether/Source/Project_Tether/Public/Core/Item/Inventory.h(45)  : Error: Nested containers are not supported.
+[2019.07.23-17.09.43:473][600]CompilerResultsLog: UnrealHeaderTool failed for target 'Project_TetherEditor' (platform: Win64, module info: E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest).
+[2019.07.23-17.09.43:473][600]LogMainFrame: MainFrame: Module compiling took 15.190 seconds
+[2019.07.23-17.09.43:474][600]Warning: HotReload failed, recompile failed
+[2019.07.23-17.10.33:959][286]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap9533FBD046A9B788CB7D7A9F70094828.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.23-17.10.35:277][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.07.23-17.10.35:334][335]LogSlate: Window 'Project_Tether - Unreal Editor' being destroyed
+[2019.07.23-17.10.35:337][335]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.23-17.10.35:547][336]Cmd: QUIT_EDITOR
+[2019.07.23-17.10.35:605][336]LogExit: Preparing to exit.
+[2019.07.23-17.10.36:291][336]LogExit: Editor shut down
+[2019.07.23-17.10.36:291][336]LogExit: Transaction tracking system shut down
+[2019.07.23-17.10.36:561][336]LogExit: Object subsystem successfully closed.
+[2019.07.23-17.10.36:571][336]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.23-17.10.36:574][336]LogD3D11RHI: Shutdown
+[2019.07.23-17.10.36:574][336]LogD3D11RHI: CleanupD3DDevice
+[2019.07.23-17.10.36:577][336]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module Project_Tether (633)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (624)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module PinnedCommandList (622)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module SkeletonEditor (620)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (618)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module BlueprintGraph (616)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (612)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.07.23-17.10.36:588][336]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.07.23-17.10.36:589][336]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.07.23-17.10.36:590][336]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.07.23-17.10.37:462][336]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.07.23-17.10.37:462][336]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.07.23-17.10.37:462][336]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.07.23-17.10.37:462][336]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.07.23-17.10.37:462][336]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.07.23-17.10.37:462][336]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.07.23-17.10.37:462][336]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.07.23-17.10.37:463][336]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.07.23-17.10.37:518][336]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.07.23-17.10.37:518][336]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.07.23-17.10.37:518][336]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.07.23-17.10.37:518][336]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.07.23-17.10.37:518][336]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.07.23-17.10.37:518][336]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.07.23-17.10.37:518][336]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.07.23-17.10.37:518][336]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.07.23-17.10.37:518][336]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.07.23-17.10.37:518][336]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.07.23-17.10.37:531][336]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.07.23-17.10.37:531][336]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.07.23-17.10.37:532][336]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.07.23-17.10.37:533][336]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.07.23-17.10.37:533][336]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.07.23-17.10.37:533][336]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.07.23-17.10.37:533][336]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.07.23-17.10.37:533][336]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.07.23-17.10.37:533][336]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.07.23-17.10.37:533][336]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.07.23-17.10.37:533][336]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.07.23-17.10.37:533][336]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.07.23-17.10.37:647][336]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.07.23-17.10.37:647][336]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.07.23-17.10.37:647][336]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.07.23-17.10.37:647][336]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.07.23-17.10.37:647][336]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.07.23-17.10.37:647][336]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.07.23-17.10.37:647][336]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.07.23-17.10.37:648][336]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.07.23-17.10.37:652][336]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.07.23-17.10.37:653][336]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.07.23-17.10.37:654][336]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.07.23-17.10.37:654][336]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.07.23-17.10.37:654][336]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.07.23-17.10.37:654][336]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.07.23-17.10.37:654][336]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.07.23-17.10.37:755][336]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.07.23-17.10.37:855][336]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.07.23-17.10.37:855][336]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.07.23-17.10.37:855][336]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.07.23-17.10.37:855][336]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.07.23-17.10.37:855][336]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.07.23-17.10.37:855][336]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.07.23-17.10.37:855][336]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.07.23-17.10.37:855][336]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.07.23-17.10.37:855][336]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.07.23-17.10.37:855][336]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.07.23-17.10.37:856][336]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.07.23-17.10.37:856][336]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.07.23-17.10.37:857][336]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.07.23-17.10.37:857][336]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.07.23-17.10.37:857][336]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.07.23-17.10.37:857][336]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.07.23-17.10.37:857][336]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.07.23-17.10.37:857][336]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.07.23-17.10.37:858][336]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.07.23-17.10.37:865][336]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.07.23-17.10.37:865][336]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.07.23-17.10.37:865][336]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.07.23-17.10.37:865][336]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.07.23-17.10.37:865][336]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.07.23-17.10.37:865][336]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.07.23-17.10.37:865][336]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.07.23-17.10.37:865][336]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.07.23-17.10.37:865][336]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.07.23-17.10.37:865][336]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.07.23-17.10.37:866][336]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.07.23-17.10.37:866][336]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.07.23-17.10.37:866][336]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.07.23-17.10.37:866][336]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.07.23-17.10.37:866][336]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.07.23-17.10.37:866][336]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.07.23-17.10.37:866][336]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.07.23-17.10.37:866][336]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.07.23-17.10.37:866][336]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.07.23-17.10.37:866][336]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.07.23-17.10.37:869][336]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.07.23-17.10.37:870][336]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.07.23-17.10.37:885][336]LogDerivedDataCache: Shutdown
+[2019.07.23-17.10.37:885][336]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.07.23-17.10.37:885][336]LogXGEController: Cleaning working directory: C:/Users/aaron.hines/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.07.23-17.10.37:886][336]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.07.23-17.10.37:887][336]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.07.23-17.10.37:887][336]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.07.23-17.10.37:887][336]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.07.23-17.10.37:887][336]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.07.23-17.10.37:891][336]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.07.23-17.10.37:891][336]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.07.23-17.10.37:897][336]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.07.23-17.10.37:898][336]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.07.23-17.10.37:898][336]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.07.23-17.10.37:898][336]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.07.23-17.10.37:898][336]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.07.23-17.10.37:898][336]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.07.23-17.10.37:933][336]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.07.23-17.10.37:933][336]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.07.23-17.10.37:933][336]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B58C4E6E3-4B6A-97D9-B984-A9913EBBCC57%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=b73960f145a75f8d123881b4daf3cb67%7C5e0c94b460c94235a6f9d9aa0432c0f9%7C237e01de-c593-4ddd-a2ca-ecc20c8d76fe&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.07.23-17.10.37:934][336]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.07.23-17.10.37:935][336]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.07.23-17.10.37:935][336]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.07.23-17.10.37:935][336]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.07.23-17.10.37:935][336]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.07.23-17.10.37:935][336]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.07.23-17.10.37:935][336]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.07.23-17.10.37:935][336]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.07.23-17.10.37:935][336]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.07.23-17.10.37:936][336]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.07.23-17.10.37:936][336]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.23-17.10.37:936][336]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.07.23-17.10.37:936][336]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.07.23-17.10.37:936][336]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.07.23-17.10.37:936][336]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.07.23-17.10.37:936][336]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.07.23-17.10.37:936][336]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.07.23-17.10.37:936][336]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.07.23-17.10.37:936][336]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.07.23-17.10.37:937][336]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.07.23-17.10.37:943][336]LogExit: Exiting.
+[2019.07.23-17.10.37:980][336]Log file closed, 07/23/19 13:10:37

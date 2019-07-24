@@ -6,6 +6,7 @@ Studio: Iron Forged Games
 #include "Public/Core/Entity/Entity.h"
 #include "Public/Core/Components/Stats/StatComponent.h"
 #include "Public/Core/Components/VitalsComponent.h"
+#include "Public/Core/Item/InventoryComponent.h"
 
 
 // Sets default values
@@ -16,6 +17,7 @@ AE_Character::AE_Character()
 	entity = CreateDefaultSubobject<UEntity>(TEXT("Entity Component"));
 	statComponent = CreateDefaultSubobject<UStatComponent>(TEXT("Stat Component"));
 	vitalsComponent = CreateDefaultSubobject<UVitalsComponent>(TEXT("Vitals Component"));
+	inventoryComponent = CreateAbstractDefaultSubobject<UInventoryComponent>(TEXT("Inventory Component"));
 }
 
 void AE_Character::BeginPlay()
@@ -36,8 +38,4 @@ void AE_Character::Tick(float DeltaTime)
 void AE_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-}
-
-void AE_Character::OnDeath_Implementation() const
-{
 }

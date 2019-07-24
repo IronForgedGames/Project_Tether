@@ -21,32 +21,35 @@ void UStatComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 
 void UStatComponent::TickModifiers(float deltaTime)
 {
-	for (FStat _stat : stats)
+	for (int _i = 0; _i < stats.Num(); _i++)
 	{
-		TArray<FStatModifier> _markedForRemoval;
-
-		for (FStatModifier _mod : _stat.modifiers)
+		FStat* _statptr = &stats[_i];
+		TArray<FStatModifier*> _markedForRemoval;
+		
+		for (int _j = 0; _j < stats.Num(); _j++)
 		{
-			_mod.currentTime += deltaTime;
-
-			if (_mod.currentTime > _mod.duration && !_mod.indefinite)
+			FStatModifier* _mod = _markedForRemoval[_j];
+			
+			_mod->currentTime += deltaTime;
+			if (_mod->currentTime > _mod->duration && !_mod->indefinite)
 			{
 				_markedForRemoval.Add(_mod);
 			}
 		}
 
-		for (FStatModifier _removed : _markedForRemoval)
+		for (int _k = 0; _k < _markedForRemoval.Num(); _k++)
 		{
-			_stat.modifiers.Remove(_removed);
+			FStatModifier* _removed = _markedForRemoval[_k];
+			_statptr->modifiers.Remove(*_removed);
 		}
 	}
 }
 
-float UStatComponent::GetModifiedAmount(FStat stat)
+float UStatComponent::GetModifiedAmount(FStat* stat)
 {
-	float _amount = stat.currentAmount;
+	float _amount = stat->currentAmount;
 
-	for (FStatModifier _mod : stat.modifiers)
+	for (FStatModifier _mod : stat->modifiers)
 	{
 		if (_mod.usePercentage)
 		{
@@ -57,39 +60,41 @@ float UStatComponent::GetModifiedAmount(FStat stat)
 			_amount -= _mod.amount;
 		}
 
-		if (_amount < stat.minAmount)
+		if (_amount < stat->minAmount)
 		{
-			_amount = stat.minAmount;
+			_amount = stat->minAmount;
 		}
 
-		if (_amount > stat.maxAmount)
+		if (_amount > stat->maxAmount)
 		{
-			_amount = stat.maxAmount;
+			_amount = stat->maxAmount;
 		}
 	}
 
 	return 0.0f;
 }
 
-FStat UStatComponent::GetStat(TSubclassOf<UStatType> type)
+FStat* UStatComponent::GetStat(TSubclassOf<UStatType> type)
 {
-	for (FStat _stat : stats)
+	for (int i = 0; i < stats.Num(); i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[i];
+		if (_statptr->statType == type)
 		{
-			return _stat;
+			return _statptr;
 		}
 	}
-	return FStat();
+	return nullptr;
 }
 
 float UStatComponent::GetValue(TSubclassOf<UStatType> type)
 {
-	for (FStat _stat : stats)
+	for (int i = 0; i < stats.Num(); i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[i];
+		if (_statptr->statType == type)
 		{
-			return GetModifiedAmount(_stat);
+			return GetModifiedAmount(_statptr);
 		}
 	}
 	return 0.0f;
@@ -97,11 +102,12 @@ float UStatComponent::GetValue(TSubclassOf<UStatType> type)
 
 float UStatComponent::GetMaxValue(TSubclassOf<UStatType> type)
 {
-	for (FStat _stat : stats)
+	for (int i = 0; i < stats.Num(); i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[i];
+		if (_statptr->statType == type)
 		{
-			return _stat.maxAmount;
+			return _statptr->maxAmount;
 		}
 	}
 	return 0.0f;
@@ -109,11 +115,12 @@ float UStatComponent::GetMaxValue(TSubclassOf<UStatType> type)
 
 float UStatComponent::GetMinValue(TSubclassOf<UStatType> type)
 {
-	for (FStat _stat : stats)
+	for (int i = 0; i < stats.Num(); i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[i];
+		if (_statptr->statType == type)
 		{
-			return _stat.minAmount;
+			return _statptr->minAmount;
 		}
 	}
 	return 0.0f;
@@ -121,70 +128,76 @@ float UStatComponent::GetMinValue(TSubclassOf<UStatType> type)
 
 float UStatComponent::SetValue(TSubclassOf<UStatType> type, float value)
 {
-	for (FStat _stat : stats)
+	for (int i = 0; i < stats.Num(); i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[i];
+		if (_statptr->statType == type)
 		{
 			float _amount = value;
-			if (_amount < _stat.minAmount)
+			if (_amount < _statptr->minAmount)
 			{
-				_amount = _stat.minAmount;
+				_amount = _statptr->minAmount;
 			}
-			else if(_amount > _stat.maxAmount)
+			else if (_amount > _statptr->maxAmount)
 			{
-				_amount = _stat.maxAmount;
+				_amount = _statptr->maxAmount;
 			}
 
-			_stat.currentAmount = _amount;
-			return _stat.currentAmount;
+			_statptr->currentAmount = _amount;
+			return _statptr->currentAmount;
 		}
 	}
+
 	return 0.0f;
 }
 
 float UStatComponent::Add(TSubclassOf<UStatType> type, float value)
 {
-	for (FStat _stat : stats)
+	for (int i = 0; i < stats.Num(); i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[i]; 
+		if (_statptr->statType == type)
 		{
-			float _amount = _stat.currentAmount + value;
-			if (_amount < _stat.minAmount)
+			float _amount = _statptr->currentAmount + value;
+			if (_amount < _statptr->minAmount)
 			{
-				_amount = _stat.minAmount;
+				_amount = _statptr->minAmount;
 			}
-			else if (_amount > _stat.maxAmount)
+			else if (_amount > _statptr->maxAmount)
 			{
-				_amount = _stat.maxAmount;
+				_amount = _statptr->maxAmount;
 			}
 
-			_stat.currentAmount = _amount;
-			return _stat.currentAmount;
+			_statptr->currentAmount = _amount;
+
+			return _statptr->currentAmount;
 		}
 	}
+
 	return 0.0f;
 }
 
 bool UStatComponent::AddModifier(FStatModifier mod)
 {
-	for (FStat _stat : stats)
+	for (int i = 0; i < stats.Num(); i++)
 	{
-		if (_stat.statType == mod.statType)
+		FStat* _statptr = &stats[i];
+		if (_statptr->statType == mod.statType)
 		{
-			for (FStatModifier _modifier : _stat.modifiers)
+			for (int _j = 0; _j < _statptr->modifiers.Num() ; _j++)
 			{
-				if (_modifier.source == mod.source)
+				FStatModifier* _statMod = &_statptr->modifiers[_j];
+				if (_statMod->source == _statMod->source)
 				{
-					if (_modifier.canStack)
+					if (_statMod->canStack)
 					{
-						_modifier.currentTime = 0.f;
+						_statMod->currentTime = 0.f;
 						return true;
 					}
-					return false;
 				}
 			}
-			
-			_stat.modifiers.Add(mod);
+
+			_statptr->modifiers.Add(mod);
 			return true;
 		}
 	}
@@ -192,85 +205,92 @@ bool UStatComponent::AddModifier(FStatModifier mod)
 	return false;
 }
 
-bool UStatComponent::RemoveModifier(TSubclassOf<UIdentity> source)
+void UStatComponent::RemoveModifier(TSubclassOf<UIdentity> source)
 {
-	for (FStat _stat : stats)
+	for (int _i = 0; _i < stats.Num(); _i++)
 	{
-		TArray<FStatModifier> _markedForRemoval;
+		FStat* _statptr = &stats[_i];
+		TArray<FStatModifier*> _markedForRemoval;
 
-		for (FStatModifier _mod : _stat.modifiers)
+		for (int _j = 0; _j < _statptr->modifiers.Num(); _j++)
 		{
-			if (_mod.source == source)
+			FStatModifier* _mod = &_statptr->modifiers[_j];
+			if (_mod->source == source)
 			{
 				_markedForRemoval.Add(_mod);
 			}
 		}
 
-		for (FStatModifier _modifier : _markedForRemoval)
+		for (int _k = 0; _k < _markedForRemoval.Num(); _k++)
 		{
-			_stat.modifiers.Remove(_modifier);
+			FStatModifier* _removed = _markedForRemoval[_k];
+			_statptr->modifiers.Remove(*_removed);
 		}
 	}
-	return false;
 }
 
 void UStatComponent::RemoveAllModifiersForStat(TSubclassOf<UStatType> type)
 {
-	for (FStat _stat : stats)
+	for (int _i = 0; _i < stats.Num(); _i++)
 	{
-		TArray<FStatModifier> _markedForRemoval;
+		FStat* _statptr = &stats[_i];
+		TArray<FStatModifier*> _markedForRemoval;
 
-		if (_stat.statType == type)
+		if (_statptr->statType == type)
 		{
-			for (FStatModifier _mod : _stat.modifiers)
+			for (int _j = 0; _j < _statptr->modifiers.Num(); _j++)
 			{
-				_markedForRemoval.Add(_mod);
+				_markedForRemoval.Add(&_statptr->modifiers[_j]);
 			}
 		}
 
-		for (FStatModifier _modifier : _markedForRemoval)
+		for (int _k = 0; _k < _markedForRemoval.Num(); _k++)
 		{
-			_stat.modifiers.Remove(_modifier);
+			FStatModifier* _removed = _markedForRemoval[_k];
+			_statptr->modifiers.Remove(*_removed);
 		}
 	}
 }
 
 void UStatComponent::RemoveAllModifiers()
 {
-	for (FStat _stat : stats)
+	for (int _i = 0; _i < stats.Num(); _i++)
 	{
-		TArray<FStatModifier> _markedForRemoval;
-
-		for (FStatModifier _mod : _stat.modifiers)
+		FStat* _statptr = &stats[_i];
+		TArray<FStatModifier*> _markedForRemoval;
+	
+		for (int _j = 0; _j < _statptr->modifiers.Num(); _j++)
 		{
-			_markedForRemoval.Add(_mod);
+			_markedForRemoval.Add(&_statptr->modifiers[_j]);
 		}
 
-		for (FStatModifier _modifier : _markedForRemoval)
+		for (int _k = 0; _k < _markedForRemoval.Num(); _k++)
 		{
-			_stat.modifiers.Remove(_modifier);
+			FStatModifier* _removed = _markedForRemoval[_k];
+			_statptr->modifiers.Remove(*_removed);
 		}
 	}
 }
 
 float UStatComponent::Subtract(TSubclassOf<UStatType> type, float value)
 {
-	for (FStat _stat : stats)
+	for (int _i = 0; _i < stats.Num(); _i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[_i];
+		if (_statptr->statType == type)
 		{
-			float _amount = _stat.currentAmount - value;
-			if (_amount < _stat.minAmount)
+			float _amount = _statptr->currentAmount - value;
+			if (_amount < _statptr->minAmount)
 			{
-				_amount = _stat.minAmount;
+				_amount = _statptr->minAmount;
 			}
-			else if (_amount > _stat.maxAmount)
+			else if (_amount > _statptr->maxAmount)
 			{
-				_amount = _stat.maxAmount;
+				_amount = _statptr->maxAmount;
 			}
 
-			_stat.currentAmount = _amount;
-			return _stat.currentAmount;
+			_statptr->currentAmount = _amount;
+			return _statptr->currentAmount;
 		}
 	}
 	return 0.0f;
@@ -278,12 +298,13 @@ float UStatComponent::Subtract(TSubclassOf<UStatType> type, float value)
 
 float UStatComponent::SetMaxValue(TSubclassOf<UStatType> type, float value)
 {
-	for (FStat _stat : stats)
+	for (int _i = 0; _i < stats.Num(); _i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[_i];
+		if (_statptr->statType == type)
 		{
-			_stat.maxAmount += value;
-			return _stat.maxAmount;
+			_statptr->maxAmount = value;
+			return _statptr->maxAmount;
 		}
 	}
 	return 0.0f;
@@ -291,25 +312,27 @@ float UStatComponent::SetMaxValue(TSubclassOf<UStatType> type, float value)
 
 float UStatComponent::SetMinValue(TSubclassOf<UStatType> type, float value)
 {
-	for (FStat _stat : stats)
+	for (int _i = 0; _i < stats.Num(); _i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[_i];
+		if (_statptr->statType == type)
 		{
-			_stat.minAmount += value;
-			return _stat.minAmount;
+			_statptr->minAmount = value;
+			return _statptr->minAmount;
 		}
 	}
 	return 0.0f;
 }
 
-float UStatComponent::ResetValue(TSubclassOf<UStatType> type)
+float UStatComponent::SetToMax(TSubclassOf<UStatType> type)
 {
-	for (FStat _stat : stats)
+	for (int _i = 0; _i < stats.Num(); _i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[_i];
+		if (_statptr->statType == type)
 		{
-			_stat.currentAmount = _stat.minAmount;
-			return _stat.currentAmount;
+			_statptr->currentAmount = _statptr->minAmount;
+			return _statptr->currentAmount;
 		}
 	}
 	return 0.0f;
@@ -317,12 +340,13 @@ float UStatComponent::ResetValue(TSubclassOf<UStatType> type)
 
 float UStatComponent::SetToMin(TSubclassOf<UStatType> type)
 {
-	for (FStat _stat : stats)
+	for (int _i = 0; _i < stats.Num(); _i++)
 	{
-		if (_stat.statType == type)
+		FStat* _statptr = &stats[_i];
+		if (_statptr->statType == type)
 		{
-			_stat.currentAmount = _stat.minAmount;
-			return _stat.currentAmount;
+			_statptr->currentAmount = _statptr->minAmount;
+			return _statptr->currentAmount;
 		}
 	}
 	return 0.0f;
@@ -330,8 +354,9 @@ float UStatComponent::SetToMin(TSubclassOf<UStatType> type)
 
 void UStatComponent::ResetAll()
 {
-	for (FStat _stat : stats)
+	for (int _i = 0; _i < stats.Num(); _i++)
 	{
-		_stat.currentAmount = _stat.minAmount;
+		FStat* _statptr = &stats[_i];
+		_statptr->currentAmount = _statptr->minAmount;
 	}
 }

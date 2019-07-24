@@ -12,8 +12,10 @@ E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity
 E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\Identity.h
 E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Entity\IEntity.h
 E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Inventory.h
+E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\InventoryComponent.h
 E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\Item.h
 E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\ItemCategory.h
+E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Core\Item\ItemSlot.h
 E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\AnimBPHook.h
 E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\EvadeComponent.h
 E:\Tether\Project_Tether\Project_Tether\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\TopDown_E_Character.h

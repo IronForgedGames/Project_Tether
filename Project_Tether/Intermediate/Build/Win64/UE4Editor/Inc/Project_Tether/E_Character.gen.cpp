@@ -19,21 +19,15 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_AE_Character_GetEntity();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UEntity_NoRegister();
-	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_AE_Character_OnDeath();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UInventoryComponent_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UVitalsComponent_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStatComponent_NoRegister();
 // End Cross Module References
-	static FName NAME_AE_Character_OnDeath = FName(TEXT("OnDeath"));
-	void AE_Character::OnDeath() const
-	{
-		const_cast<AE_Character*>(this)->ProcessEvent(FindFunctionChecked(NAME_AE_Character_OnDeath),NULL);
-	}
 	void AE_Character::StaticRegisterNativesAE_Character()
 	{
 		UClass* Class = AE_Character::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "GetEntity", &AE_Character::execGetEntity },
-			{ "OnDeath", &AE_Character::execOnDeath },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -78,29 +72,6 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_AE_Character_OnDeath_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AE_Character_OnDeath_Statics::Function_MetaDataParams[] = {
-		{ "Category", "JoyBall" },
-		{ "ModuleRelativePath", "Public/Core/Entity/E_Character.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AE_Character_OnDeath_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AE_Character, "OnDeath", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x4C020C00, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AE_Character_OnDeath_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AE_Character_OnDeath_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AE_Character_OnDeath()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AE_Character_OnDeath_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	UClass* Z_Construct_UClass_AE_Character_NoRegister()
 	{
 		return AE_Character::StaticClass();
@@ -112,6 +83,10 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_inventoryComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_inventoryComponent;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_vitalsComponent_MetaData[];
 #endif
@@ -134,7 +109,6 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AE_Character_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AE_Character_GetEntity, "GetEntity" }, // 4257516946
-		{ &Z_Construct_UFunction_AE_Character_OnDeath, "OnDeath" }, // 822487905
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AE_Character_Statics::Class_MetaDataParams[] = {
@@ -144,13 +118,21 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AE_Character_Statics::NewProp_inventoryComponent_MetaData[] = {
+		{ "Category", "Entity" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Core/Entity/E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_inventoryComponent = { UE4CodeGen_Private::EPropertyClass::Object, "inventoryComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(AE_Character, inventoryComponent), Z_Construct_UClass_UInventoryComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_inventoryComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_inventoryComponent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent_MetaData[] = {
 		{ "Category", "Entity" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Core/Entity/E_Character.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent = { UE4CodeGen_Private::EPropertyClass::Object, "vitalsComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000080009, 1, nullptr, STRUCT_OFFSET(AE_Character, vitalsComponent), Z_Construct_UClass_UVitalsComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent = { UE4CodeGen_Private::EPropertyClass::Object, "vitalsComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(AE_Character, vitalsComponent), Z_Construct_UClass_UVitalsComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent_MetaData[] = {
 		{ "Category", "Entity" },
@@ -158,7 +140,7 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 		{ "ModuleRelativePath", "Public/Core/Entity/E_Character.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent = { UE4CodeGen_Private::EPropertyClass::Object, "statComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000080009, 1, nullptr, STRUCT_OFFSET(AE_Character, statComponent), Z_Construct_UClass_UStatComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent = { UE4CodeGen_Private::EPropertyClass::Object, "statComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(AE_Character, statComponent), Z_Construct_UClass_UStatComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AE_Character_Statics::NewProp_entity_MetaData[] = {
 		{ "Category", "Entity" },
@@ -166,8 +148,9 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 		{ "ModuleRelativePath", "Public/Core/Entity/E_Character.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_entity = { UE4CodeGen_Private::EPropertyClass::Object, "entity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000080009, 1, nullptr, STRUCT_OFFSET(AE_Character, entity), Z_Construct_UClass_UEntity_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_entity_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_entity_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_entity = { UE4CodeGen_Private::EPropertyClass::Object, "entity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(AE_Character, entity), Z_Construct_UClass_UEntity_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_entity_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_entity_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AE_Character_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AE_Character_Statics::NewProp_inventoryComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AE_Character_Statics::NewProp_entity,
@@ -195,7 +178,7 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AE_Character, 3525625862);
+	IMPLEMENT_CLASS(AE_Character, 4148407004);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AE_Character(Z_Construct_UClass_AE_Character, &AE_Character::StaticClass, TEXT("/Script/Project_Tether"), TEXT("AE_Character"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AE_Character);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -17,10 +17,10 @@ void EmptyLinkFunctionForGeneratedCodeInventory() {}
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UItem_NoRegister();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UItemCategory_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UInventory_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UInventory();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
-	PROJECT_TETHER_API UClass* Z_Construct_UClass_UItemCategory_NoRegister();
 // End Cross Module References
 class UScriptStruct* FSlot::StaticStruct()
 {
@@ -51,6 +51,10 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFSlot
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_item;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_category_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_category;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_quantity_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_quantity;
@@ -76,6 +80,13 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFSlot
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FSlot_Statics::NewProp_item = { UE4CodeGen_Private::EPropertyClass::Class, "item", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000001, 1, nullptr, STRUCT_OFFSET(FSlot, item), Z_Construct_UClass_UItem_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlot_Statics::NewProp_item_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSlot_Statics::NewProp_item_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlot_Statics::NewProp_category_MetaData[] = {
+		{ "Category", "Inventory" },
+		{ "ModuleRelativePath", "Public/Core/Item/Inventory.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FSlot_Statics::NewProp_category = { UE4CodeGen_Private::EPropertyClass::Class, "category", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000001, 1, nullptr, STRUCT_OFFSET(FSlot, category), Z_Construct_UClass_UItemCategory_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UScriptStruct_FSlot_Statics::NewProp_category_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSlot_Statics::NewProp_category_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FSlot_Statics::NewProp_quantity_MetaData[] = {
 		{ "Category", "Inventory" },
 		{ "ModuleRelativePath", "Public/Core/Item/Inventory.h" },
@@ -84,6 +95,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFSlot
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FSlot_Statics::NewProp_quantity = { UE4CodeGen_Private::EPropertyClass::Float, "quantity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(FSlot, quantity), METADATA_PARAMS(Z_Construct_UScriptStruct_FSlot_Statics::NewProp_quantity_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FSlot_Statics::NewProp_quantity_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FSlot_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSlot_Statics::NewProp_item,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSlot_Statics::NewProp_category,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FSlot_Statics::NewProp_quantity,
 	};
 	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FSlot_Statics::ReturnStructParams = {
@@ -113,7 +125,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFSlot
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FSlot_CRC() { return 1954991276U; }
+	uint32 Get_Z_Construct_UScriptStruct_FSlot_CRC() { return 2494167873U; }
 	void UInventory::StaticRegisterNativesUInventory()
 	{
 	}
@@ -130,9 +142,8 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFSlot
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_database_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FMapPropertyParams NewProp_database;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_database_Key_KeyProp;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_database_ValueProp;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_database;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_database_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -155,13 +166,11 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFSlot
 		{ "ModuleRelativePath", "Public/Core/Item/Inventory.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_UInventory_Statics::NewProp_database = { UE4CodeGen_Private::EPropertyClass::Map, "database", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(UInventory, database), METADATA_PARAMS(Z_Construct_UClass_UInventory_Statics::NewProp_database_MetaData, ARRAY_COUNT(Z_Construct_UClass_UInventory_Statics::NewProp_database_MetaData)) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UInventory_Statics::NewProp_database_Key_KeyProp = { UE4CodeGen_Private::EPropertyClass::Class, "database_Key", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0004000000000001, 1, nullptr, 0, Z_Construct_UClass_UItemCategory_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UInventory_Statics::NewProp_database_ValueProp = { UE4CodeGen_Private::EPropertyClass::Struct, "database", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000001, 1, nullptr, 1, Z_Construct_UScriptStruct_FSlot, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UInventory_Statics::NewProp_database = { UE4CodeGen_Private::EPropertyClass::Array, "database", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(UInventory, database), METADATA_PARAMS(Z_Construct_UClass_UInventory_Statics::NewProp_database_MetaData, ARRAY_COUNT(Z_Construct_UClass_UInventory_Statics::NewProp_database_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UInventory_Statics::NewProp_database_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "database", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FSlot, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UInventory_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventory_Statics::NewProp_database,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventory_Statics::NewProp_database_Key_KeyProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventory_Statics::NewProp_database_ValueProp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventory_Statics::NewProp_database_Inner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UInventory_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UInventory>::IsAbstract,
@@ -186,7 +195,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFSlot
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UInventory, 2859810014);
+	IMPLEMENT_CLASS(UInventory, 3740405292);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UInventory(Z_Construct_UClass_UInventory, &UInventory::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UInventory"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UInventory);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

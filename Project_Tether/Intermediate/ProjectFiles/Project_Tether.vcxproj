@@ -420,8 +420,10 @@
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\Project_Tether\Project_Tether.Build.cs" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\Inventory.cpp" />
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\InventoryComponent.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\Item.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\ItemCategory.cpp" />
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\ItemSlot.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Project_Tether.cpp" />
     <ClInclude Include="..\..\Source\Project_Tether\Project_Tether.h" />
     <ClCompile Include="..\..\Source\Project_Tether\Project_TetherCharacter.cpp" />
@@ -459,8 +461,10 @@
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Entity\Identity.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Entity\IEntity.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\Inventory.h" />
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\InventoryComponent.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\Item.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\ItemCategory.h" />
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\ItemSlot.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\TopDown_E_Character.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\AnimBPHook.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\EvadeComponent.h" />
