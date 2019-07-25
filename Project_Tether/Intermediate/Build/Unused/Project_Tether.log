@@ -1,14 +1,92 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Parsing headers for Project_TetherEditor
-    Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for Project_TetherEditor in 7.2830803 seconds
-  Building 5 actions with 12 processes...
-    [1/5] InventoryComponent.cpp
-    [2/5] InventoryComponent.gen.cpp
-    [3/5] E_Character.cpp
-    [4/5] UE4Editor-Project_Tether.lib
-       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.exp
-    [5/5] UE4Editor-Project_Tether.dll
-       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.exp
+  Creating makefile for Project_TetherEditor (no existing makefile)
+  Using Visual Studio 2017 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1104.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1104.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-148.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-148.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2245.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2245.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2336.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2336.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2706.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2706.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2848.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2848.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-356.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-356.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4003.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4003.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4553.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4553.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-5520.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-5520.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-613.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-613.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-6824.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-6824.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-727.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-727.pdb".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9556.dll".
+  Deleting old hot reload file: "E:\Tether\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9556.pdb".
+  Building 55 actions with 8 processes...
+    [1/55] SharedPCH.Engine.cpp
+    Detected compiler newer than Visual Studio 2017, please update min version checking in WindowsPlatformCompilerSetup.h
+    [2/55] Group.gen.cpp
+    [3/55] E_DamageType.gen.cpp
+    [4/55] E_Actor.gen.cpp
+    [5/55] E_Pawn.gen.cpp
+    [6/55] E_PlayerCharacter.gen.cpp
+    [7/55] E_GameModeBase.gen.cpp
+    [8/55] Identity.gen.cpp
+    [9/55] E_Character.gen.cpp
+    [10/55] IEntity.gen.cpp
+    [11/55] Project_Tether.init.gen.cpp
+    [12/55] ItemSlot.gen.cpp
+    [13/55] ItemCategory.gen.cpp
+    [14/55] Inventory.gen.cpp
+    [15/55] Item.gen.cpp
+    [16/55] Project_TetherCharacter.gen.cpp
+    [17/55] InventoryComponent.gen.cpp
+    [18/55] Project_TetherGameMode.gen.cpp
+    [19/55] ToolComponent.gen.cpp
+    [20/55] StatComponent.gen.cpp
+    [21/55] StatType.gen.cpp
+    [22/55] TopDown_E_Character.gen.cpp
+    [23/55] VitalsComponent.gen.cpp
+    [24/55] Entity.gen.cpp
+    [25/55] AnimBPHook.gen.cpp
+    [26/55] EntityManager.gen.cpp
+    [27/55] E_DamageType.cpp
+    [28/55] StatType.cpp
+    [29/55] E_GameModeBase.cpp
+    [30/55] Project_TetherGameMode.cpp
+    [31/55] Project_TetherCharacter.cpp
+    [32/55] Entity.cpp
+    [33/55] StatComponent.cpp
+    [34/55] VitalsComponent.cpp
+    [35/55] Project_Tether.cpp
+    [36/55] E_Actor.cpp
+    [37/55] ToolComponent.cpp
+    [38/55] E_Pawn.cpp
+    [39/55] EntityManager.cpp
+    [40/55] Identity.cpp
+    [41/55] IEntity.cpp
+    [42/55] E_Character.cpp
+    [43/55] Inventory.cpp
+    [44/55] E_PlayerCharacter.cpp
+    [45/55] ItemCategory.cpp
+    [46/55] ItemSlot.cpp
+    [47/55] Item.cpp
+    [48/55] InventoryComponent.cpp
+    [49/55] AnimBPHook.cpp
+    [50/55] EvadeComponent.cpp
+    [51/55] Group.cpp
+    [52/55] EvadeComponent.gen.cpp
+    [53/55] TopDown_E_Character.cpp
+    [54/55] UE4Editor-Project_Tether.lib
+       Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.exp
+    [55/55] UE4Editor-Project_Tether.dll
+       Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.exp
   Deploying Project_TetherEditor Win64 Development...
-  Total build time: 10.98 seconds (Parallel executor: 2.78 seconds)
+  Total build time: 39.11 seconds (Parallel executor: 33.91 seconds)
