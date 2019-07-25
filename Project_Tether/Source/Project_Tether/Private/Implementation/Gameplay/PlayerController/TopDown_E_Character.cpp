@@ -3,11 +3,13 @@ Author: Aaron Hines
 Studio: Iron Forged Games
 */
 
-#include "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+
+#include "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h"
+#include "Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h"
 
 ATopDown_E_Character::ATopDown_E_Character()
 {
@@ -33,6 +35,9 @@ ATopDown_E_Character::ATopDown_E_Character()
 	camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	camera->SetupAttachment(springArm, USpringArmComponent::SocketName);
 	camera->bUsePawnControlRotation = false;
+
+	// gameplay
+	toolComponent = CreateDefaultSubobject<UToolComponent>(TEXT("Tool Component"));
 }
 
 void ATopDown_E_Character::MoveForward(float value)

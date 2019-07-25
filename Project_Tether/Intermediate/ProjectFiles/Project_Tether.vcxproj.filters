@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Project_Tether.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{87F2A8C7-7E21-4A2A-8C18-40DE88273880}</UniqueIdentifier>
+      <UniqueIdentifier>{4FBCF394-04DB-4B31-86E9-8450483D0CC0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Project_Tether.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5618CCD3-7B55-4A0A-9EED-03C72015E5AF}</UniqueIdentifier>
+      <UniqueIdentifier>{816943B7-F814-4A5A-8471-FB8484B1E88C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Project_Tether">
-      <UniqueIdentifier>{2B88302B-73E4-436A-9625-5B34A31A8785}</UniqueIdentifier>
+      <UniqueIdentifier>{75256A68-027B-43C3-9957-4FEFCDD41D3A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Project_Tether\Project_Tether.Build.cs">
       <Filter>Source\Project_Tether</Filter>
@@ -54,13 +54,13 @@
       <Filter>Source\Project_Tether</Filter>
     </ClInclude>
     <Filter Include="Source\Project_Tether\Private">
-      <UniqueIdentifier>{62883B7B-C81E-454C-A02C-45BD6816F677}</UniqueIdentifier>
+      <UniqueIdentifier>{03E3D27B-2179-48CC-8AEC-C7308FB3A484}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Project_Tether\Private\Core">
-      <UniqueIdentifier>{2FBB083A-B044-41A2-941A-8F390672887E}</UniqueIdentifier>
+      <UniqueIdentifier>{6B4A8FB5-718E-4E7C-BC29-9490D1C72274}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Project_Tether\Private\Core\Components">
-      <UniqueIdentifier>{CFCD68A5-02CE-441C-ABDC-100DFB8BE41F}</UniqueIdentifier>
+      <UniqueIdentifier>{34669D7B-45E7-435F-B2C1-8EC878998FB6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Components\E_DamageType.cpp">
       <Filter>Source\Project_Tether\Private\Core\Components</Filter>
@@ -69,7 +69,7 @@
       <Filter>Source\Project_Tether\Private\Core\Components</Filter>
     </ClCompile>
     <Filter Include="Source\Project_Tether\Private\Core\Components\Stats">
-      <UniqueIdentifier>{6D51AAFD-A00D-4F39-9A0B-5D71C768310E}</UniqueIdentifier>
+      <UniqueIdentifier>{D39C3E0F-7AD6-4550-8BD0-37A850217874}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Components\Stats\StatComponent.cpp">
       <Filter>Source\Project_Tether\Private\Core\Components\Stats</Filter>
@@ -78,7 +78,7 @@
       <Filter>Source\Project_Tether\Private\Core\Components\Stats</Filter>
     </ClCompile>
     <Filter Include="Source\Project_Tether\Private\Core\Entity">
-      <UniqueIdentifier>{F96028CA-3DB5-4ACB-9F51-4D24B5BEF1B3}</UniqueIdentifier>
+      <UniqueIdentifier>{98ECF4A7-A266-46E7-A58F-62A2D1693888}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Entity\Entity.cpp">
       <Filter>Source\Project_Tether\Private\Core\Entity</Filter>
@@ -107,26 +107,44 @@
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Entity\IEntity.cpp">
       <Filter>Source\Project_Tether\Private\Core\Entity</Filter>
     </ClCompile>
+    <Filter Include="Source\Project_Tether\Private\Core\Item">
+      <UniqueIdentifier>{9169E44D-46F1-45A6-8ECD-546A51B0FDEB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\Inventory.cpp">
+      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\InventoryComponent.cpp">
+      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\Item.cpp">
+      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\ItemCategory.cpp">
+      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\ItemSlot.cpp">
+      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
+    </ClCompile>
     <Filter Include="Source\Project_Tether\Private\Implementation">
-      <UniqueIdentifier>{A638B022-E7D0-4EF7-B6BE-FCACDA56DA6C}</UniqueIdentifier>
+      <UniqueIdentifier>{FBF3EE0A-CB32-45CE-B876-8A56EAE294E3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Project_Tether\Private\Implementation\Gameplay">
-      <UniqueIdentifier>{E06776DF-71F9-4AE9-B846-9B37B41FAC5F}</UniqueIdentifier>
+      <UniqueIdentifier>{5B7256FF-5CFB-4178-B751-8721980A68A1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Project_Tether\Private\Implementation\Gameplay\Player">
-      <UniqueIdentifier>{93409E64-0AF1-421B-848D-006767B0D288}</UniqueIdentifier>
+      <UniqueIdentifier>{E5EFBC74-B32B-47AD-85DE-1BE2252EB5DA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\Player\E_PlayerCharacter.cpp">
       <Filter>Source\Project_Tether\Private\Implementation\Gameplay\Player</Filter>
     </ClCompile>
     <Filter Include="Source\Project_Tether\Private\Implementation\Gameplay\PlayerController">
-      <UniqueIdentifier>{22F60A31-2299-4029-8BD5-BF13BD9C4D48}</UniqueIdentifier>
+      <UniqueIdentifier>{A9AC7CEE-B679-4B84-AC7D-1BFE4AF8188B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\TopDown_E_Character.cpp">
       <Filter>Source\Project_Tether\Private\Implementation\Gameplay\PlayerController</Filter>
     </ClCompile>
     <Filter Include="Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components">
-      <UniqueIdentifier>{9F8A2159-43F2-4E7D-9138-5B2B6731A8F8}</UniqueIdentifier>
+      <UniqueIdentifier>{4B520C13-2633-4309-83DD-6B1F49E3A682}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\AnimBPHook.cpp">
       <Filter>Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components</Filter>
@@ -135,13 +153,13 @@
       <Filter>Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components</Filter>
     </ClCompile>
     <Filter Include="Source\Project_Tether\Public">
-      <UniqueIdentifier>{E9A33E37-8BDB-4AF3-BD1D-2B7EE77F844A}</UniqueIdentifier>
+      <UniqueIdentifier>{3D1D0B1F-57D9-4BC6-8A27-AE98960071B4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Project_Tether\Public\Core">
-      <UniqueIdentifier>{732CD363-42BC-4DB6-BC25-CBB9231C1084}</UniqueIdentifier>
+      <UniqueIdentifier>{9518F173-A284-470F-B10E-BCE001720C8C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\Project_Tether\Public\Core\Components">
-      <UniqueIdentifier>{8689D4D2-C60B-4B9F-902B-FB422D7EEAA9}</UniqueIdentifier>
+      <UniqueIdentifier>{612033BA-CB21-47DE-AD6D-0F02ECF7FE18}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Components\E_DamageType.h">
       <Filter>Source\Project_Tether\Public\Core\Components</Filter>
@@ -150,7 +168,7 @@
       <Filter>Source\Project_Tether\Public\Core\Components</Filter>
     </ClInclude>
     <Filter Include="Source\Project_Tether\Public\Core\Components\Stats">
-      <UniqueIdentifier>{053DE5EC-5F3C-4E9D-B12B-05EC531E68F0}</UniqueIdentifier>
+      <UniqueIdentifier>{AACA4921-5D64-477F-927E-CD541254497E}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Components\Stats\StatComponent.h">
       <Filter>Source\Project_Tether\Public\Core\Components\Stats</Filter>
@@ -159,7 +177,7 @@
       <Filter>Source\Project_Tether\Public\Core\Components\Stats</Filter>
     </ClInclude>
     <Filter Include="Source\Project_Tether\Public\Core\Entity">
-      <UniqueIdentifier>{1990D74D-FA76-489B-92DC-FE2E82CBBEF5}</UniqueIdentifier>
+      <UniqueIdentifier>{CABB2412-4D83-4868-A7A8-F1EE09F21459}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Entity\Entity.h">
       <Filter>Source\Project_Tether\Public\Core\Entity</Filter>
@@ -188,44 +206,13 @@
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Entity\IEntity.h">
       <Filter>Source\Project_Tether\Public\Core\Entity</Filter>
     </ClInclude>
-    <Filter Include="Source\Project_Tether\Public\Implementation">
-      <UniqueIdentifier>{069963E3-84D5-48E5-881C-9F12147DDFDC}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\Project_Tether\Public\Implementation\Gameplay">
-      <UniqueIdentifier>{4448F201-FB80-476D-ACDD-93E367073BE8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source\Project_Tether\Public\Implementation\Gameplay\PlayerController">
-      <UniqueIdentifier>{99D07FB2-155B-4868-8AAB-A9EE0CCDC8B1}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\TopDown_E_Character.h">
-      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\PlayerController</Filter>
-    </ClInclude>
-    <Filter Include="Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components">
-      <UniqueIdentifier>{5B19191D-7027-4F8C-9A98-F5D02D768830}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\AnimBPHook.h">
-      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\EvadeComponent.h">
-      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components</Filter>
-    </ClInclude>
-    <Filter Include="Source\Project_Tether\Public\Implementation\Gameplay\Player_Delete">
-      <UniqueIdentifier>{406818A7-16DD-4DD2-AA1F-46F8DE9A41EB}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\Player_Delete\E_PlayerCharacter.h">
-      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\Player_Delete</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <Filter Include="Source\Project_Tether\Public\Core\Item">
-      <UniqueIdentifier>{49b0ad14-33ab-4ba9-b6d0-f0f0fc1bf510}</UniqueIdentifier>
+      <UniqueIdentifier>{F5E9C694-4FE5-4238-9821-416C80FFE1DB}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source\Project_Tether\Private\Core\Item">
-      <UniqueIdentifier>{14708828-0996-4cb8-93b1-303ba82ffd33}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\Inventory.h">
+      <Filter>Source\Project_Tether\Public\Core\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\InventoryComponent.h">
       <Filter>Source\Project_Tether\Public\Core\Item</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\Item.h">
@@ -234,28 +221,45 @@
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\ItemCategory.h">
       <Filter>Source\Project_Tether\Public\Core\Item</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\InventoryComponent.h">
-      <Filter>Source\Project_Tether\Public\Core\Item</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\ItemSlot.h">
       <Filter>Source\Project_Tether\Public\Core\Item</Filter>
     </ClInclude>
+    <Filter Include="Source\Project_Tether\Public\Implementation">
+      <UniqueIdentifier>{296687A4-0875-4D72-9F78-10A466EC1E17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project_Tether\Public\Implementation\Gameplay">
+      <UniqueIdentifier>{F7EFAAD6-CE76-4EF4-8604-851599E476BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Project_Tether\Public\Implementation\Gameplay\PlayerController">
+      <UniqueIdentifier>{4435F021-A6C4-4021-9FBA-374F4248DBAA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\TopDown_E_Character.h">
+      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\PlayerController</Filter>
+    </ClInclude>
+    <Filter Include="Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components">
+      <UniqueIdentifier>{161C47B8-72CC-45C8-A0FE-CB592A3BAED1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\AnimBPHook.h">
+      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\EvadeComponent.h">
+      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\Project_Tether\Public\Implementation\Gameplay\Player_Delete">
+      <UniqueIdentifier>{A9E92F15-888B-4405-9E05-6540C7254AF8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\Player_Delete\E_PlayerCharacter.h">
+      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\Player_Delete</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\Inventory.cpp">
-      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\Item.cpp">
-      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\ItemCategory.cpp">
-      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\InventoryComponent.cpp">
-      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Item\ItemSlot.cpp">
-      <Filter>Source\Project_Tether\Private\Core\Item</Filter>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\ToolComponent.h">
+      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\ToolComponent.cpp">
+      <Filter>Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

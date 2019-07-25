@@ -35,7 +35,7 @@ public: \
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Item_ItemSlot_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UItemSlot(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UItemSlot(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UItemSlot) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UItemSlot); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UItemSlot); \
@@ -47,8 +47,6 @@ public:
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Item_ItemSlot_h_18_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UItemSlot(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UItemSlot(UItemSlot&&); \
@@ -56,7 +54,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UItemSlot); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UItemSlot); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UItemSlot)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UItemSlot)
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Item_ItemSlot_h_18_PRIVATE_PROPERTY_OFFSET

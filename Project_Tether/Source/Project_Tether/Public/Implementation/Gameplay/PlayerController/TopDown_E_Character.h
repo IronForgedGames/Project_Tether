@@ -11,6 +11,7 @@ Studio: Iron Forged Games
 
 class USpringArmComponent;
 class UCameraComponent;
+class UToolComponent;
 
 /**
  *	A simple top down controller used to prototype the player character
@@ -25,6 +26,9 @@ class PROJECT_TETHER_API ATopDown_E_Character : public AE_Character
 
 	UPROPERTY(EditAnywhere, Category = "Camera")
 	UCameraComponent* camera;
+
+	UPROPERTY(EditAnywhere, Category = "Camera")
+	UToolComponent* toolComponent;
 
 public:
 	ATopDown_E_Character();

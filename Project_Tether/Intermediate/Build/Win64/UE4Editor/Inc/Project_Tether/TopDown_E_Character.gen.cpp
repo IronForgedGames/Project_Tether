@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_FocusTick();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_GetFocused();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_StartFocus();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UToolComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
@@ -155,6 +156,10 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_toolComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_toolComponent;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_camera_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_camera;
@@ -185,6 +190,14 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent = { UE4CodeGen_Private::EPropertyClass::Object, "toolComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000080009, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, toolComponent), Z_Construct_UClass_UToolComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_camera_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
@@ -201,6 +214,7 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm = { UE4CodeGen_Private::EPropertyClass::Object, "springArm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000080009, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, springArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATopDown_E_Character_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm,
 	};
@@ -227,7 +241,7 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATopDown_E_Character, 3136438776);
+	IMPLEMENT_CLASS(ATopDown_E_Character, 4077271516);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATopDown_E_Character(Z_Construct_UClass_ATopDown_E_Character, &ATopDown_E_Character::StaticClass, TEXT("/Script/Project_Tether"), TEXT("ATopDown_E_Character"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATopDown_E_Character);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
