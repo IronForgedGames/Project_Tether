@@ -11,7 +11,7 @@ UTool::UTool()
 
 //UTool * UTool::CreateToolInstance()
 //{
-//	UTool* _toolInstance = nUTool();
+//	UTool* _toolInstance = NewObject<UTool>();
 //	_toolInstance->mesh = this->mesh;
 //	_toolInstance->usageType = this->usageType;
 //	_toolInstance->rarity = this->rarity;
@@ -23,30 +23,22 @@ UTool::UTool()
 //
 //	return _toolInstance;
 //}
-
-TArray<TSubclassOf<UAnimMontage>> UTool::GetStandardAnims()
-{
-	if (weaponType != nullptr)
-	{
-		return weaponType->GetDefaultObject<UWeaponType>()->standardAttackAnims;
-	}
-	return  TArray<TSubclassOf<UAnimMontage>>();
-}
-
-TArray<TSubclassOf<UAnimMontage>> UTool::GetAnimAlt_1()
-{
-	if (weaponType != nullptr)
-	{
-		return weaponType->GetDefaultObject<UWeaponType>()->altAttackAnims_1;
-	}
-	return TArray<TSubclassOf<UAnimMontage>>();
-}
-
-TArray<TSubclassOf<UAnimMontage>> UTool::GetAnimAlt_2()
-{
-	if (weaponType != nullptr)
-	{
-		return weaponType->GetDefaultObject<UWeaponType>()->altAttackAnims_2;
-	}
-	return TArray<TSubclassOf<UAnimMontage>>();
-}
+//
+//TArray<TSubclassOf<UAnimMontage>> UTool::GetStandardAnims()
+//{
+//	return  TArray<TSubclassOf<UAnimMontage>>();
+//}
+//
+//TArray<TSubclassOf<UAnimMontage>> UTool::GetAnimAlt_1()
+//{
+//	return TArray<TSubclassOf<UAnimMontage>>();
+//}
+//
+//TArray<TSubclassOf<UAnimMontage>> UTool::GetAnimAlt_2()
+//{
+//	if (weaponType != nullptr)
+//	{
+//		return weaponType->GetDefaultObject<UWeaponType>()->altAttackAnims_2;
+//	}
+//	return TArray<TSubclassOf<UAnimMontage>>();
+//}

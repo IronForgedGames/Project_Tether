@@ -18,10 +18,9 @@ class UTool;
  \
 	DECLARE_FUNCTION(execGetPTRTool) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_testtool); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(UTool**)Z_Param__Result=P_THIS->GetPTRTool(Z_Param_testtool); \
+		*(UTool**)Z_Param__Result=P_THIS->GetPTRTool(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -62,10 +61,9 @@ class UTool;
  \
 	DECLARE_FUNCTION(execGetPTRTool) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_testtool); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(UTool**)Z_Param__Result=P_THIS->GetPTRTool(Z_Param_testtool); \
+		*(UTool**)Z_Param__Result=P_THIS->GetPTRTool(); \
 		P_NATIVE_END; \
 	} \
  \

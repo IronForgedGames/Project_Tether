@@ -68,7 +68,7 @@ public:
 	bool GetFocused() { return focused; }
 
 	UFUNCTION(BlueprintCallable, Category = "Locomotion")
-	UTool* GetPTRTool(TSubclassOf<UTool> testtool) { return NewObject<UTool>(this, testtool); }
+	UTool* GetPTRTool() { return NewObject<UTool>(this, tool); }
 
 	FORCEINLINE class USpringArmComponent* GetSpringArm() const { return springArm; }
 	FORCEINLINE class UCameraComponent* GetCamera() const { return camera; }
