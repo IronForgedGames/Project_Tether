@@ -33,8 +33,6 @@ protected:
 	UPROPERTY(EditAnywhere)
 	TMap<TEnumAsByte<ArmorSlot>, TSubclassOf<UTool>> defaultArmor; // nude
 
-	UPROPERTY(EditAnywhere)
-	TMap<TEnumAsByte<ArmorSlot>, UTool*> nudeArmor; // nude
 
 	UPROPERTY(EditAnywhere)
 	int weaponInventoryMaxSize;
@@ -65,6 +63,10 @@ protected:
 
 	TArray<UTool*> armor;
 	TMap<TEnumAsByte<ArmorSlot>, UTool*> equippedArmor;
+
+	TMap<TEnumAsByte<ArmorSlot>, UTool*> nudeArmor; // nude
+	
+	UInventoryComponent* playerInventory;
 
 public:	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;

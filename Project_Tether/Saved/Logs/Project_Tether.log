@@ -1,14 +1,16 @@
-﻿Log file open, 07/29/19 23:50:43
+﻿Log file open, 07/30/19 12:49:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Project_Tether
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.751109
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.282763
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.136s to configure plugins.
+LogStreaming: Display: Took  0.088s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -116,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  -skipcompile
-LogInit: Base Directory: E:/Epic Games Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Command Line:  
+LogInit: Base Directory: E:/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -145,205 +147,1396 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.07.30-03.50.45:177][  0]LogInit: Selected Device Profile: [Windows]
-[2019.07.30-03.50.45:177][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.07.30-03.50.45:221][  0]LogHAL: Display: Platform has ~ 16 GB [17121992704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.07.30-03.50.45:221][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.07.30-03.50.45:221][  0]LogInit: Going up to parent DeviceProfile []
-[2019.07.30-03.50.45:228][  0]LogInit: Computer: AARONS-DESKTOP
-[2019.07.30-03.50.45:228][  0]LogInit: User: AaronsDesktop
-[2019.07.30-03.50.45:228][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.07.30-03.50.45:228][  0]LogInit: High frequency timer resolution =3.609378 MHz
-[2019.07.30-03.50.45:229][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.07.30-03.50.45:229][  0]LogMemory: Platform Memory Stats for Windows
-[2019.07.30-03.50.45:229][  0]LogMemory: Process Physical Memory: 102.77 MB used, 102.77 MB peak
-[2019.07.30-03.50.45:229][  0]LogMemory: Process Virtual Memory: 98.43 MB used, 98.43 MB peak
-[2019.07.30-03.50.45:229][  0]LogMemory: Physical Memory: 7392.45 MB used,  8936.35 MB free, 16328.80 MB total
-[2019.07.30-03.50.45:229][  0]LogMemory: Virtual Memory: 4669.73 MB used,  8936.35 MB free, 134217728.00 MB total
-[2019.07.30-03.50.46:207][  0]LogInit: Using OS detected language (en-US).
-[2019.07.30-03.50.46:208][  0]LogInit: Using OS detected locale (en-US).
-[2019.07.30-03.50.46:211][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.07.30-03.50.46:581][  0]LogStreaming: Display: Took  0.374s to InitEngineTextLocalization.
-[2019.07.30-03.50.46:582][  0]LogInit: Setting process to per monitor DPI aware
-[2019.07.30-03.50.46:678][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.07.30-03.50.46:678][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.07.30-03.50.47:982][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.07.30-03.50.47:982][  0]LogD3D11RHI: D3D11 adapters:
-[2019.07.30-03.50.48:064][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2019.07.30-03.50.48:064][  0]LogD3D11RHI:       6052/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.07.30-03.50.48:075][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.07.30-03.50.48:075][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.07.30-03.50.48:075][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.07.30-03.50.48:081][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.07.30-03.50.48:081][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2019.07.30-03.50.48:081][  0]LogWindows: EnumDisplayDevices:
-[2019.07.30-03.50.48:082][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2019.07.30-03.50.48:082][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2019.07.30-03.50.48:082][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.07.30-03.50.48:082][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2019.07.30-03.50.48:083][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.07.30-03.50.48:083][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2019.07.30-03.50.48:083][  0]LogD3D11RHI:   Driver Version: 418.81 (internal:25.21.14.1881, unified:418.81)
-[2019.07.30-03.50.48:083][  0]LogD3D11RHI:      Driver Date: 1-30-2019
-[2019.07.30-03.50.48:083][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2019.07.30-03.50.48:121][  0]LogD3D11RHI: Async texture creation enabled
-[2019.07.30-03.50.48:152][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.07.30-03.50.48:256][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Intermediate/Shaders/WorkingDirectory/5456/).
-[2019.07.30-03.50.48:257][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aaron's Desktop/AppData/Local/Temp/UnrealShaderWorkingDir/F82E79774792501ECD65FAB75A61C586/'.
-[2019.07.30-03.50.48:682][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.07.30-03.50.48:726][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.07.30-03.50.48:759][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.07.30-03.50.48:801][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.07.30-03.50.48:833][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.07.30-03.50.48:888][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.07.30-03.50.48:922][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.07.30-03.50.48:948][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.07.30-03.50.49:010][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.07.30-03.50.49:133][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:133][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:133][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:133][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:133][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:133][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:135][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.30-03.50.49:154][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.07.30-03.50.49:302][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.07.30-03.50.49:302][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.07.30-03.50.49:367][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.07.30-03.50.49:367][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.07.30-03.50.49:401][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.07.30-03.50.49:425][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.07.30-03.50.49:456][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.07.30-03.50.49:497][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.07.30-03.50.49:516][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.07.30-03.50.49:516][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.07.30-03.50.50:114][  0]LogXGEController: Cleaning working directory: C:/Users/Aaron's Desktop/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.07.30-03.50.50:114][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.07.30-03.50.50:114][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.07.30-03.50.50:114][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.07.30-03.50.51:409][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.07.30-03.50.51:461][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.07.30-03.50.51:461][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.07.30-03.50.51:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.07.30-03.50.51:462][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.07.30-03.50.51:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.07.30-03.50.51:462][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.07.30-03.50.51:485][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.07.30-03.50.51:498][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.07.30-03.50.51:498][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.07.30-03.50.51:498][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.07.30-03.50.51:514][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.07.30-03.50.51:515][  0]LogSlate: Using FreeType 2.6.0
-[2019.07.30-03.50.51:527][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.07.30-03.50.51:669][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
-[2019.07.30-03.50.51:909][  0]LogInit: Selected Device Profile: [Windows]
-[2019.07.30-03.50.52:388][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.07.30-03.50.52:515][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.07.30-03.50.52:516][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.07.30-03.50.52:516][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.07.30-03.50.52:516][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.07.30-03.50.52:567][  0]LogNetVersion: Project_Tether 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2290113244)
-[2019.07.30-03.50.53:338][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.076196 seconds
-[2019.07.30-03.50.53:343][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.07.30-03.50.53:343][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.07.30-03.50.53:344][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.07.30-03.50.56:910][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.07.30-03.50.56:955][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.07.30-03.50.58:402][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
-[2019.07.30-03.50.58:402][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
-[2019.07.30-03.50.58:402][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
-[2019.07.30-03.50.58:402][  0]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2019.07.30-16.49.23:694][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.30-16.49.23:694][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.30-16.49.23:702][  0]LogHAL: Display: Platform has ~ 32 GB [34316865536 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.30-16.49.23:702][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.07.30-16.49.23:702][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.30-16.49.23:702][  0]LogInit: Computer: WSROLLER45
+[2019.07.30-16.49.23:702][  0]LogInit: User: aaronhines
+[2019.07.30-16.49.23:702][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.30-16.49.23:702][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.07.30-16.49.23:702][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.07.30-16.49.23:702][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.30-16.49.23:702][  0]LogMemory: Process Physical Memory: 101.34 MB used, 101.35 MB peak
+[2019.07.30-16.49.23:702][  0]LogMemory: Process Virtual Memory: 93.29 MB used, 93.29 MB peak
+[2019.07.30-16.49.23:702][  0]LogMemory: Physical Memory: 11679.13 MB used,  21047.99 MB free, 32727.11 MB total
+[2019.07.30-16.49.23:702][  0]LogMemory: Virtual Memory: 4616.47 MB used,  21047.99 MB free, 134217728.00 MB total
+[2019.07.30-16.49.23:725][  0]LogInit: Using OS detected language (en-US).
+[2019.07.30-16.49.23:725][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.30-16.49.23:726][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.30-16.49.24:075][  0]LogStreaming: Display: Took  0.350s to InitEngineTextLocalization.
+[2019.07.30-16.49.24:075][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.30-16.49.24:121][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.30-16.49.24:121][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.30-16.49.24:366][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.07.30-16.49.24:366][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.30-16.49.24:437][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.07.30-16.49.24:437][  0]LogD3D11RHI:       6052/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.07.30-16.49.24:440][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.30-16.49.24:440][  0]LogD3D11RHI:       0/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.30-16.49.24:440][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.30-16.49.24:450][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.30-16.49.24:450][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.30-16.49.24:450][  0]LogWindows: EnumDisplayDevices:
+[2019.07.30-16.49.24:450][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.07.30-16.49.24:451][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.07.30-16.49.24:451][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.07.30-16.49.24:451][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.07.30-16.49.24:451][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.30-16.49.24:451][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.07.30-16.49.24:452][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2019.07.30-16.49.24:452][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2019.07.30-16.49.24:452][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.07.30-16.49.24:496][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.30-16.49.24:508][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.30-16.49.24:609][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../Tether/Project_Tether/Project_Tether/Intermediate/Shaders/WorkingDirectory/7836/).
+[2019.07.30-16.49.24:609][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aaron.hines/AppData/Local/Temp/UnrealShaderWorkingDir/D8D0C8B849F660E7F6D42FB11059E161/'.
+[2019.07.30-16.49.25:019][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.30-16.49.25:034][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.30-16.49.25:052][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.30-16.49.25:069][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.30-16.49.25:089][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.30-16.49.25:109][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.30-16.49.25:126][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.30-16.49.25:147][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.30-16.49.25:155][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:265][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.30-16.49.25:267][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.30-16.49.25:335][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.30-16.49.25:335][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.30-16.49.25:367][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.30-16.49.25:367][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.30-16.49.25:383][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.30-16.49.25:398][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.30-16.49.25:411][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.30-16.49.25:424][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.30-16.49.25:437][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.30-16.49.25:438][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.30-16.49.25:506][  0]LogXGEController: Cleaning working directory: C:/Users/aaron.hines/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.30-16.49.25:506][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.30-16.49.25:506][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.30-16.49.25:506][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.30-16.49.26:327][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.30-16.49.26:380][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/aaron.hines/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.30-16.49.26:380][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aaron.hines/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.07.30-16.49.26:380][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Tether/Project_Tether/Project_Tether/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.30-16.49.26:380][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.30-16.49.26:380][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Tether/Project_Tether/Project_Tether/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.30-16.49.26:380][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.30-16.49.26:396][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.30-16.49.26:408][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aaron.hines/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.30-16.49.26:408][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.30-16.49.26:408][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.30-16.49.26:425][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.30-16.49.26:426][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.30-16.49.26:427][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.30-16.49.26:514][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2019.07.30-16.49.26:842][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.30-16.49.26:968][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.30-16.49.26:972][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.30-16.49.26:972][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.30-16.49.26:972][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.30-16.49.26:972][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.30-16.49.26:992][  0]LogNetVersion: Project_Tether 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2290113244)
+[2019.07.30-16.49.27:463][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.082022 seconds
+[2019.07.30-16.49.27:470][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.07.30-16.49.27:470][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.07.30-16.49.27:470][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.30-16.49.28:386][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.30-16.49.28:400][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.30-16.49.28:529][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.07.30-16.49.28:529][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.07.30-16.49.28:529][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2019.07.30-16.49.28:529][  0]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
 
-[2019.07.30-03.50.58:403][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
-[2019.07.30-03.50.58:403][  0]LogUObjectBase: Warning: Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2019.07.30-16.49.28:529][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.07.30-16.49.28:529][  0]LogUObjectBase: Warning: Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
 
-[2019.07.30-03.50.58:621][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.07.30-03.50.58:624][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.07.30-03.50.59:105][  0]SourceControl: Source control is disabled
-[2019.07.30-03.50.59:106][  0]SourceControl: Source control is disabled
-[2019.07.30-03.50.59:155][  0]SourceControl: Source control is disabled
-[2019.07.30-03.50.59:194][  0]SourceControl: Source control is disabled
-[2019.07.30-03.51.00:481][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.07.30-03.51.00:790][  0]LogOcInput: OculusInput pre-init called
-[2019.07.30-03.51.01:097][  0]LogEngine: Initializing Engine...
-[2019.07.30-03.51.01:098][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.07.30-03.51.01:099][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.07.30-03.51.01:099][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.07.30-03.51.01:099][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.07.30-03.51.01:099][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.07.30-03.51.01:381][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.07.30-03.51.01:430][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.07.30-03.51.01:467][  0]LogInit: XAudio2 using 'Speakers (2- USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.30-03.51.01:492][  0]LogInit: FAudioDevice initialized.
-[2019.07.30-03.51.01:493][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.07.30-03.51.01:542][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.07.30-03.51.01:551][  0]LogInit: Texture streaming: Enabled
-[2019.07.30-03.51.01:681][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.07.30-03.51.01:713][  0]LogInit: Transaction tracking system initialized
-[2019.07.30-03.51.01:864][  0]BlueprintLog: New page: Editor Load
-[2019.07.30-03.51.02:711][  0]LocalizationService: Localization service is disabled
-[2019.07.30-03.51.03:731][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.07.30-03.51.03:731][  0]LogCook: Display: Mobile HDR setting 1
-[2019.07.30-03.51.03:731][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.07.30-03.51.03:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.07.30-03.51.03:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.07.30-03.51.03:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.07.30-03.51.03:732][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.07.30-03.51.04:351][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/' took 0.02s
-[2019.07.30-03.51.04:803][  0]SourceControl: Source control is disabled
-[2019.07.30-03.51.04:805][  0]LightingResults: New page: Lighting Build
-[2019.07.30-03.51.04:813][  0]MapCheck: New page: Map Check
-[2019.07.30-03.51.04:813][  0]LightingResults: New page: Lighting Build
-[2019.07.30-03.51.05:807][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.07.30-03.51.05:817][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.07.30-03.51.05:838][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.07.30-03.51.05:881][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.951ms to complete.
-[2019.07.30-03.51.05:881][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.078
-[2019.07.30-03.51.06:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.30-03.51.06:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.30-03.51.06:071][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.30-03.51.06:077][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.30-03.51.06:114][  0]LogCollectionManager: Loaded 0 collections in 0.001681 seconds
-[2019.07.30-03.51.06:180][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Collections/' took 0.01s
-[2019.07.30-03.51.06:180][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Developers/AaronsDesktop/Collections/' took 0.01s
-[2019.07.30-03.51.06:180][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Collections/' took 0.02s
-[2019.07.30-03.51.06:180][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.07.30-03.51.06:197][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2600 classes and 618 folders.
-[2019.07.30-03.51.06:203][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.07.30-03.51.06:393][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.07.30-03.51.06:429][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.07.30-03.51.07:870][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.07.30-03.51.07:910][  0]LogSlate: Took 0.004012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.07.30-03.51.07:916][  0]LogSlate: Took 0.003230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.07.30-03.51.07:925][  0]LogSlate: Took 0.004402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.07.30-03.51.07:932][  0]LogSlate: Took 0.005229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2019.07.30-03.51.08:054][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectTether
-[2019.07.30-03.51.08:054][  0]LogTemp: CWD: E:\Epic Games Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.07.30-03.51.08:054][  0]LogTemp: Initial Dir: E:\Epic Games Games\UE_4.20
-[2019.07.30-03.51.08:054][  0]LogTemp: Env CWD: E:\Epic Games Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.07.30-03.51.08:054][  0]LogTemp: BranchPath = AARONS-DESKTOP/E/Epic Games Games/UE_4.20/Engine/Binaries --- GameBranchPath = AARONS-DESKTOP/E/Epic Games Games/UE_4.20/Engine/Binaries
-[2019.07.30-03.51.08:055][  0]LogRenderer: Reallocating scene render targets to support 1232x480 Format 10 NumSamples 1 (Frame:1).
-[2019.07.30-03.51.08:253][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.07.30-03.51.08:254][  0]LogLoad: (Engine Initialization) Total time: 27.47 seconds
-[2019.07.30-03.51.08:254][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.07.30-03.51.08:296][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.07.30-03.51.08:338][  0]LogSlate: Took 0.002759 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.07.30-03.51.08:369][  1]LogAssetRegistry: Asset discovery search completed in 16.7236 seconds
-[2019.07.30-03.51.08:371][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.07.30-03.51.08:372][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000404 seconds (updated 0 objects)
-[2019.07.30-03.51.11:041][ 10]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Aaron's Desktop\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.07.30-03.51.32:651][285]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.07.30-16.49.30:676][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.30-16.49.30:677][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.30-16.49.30:715][  0]SourceControl: Source control is disabled
+[2019.07.30-16.49.30:715][  0]SourceControl: Source control is disabled
+[2019.07.30-16.49.30:717][  0]SourceControl: Source control is disabled
+[2019.07.30-16.49.30:717][  0]SourceControl: Source control is disabled
+[2019.07.30-16.49.30:881][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.30-16.49.30:993][  0]LogOcInput: OculusInput pre-init called
+[2019.07.30-16.49.31:048][  0]LogEngine: Initializing Engine...
+[2019.07.30-16.49.31:078][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.07.30-16.49.31:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.30-16.49.31:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.30-16.49.31:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.30-16.49.31:080][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.30-16.49.31:282][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.30-16.49.31:296][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.30-16.49.31:333][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.30-16.49.31:367][  0]LogInit: FAudioDevice initialized.
+[2019.07.30-16.49.31:367][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.30-16.49.31:449][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/aaron.hines/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.30-16.49.31:453][  0]LogInit: Texture streaming: Enabled
+[2019.07.30-16.49.31:471][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.30-16.49.31:471][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={5EBD32B1-4DCE-0B1A-D881-8693976AC264}
+[2019.07.30-16.49.31:484][  0]LogInit: Transaction tracking system initialized
+[2019.07.30-16.49.31:507][  0]BlueprintLog: New page: Editor Load
+[2019.07.30-16.49.31:580][  0]LocalizationService: Localization service is disabled
+[2019.07.30-16.49.31:816][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.30-16.49.31:816][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.30-16.49.31:816][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.30-16.49.31:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.30-16.49.31:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.30-16.49.31:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.30-16.49.31:816][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.30-16.49.31:931][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Content/' took 0.02s
+[2019.07.30-16.49.31:931][  0]SourceControl: Source control is disabled
+[2019.07.30-16.49.31:931][  0]Cmd: MAP LOAD FILE="../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.30-16.49.31:931][  0]LightingResults: New page: Lighting Build
+[2019.07.30-16.49.31:933][  0]MapCheck: New page: Map Check
+[2019.07.30-16.49.31:934][  0]LightingResults: New page: Lighting Build
+[2019.07.30-16.49.32:409][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.30-16.49.32:419][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.30-16.49.32:442][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.30-16.49.32:512][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69.855ms to complete.
+[2019.07.30-16.49.32:512][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.580
+[2019.07.30-16.49.32:618][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-16.49.32:626][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-16.49.32:634][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-16.49.32:642][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-16.49.32:647][  0]LogCollectionManager: Loaded 0 collections in 0.001382 seconds
+[2019.07.30-16.49.32:691][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Saved/Collections/' took 0.01s
+[2019.07.30-16.49.32:691][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Content/Developers/aaronhines/Collections/' took 0.01s
+[2019.07.30-16.49.32:691][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Content/Collections/' took 0.01s
+[2019.07.30-16.49.32:691][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.30-16.49.32:700][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2600 classes and 618 folders.
+[2019.07.30-16.49.32:706][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.07.30-16.49.32:766][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.07.30-16.49.32:772][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.07.30-16.49.33:745][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.07.30-16.49.33:818][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.07.30-16.49.33:818][  0]LogLoad: (Engine Initialization) Total time: 12.12 seconds
+[2019.07.30-16.49.33:818][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.30-16.49.33:859][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectTether
+[2019.07.30-16.49.33:859][  0]LogTemp: CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.30-16.49.33:859][  0]LogTemp: Initial Dir: E:\Epic Games\UE_4.20
+[2019.07.30-16.49.33:859][  0]LogTemp: Env CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.30-16.49.33:859][  0]LogTemp: BranchPath = WSROLLER45/E/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = WSROLLER45/E/Epic Games/UE_4.20/Engine/Binaries
+[2019.07.30-16.49.33:859][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.30-16.49.33:860][  0]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.30-16.49.33:863][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.30-16.49.33:868][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.30-16.49.33:871][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.07.30-16.49.33:945][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\aaron.hines\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.07.30-16.49.33:946][  0]LogRenderer: Reallocating scene render targets to support 64x64 Format 10 NumSamples 1 (Frame:1).
+[2019.07.30-16.49.34:022][  0]LogRenderer: Reallocating scene render targets to support 668x268 Format 10 NumSamples 1 (Frame:1).
+[2019.07.30-16.49.34:023][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.30-16.49.34:095][  2]LogAssetRegistry: Asset discovery search completed in 7.6039 seconds
+[2019.07.30-16.49.34:097][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.30-16.49.34:097][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000309 seconds (updated 0 objects)
+[2019.07.30-16.49.36:593][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-16.49.36:702][236]LogRenderer: Reallocating scene render targets to support 1208x440 Format 10 NumSamples 1 (Frame:228).
+[2019.07.30-16.49.39:408][554]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP
+[2019.07.30-16.49.39:859][554]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.07.30-16.49.40:795][554]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.30-16.49.40:799][554]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.30-16.49.40:944][555]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.30-16.52.36:027][ 98]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.30-16.52.36:089][ 98]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP971EB37345C8E084AFB3B9A9C05D8DF5.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.30-16.52.42:811][856]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BPACE4BD6646C82F4D33EC4CB5FC1402DC.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.30-16.53.13:664][440]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP19F080AE4A06BA1AD7B2B797666FB0F5.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.30-16.54.11:068][182]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.30-16.54.11:090][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.30-16.54.11:093][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.30-16.54.11:094][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.30-16.54.11:096][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.30-16.54.11:097][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.30-16.54.11:098][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.30-16.54.11:267][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.30-16.54.11:381][182]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BPBF0460FF456BDCF8820B60B5AFEFDA7F.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.30-16.54.25:042][729]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap0B8E1FB44E1E44852E2B239388EC7EC9.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.30-16.54.45:901][103]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap2BAFAECE4D986F2A5BDD98AFAB19D2B1.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.30-16.54.53:826][807]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.07.30-16.55.02:273][794]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/CommonToolPickupC0C3257D4552364AEBAC619A2CF075D7.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.uasset'
+[2019.07.30-16.55.03:162][898]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.CommonToolPickup
+[2019.07.30-16.55.06:267][189]LogSlate: Window 'CommonToolPickup' being destroyed
+[2019.07.30-16.55.06:272][189]LogSlate: Window 'CommonToolPickup' being destroyed
+[2019.07.30-16.55.07:307][278]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap6524F2EA44B54B0D4D55BA944CA089BB.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.30-16.55.12:470][872]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickupCA4F374F4C506E4AF3895C865D842602.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-16.55.12:474][872]LogMetaData: Removing '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.BaseToolPickup:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.PackageMetaData'
+[2019.07.30-16.55.12:474][872]LogMetaData: Removing '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.SKEL_BaseToolPickup_C' ref from Metadata '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.PackageMetaData'
+[2019.07.30-16.55.12:475][872]LogMetaData: Removing '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.BaseToolPickup_C' ref from Metadata '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.PackageMetaData'
+[2019.07.30-16.55.12:475][872]LogMetaData: Removing '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.BaseToolPickup:EventGraph.K2Node_Event_0' ref from Metadata '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.PackageMetaData'
+[2019.07.30-16.55.12:476][872]LogMetaData: Removing '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.BaseToolPickup:EventGraph.K2Node_Event_1' ref from Metadata '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.PackageMetaData'
+[2019.07.30-16.55.12:476][872]LogMetaData: Removing '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.BaseToolPickup:EventGraph.K2Node_Event_2' ref from Metadata '/Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.PackageMetaData'
+[2019.07.30-16.55.12:522][872]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickupD462C1F6455E6C968EC29A8E03EDDD63.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-16.55.12:959][887]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup6EE9E6D74C4C9F51AF243EB61F6F48BE.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-16.55.16:421][296]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.BaseToolPickup
+[2019.07.30-16.55.18:094][446]LogSlate: Window 'BaseToolPickup' being destroyed
+[2019.07.30-16.55.19:221][571]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.BaseToolPickup
+[2019.07.30-16.55.24:131][705]LogSlate: Window 'BaseToolPickup' being destroyed
+[2019.07.30-16.55.30:611][461]LogEditorTransaction: Undo Add Component
+[2019.07.30-16.55.41:483][736]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup3DD6346042D52C6093AE38AD867C456A.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-16.57.55:322][570]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMapD783510A4A7FBCAE8A5AC488D5FFAAE1.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.30-16.58.04:237][571]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BasePickupMaterial9F4973C044CA4FABC085E294DBF2FA4C.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BasePickupMaterial.uasset'
+[2019.07.30-16.58.05:662][722]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup6A0DDB8E406750A36D57CA85FE192CB7.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-16.58.06:184][780]LogAssetEditorManager: Opening Asset editor for Material /Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BasePickupMaterial.BasePickupMaterial
+[2019.07.30-16.58.06:207][780]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-16.58.06:778][780]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-16.58.06:809][780]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-16.58.06:809][780]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-16.58.06:809][780]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-16.58.06:809][780]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-16.58.06:983][781]LogRenderer: Reallocating scene render targets to support 1208x456 Format 10 NumSamples 1 (Frame:1).
+[2019.07.30-16.58.08:233][928]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-16.58.08:267][932]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-16.58.08:274][933]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-16.58.08:274][933]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-16.58.08:471][956]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-16.58.08:471][956]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-16.58.08:513][961]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-16.58.08:521][962]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-16.58.08:689][982]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-16.58.08:860][  2]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-16.58.09:014][ 16]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-16.58.09:074][ 23]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-16.58.09:146][ 27]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-16.58.09:282][ 43]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-16.58.09:383][ 55]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-16.58.09:510][ 69]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-16.58.09:532][ 72]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-16.58.10:877][228]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-16.58.10:893][228]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-16.58.10:912][228]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-16.58.10:912][228]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-16.58.10:912][228]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-16.58.10:912][228]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-16.58.10:916][228]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-16.58.10:966][228]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-16.58.11:140][242]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-16.58.11:175][246]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-16.58.11:184][247]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-16.58.11:244][254]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-16.58.11:461][280]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-16.58.11:487][283]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-16.58.11:495][284]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-16.58.11:503][285]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-16.58.11:684][305]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-16.58.11:717][310]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-16.58.11:767][316]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-16.58.11:816][322]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-16.58.11:882][330]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-16.58.12:059][351]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-16.58.12:157][363]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-16.58.12:190][367]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-16.58.12:266][376]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-16.58.12:383][390]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-16.58.12:449][398]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-16.58.12:617][418]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-16.58.12:650][422]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-16.58.12:815][441]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-16.58.12:921][454]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-16.58.13:146][477]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.07.30-16.58.13:146][477]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.07.30-16.58.13:147][477]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.07.30-16.58.13:147][477]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.30-16.58.13:715][545]LogMaterialEditor: Saving and Compiling material BasePickupMaterial
+[2019.07.30-16.58.14:283][545]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-16.58.14:345][545]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-16.58.14:345][545]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-16.58.14:345][545]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-16.58.14:346][545]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-16.58.14:355][545]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-16.58.14:378][545]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-16.58.14:443][545]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasePickupMaterial, compiling. 
+[2019.07.30-16.58.15:734][545]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.30-16.58.15:734][545]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.07.30-16.58.15:734][545]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.07.30-16.58.15:734][545]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.07.30-16.58.15:735][545]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.07.30-16.58.15:735][545]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.07.30-16.58.15:735][545]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.07.30-16.58.15:735][545]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.07.30-16.58.15:735][545]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.07.30-16.58.15:736][545]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.07.30-16.58.15:736][545]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.30-16.58.15:736][545]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.07.30-16.58.15:736][545]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.07.30-16.58.15:736][545]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.07.30-16.58.15:736][545]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.07.30-16.58.15:737][545]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.07.30-16.58.15:737][545]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.07.30-16.58.15:737][545]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-16.58.15:737][545]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-16.58.15:737][545]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-16.58.15:738][545]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-16.58.15:740][545]TextureStreamingBuild: Display: Compiling optional shaders took 1.315 seconds.
+[2019.07.30-16.58.18:233][545]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BasePickupMaterial13F6CE8E4A6DD0E362FB48B2277EDE29.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BasePickupMaterial.uasset'
+[2019.07.30-17.00.38:637][217]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.00.38:655][217]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.00.38:655][217]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.00.38:670][217]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.00.38:688][217]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.00.38:688][217]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.00.39:340][293]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.00.39:348][294]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.00.39:357][295]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.00.39:416][302]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.00.39:558][319]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.00.39:593][323]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.00.39:608][325]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.00.39:658][331]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.00.39:793][347]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.00.39:819][350]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-17.00.39:860][355]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-17.00.40:121][386]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-17.00.40:220][398]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-17.00.40:329][411]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-17.00.40:355][414]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-17.00.40:469][428]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.00.40:545][437]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.00.40:711][457]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.00.40:745][461]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.00.41:940][601]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.00.41:955][601]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.00.41:955][601]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.00.41:970][601]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.00.41:981][601]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.00.41:982][601]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.00.42:215][629]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.00.42:266][635]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.00.42:272][636]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.00.42:317][641]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.00.42:474][660]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.00.42:507][664]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.00.42:541][668]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.00.42:565][671]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.00.42:700][687]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.00.42:717][689]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-17.00.42:750][693]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-17.00.42:985][721]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-17.00.43:043][728]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-17.00.43:220][747]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-17.00.43:227][748]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-17.00.43:344][762]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.00.43:420][771]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.00.43:603][793]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.00.43:695][804]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.00.44:023][843]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.07.30-17.00.44:024][843]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.07.30-17.00.44:024][843]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.07.30-17.00.44:024][843]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.30-17.00.47:337][237]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.00.47:362][237]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.00.47:362][237]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.00.47:363][237]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.00.47:363][237]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.00.47:365][237]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.00.47:398][237]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.00.47:425][237]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.00.47:450][237]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.00.47:481][237]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.00.47:501][237]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.30-17.00.47:570][242]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.00.47:620][244]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.00.47:626][244]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.00.47:650][245]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.00.47:923][271]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.00.47:931][272]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.00.47:964][276]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.00.48:018][282]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.00.48:178][301]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.00.48:226][307]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.00.48:235][308]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.00.48:268][312]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.00.48:368][324]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.00.48:377][325]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-17.00.48:409][329]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-17.00.48:628][355]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-17.00.48:711][365]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-17.00.48:837][380]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-17.00.48:846][381]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-17.00.48:972][396]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.00.49:091][410]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.00.49:296][434]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.00.49:399][445]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.00.49:800][491]MaterialEditorStats: Base pass shader: 100 instructions
+[2019.07.30-17.00.49:800][491]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.07.30-17.00.49:800][491]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.07.30-17.00.49:801][491]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.30-17.00.57:405][380]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.00.57:417][380]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.00.57:417][380]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.00.57:417][380]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.00.57:417][380]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.00.57:420][380]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.00.57:426][380]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.00.57:471][380]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.00.57:631][395]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.00.57:663][399]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.00.57:681][401]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.00.57:682][401]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.00.57:864][423]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.00.57:872][424]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.00.57:914][429]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.00.57:914][429]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.00.58:055][446]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.00.58:064][447]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.00.58:064][447]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.00.58:097][451]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.00.58:241][468]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.00.58:468][495]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-17.00.58:661][518]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-17.00.58:669][519]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-17.00.58:747][528]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-17.00.58:947][550]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-17.00.58:997][556]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-17.00.59:132][572]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.00.59:197][580]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.00.59:230][584]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.00.59:359][599]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.00.59:546][620]MaterialEditorStats: Base pass shader: 100 instructions
+[2019.07.30-17.00.59:546][620]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.07.30-17.00.59:546][620]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.07.30-17.00.59:546][620]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.30-17.01.02:746][999]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.01.02:752][999]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.01.02:767][999]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.01.02:767][999]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.01.02:767][999]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.01.02:767][999]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.01.02:781][999]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.01.03:020][ 23]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.01.03:037][ 25]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.01.03:137][ 37]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.01.03:148][ 38]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.01.03:281][ 54]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.01.03:288][ 55]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.01.03:338][ 61]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.01.03:388][ 67]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.01.03:506][ 81]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.01.03:506][ 81]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.01.03:580][ 90]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.01.03:589][ 91]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-17.01.03:792][115]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-17.01.03:954][134]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-17.01.04:130][155]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-17.01.04:155][158]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-17.01.04:330][179]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-17.01.04:397][187]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.01.04:430][191]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.01.04:606][212]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.01.04:648][217]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.01.06:013][377]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.01.06:018][377]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.01.06:034][377]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.01.06:034][377]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.01.06:034][377]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.01.06:034][377]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.01.06:049][377]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.01.06:280][401]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.01.06:348][409]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.01.06:376][412]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.01.06:475][424]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.01.06:627][442]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.01.06:644][444]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.01.06:644][444]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.01.06:735][455]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.01.06:758][457]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.01.06:785][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.01.06:819][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.01.06:826][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.01.06:843][457]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.07.30-17.01.06:843][457]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.07.30-17.01.06:843][457]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.01.06:856][457]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.01.06:874][457]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.01.06:881][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.01.06:887][457]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.01.06:917][457]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.01.06:935][457]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.30-17.01.07:088][465]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.07.30-17.01.07:094][466]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.07.30-17.01.07:100][466]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.01.07:224][476]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.01.07:341][490]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.01.07:451][503]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.01.07:466][505]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.01.07:474][506]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.01.07:583][519]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.01.07:684][531]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.01.07:718][535]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.01.07:751][539]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.01.07:852][551]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.01.07:953][563]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.01.07:961][564]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.01.07:969][565]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-17.01.08:133][584]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-17.01.08:300][604]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-17.01.08:467][624]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-17.01.08:492][627]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-17.01.08:558][635]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-17.01.08:700][652]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.01.08:739][653]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.01.08:921][675]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.01.08:964][680]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.01.09:359][725]MaterialEditorStats: Base pass shader: 100 instructions
+[2019.07.30-17.01.09:359][725]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.07.30-17.01.09:359][725]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.07.30-17.01.09:359][725]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.30-17.01.19:939][984]LogMaterialEditor: Saving and Compiling material BasePickupMaterial
+[2019.07.30-17.01.20:485][984]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.01.20:533][984]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.01.20:533][984]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.01.20:533][984]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.01.20:533][984]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.01.20:550][984]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.01.20:576][984]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.01.20:635][984]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasePickupMaterial, compiling. 
+[2019.07.30-17.01.21:967][984]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.30-17.01.21:967][984]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.07.30-17.01.21:968][984]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.07.30-17.01.21:968][984]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.07.30-17.01.21:968][984]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.07.30-17.01.21:968][984]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.07.30-17.01.21:968][984]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.07.30-17.01.21:968][984]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.07.30-17.01.21:969][984]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.07.30-17.01.21:969][984]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.07.30-17.01.21:969][984]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.30-17.01.21:969][984]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.07.30-17.01.21:969][984]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.07.30-17.01.21:969][984]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.07.30-17.01.21:969][984]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.07.30-17.01.21:970][984]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.07.30-17.01.21:970][984]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.07.30-17.01.21:970][984]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.01.21:970][984]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.01.21:970][984]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.01.21:970][984]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.01.21:973][984]TextureStreamingBuild: Display: Compiling optional shaders took 1.346 seconds.
+[2019.07.30-17.01.24:549][984]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BasePickupMaterial8D6436C24CD3C6B823E201940BADF0D1.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BasePickupMaterial.uasset'
+[2019.07.30-17.01.28:766][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.01.31:265][761]BlueprintLog: New page: Compile BaseToolPickup
+[2019.07.30-17.01.41:527][931]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.07.30-17.01.47:027][575]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.30-17.01.47:065][575]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickupCFA741C240C71609B34F78A0B0E58323.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.01.53:934][379]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.30-17.01.53:967][379]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickupBD6EE90340B58528737FA5BCAB705D4D.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.01.54:756][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.01.54:815][471]BlueprintLog: New page: Compile BaseToolPickup
+[2019.07.30-17.02.03:602][443]Cmd: DELETE
+[2019.07.30-17.02.03:602][443]Cmd: ACTOR DELETE
+[2019.07.30-17.02.03:630][443]LogEditorActor: Deleted Actor: BaseToolPickup_C
+[2019.07.30-17.02.03:654][443]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.07.30-17.02.04:614][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.02.08:785][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.02.14:593][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.02.14:684][717]BlueprintLog: New page: Compile BaseToolPickup
+[2019.07.30-17.02.14:897][717]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup4D1D58604117F594FEFD3AB31FCA7DD1.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.02.16:394][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.02.18:379][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.02.23:309][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.02.27:581][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.02.31:827][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.30-17.02.31:860][642]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickupB29E42D842EEF849FB6460AF57710064.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.02.40:638][678]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickupE7ED42F54D314C8BCBC0F5A500491BE1.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.02.41:697][802]BlueprintLog: New page: Compile BaseToolPickup
+[2019.07.30-17.02.44:418][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.02.52:153][983]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickupDE86E020413B306E765691BA2370976B.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.02.55:147][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.02.55:206][326]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.30-17.02.55:225][326]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.02.55:227][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.30-17.02.55:239][326]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 30, 2019, 9:02:55 AM)
+[2019.07.30-17.02.55:239][326]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.30-17.02.55:252][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012088s)
+[2019.07.30-17.02.55:253][326]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.30-17.02.55:253][326]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2019.07.30-17.02.55:253][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013729s)
+[2019.07.30-17.02.55:318][326]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.30-17.02.55:334][326]LogInit: FAudioDevice initialized.
+[2019.07.30-17.02.55:378][326]LogLoad: Game class is 'GameMode'
+[2019.07.30-17.02.55:381][326]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.30-13.02.55
+[2019.07.30-17.02.55:382][326]LogWorld: Bringing up level for play took: 0.002903
+[2019.07.30-17.02.55:405][326]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2019.07.30-17.02.55:405][326]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.02.55:406][326]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.02.55:406][326]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.02.55:406][326]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.30-17.02.55:406][326]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.02.55:407][326]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.787
+[2019.07.30-17.02.55:407][326]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.02.59:204][765]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.02.59:206][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.02.59:251][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.30-17.02.59:252][765]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.02.59:281][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.02.59:312][766]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.07.30-17.02.59:665][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.03.19:271][123]BlueprintLog: New page: Compile BaseToolPickup
+[2019.07.30-17.03.19:462][123]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup286F2B354A60B62A77286F9F1D7C7C77.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.03.20:828][273]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.30-17.03.20:853][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.03.20:854][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.30-17.03.20:854][273]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 30, 2019, 9:03:20 AM)
+[2019.07.30-17.03.20:855][273]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.30-17.03.20:866][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011373s)
+[2019.07.30-17.03.20:867][273]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.30-17.03.20:867][273]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2019.07.30-17.03.20:867][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012635s)
+[2019.07.30-17.03.20:924][273]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.30-17.03.20:941][273]LogInit: FAudioDevice initialized.
+[2019.07.30-17.03.20:986][273]LogLoad: Game class is 'GameMode'
+[2019.07.30-17.03.20:989][273]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.30-13.03.20
+[2019.07.30-17.03.20:990][273]LogWorld: Bringing up level for play took: 0.002433
+[2019.07.30-17.03.21:001][273]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.03.21:002][273]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.03.21:002][273]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.03.21:002][273]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.30-17.03.21:002][273]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.03.21:003][273]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.383
+[2019.07.30-17.03.21:003][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.03.26:803][954]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.03.26:805][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.03.26:845][954]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.30-17.03.26:846][954]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.03.26:874][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.03.26:902][955]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.07.30-17.03.27:468][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.03.36:278][ 58]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.03.36:283][ 58]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.03.36:297][ 58]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.03.36:297][ 58]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.03.36:297][ 58]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.03.36:297][ 58]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.03.36:312][ 58]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.03.36:986][136]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.03.36:995][137]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.03.37:078][147]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.03.37:121][152]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.03.37:272][168]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.03.37:290][170]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.03.37:338][176]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.03.37:349][177]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.03.37:471][192]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.03.37:503][195]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.03.37:506][195]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.03.37:507][195]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.03.37:512][195]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.03.37:539][195]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.03.37:542][195]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.03.37:738][216]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.07.30-17.03.37:993][246]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.07.30-17.03.38:079][256]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.03.38:148][264]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.03.38:258][277]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.03.38:401][294]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.03.38:477][303]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.03.38:569][314]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.03.38:601][318]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.03.38:668][326]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.03.38:718][332]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.03.38:769][338]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.03.38:802][342]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.03.38:852][348]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.03.38:911][355]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.03.38:919][356]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-17.03.38:978][363]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-17.03.39:140][381]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.03.39:148][381]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.03.39:180][381]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.03.39:252][387]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.07.30-17.03.39:354][397]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.07.30-17.03.39:506][415]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.03.39:523][417]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.03.39:740][443]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.03.39:747][444]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.03.39:850][456]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.03.39:931][466]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.03.40:000][474]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.03.40:006][474]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.03.40:020][474]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.03.40:025][474]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.03.40:058][474]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.03.40:065][474]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.03.40:080][474]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.03.40:094][474]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.03.40:111][474]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.03.40:119][474]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.07.30-17.03.40:125][474]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2019.07.30-17.03.40:154][474]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.03.40:154][474]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.03.40:172][474]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.30-17.03.40:260][479]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.07.30-17.03.40:297][481]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.03.40:444][497]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.03.40:510][505]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.03.40:530][507]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.03.40:698][527]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.03.40:747][533]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.03.40:823][542]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.03.40:840][544]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.03.40:974][560]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.03.41:017][565]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.03.41:033][567]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.03.41:108][576]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.03.41:188][585]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.03.41:195][586]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-17.03.41:240][590]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-17.03.41:516][622]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-17.03.41:543][625]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-17.03.41:625][635]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-17.03.41:701][644]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-17.03.41:809][657]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.03.42:109][691]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.03.42:120][692]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.03.42:138][694]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.03.42:585][747]MaterialEditorStats: Base pass shader: 100 instructions
+[2019.07.30-17.03.42:585][747]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.07.30-17.03.42:585][747]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.07.30-17.03.42:585][747]MaterialEditorStats: Texture samplers: 3/16
+[2019.07.30-17.03.45:661][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.03.46:956][262]LogMaterialEditor: Saving and Compiling material BasePickupMaterial
+[2019.07.30-17.03.47:549][262]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.03.47:605][262]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.03.47:606][262]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.03.47:606][262]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.03.47:606][262]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.03.47:616][262]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.03.47:640][262]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.03.47:699][262]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasePickupMaterial, compiling. 
+[2019.07.30-17.03.49:010][262]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.30-17.03.49:011][262]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.07.30-17.03.49:011][262]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.07.30-17.03.49:011][262]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.07.30-17.03.49:011][262]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.07.30-17.03.49:011][262]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.07.30-17.03.49:011][262]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.07.30-17.03.49:011][262]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.07.30-17.03.49:012][262]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.07.30-17.03.49:012][262]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.07.30-17.03.49:012][262]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.30-17.03.49:012][262]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.07.30-17.03.49:012][262]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.07.30-17.03.49:012][262]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.07.30-17.03.49:012][262]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.07.30-17.03.49:012][262]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.07.30-17.03.49:013][262]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.07.30-17.03.49:013][262]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.03.49:013][262]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.03.49:013][262]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.03.49:013][262]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.03.49:015][262]TextureStreamingBuild: Display: Compiling optional shaders took 1.324 seconds.
+[2019.07.30-17.03.51:558][262]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BasePickupMaterial316F0CBB4C950C920C1E4990EC6D8F54.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BasePickupMaterial.uasset'
+[2019.07.30-17.04.01:719][454]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.04.01:733][454]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2019.07.30-17.04.01:739][454]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.04.01:756][454]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.04.01:756][454]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.04.01:756][454]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.04.01:756][454]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.04.01:785][454]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2019.07.30-17.04.02:038][480]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.04.02:055][482]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.04.02:079][485]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.04.02:146][493]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.04.02:247][505]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.04.02:272][508]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.04.02:272][508]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.04.02:330][515]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.04.02:433][527]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.04.02:440][528]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.04.02:457][530]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.04.02:690][558]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-17.04.02:732][563]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-17.04.02:876][580]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-17.04.02:885][581]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-17.04.03:078][603]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-17.04.03:238][622]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-17.04.03:424][641]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.04.03:440][643]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.04.03:473][647]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.04.03:690][673]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.04.03:826][689]MaterialEditorStats: Base pass shader: 100 instructions
+[2019.07.30-17.04.03:826][689]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 100 instructions
+[2019.07.30-17.04.03:826][689]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.07.30-17.04.03:826][689]MaterialEditorStats: Texture samplers: 2/16
+[2019.07.30-17.04.07:811][159]LogMaterialEditor: Saving and Compiling material BasePickupMaterial
+[2019.07.30-17.04.08:388][159]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.04.08:445][159]LogSlate: Window 'Color Picker' being destroyed
+[2019.07.30-17.04.08:457][159]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.04.08:457][159]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.04.08:458][159]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.04.08:458][159]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.04.08:466][159]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.04.08:489][159]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.04.08:550][159]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasePickupMaterial, compiling. 
+[2019.07.30-17.04.09:812][159]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.30-17.04.09:812][159]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.07.30-17.04.09:812][159]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.07.30-17.04.09:812][159]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.07.30-17.04.09:813][159]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.07.30-17.04.09:813][159]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.07.30-17.04.09:813][159]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.07.30-17.04.09:813][159]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.07.30-17.04.09:813][159]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.07.30-17.04.09:814][159]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.07.30-17.04.09:814][159]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.30-17.04.09:814][159]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.07.30-17.04.09:814][159]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.07.30-17.04.09:814][159]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.07.30-17.04.09:814][159]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.07.30-17.04.09:815][159]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.07.30-17.04.09:815][159]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.07.30-17.04.09:815][159]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.04.09:815][159]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.04.09:815][159]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.04.09:820][159]TextureStreamingBuild: Display: Compiling optional shaders took 1.277 seconds.
+[2019.07.30-17.04.12:094][159]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.04.12:142][159]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BasePickupMaterialA8444F21456ED2B3A729BA86047026D6.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BasePickupMaterial.uasset'
+[2019.07.30-17.04.14:395][417]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.30-17.04.14:414][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.04.14:415][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.30-17.04.14:415][417]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 30, 2019, 9:04:14 AM)
+[2019.07.30-17.04.14:415][417]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.30-17.04.14:428][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013023s)
+[2019.07.30-17.04.14:430][417]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.30-17.04.14:430][417]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2019.07.30-17.04.14:430][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014995s)
+[2019.07.30-17.04.14:483][417]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.30-17.04.14:496][417]LogInit: FAudioDevice initialized.
+[2019.07.30-17.04.14:531][417]LogLoad: Game class is 'GameMode'
+[2019.07.30-17.04.14:533][417]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.30-13.04.14
+[2019.07.30-17.04.14:534][417]LogWorld: Bringing up level for play took: 0.001742
+[2019.07.30-17.04.14:546][417]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.04.14:547][417]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.04.14:547][417]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.04.14:547][417]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.30-17.04.14:547][417]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.04.14:548][417]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.072
+[2019.07.30-17.04.14:548][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.04.17:591][770]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.04.17:593][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.04.17:630][770]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.30-17.04.17:631][770]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.04.17:659][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.04.17:710][772]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.07.30-17.04.18:204][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.04.24:619][556]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup0D4534544CE289438E440E99DD44A845.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.04.27:687][920]BlueprintLog: New page: Compile BaseToolPickup
+[2019.07.30-17.04.27:915][920]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup10BC353A47814C39137B0E84EA7DC0D3.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.04.29:003][ 40]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.30-17.04.29:024][ 40]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.04.29:026][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.30-17.04.29:027][ 40]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 30, 2019, 9:04:29 AM)
+[2019.07.30-17.04.29:027][ 40]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.30-17.04.29:040][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012041s)
+[2019.07.30-17.04.29:040][ 40]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.30-17.04.29:041][ 40]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2019.07.30-17.04.29:041][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013594s)
+[2019.07.30-17.04.29:093][ 40]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.30-17.04.29:105][ 40]LogInit: FAudioDevice initialized.
+[2019.07.30-17.04.29:139][ 40]LogLoad: Game class is 'GameMode'
+[2019.07.30-17.04.29:141][ 40]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.30-13.04.29
+[2019.07.30-17.04.29:141][ 40]LogWorld: Bringing up level for play took: 0.001838
+[2019.07.30-17.04.29:153][ 40]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.04.29:153][ 40]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.04.29:154][ 40]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.04.29:154][ 40]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.30-17.04.29:154][ 40]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.04.29:154][ 40]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.535
+[2019.07.30-17.04.29:155][ 40]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.04.30:681][217]LogBlueprintUserMessages: [BaseToolPickup_5] Hello
+[2019.07.30-17.04.31:773][345]LogBlueprintUserMessages: [BaseToolPickup_5] Hello
+[2019.07.30-17.04.32:734][460]LogBlueprintUserMessages: [BaseToolPickup_5] Hello
+[2019.07.30-17.04.33:847][591]LogBlueprintUserMessages: [BaseToolPickup_5] Hello
+[2019.07.30-17.04.34:564][677]LogBlueprintUserMessages: [BaseToolPickup_5] Hello
+[2019.07.30-17.04.34:889][716]LogBlueprintUserMessages: [BaseToolPickup_5] Hello
+[2019.07.30-17.04.35:311][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.04.35:313][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.04.35:353][766]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.30-17.04.35:354][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.04.35:384][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.04.35:428][768]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.07.30-17.04.36:084][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.04.54:148][976]LogSlate: Took 0.014280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.07.30-17.05.00:941][773]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup934384DE473D2D9FFE863B9F86D40E60.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.05.52:303][765]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.30-17.06.18:118][791]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup4904C7554FD579BC8136C1BFB0E37E67.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.06.36:616][968]LogEditorTransaction: Undo Break Pin Links
+[2019.07.30-17.06.36:629][968]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.06.36:650][968]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.06.36:650][968]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.06.36:650][968]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.06.36:650][968]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.06.37:241][ 35]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.07.30-17.06.37:284][ 40]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.07.30-17.06.37:293][ 41]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.07.30-17.06.37:293][ 41]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.07.30-17.06.37:483][ 64]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.07.30-17.06.37:491][ 65]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.06.37:510][ 67]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.30-17.06.37:517][ 68]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.30-17.06.37:706][ 90]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.07.30-17.06.37:810][102]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.30-17.06.37:999][124]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.07.30-17.06.37:999][124]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.07.30-17.06.38:175][145]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.07.30-17.06.38:249][154]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.07.30-17.06.38:257][155]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.07.30-17.06.38:396][171]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.06.38:521][184]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.30-17.06.38:759][212]MaterialEditorStats: Base pass shader: 100 instructions
+[2019.07.30-17.06.38:759][212]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 100 instructions
+[2019.07.30-17.06.38:760][212]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.07.30-17.06.38:760][212]MaterialEditorStats: Texture samplers: 2/16
+[2019.07.30-17.06.44:769][921]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickupDF54F2E444270FA187C6AEA8D48B68B6.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.06.46:999][187]BlueprintLog: New page: Compile BaseToolPickup
+[2019.07.30-17.07.04:342][195]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup85BDD033471731CC8A6A7A8297497ECD.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.07.13:656][266]BlueprintLog: New page: Compile BaseToolPickup
+[2019.07.30-17.07.13:873][266]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup3F1D3945414FE7A593776EA0D9997AF4.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.07.15:167][407]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup1B1692654E0A25C0978CAA96AC47A1D6.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.07.16:660][582]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.30-17.07.16:685][582]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.07.16:686][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.30-17.07.16:687][582]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 30, 2019, 9:07:16 AM)
+[2019.07.30-17.07.16:687][582]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.30-17.07.16:700][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012841s)
+[2019.07.30-17.07.16:701][582]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.30-17.07.16:701][582]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2019.07.30-17.07.16:702][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014370s)
+[2019.07.30-17.07.16:759][582]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.30-17.07.16:774][582]LogInit: FAudioDevice initialized.
+[2019.07.30-17.07.16:808][582]LogLoad: Game class is 'GameMode'
+[2019.07.30-17.07.16:810][582]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.30-13.07.16
+[2019.07.30-17.07.16:811][582]LogWorld: Bringing up level for play took: 0.001834
+[2019.07.30-17.07.16:824][582]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.07.16:824][582]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.07.16:824][582]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.07.16:825][582]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.30-17.07.16:825][582]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.07.16:825][582]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.206
+[2019.07.30-17.07.16:825][582]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.07.18:288][751]LogBlueprintUserMessages: [BaseToolPickup_5] Picked up
+[2019.07.30-17.07.19:165][855]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.07.19:166][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.07.19:210][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.30-17.07.19:211][855]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.07.19:237][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.07.19:265][856]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.07.30-17.07.19:891][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.07.39:584][256]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickup1D384F404AB7764E4D66F8B6D59F89AF.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.07.41:758][515]BlueprintLog: New page: Compile BaseToolPickup
+[2019.07.30-17.07.44:244][780]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BaseToolPickupE4335D7F478F861C59B3E090E834492B.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BaseToolPickup.uasset'
+[2019.07.30-17.08.00:930][647]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/CommonToolPickup32BD367B42E1A0A7B21E6FA513056B1C.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.uasset'
+[2019.07.30-17.08.05:763][211]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.CommonToolPickup
+[2019.07.30-17.08.48:536][210]BlueprintLog: New page: Compile CommonToolPickup
+[2019.07.30-17.08.49:172][210]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/CommonToolPickupFBB0DDF5405E83522018A9AF28783CD8.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/CommonToolPickup.uasset'
+[2019.07.30-17.08.50:418][347]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.30-17.08.50:445][347]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.08.50:446][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.30-17.08.50:446][347]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 30, 2019, 9:08:50 AM)
+[2019.07.30-17.08.50:447][347]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.30-17.08.50:461][347]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014057s)
+[2019.07.30-17.08.50:462][347]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.30-17.08.50:462][347]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2019.07.30-17.08.50:462][347]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015472s)
+[2019.07.30-17.08.50:523][347]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.30-17.08.50:536][347]LogInit: FAudioDevice initialized.
+[2019.07.30-17.08.50:565][347]LogLoad: Game class is 'GameMode'
+[2019.07.30-17.08.50:567][347]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.30-13.08.50
+[2019.07.30-17.08.50:567][347]LogWorld: Bringing up level for play took: 0.001767
+[2019.07.30-17.08.50:579][347]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.08.50:579][347]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.30-17.08.50:580][347]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.08.50:580][347]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.30-17.08.50:580][347]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.30-17.08.50:580][347]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.039
+[2019.07.30-17.08.50:581][347]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.08.51:901][499]LogBlueprintUserMessages: [BaseToolPickup_5] Picked up
+[2019.07.30-17.08.52:835][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.08.52:836][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.08.52:875][610]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.30-17.08.52:876][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.30-17.08.52:905][610]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.30-17.08.52:951][612]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.07.30-17.08.53:470][674]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.30-17.08.55:224][684]LogSlate: Window 'Message' being destroyed
+[2019.07.30-17.08.55:807][684]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.08.55:863][684]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.30-17.08.55:863][684]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.30-17.08.55:864][684]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.07.30-17.08.55:864][684]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.30-17.08.55:872][684]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.08.55:894][684]LogMaterial: Display: Missing cached shader map for material BasePickupMaterial, compiling. 
+[2019.07.30-17.08.55:954][684]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasePickupMaterial, compiling. 
+[2019.07.30-17.08.57:574][684]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.30-17.08.57:574][684]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.07.30-17.08.57:574][684]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.07.30-17.08.57:574][684]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.07.30-17.08.57:574][684]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.07.30-17.08.57:575][684]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.07.30-17.08.57:575][684]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.07.30-17.08.57:575][684]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.07.30-17.08.57:575][684]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.07.30-17.08.57:575][684]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.07.30-17.08.57:575][684]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.30-17.08.57:575][684]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.07.30-17.08.57:575][684]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.07.30-17.08.57:575][684]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.07.30-17.08.57:576][684]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.07.30-17.08.57:576][684]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.07.30-17.08.57:576][684]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.07.30-17.08.57:576][684]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.07.30-17.08.57:576][684]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.30-17.08.57:577][684]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.30-17.08.57:579][684]TextureStreamingBuild: Display: Compiling optional shaders took 1.633 seconds.
+[2019.07.30-17.08.57:652][684]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.30-17.09.00:064][684]LogSlate: Window 'Save Content' being destroyed
+[2019.07.30-17.09.00:419][684]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap7EEC0DB84E024F75A6E0CBB15DC8F186.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.30-17.09.00:453][684]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.353
+[2019.07.30-17.09.00:515][684]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/BasePickupMaterialFD18E99845EECC0E3932549DE7C39284.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tools/Pickups/BasePickupMaterial.uasset'
+[2019.07.30-17.09.00:673][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.07.30-17.09.00:841][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.07.30-17.09.00:891][684]LogSlate: Window 'Project_Tether - Unreal Editor' being destroyed
+[2019.07.30-17.09.01:103][685]Cmd: QUIT_EDITOR
+[2019.07.30-17.09.01:627][685]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.30-17.09.01:639][685]LogExit: Preparing to exit.
+[2019.07.30-17.09.02:084][685]LogExit: Editor shut down
+[2019.07.30-17.09.02:084][685]LogExit: Transaction tracking system shut down
+[2019.07.30-17.09.02:701][685]LogExit: Object subsystem successfully closed.
+[2019.07.30-17.09.02:724][685]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.30-17.09.02:725][685]LogD3D11RHI: Shutdown
+[2019.07.30-17.09.02:725][685]LogD3D11RHI: CleanupD3DDevice
+[2019.07.30-17.09.02:728][685]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.07.30-17.09.02:736][685]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (622)
+[2019.07.30-17.09.02:736][685]LogModuleManager: Shutting down and abandoning module Voice (620)
+[2019.07.30-17.09.02:736][685]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (618)
+[2019.07.30-17.09.02:736][685]LogModuleManager: Shutting down and abandoning module BlueprintGraph (616)
+[2019.07.30-17.09.02:736][685]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.07.30-17.09.02:736][685]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (612)
+[2019.07.30-17.09.02:736][685]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.07.30-17.09.02:736][685]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.07.30-17.09.02:737][685]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.07.30-17.09.02:738][685]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.07.30-17.09.02:739][685]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.07.30-17.09.02:739][685]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.07.30-17.09.02:739][685]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.07.30-17.09.02:739][685]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.07.30-17.09.02:739][685]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.07.30-17.09.02:739][685]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.07.30-17.09.02:739][685]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.07.30-17.09.03:262][685]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.07.30-17.09.03:263][685]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.07.30-17.09.03:263][685]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.07.30-17.09.03:263][685]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.07.30-17.09.03:263][685]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.07.30-17.09.03:263][685]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.07.30-17.09.03:263][685]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.07.30-17.09.03:263][685]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.07.30-17.09.03:318][685]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.07.30-17.09.03:318][685]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.07.30-17.09.03:318][685]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.07.30-17.09.03:318][685]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.07.30-17.09.03:318][685]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.07.30-17.09.03:318][685]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.07.30-17.09.03:318][685]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.07.30-17.09.03:318][685]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.07.30-17.09.03:318][685]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.07.30-17.09.03:318][685]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.07.30-17.09.03:322][685]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.07.30-17.09.03:322][685]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.07.30-17.09.03:323][685]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.07.30-17.09.03:323][685]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.07.30-17.09.03:324][685]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.07.30-17.09.03:348][685]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.07.30-17.09.03:351][685]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.07.30-17.09.03:351][685]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.07.30-17.09.03:351][685]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.07.30-17.09.03:351][685]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.07.30-17.09.03:351][685]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.07.30-17.09.03:351][685]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.07.30-17.09.03:351][685]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.07.30-17.09.03:351][685]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.07.30-17.09.03:351][685]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.07.30-17.09.03:352][685]LogModuleManager: Shutting down and abandoning module Project_Tether (300)
+[2019.07.30-17.09.03:353][685]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.07.30-17.09.03:353][685]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.07.30-17.09.03:353][685]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.07.30-17.09.03:353][685]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.07.30-17.09.03:353][685]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.07.30-17.09.03:353][685]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.07.30-17.09.03:353][685]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.07.30-17.09.03:353][685]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.07.30-17.09.03:353][685]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.07.30-17.09.03:455][685]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.07.30-17.09.03:556][685]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.07.30-17.09.03:556][685]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.07.30-17.09.03:556][685]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.07.30-17.09.03:556][685]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.07.30-17.09.03:556][685]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.07.30-17.09.03:556][685]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.07.30-17.09.03:556][685]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.07.30-17.09.03:557][685]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.07.30-17.09.03:557][685]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.07.30-17.09.03:557][685]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.07.30-17.09.03:557][685]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.07.30-17.09.03:557][685]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.07.30-17.09.03:558][685]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.07.30-17.09.03:558][685]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.07.30-17.09.03:558][685]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.07.30-17.09.03:558][685]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.07.30-17.09.03:558][685]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.07.30-17.09.03:558][685]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.07.30-17.09.03:559][685]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.07.30-17.09.03:565][685]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.07.30-17.09.03:566][685]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.07.30-17.09.03:566][685]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.07.30-17.09.03:566][685]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.07.30-17.09.03:566][685]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.07.30-17.09.03:566][685]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.07.30-17.09.03:566][685]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.07.30-17.09.03:567][685]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.07.30-17.09.03:568][685]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.07.30-17.09.03:644][685]LogDerivedDataCache: Shutdown
+[2019.07.30-17.09.03:644][685]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.07.30-17.09.03:644][685]LogXGEController: Cleaning working directory: C:/Users/aaron.hines/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.30-17.09.03:644][685]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.07.30-17.09.03:644][685]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.07.30-17.09.03:644][685]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.07.30-17.09.03:644][685]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.07.30-17.09.03:644][685]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.07.30-17.09.03:644][685]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.07.30-17.09.03:645][685]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.07.30-17.09.03:646][685]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.07.30-17.09.03:646][685]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.07.30-17.09.03:646][685]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.07.30-17.09.03:646][685]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.07.30-17.09.03:651][685]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.07.30-17.09.03:652][685]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.07.30-17.09.03:653][685]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.07.30-17.09.03:653][685]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.07.30-17.09.03:670][685]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.07.30-17.09.03:670][685]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.07.30-17.09.03:670][685]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B42C2CD45-4037-ADBA-CC7A-AD921E2A81A7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=b73960f145a75f8d123881b4daf3cb67%7C5e0c94b460c94235a6f9d9aa0432c0f9%7C237e01de-c593-4ddd-a2ca-ecc20c8d76fe&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.07.30-17.09.03:699][685]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.07.30-17.09.03:700][685]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.07.30-17.09.03:700][685]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.07.30-17.09.03:701][685]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.07.30-17.09.03:702][685]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.07.30-17.09.03:702][685]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.07.30-17.09.03:708][685]LogExit: Exiting.
+[2019.07.30-17.09.03:713][685]Log file closed, 07/30/19 13:09:03

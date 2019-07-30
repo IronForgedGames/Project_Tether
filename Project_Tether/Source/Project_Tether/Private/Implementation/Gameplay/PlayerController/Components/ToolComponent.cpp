@@ -3,6 +3,7 @@
 #include "ToolComponent.h"
 #include "TopDown_E_Character.h"
 #include "Tool.h"
+#include "Public/Core/Item/InventoryComponent.h"
 
 UToolComponent::UToolComponent()
 {
@@ -12,6 +13,9 @@ UToolComponent::UToolComponent()
 void UToolComponent::BeginPlay()
 {
 	Super::BeginPlay();
+
+	playerInventory = Cast<UInventoryComponent>(GetOwner()->GetComponentByClass(UInventoryComponent::StaticClass()));
+
 
 	// set up the default weapons
 	for (auto& _item : defaultWeapons)
@@ -69,6 +73,12 @@ bool UToolComponent::AddTool(UTool * newTool)
 			if (!armor.Contains(newTool))
 			{
 				armor.Add(newTool);
+				toolAdded.Broadcast(newTool);
+
+				if(playerInventory != nullptr && newTool->item != NULL)
+				{
+					playerInventory->Add(newTool->item);
+				}
 				return true;
 			}
 		}
@@ -77,6 +87,12 @@ bool UToolComponent::AddTool(UTool * newTool)
 			if (!weapons.Contains(newTool))
 			{
 				weapons.Add(newTool);
+				toolAdded.Broadcast(newTool);
+
+				if (playerInventory != nullptr && newTool->item != NULL)
+				{
+					playerInventory->Add(newTool->item);
+				}
 				return true;
 			}
 		}
@@ -96,6 +112,11 @@ bool UToolComponent::RemoveTool(UTool * toolToRemove)
 			}
 
 			armor.Remove(toolToRemove);
+			toolRemoved.Broadcast(toolToRemove);
+			if (playerInventory != nullptr && toolToRemove->item != NULL)
+			{
+				playerInventory->Subtract(toolToRemove->item);
+			}
 			return true;
 		}
 	}
@@ -109,6 +130,11 @@ bool UToolComponent::RemoveTool(UTool * toolToRemove)
 			}
 
 			weapons.Remove(toolToRemove);
+			toolRemoved.Broadcast(toolToRemove);
+			if (playerInventory != nullptr && toolToRemove->item != NULL)
+			{
+				playerInventory->Subtract(toolToRemove->item);
+			}
 			return true;
 		}
 	}
@@ -159,6 +185,8 @@ UTool * UToolComponent::EquipWeapon(UTool * weapon)
 
 		equippedWeapons[Handedness::LeftHanded] = weapon;
 	}
+	
+	weaponEqipped.Broadcast(weapon);
 
 	return weapon;
 }
@@ -182,6 +210,7 @@ UTool * UToolComponent::UnequipWeapon(UTool * weapon)
 
 
 	equippedWeapons[weapon->handedness] = nullptr;
+	weaponUeqipped.Broadcast(weapon);
 	return weapon;
 }
 
@@ -211,6 +240,7 @@ UTool * UToolComponent::EquipArmor(UTool * armor)
 	{
 		UnequipArmor(equippedArmor[armor->armorSlot]);
 		equippedArmor[armor->armorSlot] = armor;
+		armorEqipped.Broadcast(armor);
 	}
 
 	return nullptr;
@@ -234,7 +264,7 @@ UTool * UToolComponent::UnequipArmor(UTool * armor)
 	}
 
 	equippedArmor[armor->armorSlot] = nullptr;
-
+	armorUeqipped.Broadcast(armor);
 	return nullptr;
 }
 
