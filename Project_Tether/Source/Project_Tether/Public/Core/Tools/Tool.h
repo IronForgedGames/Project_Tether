@@ -40,6 +40,14 @@ enum ArmorSlot
 	Legs UMETA(DisplayName = "Legs")
 };
 
+UENUM()
+enum Handedness
+{
+	TwoHanded UMETA(Display = "Two Handed"),
+	RightHanded UMETA(Display = "RightHanded"),
+	LeftHanded UMETA(Display = "LeftHanded")
+};
+
 UCLASS(Blueprintable)
 class PROJECT_TETHER_API UTool : public UObject
 {
@@ -48,9 +56,12 @@ class PROJECT_TETHER_API UTool : public UObject
 public:
 	UTool();
 
-protected:
-	UPROPERTY(EditAnywhere, Category = "Tool")
-	TEnumAsByte<UsageType> usageType;
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tool")
+	UStaticMesh* mesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tool")
+	FString toolName;
 	
 	UPROPERTY(EditAnywhere, Category = "Tool")
 	TEnumAsByte<Rarity> rarity;
@@ -61,46 +72,21 @@ protected:
 	UPROPERTY(EditAnywhere, Category = "Tool")
 	TSubclassOf<UClassType> classType;
 
+	UPROPERTY(EditAnywhere, Category = "Tool")
+	TEnumAsByte<UsageType> usageType;
+
+	UPROPERTY(EditAnywhere, Category = "Tool")
+	TEnumAsByte<Handedness> handedness;
+
 	UPROPERTY(EditAnywhere, Category = "Weapon")
 	TSubclassOf<UWeaponType> weaponType;
 
 	UPROPERTY(EditAnywhere, Category = "Armor")
 	TEnumAsByte<ArmorSlot> armorSlot;
 
-public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tool")
-	UStaticMesh* mesh;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tool")
-	FString toolName;
-
-	//UFUNCTION(BlueprintCallable)
-	//UTool* CreateToolInstance();
-
-	UFUNCTION(BlueprintCallable)
-	TEnumAsByte<UsageType> GetUsage() { return usageType; }
-
-	UFUNCTION(BlueprintCallable)
-	TEnumAsByte<ArmorSlot> GetArmorSlot() { return armorSlot; }
-
-	UFUNCTION(BlueprintCallable)
-	TEnumAsByte<Rarity> GetRarity() { return rarity; }
-	
-	UFUNCTION(BlueprintCallable)
-	FString GetName() { return toolName; }
-
-	UFUNCTION(BlueprintCallable)
-	TSubclassOf<UItem> GetItem(){ return item; }
-	
-	UFUNCTION(BlueprintCallable)
-	TSubclassOf<UWeaponType> GetWeaponType() { return weaponType; }
-
-	UFUNCTION(BlueprintCallable)
-	TArray<TSubclassOf<UAnimMontage>> GetStandardAnims();
-
-	UFUNCTION(BlueprintCallable)
-	TArray<TSubclassOf<UAnimMontage>> GetAnimAlt_1();
-
-	UFUNCTION(BlueprintCallable)
-	TArray<TSubclassOf<UAnimMontage>> GetAnimAlt_2();
+	UPROPERTY(EditAnywhere, Category = "Armor")
+	bool canBeRemoved;
+		
+	int powerRating;
+	// array of modifiers
 };

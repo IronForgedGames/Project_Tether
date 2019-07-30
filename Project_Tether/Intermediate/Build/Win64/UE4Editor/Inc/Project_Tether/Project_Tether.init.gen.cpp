@@ -11,17 +11,21 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeProject_Tether_init() {}
+	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_ToolEventSigniture__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_Project_Tether_ToolEventSigniture__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Project_Tether",
 				PKG_CompiledIn | 0x00000000,
-				0x5A27FB4A,
-				0x5303EF29,
-				nullptr, 0,
+				0xD0F4B4F4,
+				0xAE728175,
+				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
