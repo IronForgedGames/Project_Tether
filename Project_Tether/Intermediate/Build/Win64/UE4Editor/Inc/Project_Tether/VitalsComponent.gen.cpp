@@ -16,7 +16,6 @@ void EmptyLinkFunctionForGeneratedCodeVitalsComponent() {}
 	PROJECT_TETHER_API UEnum* Z_Construct_UEnum_Project_Tether_Status();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
 	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FResistanceModifier();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UE_DamageType_NoRegister();
 	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FHealInfo();
 	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FDamageInfo();
@@ -108,7 +107,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFResistanceModif
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_damageType_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_damageType;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_damageType;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -136,7 +135,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFResistanceModif
 		{ "ModuleRelativePath", "Public/Core/Components/VitalsComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FResistanceModifier_Statics::NewProp_damageType = { UE4CodeGen_Private::EPropertyClass::Class, "damageType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000001, 1, nullptr, STRUCT_OFFSET(FResistanceModifier, damageType), Z_Construct_UClass_UE_DamageType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UScriptStruct_FResistanceModifier_Statics::NewProp_damageType_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FResistanceModifier_Statics::NewProp_damageType_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FResistanceModifier_Statics::NewProp_damageType = { UE4CodeGen_Private::EPropertyClass::Object, "damageType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(FResistanceModifier, damageType), Z_Construct_UClass_UE_DamageType_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FResistanceModifier_Statics::NewProp_damageType_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FResistanceModifier_Statics::NewProp_damageType_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FResistanceModifier_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FResistanceModifier_Statics::NewProp_multiplier,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FResistanceModifier_Statics::NewProp_damageType,
@@ -168,7 +167,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFResistanceModif
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FResistanceModifier_CRC() { return 1322505017U; }
+	uint32 Get_Z_Construct_UScriptStruct_FResistanceModifier_CRC() { return 3166665320U; }
 class UScriptStruct* FHealInfo::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;

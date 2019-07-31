@@ -20,7 +20,7 @@ private: \
 	static void StaticRegisterNativesUStatType(); \
 	friend struct Z_Construct_UClass_UStatType_Statics; \
 public: \
-	DECLARE_CLASS(UStatType, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UStatType, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UStatType)
 
 
@@ -29,7 +29,7 @@ private: \
 	static void StaticRegisterNativesUStatType(); \
 	friend struct Z_Construct_UClass_UStatType_Statics; \
 public: \
-	DECLARE_CLASS(UStatType, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UStatType, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UStatType)
 
 
@@ -59,7 +59,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UStatType); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UStatType)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatType_h_13_PRIVATE_PROPERTY_OFFSET
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatType_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__statName() { return STRUCT_OFFSET(UStatType, statName); }
+
+
 #define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatType_h_10_PROLOG
 #define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatType_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

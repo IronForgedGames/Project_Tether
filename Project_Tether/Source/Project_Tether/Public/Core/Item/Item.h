@@ -3,33 +3,26 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
+#include "Engine/DataAsset.h"
 #include "Item.generated.h"
 
 class UItemCategory;
 
 /**
- * 
+ * Identitfier for items
  */
 UCLASS(Blueprintable)
-class PROJECT_TETHER_API UItem : public UObject
+class PROJECT_TETHER_API UItem : public UDataAsset
 {
 	GENERATED_BODY()
 
-	UItem();
-	
-protected:
-	UPROPERTY(EditAnywhere, Category = "Item")
-	float value; // monetary value
-	
-	UPROPERTY(EditAnywhere, Category = "Item")
-	FString name; // name of the item
-
-	UPROPERTY(EditAnywhere, Category = "Item")
-	TSubclassOf<UItemCategory> category; // what is this? Consumable, weapon?
-
 public:
-	float GetValue() { return value; }
-	FString GetName() { return name; }
-	TSubclassOf<UItemCategory> GetCategory() { return category; }
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item")
+	int value; 
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item")
+	FString name; 
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item")
+	UItemCategory* category; 
 };

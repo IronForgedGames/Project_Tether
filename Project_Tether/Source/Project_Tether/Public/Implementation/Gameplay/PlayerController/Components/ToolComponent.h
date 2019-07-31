@@ -1,17 +1,45 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Public/Core/Tools/Tool.h"
+#include "Public/Core/Class/ClassType.h"
 #include "TopDown_E_Character.h"
 #include "ToolComponent.generated.h"
 
+class UClassType;
 class UTool;
 class ATopDown_E_Character;
+struct FToolData;
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FToolEventSigniture, UTool*, tool);
+USTRUCT(Blueprintable, BlueprintType)
+struct PROJECT_TETHER_API FToolData
+{
+	GENERATED_USTRUCT_BODY()
+
+	UPROPERTY(BlueprintReadOnly)
+	UTool* toolBase;
+	
+	UPROPERTY(BlueprintReadOnly)
+	float power;
+
+	bool operator == (const FToolData& other) const
+	{
+		return toolBase == toolBase && power == other.power;
+	}
+
+	bool operator != (const FToolData& other) const
+	{
+		return toolBase != toolBase || power != other.power;
+	}
+};
+
+FORCEINLINE uint32 GetTypeHash(const FToolData& other)
+{
+	return FCrc::MemCrc_DEPRECATED(&other, sizeof(FToolData));
+}
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FToolEventSigniture, FToolData, tool);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROJECT_TETHER_API UToolComponent : public UActorComponent
@@ -25,20 +53,19 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<UClassType> classType;
+	UPlayerClassType* classType;
 	
 	UPROPERTY(EditAnywhere)
-	TMap<TEnumAsByte<Handedness>, TSubclassOf<UTool>> defaultWeapons;
+	TMap<TEnumAsByte<FHandedness>, UTool*> defaultWeapons;
 
 	UPROPERTY(EditAnywhere)
-	TMap<TEnumAsByte<ArmorSlot>, TSubclassOf<UTool>> defaultArmor; // nude
-
+	TMap<TEnumAsByte<FArmorSlot>, UTool*> defaultArmor; // nude
 
 	UPROPERTY(EditAnywhere)
 	int weaponInventoryMaxSize;
 	
 	UPROPERTY(EditAnywhere)
-	TMap<TEnumAsByte<ArmorSlot>, int> maxSize;
+	TMap<TEnumAsByte<FArmorSlot>, int> maxSize;
 
 	UPROPERTY(BlueprintAssignable, Category = "Tool Events")
 	FToolEventSigniture toolAdded;
@@ -58,13 +85,13 @@ protected:
 	UPROPERTY(BlueprintAssignable, Category = "Tool Events")
 	FToolEventSigniture armorUeqipped;
 
-	TArray<UTool*> weapons;
-	TMap<TEnumAsByte<Handedness>, UTool*> equippedWeapons;
+	TArray<FToolData> weapons;
+	TMap<TEnumAsByte<FHandedness>, FToolData> equippedWeapons;
 
-	TArray<UTool*> armor;
-	TMap<TEnumAsByte<ArmorSlot>, UTool*> equippedArmor;
+	TArray<FToolData> armor;
+	TMap<TEnumAsByte<FArmorSlot>, FToolData> equippedArmor;
 
-	TMap<TEnumAsByte<ArmorSlot>, UTool*> nudeArmor; // nude
+	TMap<TEnumAsByte<FArmorSlot>, FToolData> nudeArmor; // nude
 	
 	UInventoryComponent* playerInventory;
 
@@ -74,29 +101,30 @@ public:
 	int GetCurrentPowerRating();
 
 	UFUNCTION(BlueprintCallable)
-	UTool* CreateToolInstance(TSubclassOf<UTool> toolBase);
+	FToolData CreateToolInstance(UTool* toolBase);
 
 	UFUNCTION(BlueprintCallable)
-	bool AddTool(UTool * newTool);
+	bool AddTool(FToolData newTool);
 
 	UFUNCTION(BlueprintCallable)
-	bool RemoveTool(UTool* toolToRemove);
+	bool RemoveTool(FToolData toolToRemove);
 
 	UFUNCTION(BlueprintCallable)
-	UTool* EquipWeapon(UTool* weapon);
+	FToolData EquipWeapon(FToolData weapon);
 
 	UFUNCTION(BlueprintCallable)
-	UTool* UnequipWeapon(UTool* weapon);
+	FToolData UnequipWeapon(FToolData weapon);
 
 	UFUNCTION(BlueprintCallable)
-	UTool* EquipArmor(UTool* armor);
+	FToolData EquipArmor(FToolData armor);
 
 	UFUNCTION(BlueprintCallable)
-	UTool* UnequipArmor(UTool* armor);
+	FToolData UnequipArmor(FToolData armor);
 
 	UFUNCTION(BlueprintCallable)
-	UTool* SwapWeapons(int direction, Handedness hand); // direction is up or down by 1
+	FToolData SwapWeapons(int direction, FHandedness hand); // direction is up or down by 1
 
 	UFUNCTION(BlueprintCallable)
-	UTool* SwapArmor(int direction, ArmorSlot slot); // direction is up or down by 1
+	FToolData SwapArmor(int direction, FArmorSlot slot); // direction is up or down by 1
+
 };

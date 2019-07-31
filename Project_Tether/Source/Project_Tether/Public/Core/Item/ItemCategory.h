@@ -3,18 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
+#include "Engine/DataAsset.h"
 #include "ItemCategory.generated.h"
 
 /**
  * 
  */
 UCLASS(Blueprintable)
-class PROJECT_TETHER_API UItemCategory : public UObject
+class PROJECT_TETHER_API UItemCategory : public UDataAsset
 {
 	GENERATED_BODY()
-	
-	
-	
-	
 };

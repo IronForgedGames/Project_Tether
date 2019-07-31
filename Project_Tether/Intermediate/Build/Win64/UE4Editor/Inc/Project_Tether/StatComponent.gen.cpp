@@ -16,7 +16,6 @@ void EmptyLinkFunctionForGeneratedCodeStatComponent() {}
 	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FStatModifier();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
 	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FStat();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStatType_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStatComponent_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStatComponent();
@@ -29,6 +28,7 @@ void EmptyLinkFunctionForGeneratedCodeStatComponent() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_RemoveAllModifiers();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_RemoveModifier();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UIdentity_NoRegister();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_ResetAll();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_SetMaxValue();
@@ -142,7 +142,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_statType_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_statType;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_statType;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
 	};
@@ -184,7 +184,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		{ "ModuleRelativePath", "Public/Core/Components/Stats/StatComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FStat_Statics::NewProp_statType = { UE4CodeGen_Private::EPropertyClass::Class, "statType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000001, 1, nullptr, STRUCT_OFFSET(FStat, statType), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UScriptStruct_FStat_Statics::NewProp_statType_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FStat_Statics::NewProp_statType_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FStat_Statics::NewProp_statType = { UE4CodeGen_Private::EPropertyClass::Object, "statType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(FStat, statType), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FStat_Statics::NewProp_statType_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FStat_Statics::NewProp_statType_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FStat_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStat_Statics::NewProp_currentAmount,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStat_Statics::NewProp_maxAmount,
@@ -218,7 +218,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FStat_CRC() { return 2646629338U; }
+	uint32 Get_Z_Construct_UScriptStruct_FStat_CRC() { return 928317751U; }
 	void UStatComponent::StaticRegisterNativesUStatComponent()
 	{
 		UClass* Class = UStatComponent::StaticClass();
@@ -245,13 +245,13 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventAdd_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 			float value;
 			float ReturnValue;
 		};
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -260,7 +260,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	};
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_Add_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventAdd_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_Add_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventAdd_Parms, value), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_Add_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventAdd_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_Add_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventAdd_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_Add_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_Add_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_Add_Statics::NewProp_value,
@@ -326,11 +326,11 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventGetMaxValue_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 			float ReturnValue;
 		};
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -338,7 +338,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_GetMaxValue_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetMaxValue_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_GetMaxValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetMaxValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_GetMaxValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetMaxValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_GetMaxValue_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_GetMaxValue_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_GetMaxValue_Statics::NewProp_type,
@@ -362,11 +362,11 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventGetMinValue_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 			float ReturnValue;
 		};
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -374,7 +374,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_GetMinValue_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetMinValue_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_GetMinValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetMinValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_GetMinValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetMinValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_GetMinValue_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_GetMinValue_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_GetMinValue_Statics::NewProp_type,
@@ -398,11 +398,11 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventGetValue_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 			float ReturnValue;
 		};
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -410,7 +410,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_GetValue_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetValue_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_GetValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_GetValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventGetValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_GetValue_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_GetValue_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_GetValue_Statics::NewProp_type,
@@ -456,16 +456,16 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventRemoveAllModifiersForStat_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 		};
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventRemoveAllModifiersForStat_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventRemoveAllModifiersForStat_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat_Statics::NewProp_type,
 	};
@@ -542,13 +542,13 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventSetMaxValue_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 			float value;
 			float ReturnValue;
 		};
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -557,7 +557,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	};
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_SetMaxValue_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetMaxValue_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_SetMaxValue_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetMaxValue_Parms, value), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_SetMaxValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetMaxValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_SetMaxValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetMaxValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_SetMaxValue_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetMaxValue_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetMaxValue_Statics::NewProp_value,
@@ -582,13 +582,13 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventSetMinValue_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 			float value;
 			float ReturnValue;
 		};
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -597,7 +597,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	};
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_SetMinValue_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetMinValue_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_SetMinValue_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetMinValue_Parms, value), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_SetMinValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetMinValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_SetMinValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetMinValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_SetMinValue_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetMinValue_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetMinValue_Statics::NewProp_value,
@@ -622,11 +622,11 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventSetToMax_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 			float ReturnValue;
 		};
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -634,7 +634,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_SetToMax_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetToMax_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_SetToMax_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetToMax_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_SetToMax_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetToMax_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_SetToMax_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetToMax_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetToMax_Statics::NewProp_type,
@@ -658,11 +658,11 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventSetToMin_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 			float ReturnValue;
 		};
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -670,7 +670,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_SetToMin_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetToMin_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_SetToMin_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetToMin_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_SetToMin_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetToMin_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_SetToMin_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetToMin_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetToMin_Statics::NewProp_type,
@@ -694,13 +694,13 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventSetValue_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 			float value;
 			float ReturnValue;
 		};
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -709,7 +709,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	};
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_SetValue_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetValue_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_SetValue_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetValue_Parms, value), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_SetValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_SetValue_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSetValue_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_SetValue_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetValue_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_SetValue_Statics::NewProp_value,
@@ -734,13 +734,13 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventSubtract_Parms
 		{
-			TSubclassOf<UStatType>  type;
+			UStatType* type;
 			float value;
 			float ReturnValue;
 		};
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_value;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_type;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_type;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -749,7 +749,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	};
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_Subtract_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Float, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSubtract_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UStatComponent_Subtract_Statics::NewProp_value = { UE4CodeGen_Private::EPropertyClass::Float, "value", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSubtract_Parms, value), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_Subtract_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Class, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSubtract_Parms, type), Z_Construct_UClass_UStatType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_Subtract_Statics::NewProp_type = { UE4CodeGen_Private::EPropertyClass::Object, "type", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventSubtract_Parms, type), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_Subtract_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_Subtract_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_Subtract_Statics::NewProp_value,
@@ -795,21 +795,21 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		(UObject* (*)())Z_Construct_UPackage__Script_Project_Tether,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UStatComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UStatComponent_Add, "Add" }, // 831412280
+		{ &Z_Construct_UFunction_UStatComponent_Add, "Add" }, // 3161465667
 		{ &Z_Construct_UFunction_UStatComponent_AddModifier, "AddModifier" }, // 3296718051
-		{ &Z_Construct_UFunction_UStatComponent_GetMaxValue, "GetMaxValue" }, // 1162109833
-		{ &Z_Construct_UFunction_UStatComponent_GetMinValue, "GetMinValue" }, // 2413643383
-		{ &Z_Construct_UFunction_UStatComponent_GetValue, "GetValue" }, // 3941772766
+		{ &Z_Construct_UFunction_UStatComponent_GetMaxValue, "GetMaxValue" }, // 1998464560
+		{ &Z_Construct_UFunction_UStatComponent_GetMinValue, "GetMinValue" }, // 384361880
+		{ &Z_Construct_UFunction_UStatComponent_GetValue, "GetValue" }, // 1239928330
 		{ &Z_Construct_UFunction_UStatComponent_RemoveAllModifiers, "RemoveAllModifiers" }, // 4220253171
-		{ &Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat, "RemoveAllModifiersForStat" }, // 3649491444
+		{ &Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat, "RemoveAllModifiersForStat" }, // 248007959
 		{ &Z_Construct_UFunction_UStatComponent_RemoveModifier, "RemoveModifier" }, // 1510300703
 		{ &Z_Construct_UFunction_UStatComponent_ResetAll, "ResetAll" }, // 807572928
-		{ &Z_Construct_UFunction_UStatComponent_SetMaxValue, "SetMaxValue" }, // 2102263676
-		{ &Z_Construct_UFunction_UStatComponent_SetMinValue, "SetMinValue" }, // 1986609788
-		{ &Z_Construct_UFunction_UStatComponent_SetToMax, "SetToMax" }, // 3591797170
-		{ &Z_Construct_UFunction_UStatComponent_SetToMin, "SetToMin" }, // 2160278460
-		{ &Z_Construct_UFunction_UStatComponent_SetValue, "SetValue" }, // 134064431
-		{ &Z_Construct_UFunction_UStatComponent_Subtract, "Subtract" }, // 662584944
+		{ &Z_Construct_UFunction_UStatComponent_SetMaxValue, "SetMaxValue" }, // 2230744562
+		{ &Z_Construct_UFunction_UStatComponent_SetMinValue, "SetMinValue" }, // 3021306278
+		{ &Z_Construct_UFunction_UStatComponent_SetToMax, "SetToMax" }, // 1459526038
+		{ &Z_Construct_UFunction_UStatComponent_SetToMin, "SetToMin" }, // 2507924831
+		{ &Z_Construct_UFunction_UStatComponent_SetValue, "SetValue" }, // 2400071972
+		{ &Z_Construct_UFunction_UStatComponent_Subtract, "Subtract" }, // 2957866471
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatComponent_Statics::Class_MetaDataParams[] = {
@@ -854,7 +854,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UStatComponent, 441192292);
+	IMPLEMENT_CLASS(UStatComponent, 501682499);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UStatComponent(Z_Construct_UClass_UStatComponent, &UStatComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UStatComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UStatComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

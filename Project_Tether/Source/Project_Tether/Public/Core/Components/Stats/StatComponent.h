@@ -18,7 +18,7 @@ struct PROJECT_TETHER_API FStat
 	GENERATED_USTRUCT_BODY()
 
 	UPROPERTY(EditAnywhere, Category = "Stats")
-	TSubclassOf<UStatType> statType;
+	UStatType* statType;
 	
 	UPROPERTY(EditAnywhere, Category = "Stats")
 	float minAmount;
@@ -48,7 +48,7 @@ struct PROJECT_TETHER_API FStatModifier
 	GENERATED_USTRUCT_BODY()
 
 	FStatModifier(){}
-	FStatModifier(TSubclassOf<UStatType> statType, TSubclassOf<UIdentity> source,
+	FStatModifier(UStatType* statType, TSubclassOf<UIdentity> source,
 		bool canStack = false, bool usePercentage = false, float percentage = 0.f, float amount = 0.f, float duration = 0.f, bool indefinite = false)
 	{
 		this->statType = statType;
@@ -61,7 +61,7 @@ struct PROJECT_TETHER_API FStatModifier
 		this->indefinite = indefinite;
 	}
 
-	TSubclassOf<UStatType> statType;
+	UStatType* statType;
 	TSubclassOf<UIdentity> source;
 
 	bool canStack = false;
@@ -109,22 +109,22 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	//UFUNCTION(BlueprintCallable)
-	FStat* GetStat(TSubclassOf<UStatType> type);
+	FStat* GetStat(UStatType* type);
 	
 	UFUNCTION(BlueprintCallable)
-	float GetValue(TSubclassOf<UStatType> type);
+	float GetValue(UStatType* type);
 
 	UFUNCTION(BlueprintCallable)
-	float GetMaxValue(TSubclassOf<UStatType> type);
+	float GetMaxValue(UStatType* type);
 
 	UFUNCTION(BlueprintCallable)
-	float GetMinValue(TSubclassOf<UStatType> type);
+	float GetMinValue(UStatType* type);
 
 	UFUNCTION(BlueprintCallable)
-	float SetValue(TSubclassOf<UStatType> type, float value);
+	float SetValue(UStatType* type, float value);
 
 	UFUNCTION(BlueprintCallable)
-	float Add(TSubclassOf<UStatType> type, float value);
+	float Add(UStatType* type, float value);
 
 	UFUNCTION(BlueprintCallable)
 	bool AddModifier(FStatModifier mod);
@@ -133,25 +133,25 @@ public:
 	void RemoveModifier(TSubclassOf<UIdentity> source);
 
 	UFUNCTION(BlueprintCallable)
-	void RemoveAllModifiersForStat(TSubclassOf<UStatType> type);
+	void RemoveAllModifiersForStat(UStatType* type);
 
 	UFUNCTION(BlueprintCallable)
 	void RemoveAllModifiers();
 	
 	UFUNCTION(BlueprintCallable)
-	float Subtract(TSubclassOf<UStatType> type, float value);
+	float Subtract(UStatType* type, float value);
 	
 	UFUNCTION(BlueprintCallable)
-	float SetMaxValue(TSubclassOf<UStatType> type, float value);
+	float SetMaxValue(UStatType* type, float value);
 
 	UFUNCTION(BlueprintCallable)
-	float SetMinValue(TSubclassOf<UStatType> type, float value);
+	float SetMinValue(UStatType* type, float value);
 	
 	UFUNCTION(BlueprintCallable)
-	float SetToMax(TSubclassOf<UStatType> type);
+	float SetToMax(UStatType* type);
 	
 	UFUNCTION(BlueprintCallable)
-	float SetToMin(TSubclassOf<UStatType> type);
+	float SetToMin(UStatType* type);
 
 	UFUNCTION(BlueprintCallable)
 	void ResetAll();

@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
+#include "Engine/DataAsset.h"
 #include "Engine/StaticMesh.h"
 #include "Public/Core/Class/ClassType.h"
 #include "Public/Core/Tools/WeaponType.h"
@@ -11,18 +11,18 @@
 
 class UStaticMesh;
 class UItem;
-class UClassType;
+class UPlayerClassType;
 class UWeaponType;
 
 UENUM()
-enum UsageType
+enum FUsageType
 {
 	Weapon UMETA(DisplayName = "Weapon"), 
 	Armor UMETA(DisplayName = "Armor")
 };
 
 UENUM()
-enum Rarity
+enum FRarity
 {
 	Common UMETA(DisplayName = "Common"),
 	Uncommon UMETA(DisplayName = "Uncommon"),
@@ -32,7 +32,7 @@ enum Rarity
 };
 
 UENUM()
-enum ArmorSlot
+enum FArmorSlot
 {
 	Head UMETA(DisplayName = "Head"),
 	Torso UMETA(DisplayName = "Torso"),
@@ -41,7 +41,7 @@ enum ArmorSlot
 };
 
 UENUM()
-enum Handedness
+enum FHandedness
 {
 	TwoHanded UMETA(Display = "Two Handed"),
 	RightHanded UMETA(Display = "RightHanded"),
@@ -49,44 +49,38 @@ enum Handedness
 };
 
 UCLASS(Blueprintable)
-class PROJECT_TETHER_API UTool : public UObject
+class PROJECT_TETHER_API UTool : public UDataAsset
 {
 	GENERATED_BODY()
 
 public:
-	UTool();
-
-public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tool")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
 	UStaticMesh* mesh;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Tool")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
 	FString toolName;
 	
-	UPROPERTY(EditAnywhere, Category = "Tool")
-	TEnumAsByte<Rarity> rarity;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
+	TEnumAsByte<FRarity> rarity;
 
-	UPROPERTY(EditAnywhere, Category = "Tool")
-	TSubclassOf<UItem> item;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
+	UItem* item;
 
-	UPROPERTY(EditAnywhere, Category = "Tool")
-	TSubclassOf<UClassType> classType;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
+	UPlayerClassType* classType;
 
-	UPROPERTY(EditAnywhere, Category = "Tool")
-	TEnumAsByte<UsageType> usageType;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
+	TEnumAsByte<FUsageType> usageType;
 
-	UPROPERTY(EditAnywhere, Category = "Tool")
-	TEnumAsByte<Handedness> handedness;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
+	TEnumAsByte<FHandedness> handedness;
 
-	UPROPERTY(EditAnywhere, Category = "Weapon")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
 	TSubclassOf<UWeaponType> weaponType;
 
-	UPROPERTY(EditAnywhere, Category = "Armor")
-	TEnumAsByte<ArmorSlot> armorSlot;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
+	TEnumAsByte<FArmorSlot> armorSlot;
 
-	UPROPERTY(EditAnywhere, Category = "Armor")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
 	bool canBeRemoved;
-		
-	int powerRating;
-	// array of modifiers
 };

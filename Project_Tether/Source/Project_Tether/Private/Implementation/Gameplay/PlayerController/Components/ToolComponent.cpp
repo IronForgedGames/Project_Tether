@@ -45,53 +45,43 @@ int UToolComponent::GetCurrentPowerRating()
 	return 0;
 }
 
-UTool * UToolComponent::CreateToolInstance(TSubclassOf<UTool> toolBase)
+FToolData UToolComponent::CreateToolInstance(UTool* toolBase)
 {
-	UTool* _result = NewObject<UTool>();
-	UTool* _base = toolBase->GetDefaultObject<UTool>();
-
-	_result->mesh = _base->mesh;
-	_result->toolName = _base->toolName;
-	_result->rarity = _base->rarity;
-	_result->item = _base->item;
-	_result->classType = _base->classType;
+	FToolData _result = FToolData();
+	_result.toolBase = toolBase;
+	_result.power = 100.f; // TODO : update this
 	
-	_result->usageType = _base->usageType;
-	_result->weaponType = _base->weaponType;
-	_result->armorSlot = _base->armorSlot;
-	_result->handedness = _base->handedness;
-
 	return _result;
 }
 
-bool UToolComponent::AddTool(UTool * newTool)
+bool UToolComponent::AddTool(FToolData newTool)
 {
-	if (newTool->classType != nullptr && newTool->classType == classType)
+	if (newTool.toolBase->classType != nullptr && newTool.toolBase->classType == classType)
 	{
-		if (newTool->usageType == UsageType::Armor)
+		if (newTool.toolBase->usageType == FUsageType::Armor)
 		{
 			if (!armor.Contains(newTool))
 			{
 				armor.Add(newTool);
 				toolAdded.Broadcast(newTool);
 
-				if(playerInventory != nullptr && newTool->item != NULL)
+				if(playerInventory != nullptr && newTool.toolBase->item != NULL)
 				{
-					playerInventory->Add(newTool->item);
+					playerInventory->Add(newTool.toolBase->item);
 				}
 				return true;
 			}
 		}
-		else if(newTool->usageType == UsageType::Weapon)
+		else if(newTool.toolBase->usageType == FUsageType::Weapon)
 		{
 			if (!weapons.Contains(newTool))
 			{
 				weapons.Add(newTool);
 				toolAdded.Broadcast(newTool);
 
-				if (playerInventory != nullptr && newTool->item != NULL)
+				if (playerInventory != nullptr && newTool.toolBase->item != NULL)
 				{
-					playerInventory->Add(newTool->item);
+					playerInventory->Add(newTool.toolBase->item);
 				}
 				return true;
 			}
@@ -100,40 +90,40 @@ bool UToolComponent::AddTool(UTool * newTool)
 	return false;
 }
 
-bool UToolComponent::RemoveTool(UTool * toolToRemove)
+bool UToolComponent::RemoveTool(FToolData toolToRemove)
 {
-	if (toolToRemove->usageType == UsageType::Armor)
+	if (toolToRemove.toolBase->usageType == FUsageType::Armor)
 	{
 		if (armor.Contains(toolToRemove))
 		{
-			if (equippedArmor[toolToRemove->armorSlot] == toolToRemove)
+			if (equippedArmor[toolToRemove.toolBase->armorSlot] == toolToRemove)
 			{
 				UnequipArmor(toolToRemove);
 			}
 
 			armor.Remove(toolToRemove);
 			toolRemoved.Broadcast(toolToRemove);
-			if (playerInventory != nullptr && toolToRemove->item != NULL)
+			if (playerInventory != nullptr && toolToRemove.toolBase->item != NULL)
 			{
-				playerInventory->Subtract(toolToRemove->item);
+				playerInventory->Subtract(toolToRemove.toolBase->item);
 			}
 			return true;
 		}
 	}
-	else if (toolToRemove->usageType == UsageType::Weapon)
+	else if (toolToRemove.toolBase->usageType == FUsageType::Weapon)
 	{
 		if (weapons.Contains(toolToRemove))
 		{
-			if (equippedWeapons[toolToRemove->handedness] == toolToRemove)
+			if (equippedWeapons[toolToRemove.toolBase->handedness] == toolToRemove)
 			{
 				UnequipWeapon(toolToRemove);
 			}
 
 			weapons.Remove(toolToRemove);
 			toolRemoved.Broadcast(toolToRemove);
-			if (playerInventory != nullptr && toolToRemove->item != NULL)
+			if (playerInventory != nullptr && toolToRemove.toolBase->item != NULL)
 			{
-				playerInventory->Subtract(toolToRemove->item);
+				playerInventory->Subtract(toolToRemove.toolBase->item);
 			}
 			return true;
 		}
@@ -141,49 +131,44 @@ bool UToolComponent::RemoveTool(UTool * toolToRemove)
 	return false;
 }
 
-UTool * UToolComponent::EquipWeapon(UTool * weapon)
+FToolData UToolComponent::EquipWeapon(FToolData weapon)
 {
-	if (weapon->classType != classType)
+	if (weapon.toolBase->classType != classType)
 	{
-		return nullptr;
+		return FToolData();
 	}
 
-	if (weapon == nullptr)
+	if (weapon.toolBase->usageType != FUsageType::Weapon)
 	{
-		return nullptr;
-	}
-
-	if (weapon->usageType != UsageType::Weapon)
-	{
-		return nullptr;
+		return FToolData();
 	}
 
 	if (!weapons.Contains(weapon))
 	{
-		return nullptr;
+		return FToolData();
 	}
 
-	if (weapon->handedness == Handedness::TwoHanded)
+	if (weapon.toolBase->handedness == FHandedness::TwoHanded)
 	{
-		UnequipWeapon(equippedWeapons[Handedness::TwoHanded]);
-		UnequipWeapon(equippedWeapons[Handedness::LeftHanded]);
-		UnequipWeapon(equippedWeapons[Handedness::RightHanded]);
+		UnequipWeapon(equippedWeapons[FHandedness::TwoHanded]);
+		UnequipWeapon(equippedWeapons[FHandedness::LeftHanded]);
+		UnequipWeapon(equippedWeapons[FHandedness::RightHanded]);
 
-		equippedWeapons[Handedness::TwoHanded] = weapon;
+		equippedWeapons[FHandedness::TwoHanded] = weapon;
 	}
-	else if(weapon->handedness == Handedness::RightHanded)
+	else if (weapon.toolBase->handedness == FHandedness::RightHanded)
 	{
-		UnequipWeapon(equippedWeapons[Handedness::TwoHanded]);
-		UnequipWeapon(equippedWeapons[Handedness::RightHanded]);
+		UnequipWeapon(equippedWeapons[FHandedness::TwoHanded]);
+		UnequipWeapon(equippedWeapons[FHandedness::RightHanded]);
 
-		equippedWeapons[Handedness::RightHanded] = weapon;
+		equippedWeapons[FHandedness::RightHanded] = weapon;
 	}
-	else if(weapon->handedness == Handedness::LeftHanded)
+	else if (weapon.toolBase->handedness == FHandedness::LeftHanded)
 	{
-		UnequipWeapon(equippedWeapons[Handedness::TwoHanded]);
-		UnequipWeapon(equippedWeapons[Handedness::LeftHanded]);
+		UnequipWeapon(equippedWeapons[FHandedness::TwoHanded]);
+		UnequipWeapon(equippedWeapons[FHandedness::LeftHanded]);
 
-		equippedWeapons[Handedness::LeftHanded] = weapon;
+		equippedWeapons[FHandedness::LeftHanded] = weapon;
 	}
 	
 	weaponEqipped.Broadcast(weapon);
@@ -191,89 +176,73 @@ UTool * UToolComponent::EquipWeapon(UTool * weapon)
 	return weapon;
 }
 
-UTool * UToolComponent::UnequipWeapon(UTool * weapon)
+FToolData UToolComponent::UnequipWeapon(FToolData weapon)
 {
-	if (weapon == nullptr)
+	if (weapon.toolBase->usageType != FUsageType::Weapon)
 	{
-		return nullptr;
-	}
-
-	if (weapon->usageType != UsageType::Weapon)
-	{
-		return nullptr;
+		return FToolData();
 	}
 
 	if (!weapons.Contains(weapon))
 	{
-		return nullptr;
+		return FToolData();
 	}
 
-
-	equippedWeapons[weapon->handedness] = nullptr;
+	equippedWeapons[weapon.toolBase->handedness] = FToolData();
 	weaponUeqipped.Broadcast(weapon);
 	return weapon;
 }
 
-UTool * UToolComponent::EquipArmor(UTool * armor)
+FToolData UToolComponent::EquipArmor(FToolData armor)
 {
-	if (armor->classType != classType)
+	if (armor.toolBase->classType != classType)
 	{
-		return nullptr;
+		return FToolData();
 	}
 
-	if (armor == nullptr)
+	if (armor.toolBase->usageType != FUsageType::Armor)
 	{
-		return nullptr;
-	}
-
-	if (armor->usageType != UsageType::Armor)
-	{
-		return nullptr;
+		return FToolData();
 	}
 
 	if (!this->armor.Contains(armor))
 	{
-		return nullptr;
+		return FToolData();
 	}
 
-	if (equippedArmor[armor->armorSlot] != nullptr || equippedArmor[armor->armorSlot] != nudeArmor[armor->armorSlot])
+	if (equippedArmor[armor.toolBase->armorSlot] != nudeArmor[armor.toolBase->armorSlot])
 	{
-		UnequipArmor(equippedArmor[armor->armorSlot]);
-		equippedArmor[armor->armorSlot] = armor;
+		UnequipArmor(equippedArmor[armor.toolBase->armorSlot]);
+		equippedArmor[armor.toolBase->armorSlot] = armor;
 		armorEqipped.Broadcast(armor);
 	}
 
-	return nullptr;
+	return FToolData();
 }
 
-UTool * UToolComponent::UnequipArmor(UTool * armor)
+FToolData UToolComponent::UnequipArmor(FToolData armor)
 {
-	if (armor == nullptr)
+	if (armor.toolBase->usageType != FUsageType::Armor)
 	{
-		return nullptr;
-	}
-
-	if (armor->usageType != UsageType::Armor)
-	{
-		return nullptr;
+		return FToolData();
 	}
 
 	if (!this->armor.Contains(armor))
 	{
-		return nullptr;
+		return FToolData();
 	}
 
-	equippedArmor[armor->armorSlot] = nullptr;
+	equippedArmor[armor.toolBase->armorSlot] = FToolData();
 	armorUeqipped.Broadcast(armor);
-	return nullptr;
+	return FToolData();
 }
 
-UTool * UToolComponent::SwapWeapons(int direction, Handedness hand)
+FToolData UToolComponent::SwapWeapons(int direction, FHandedness hand)
 {
-	return nullptr;
+	return FToolData();
 }
 
-UTool * UToolComponent::SwapArmor(int direction, ArmorSlot slot)
+FToolData UToolComponent::SwapArmor(int direction, FArmorSlot slot)
 {
-	return nullptr;
+	return FToolData();
 }

@@ -3,24 +3,25 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine/DataAsset.h"
 #include "Public/Core/Tools/WeaponType.h"
-#include "UObject/NoExportTypes.h"
 #include "ClassType.generated.h"
 
 /**
  * 
  */
 UCLASS(Blueprintable)
-class PROJECT_TETHER_API UClassType : public UObject
+class PROJECT_TETHER_API UPlayerClassType : public UDataAsset
 {
 	GENERATED_BODY()
 	
 protected:
-	UPROPERTY(EditAnywhere, Category = "Class")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Class")
 	FString className;
 
 public:
-	
-	UFUNCTION(BlueprintCallable)
-	FString GetClassName() { return className; }
+	bool operator == (const UPlayerClassType& other) const
+	{
+		return className == other.className;
+	}
 };

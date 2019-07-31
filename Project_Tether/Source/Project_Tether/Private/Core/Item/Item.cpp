@@ -2,7 +2,3 @@
 
 #include "Public/Core/Item/Item.h"
 #include "Public/Core/Item/ItemCategory.h"
-
-UItem::UItem()
-{
-}

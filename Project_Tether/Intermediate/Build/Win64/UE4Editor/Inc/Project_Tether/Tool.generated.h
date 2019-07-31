@@ -20,7 +20,7 @@ private: \
 	static void StaticRegisterNativesUTool(); \
 	friend struct Z_Construct_UClass_UTool_Statics; \
 public: \
-	DECLARE_CLASS(UTool, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UTool, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UTool)
 
 
@@ -29,13 +29,13 @@ private: \
 	static void StaticRegisterNativesUTool(); \
 	friend struct Z_Construct_UClass_UTool_Statics; \
 public: \
-	DECLARE_CLASS(UTool, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UTool, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UTool)
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UTool(const FObjectInitializer& ObjectInitializer); \
+	NO_API UTool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTool) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTool); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTool); \
@@ -47,6 +47,8 @@ public:
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UTool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UTool(UTool&&); \
@@ -54,7 +56,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UTool); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTool); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UTool)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTool)
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_PRIVATE_PROPERTY_OFFSET
@@ -85,22 +87,22 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h
 
 
-#define FOREACH_ENUM_HANDEDNESS(op) \
+#define FOREACH_ENUM_FHANDEDNESS(op) \
 	op(TwoHanded) \
 	op(RightHanded) \
 	op(LeftHanded) 
-#define FOREACH_ENUM_ARMORSLOT(op) \
+#define FOREACH_ENUM_FARMORSLOT(op) \
 	op(Head) \
 	op(Torso) \
 	op(Arms) \
 	op(Legs) 
-#define FOREACH_ENUM_RARITY(op) \
+#define FOREACH_ENUM_FRARITY(op) \
 	op(Common) \
 	op(Uncommon) \
 	op(Rare) \
 	op(Legendary) \
 	op(Epic) 
-#define FOREACH_ENUM_USAGETYPE(op) \
+#define FOREACH_ENUM_FUSAGETYPE(op) \
 	op(Weapon) \
 	op(Armor) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

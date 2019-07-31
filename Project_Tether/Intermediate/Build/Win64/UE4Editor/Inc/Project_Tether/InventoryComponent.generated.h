@@ -24,16 +24,16 @@ class UItem;
  \
 	DECLARE_FUNCTION(execGetItems) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_category); \
+		P_GET_OBJECT(UItemCategory,Z_Param_category); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TArray<TSubclassOf<UItem> >*)Z_Param__Result=P_THIS->GetItems(Z_Param_category); \
+		*(TArray<UItem*>*)Z_Param__Result=P_THIS->GetItems(Z_Param_category); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execGetQuantity) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_item); \
+		P_GET_OBJECT(UItem,Z_Param_item); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(int32*)Z_Param__Result=P_THIS->GetQuantity(Z_Param_item); \
@@ -42,7 +42,7 @@ class UItem;
  \
 	DECLARE_FUNCTION(execSubtract) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_item); \
+		P_GET_OBJECT(UItem,Z_Param_item); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_amount); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -52,7 +52,7 @@ class UItem;
  \
 	DECLARE_FUNCTION(execAdd) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_item); \
+		P_GET_OBJECT(UItem,Z_Param_item); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_amount); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -65,16 +65,16 @@ class UItem;
  \
 	DECLARE_FUNCTION(execGetItems) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_category); \
+		P_GET_OBJECT(UItemCategory,Z_Param_category); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TArray<TSubclassOf<UItem> >*)Z_Param__Result=P_THIS->GetItems(Z_Param_category); \
+		*(TArray<UItem*>*)Z_Param__Result=P_THIS->GetItems(Z_Param_category); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execGetQuantity) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_item); \
+		P_GET_OBJECT(UItem,Z_Param_item); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(int32*)Z_Param__Result=P_THIS->GetQuantity(Z_Param_item); \
@@ -83,7 +83,7 @@ class UItem;
  \
 	DECLARE_FUNCTION(execSubtract) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_item); \
+		P_GET_OBJECT(UItem,Z_Param_item); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_amount); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -93,7 +93,7 @@ class UItem;
  \
 	DECLARE_FUNCTION(execAdd) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_item); \
+		P_GET_OBJECT(UItem,Z_Param_item); \
 		P_GET_PROPERTY(UIntProperty,Z_Param_amount); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -145,7 +145,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UInventoryComponent); \
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Item_InventoryComponent_h_60_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__weaponMeshes() { return STRUCT_OFFSET(UInventoryComponent, weaponMeshes); } \
 	FORCEINLINE static uint32 __PPO__slots() { return STRUCT_OFFSET(UInventoryComponent, slots); }
 
 

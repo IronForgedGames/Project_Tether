@@ -38,7 +38,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSetToMin) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->SetToMin(Z_Param_type); \
@@ -47,7 +47,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSetToMax) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->SetToMax(Z_Param_type); \
@@ -56,7 +56,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSetMinValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -66,7 +66,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSetMaxValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -76,7 +76,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSubtract) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -94,7 +94,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execRemoveAllModifiersForStat) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->RemoveAllModifiersForStat(Z_Param_type); \
@@ -121,7 +121,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execAdd) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -131,7 +131,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSetValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -141,7 +141,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execGetMinValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetMinValue(Z_Param_type); \
@@ -150,7 +150,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execGetMaxValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetMaxValue(Z_Param_type); \
@@ -159,7 +159,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execGetValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetValue(Z_Param_type); \
@@ -179,7 +179,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSetToMin) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->SetToMin(Z_Param_type); \
@@ -188,7 +188,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSetToMax) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->SetToMax(Z_Param_type); \
@@ -197,7 +197,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSetMinValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -207,7 +207,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSetMaxValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -217,7 +217,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSubtract) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -235,7 +235,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execRemoveAllModifiersForStat) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->RemoveAllModifiersForStat(Z_Param_type); \
@@ -262,7 +262,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execAdd) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -272,7 +272,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execSetValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_value); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
@@ -282,7 +282,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execGetMinValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetMinValue(Z_Param_type); \
@@ -291,7 +291,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execGetMaxValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetMaxValue(Z_Param_type); \
@@ -300,7 +300,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execGetValue) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_type); \
+		P_GET_OBJECT(UStatType,Z_Param_type); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(float*)Z_Param__Result=P_THIS->GetValue(Z_Param_type); \

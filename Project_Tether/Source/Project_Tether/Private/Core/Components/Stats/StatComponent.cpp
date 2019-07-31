@@ -74,7 +74,7 @@ float UStatComponent::GetModifiedAmount(FStat* stat)
 	return 0.0f;
 }
 
-FStat* UStatComponent::GetStat(TSubclassOf<UStatType> type)
+FStat* UStatComponent::GetStat(UStatType* type)
 {
 	for (int i = 0; i < stats.Num(); i++)
 	{
@@ -87,7 +87,7 @@ FStat* UStatComponent::GetStat(TSubclassOf<UStatType> type)
 	return nullptr;
 }
 
-float UStatComponent::GetValue(TSubclassOf<UStatType> type)
+float UStatComponent::GetValue(UStatType* type)
 {
 	for (int i = 0; i < stats.Num(); i++)
 	{
@@ -100,7 +100,7 @@ float UStatComponent::GetValue(TSubclassOf<UStatType> type)
 	return 0.0f;
 }
 
-float UStatComponent::GetMaxValue(TSubclassOf<UStatType> type)
+float UStatComponent::GetMaxValue(UStatType* type)
 {
 	for (int i = 0; i < stats.Num(); i++)
 	{
@@ -113,7 +113,7 @@ float UStatComponent::GetMaxValue(TSubclassOf<UStatType> type)
 	return 0.0f;
 }
 
-float UStatComponent::GetMinValue(TSubclassOf<UStatType> type)
+float UStatComponent::GetMinValue(UStatType* type)
 {
 	for (int i = 0; i < stats.Num(); i++)
 	{
@@ -126,7 +126,7 @@ float UStatComponent::GetMinValue(TSubclassOf<UStatType> type)
 	return 0.0f;
 }
 
-float UStatComponent::SetValue(TSubclassOf<UStatType> type, float value)
+float UStatComponent::SetValue(UStatType* type, float value)
 {
 	for (int i = 0; i < stats.Num(); i++)
 	{
@@ -151,7 +151,7 @@ float UStatComponent::SetValue(TSubclassOf<UStatType> type, float value)
 	return 0.0f;
 }
 
-float UStatComponent::Add(TSubclassOf<UStatType> type, float value)
+float UStatComponent::Add(UStatType* type, float value)
 {
 	for (int i = 0; i < stats.Num(); i++)
 	{
@@ -229,7 +229,7 @@ void UStatComponent::RemoveModifier(TSubclassOf<UIdentity> source)
 	}
 }
 
-void UStatComponent::RemoveAllModifiersForStat(TSubclassOf<UStatType> type)
+void UStatComponent::RemoveAllModifiersForStat(UStatType* type)
 {
 	for (int _i = 0; _i < stats.Num(); _i++)
 	{
@@ -272,7 +272,7 @@ void UStatComponent::RemoveAllModifiers()
 	}
 }
 
-float UStatComponent::Subtract(TSubclassOf<UStatType> type, float value)
+float UStatComponent::Subtract(UStatType* type, float value)
 {
 	for (int _i = 0; _i < stats.Num(); _i++)
 	{
@@ -296,7 +296,7 @@ float UStatComponent::Subtract(TSubclassOf<UStatType> type, float value)
 	return 0.0f;
 }
 
-float UStatComponent::SetMaxValue(TSubclassOf<UStatType> type, float value)
+float UStatComponent::SetMaxValue(UStatType* type, float value)
 {
 	for (int _i = 0; _i < stats.Num(); _i++)
 	{
@@ -310,7 +310,7 @@ float UStatComponent::SetMaxValue(TSubclassOf<UStatType> type, float value)
 	return 0.0f;
 }
 
-float UStatComponent::SetMinValue(TSubclassOf<UStatType> type, float value)
+float UStatComponent::SetMinValue(UStatType* type, float value)
 {
 	for (int _i = 0; _i < stats.Num(); _i++)
 	{
@@ -324,7 +324,7 @@ float UStatComponent::SetMinValue(TSubclassOf<UStatType> type, float value)
 	return 0.0f;
 }
 
-float UStatComponent::SetToMax(TSubclassOf<UStatType> type)
+float UStatComponent::SetToMax(UStatType* type)
 {
 	for (int _i = 0; _i < stats.Num(); _i++)
 	{
@@ -338,7 +338,7 @@ float UStatComponent::SetToMax(TSubclassOf<UStatType> type)
 	return 0.0f;
 }
 
-float UStatComponent::SetToMin(TSubclassOf<UStatType> type)
+float UStatComponent::SetToMin(UStatType* type)
 {
 	for (int _i = 0; _i < stats.Num(); _i++)
 	{

@@ -20,7 +20,7 @@ private: \
 	static void StaticRegisterNativesUE_DamageType(); \
 	friend struct Z_Construct_UClass_UE_DamageType_Statics; \
 public: \
-	DECLARE_CLASS(UE_DamageType, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UE_DamageType, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UE_DamageType)
 
 
@@ -29,7 +29,7 @@ private: \
 	static void StaticRegisterNativesUE_DamageType(); \
 	friend struct Z_Construct_UClass_UE_DamageType_Statics; \
 public: \
-	DECLARE_CLASS(UE_DamageType, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UE_DamageType, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UE_DamageType)
 
 

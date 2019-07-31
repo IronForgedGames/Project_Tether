@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeItemCategory() {}
 // Cross Module References
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UItemCategory_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UItemCategory();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
+	ENGINE_API UClass* Z_Construct_UClass_UDataAsset();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
 // End Cross Module References
 	void UItemCategory::StaticRegisterNativesUItemCategory()
@@ -35,7 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeItemCategory() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_UItemCategory_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UObject,
+		(UObject* (*)())Z_Construct_UClass_UDataAsset,
 		(UObject* (*)())Z_Construct_UPackage__Script_Project_Tether,
 	};
 #if WITH_METADATA
@@ -69,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeItemCategory() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UItemCategory, 3617948254);
+	IMPLEMENT_CLASS(UItemCategory, 4203360972);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UItemCategory(Z_Construct_UClass_UItemCategory, &UItemCategory::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UItemCategory"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UItemCategory);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

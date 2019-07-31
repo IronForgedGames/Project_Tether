@@ -20,7 +20,7 @@ private: \
 	static void StaticRegisterNativesUItem(); \
 	friend struct Z_Construct_UClass_UItem_Statics; \
 public: \
-	DECLARE_CLASS(UItem, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UItem, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UItem)
 
 
@@ -29,13 +29,13 @@ private: \
 	static void StaticRegisterNativesUItem(); \
 	friend struct Z_Construct_UClass_UItem_Statics; \
 public: \
-	DECLARE_CLASS(UItem, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UItem, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UItem)
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Item_Item_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UItem(const FObjectInitializer& ObjectInitializer); \
+	NO_API UItem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UItem) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UItem); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UItem); \
@@ -47,6 +47,8 @@ public:
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Item_Item_h_17_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UItem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UItem(UItem&&); \
@@ -54,15 +56,10 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UItem); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UItem); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UItem)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UItem)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Item_Item_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__value() { return STRUCT_OFFSET(UItem, value); } \
-	FORCEINLINE static uint32 __PPO__name() { return STRUCT_OFFSET(UItem, name); } \
-	FORCEINLINE static uint32 __PPO__category() { return STRUCT_OFFSET(UItem, category); }
-
-
+#define Project_Tether_Source_Project_Tether_Public_Core_Item_Item_h_17_PRIVATE_PROPERTY_OFFSET
 #define Project_Tether_Source_Project_Tether_Public_Core_Item_Item_h_14_PROLOG
 #define Project_Tether_Source_Project_Tether_Public_Core_Item_Item_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

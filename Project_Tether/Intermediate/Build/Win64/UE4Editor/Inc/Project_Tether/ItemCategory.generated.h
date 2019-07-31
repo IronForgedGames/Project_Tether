@@ -20,7 +20,7 @@ private: \
 	static void StaticRegisterNativesUItemCategory(); \
 	friend struct Z_Construct_UClass_UItemCategory_Statics; \
 public: \
-	DECLARE_CLASS(UItemCategory, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UItemCategory, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UItemCategory)
 
 
@@ -29,7 +29,7 @@ private: \
 	static void StaticRegisterNativesUItemCategory(); \
 	friend struct Z_Construct_UClass_UItemCategory_Statics; \
 public: \
-	DECLARE_CLASS(UItemCategory, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UItemCategory, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UItemCategory)
 
 

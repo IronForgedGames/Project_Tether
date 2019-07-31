@@ -16,14 +16,14 @@ struct PROJECT_TETHER_API FSlot
 	GENERATED_USTRUCT_BODY()
 
 	FSlot(){}
-	FSlot(TSubclassOf<UItem> item, int amount, int maxAmount, bool unlimitedSpace = true)
+	FSlot(UItem* item, int amount, int maxAmount, bool unlimitedSpace = true)
 	{
 		this->item = item;
 		this->quantity = amount;
 		this->maxAmount = maxAmount;
 		this->unlimitedSpace = unlimitedSpace;
 
-		this->category = item->GetDefaultObject<UItem>()->GetCategory();
+		this->category = item->category;
 	}
 
 	static int const defaultMaxAmount = 100;
@@ -32,10 +32,10 @@ struct PROJECT_TETHER_API FSlot
 	float quantity;
 
 	UPROPERTY(EditAnywhere, Category = "Inventory")
-	TSubclassOf<UItemCategory> category;
+	UItemCategory* category;
 
 	UPROPERTY(EditAnywhere, Category = "Inventory")
-	TSubclassOf<UItem> item;
+	UItem* item;
 
 	UPROPERTY(EditAnywhere, Category = "Inventory")
 	bool unlimitedSpace;
@@ -66,9 +66,6 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere)
-	TArray<TSubclassOf<UMeshComponent>> weaponMeshes;
-
-	UPROPERTY(EditAnywhere)
 	TArray<FSlot> slots;
 
 public:	
@@ -76,16 +73,16 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable)
-	int Add(TSubclassOf<UItem> item, int amount = 1);
+	int Add(UItem* item, int amount = 1);
 
 	UFUNCTION(BlueprintCallable)
-	int Subtract(TSubclassOf<UItem> item, int amount = 1);
+	int Subtract(UItem* item, int amount = 1);
 
 	UFUNCTION(BlueprintCallable)
-	int GetQuantity(TSubclassOf<UItem> item);
+	int GetQuantity(UItem* item);
 
 	UFUNCTION(BlueprintCallable)
-	TArray<TSubclassOf<UItem>> GetItems(TSubclassOf<UItemCategory> category);
+	TArray<UItem*> GetItems(UItemCategory* category);
 
-	TArray<FSlot*> GetSlots(TSubclassOf<UItemCategory> category);
+	TArray<FSlot*> GetSlots(UItemCategory* category);
 };

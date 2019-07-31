@@ -18,7 +18,7 @@ struct PROJECT_TETHER_API FDamageInfo
 	GENERATED_USTRUCT_BODY()
 
 	FDamageInfo(){}
-	FDamageInfo(AActor* damageOwner, UIdentity* source, TSubclassOf<UE_DamageType> damageType, float amount, 
+	FDamageInfo(AActor* damageOwner, UIdentity* source, UE_DamageType* damageType, float amount, 
 		bool isDOT = false, bool canStack = false, float damagePerTick = 0.f, float tickInterval = 0.f, float duration = 0.f)
 	{
 		this->damageOwner = damageOwner;
@@ -32,7 +32,7 @@ struct PROJECT_TETHER_API FDamageInfo
 		this->tickInterval = tickInterval;
 	}
 
-	TSubclassOf<UE_DamageType> damageType;
+	UE_DamageType* damageType;
 	AActor* damageOwner;
 	UIdentity* source;
 	float amount;
@@ -108,7 +108,7 @@ struct PROJECT_TETHER_API FResistanceModifier
 
 public:
 	UPROPERTY(EditAnywhere, Category = "Resistance")
-	TSubclassOf<UE_DamageType> damageType;
+	UE_DamageType* damageType;
 
 	UPROPERTY(EditAnywhere, Category = "Resistance")
 	float multiplier;
@@ -137,7 +137,7 @@ protected:
 	
 	bool isInitialized = false;
 
-	TSubclassOf<UStatType> healthStat;
+	UStatType* healthStat;
 
 	UPROPERTY(EditAnywhere, Category = "Status")
 	TEnumAsByte<Status> status;

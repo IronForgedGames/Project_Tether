@@ -13,36 +13,36 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeTool() {}
 // Cross Module References
-	PROJECT_TETHER_API UEnum* Z_Construct_UEnum_Project_Tether_Handedness();
+	PROJECT_TETHER_API UEnum* Z_Construct_UEnum_Project_Tether_FHandedness();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
-	PROJECT_TETHER_API UEnum* Z_Construct_UEnum_Project_Tether_ArmorSlot();
-	PROJECT_TETHER_API UEnum* Z_Construct_UEnum_Project_Tether_Rarity();
-	PROJECT_TETHER_API UEnum* Z_Construct_UEnum_Project_Tether_UsageType();
+	PROJECT_TETHER_API UEnum* Z_Construct_UEnum_Project_Tether_FArmorSlot();
+	PROJECT_TETHER_API UEnum* Z_Construct_UEnum_Project_Tether_FRarity();
+	PROJECT_TETHER_API UEnum* Z_Construct_UEnum_Project_Tether_FUsageType();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UTool_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UTool();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
+	ENGINE_API UClass* Z_Construct_UClass_UDataAsset();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UWeaponType_NoRegister();
-	PROJECT_TETHER_API UClass* Z_Construct_UClass_UClassType_NoRegister();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UPlayerClassType_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UItem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMesh_NoRegister();
 // End Cross Module References
-	static UEnum* Handedness_StaticEnum()
+	static UEnum* FHandedness_StaticEnum()
 	{
 		static UEnum* Singleton = nullptr;
 		if (!Singleton)
 		{
-			Singleton = GetStaticEnum(Z_Construct_UEnum_Project_Tether_Handedness, Z_Construct_UPackage__Script_Project_Tether(), TEXT("Handedness"));
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Project_Tether_FHandedness, Z_Construct_UPackage__Script_Project_Tether(), TEXT("FHandedness"));
 		}
 		return Singleton;
 	}
-	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_Handedness(Handedness_StaticEnum, TEXT("/Script/Project_Tether"), TEXT("Handedness"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Project_Tether_Handedness_CRC() { return 3504953908U; }
-	UEnum* Z_Construct_UEnum_Project_Tether_Handedness()
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_FHandedness(FHandedness_StaticEnum, TEXT("/Script/Project_Tether"), TEXT("FHandedness"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Project_Tether_FHandedness_CRC() { return 3358736596U; }
+	UEnum* Z_Construct_UEnum_Project_Tether_FHandedness()
 	{
 #if WITH_HOT_RELOAD
 		UPackage* Outer = Z_Construct_UPackage__Script_Project_Tether();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("Handedness"), 0, Get_Z_Construct_UEnum_Project_Tether_Handedness_CRC(), false);
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("FHandedness"), 0, Get_Z_Construct_UEnum_Project_Tether_FHandedness_CRC(), false);
 #else
 		static UEnum* ReturnEnum = nullptr;
 #endif // WITH_HOT_RELOAD
@@ -64,11 +64,11 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
 				(UObject*(*)())Z_Construct_UPackage__Script_Project_Tether,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				"Handedness",
+				"FHandedness",
 				RF_Public|RF_Transient|RF_MarkAsNative,
 				nullptr,
 				(uint8)UEnum::ECppForm::Regular,
-				"Handedness",
+				"FHandedness",
 				Enumerators,
 				ARRAY_COUNT(Enumerators),
 				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
@@ -77,22 +77,22 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 		}
 		return ReturnEnum;
 	}
-	static UEnum* ArmorSlot_StaticEnum()
+	static UEnum* FArmorSlot_StaticEnum()
 	{
 		static UEnum* Singleton = nullptr;
 		if (!Singleton)
 		{
-			Singleton = GetStaticEnum(Z_Construct_UEnum_Project_Tether_ArmorSlot, Z_Construct_UPackage__Script_Project_Tether(), TEXT("ArmorSlot"));
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Project_Tether_FArmorSlot, Z_Construct_UPackage__Script_Project_Tether(), TEXT("FArmorSlot"));
 		}
 		return Singleton;
 	}
-	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ArmorSlot(ArmorSlot_StaticEnum, TEXT("/Script/Project_Tether"), TEXT("ArmorSlot"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Project_Tether_ArmorSlot_CRC() { return 50987999U; }
-	UEnum* Z_Construct_UEnum_Project_Tether_ArmorSlot()
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_FArmorSlot(FArmorSlot_StaticEnum, TEXT("/Script/Project_Tether"), TEXT("FArmorSlot"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Project_Tether_FArmorSlot_CRC() { return 2320611128U; }
+	UEnum* Z_Construct_UEnum_Project_Tether_FArmorSlot()
 	{
 #if WITH_HOT_RELOAD
 		UPackage* Outer = Z_Construct_UPackage__Script_Project_Tether();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("ArmorSlot"), 0, Get_Z_Construct_UEnum_Project_Tether_ArmorSlot_CRC(), false);
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("FArmorSlot"), 0, Get_Z_Construct_UEnum_Project_Tether_FArmorSlot_CRC(), false);
 #else
 		static UEnum* ReturnEnum = nullptr;
 #endif // WITH_HOT_RELOAD
@@ -116,11 +116,11 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
 				(UObject*(*)())Z_Construct_UPackage__Script_Project_Tether,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				"ArmorSlot",
+				"FArmorSlot",
 				RF_Public|RF_Transient|RF_MarkAsNative,
 				nullptr,
 				(uint8)UEnum::ECppForm::Regular,
-				"ArmorSlot",
+				"FArmorSlot",
 				Enumerators,
 				ARRAY_COUNT(Enumerators),
 				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
@@ -129,22 +129,22 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 		}
 		return ReturnEnum;
 	}
-	static UEnum* Rarity_StaticEnum()
+	static UEnum* FRarity_StaticEnum()
 	{
 		static UEnum* Singleton = nullptr;
 		if (!Singleton)
 		{
-			Singleton = GetStaticEnum(Z_Construct_UEnum_Project_Tether_Rarity, Z_Construct_UPackage__Script_Project_Tether(), TEXT("Rarity"));
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Project_Tether_FRarity, Z_Construct_UPackage__Script_Project_Tether(), TEXT("FRarity"));
 		}
 		return Singleton;
 	}
-	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_Rarity(Rarity_StaticEnum, TEXT("/Script/Project_Tether"), TEXT("Rarity"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Project_Tether_Rarity_CRC() { return 3208106499U; }
-	UEnum* Z_Construct_UEnum_Project_Tether_Rarity()
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_FRarity(FRarity_StaticEnum, TEXT("/Script/Project_Tether"), TEXT("FRarity"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Project_Tether_FRarity_CRC() { return 2860727827U; }
+	UEnum* Z_Construct_UEnum_Project_Tether_FRarity()
 	{
 #if WITH_HOT_RELOAD
 		UPackage* Outer = Z_Construct_UPackage__Script_Project_Tether();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("Rarity"), 0, Get_Z_Construct_UEnum_Project_Tether_Rarity_CRC(), false);
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("FRarity"), 0, Get_Z_Construct_UEnum_Project_Tether_FRarity_CRC(), false);
 #else
 		static UEnum* ReturnEnum = nullptr;
 #endif // WITH_HOT_RELOAD
@@ -170,11 +170,11 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
 				(UObject*(*)())Z_Construct_UPackage__Script_Project_Tether,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				"Rarity",
+				"FRarity",
 				RF_Public|RF_Transient|RF_MarkAsNative,
 				nullptr,
 				(uint8)UEnum::ECppForm::Regular,
-				"Rarity",
+				"FRarity",
 				Enumerators,
 				ARRAY_COUNT(Enumerators),
 				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
@@ -183,22 +183,22 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 		}
 		return ReturnEnum;
 	}
-	static UEnum* UsageType_StaticEnum()
+	static UEnum* FUsageType_StaticEnum()
 	{
 		static UEnum* Singleton = nullptr;
 		if (!Singleton)
 		{
-			Singleton = GetStaticEnum(Z_Construct_UEnum_Project_Tether_UsageType, Z_Construct_UPackage__Script_Project_Tether(), TEXT("UsageType"));
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Project_Tether_FUsageType, Z_Construct_UPackage__Script_Project_Tether(), TEXT("FUsageType"));
 		}
 		return Singleton;
 	}
-	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_UsageType(UsageType_StaticEnum, TEXT("/Script/Project_Tether"), TEXT("UsageType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Project_Tether_UsageType_CRC() { return 3420286293U; }
-	UEnum* Z_Construct_UEnum_Project_Tether_UsageType()
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_FUsageType(FUsageType_StaticEnum, TEXT("/Script/Project_Tether"), TEXT("FUsageType"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Project_Tether_FUsageType_CRC() { return 3563141792U; }
+	UEnum* Z_Construct_UEnum_Project_Tether_FUsageType()
 	{
 #if WITH_HOT_RELOAD
 		UPackage* Outer = Z_Construct_UPackage__Script_Project_Tether();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("UsageType"), 0, Get_Z_Construct_UEnum_Project_Tether_UsageType_CRC(), false);
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("FUsageType"), 0, Get_Z_Construct_UEnum_Project_Tether_FUsageType_CRC(), false);
 #else
 		static UEnum* ReturnEnum = nullptr;
 #endif // WITH_HOT_RELOAD
@@ -218,11 +218,11 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
 				(UObject*(*)())Z_Construct_UPackage__Script_Project_Tether,
 				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				"UsageType",
+				"FUsageType",
 				RF_Public|RF_Transient|RF_MarkAsNative,
 				nullptr,
 				(uint8)UEnum::ECppForm::Regular,
-				"UsageType",
+				"FUsageType",
 				Enumerators,
 				ARRAY_COUNT(Enumerators),
 				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
@@ -268,11 +268,11 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_classType_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_classType;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_classType;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_item_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_item;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_item;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_rarity_MetaData[];
 #endif
@@ -290,7 +290,7 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_UTool_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UObject,
+		(UObject* (*)())Z_Construct_UClass_UDataAsset,
 		(UObject* (*)())Z_Construct_UPackage__Script_Project_Tether,
 	};
 #if WITH_METADATA
@@ -303,7 +303,7 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_canBeRemoved_MetaData[] = {
-		{ "Category", "Armor" },
+		{ "Category", "Tool" },
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
@@ -311,70 +311,70 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 	{
 		((UTool*)Obj)->canBeRemoved = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_canBeRemoved = { UE4CodeGen_Private::EPropertyClass::Bool, "canBeRemoved", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UTool), &Z_Construct_UClass_UTool_Statics::NewProp_canBeRemoved_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_canBeRemoved_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_canBeRemoved_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_canBeRemoved = { UE4CodeGen_Private::EPropertyClass::Bool, "canBeRemoved", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UTool), &Z_Construct_UClass_UTool_Statics::NewProp_canBeRemoved_SetBit, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_canBeRemoved_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_canBeRemoved_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_armorSlot_MetaData[] = {
-		{ "Category", "Armor" },
+		{ "Category", "Tool" },
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UTool_Statics::NewProp_armorSlot = { UE4CodeGen_Private::EPropertyClass::Byte, "armorSlot", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UTool, armorSlot), Z_Construct_UEnum_Project_Tether_ArmorSlot, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_armorSlot_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_armorSlot_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UTool_Statics::NewProp_armorSlot = { UE4CodeGen_Private::EPropertyClass::Byte, "armorSlot", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UTool, armorSlot), Z_Construct_UEnum_Project_Tether_FArmorSlot, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_armorSlot_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_armorSlot_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_weaponType_MetaData[] = {
-		{ "Category", "Weapon" },
+		{ "Category", "Tool" },
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_weaponType = { UE4CodeGen_Private::EPropertyClass::Class, "weaponType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000001, 1, nullptr, STRUCT_OFFSET(UTool, weaponType), Z_Construct_UClass_UWeaponType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_weaponType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_weaponType_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_weaponType = { UE4CodeGen_Private::EPropertyClass::Class, "weaponType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000015, 1, nullptr, STRUCT_OFFSET(UTool, weaponType), Z_Construct_UClass_UWeaponType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_weaponType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_weaponType_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_handedness_MetaData[] = {
 		{ "Category", "Tool" },
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UTool_Statics::NewProp_handedness = { UE4CodeGen_Private::EPropertyClass::Byte, "handedness", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UTool, handedness), Z_Construct_UEnum_Project_Tether_Handedness, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_handedness_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_handedness_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UTool_Statics::NewProp_handedness = { UE4CodeGen_Private::EPropertyClass::Byte, "handedness", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UTool, handedness), Z_Construct_UEnum_Project_Tether_FHandedness, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_handedness_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_handedness_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_usageType_MetaData[] = {
 		{ "Category", "Tool" },
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UTool_Statics::NewProp_usageType = { UE4CodeGen_Private::EPropertyClass::Byte, "usageType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UTool, usageType), Z_Construct_UEnum_Project_Tether_UsageType, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_usageType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_usageType_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UTool_Statics::NewProp_usageType = { UE4CodeGen_Private::EPropertyClass::Byte, "usageType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UTool, usageType), Z_Construct_UEnum_Project_Tether_FUsageType, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_usageType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_usageType_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_classType_MetaData[] = {
 		{ "Category", "Tool" },
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_classType = { UE4CodeGen_Private::EPropertyClass::Class, "classType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000001, 1, nullptr, STRUCT_OFFSET(UTool, classType), Z_Construct_UClass_UClassType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_classType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_classType_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_classType = { UE4CodeGen_Private::EPropertyClass::Object, "classType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UTool, classType), Z_Construct_UClass_UPlayerClassType_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_classType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_classType_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_item_MetaData[] = {
 		{ "Category", "Tool" },
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_item = { UE4CodeGen_Private::EPropertyClass::Class, "item", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000001, 1, nullptr, STRUCT_OFFSET(UTool, item), Z_Construct_UClass_UItem_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_item_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_item_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_item = { UE4CodeGen_Private::EPropertyClass::Object, "item", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UTool, item), Z_Construct_UClass_UItem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_item_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_item_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_rarity_MetaData[] = {
 		{ "Category", "Tool" },
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UTool_Statics::NewProp_rarity = { UE4CodeGen_Private::EPropertyClass::Byte, "rarity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UTool, rarity), Z_Construct_UEnum_Project_Tether_Rarity, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_rarity_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_rarity_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UTool_Statics::NewProp_rarity = { UE4CodeGen_Private::EPropertyClass::Byte, "rarity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UTool, rarity), Z_Construct_UEnum_Project_Tether_FRarity, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_rarity_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_rarity_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_toolName_MetaData[] = {
 		{ "Category", "Tool" },
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_toolName = { UE4CodeGen_Private::EPropertyClass::Str, "toolName", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UTool, toolName), METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_toolName_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_toolName_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_toolName = { UE4CodeGen_Private::EPropertyClass::Str, "toolName", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UTool, toolName), METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_toolName_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_toolName_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_mesh_MetaData[] = {
 		{ "Category", "Tool" },
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_mesh = { UE4CodeGen_Private::EPropertyClass::Object, "mesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(UTool, mesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_mesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_mesh = { UE4CodeGen_Private::EPropertyClass::Object, "mesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UTool, mesh), Z_Construct_UClass_UStaticMesh_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_mesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UTool_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTool_Statics::NewProp_canBeRemoved,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UTool_Statics::NewProp_armorSlot,
@@ -410,7 +410,7 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTool, 493171154);
+	IMPLEMENT_CLASS(UTool, 3180812530);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTool(Z_Construct_UClass_UTool, &UTool::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UTool"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTool);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

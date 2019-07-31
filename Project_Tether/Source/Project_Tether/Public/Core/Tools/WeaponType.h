@@ -3,28 +3,30 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Engine/DataAsset.h"
 #include "Classes/Animation/AnimMontage.h"
-#include "UObject/NoExportTypes.h"
 #include "WeaponType.generated.h"
 
-/**
- * 
- */
 UCLASS(Blueprintable)
-class PROJECT_TETHER_API UWeaponType : public UObject
+class PROJECT_TETHER_API UWeaponType : public UDataAsset
 {
 	GENERATED_BODY()
 	
 public: 
-	UPROPERTY(EditAnywhere, Category = "WeaponType")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly , Category = "WeaponType")
 	FString weaponTypeName;
 
-	UPROPERTY(EditAnywhere, Category = "WeaponType")
-	TArray<TSubclassOf<UAnimMontage>> standardAttackAnims;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly , Category = "WeaponType")
+	TArray<UAnimMontage*> standardAttackAnims;
 
-	UPROPERTY(EditAnywhere, Category = "WeaponType")
-	TArray<TSubclassOf<UAnimMontage>> altAttackAnims_1;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly , Category = "WeaponType")
+	TArray<UAnimMontage*> altAttackAnims_1;
 
-	UPROPERTY(EditAnywhere, Category = "WeaponType")
-	TArray<TSubclassOf<UAnimMontage>> altAttackAnims_2;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly , Category = "WeaponType")
+	TArray<UAnimMontage*> altAttackAnims_2;
+
+	bool operator == (const UWeaponType& other) const
+	{
+		return weaponTypeName == other.weaponTypeName;
+	}
 };

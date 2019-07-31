@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeE_DamageType() {}
 // Cross Module References
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UE_DamageType_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UE_DamageType();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
+	ENGINE_API UClass* Z_Construct_UClass_UDataAsset();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
 // End Cross Module References
 	void UE_DamageType::StaticRegisterNativesUE_DamageType()
@@ -35,7 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeE_DamageType() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_UE_DamageType_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UObject,
+		(UObject* (*)())Z_Construct_UClass_UDataAsset,
 		(UObject* (*)())Z_Construct_UPackage__Script_Project_Tether,
 	};
 #if WITH_METADATA
@@ -69,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeE_DamageType() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UE_DamageType, 4020336203);
+	IMPLEMENT_CLASS(UE_DamageType, 2877049959);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UE_DamageType(Z_Construct_UClass_UE_DamageType, &UE_DamageType::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UE_DamageType"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UE_DamageType);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

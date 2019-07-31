@@ -25,7 +25,7 @@ void UInventoryComponent::TickComponent(float DeltaTime, ELevelTick TickType, FA
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 }
 
-int UInventoryComponent::Add(TSubclassOf<UItem> item, int amount)
+int UInventoryComponent::Add(UItem* item, int amount)
 {
 	for (int _i = 0; _i < slots.Num(); _i++)
 	{
@@ -46,7 +46,7 @@ int UInventoryComponent::Add(TSubclassOf<UItem> item, int amount)
 	return amount;
 }
 
-int UInventoryComponent::Subtract(TSubclassOf<UItem> item, int amount)
+int UInventoryComponent::Subtract(UItem* item, int amount)
 {
 	for (int _i = 0; _i < slots.Num(); _i++)
 	{
@@ -64,7 +64,7 @@ int UInventoryComponent::Subtract(TSubclassOf<UItem> item, int amount)
 	return 0;
 }
 
-int UInventoryComponent::GetQuantity(TSubclassOf<UItem> item)
+int UInventoryComponent::GetQuantity(UItem* item)
 {
 	for (int _i = 0; _i < slots.Num(); _i++)
 	{
@@ -77,7 +77,7 @@ int UInventoryComponent::GetQuantity(TSubclassOf<UItem> item)
 	return 0;
 }
 
-TArray<FSlot*> UInventoryComponent::GetSlots(TSubclassOf<UItemCategory> category)
+TArray<FSlot*> UInventoryComponent::GetSlots(UItemCategory* category)
 {
 	TArray<FSlot*> _result = TArray<FSlot*>();
 	
@@ -93,9 +93,9 @@ TArray<FSlot*> UInventoryComponent::GetSlots(TSubclassOf<UItemCategory> category
 	return _result;
 }
 
-TArray<TSubclassOf<UItem>> UInventoryComponent::GetItems(TSubclassOf<UItemCategory> category)
+TArray<UItem*> UInventoryComponent::GetItems(UItemCategory* category)
 {
-	TArray<TSubclassOf<UItem>> _result = TArray<TSubclassOf<UItem>>();
+	TArray<UItem*> _result = TArray<UItem*>();
 
 	for (int i = 0; i < slots.Num(); i++)
 	{
