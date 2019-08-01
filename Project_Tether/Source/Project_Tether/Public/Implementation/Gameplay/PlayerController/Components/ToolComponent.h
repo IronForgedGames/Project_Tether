@@ -86,9 +86,12 @@ protected:
 	UPROPERTY(BlueprintAssignable, Category = "Tool Events")
 	FToolEventSigniture armorUeqipped;
 
+	UPROPERTY(BlueprintReadOnly)
 	TArray<FToolData> weapons;
+	
 	TMap<TEnumAsByte<FHandedness>, FToolData> equippedWeapons;
 
+	//UPROPERTY(BlueprintReadOnly)
 	TArray<FToolData> armor;
 	TMap<TEnumAsByte<FArmorSlot>, FToolData> equippedArmor;
 
@@ -109,6 +112,12 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	bool RemoveTool(FToolData toolToRemove);
+	
+	UFUNCTION(BlueprintCallable)
+	FToolData EquipDefaultWeapon();
+	
+	UFUNCTION(BlueprintCallable)
+	FToolData EquipDefaultArmor();
 
 	UFUNCTION(BlueprintCallable)
 	FToolData EquipWeapon(FToolData weapon);

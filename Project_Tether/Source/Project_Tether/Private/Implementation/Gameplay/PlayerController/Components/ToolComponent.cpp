@@ -56,37 +56,35 @@ FToolData UToolComponent::CreateToolInstance(UTool* toolBase)
 
 bool UToolComponent::AddTool(FToolData newTool)
 {
-	UE_LOG(LogTemp, Warning, TEXT("add check for class type"));
-	
-	if (newTool.toolBase->classType != nullptr && newTool.toolBase->classType == this->classType)
+	if (newTool.toolBase == nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("dont grab"));
+		return false;
+	}
+
+	if (newTool.toolBase->classType != nullptr && newTool.toolBase->classType == classType)
 	{
 		if (newTool.toolBase->usageType == FUsageType::Armor)
 		{
-			if (!armor.Contains(newTool))
-			{
-				armor.Add(newTool);
-				toolAdded.Broadcast(newTool);
+			armor.Add(newTool);
+			toolAdded.Broadcast(newTool);
 
-				if(playerInventory != nullptr && newTool.toolBase->item != NULL)
-				{
-					playerInventory->Add(newTool.toolBase->item);
-				}
-				return true;
+			if(playerInventory != nullptr && newTool.toolBase->item != NULL)
+			{
+				playerInventory->Add(newTool.toolBase->item);
 			}
+			return true;
 		}
 		else if(newTool.toolBase->usageType == FUsageType::Weapon)
 		{
-			if (!weapons.Contains(newTool))
-			{
-				weapons.Add(newTool);
-				toolAdded.Broadcast(newTool);
+			weapons.Add(newTool);
+			toolAdded.Broadcast(newTool);
 
-				if (playerInventory != nullptr && newTool.toolBase->item != NULL)
-				{
-					playerInventory->Add(newTool.toolBase->item);
-				}
-				return true;
+			if (playerInventory != nullptr && newTool.toolBase->item != NULL)
+			{
+				playerInventory->Add(newTool.toolBase->item);
 			}
+			return true;
 		}
 	}
 	return false;
@@ -131,6 +129,26 @@ bool UToolComponent::RemoveTool(FToolData toolToRemove)
 		}
 	}
 	return false;
+}
+
+FToolData UToolComponent::EquipDefaultWeapon()
+{
+	if (weapons.Num() > 0)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("equip"));
+		return EquipWeapon(weapons[0]);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("equip"));
+	}
+
+	return FToolData();
+}
+
+FToolData UToolComponent::EquipDefaultArmor()
+{
+	return FToolData();
 }
 
 FToolData UToolComponent::EquipWeapon(FToolData weapon)

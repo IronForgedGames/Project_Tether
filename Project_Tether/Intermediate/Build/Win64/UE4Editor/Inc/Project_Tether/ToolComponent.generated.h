@@ -91,6 +91,22 @@ static inline void FToolEventSigniture_DelegateWrapper(const FMulticastScriptDel
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execEquipDefaultArmor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FToolData*)Z_Param__Result=P_THIS->EquipDefaultArmor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipDefaultWeapon) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FToolData*)Z_Param__Result=P_THIS->EquipDefaultWeapon(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execRemoveTool) \
 	{ \
 		P_GET_STRUCT(FToolData,Z_Param_toolToRemove); \
@@ -177,6 +193,22 @@ static inline void FToolEventSigniture_DelegateWrapper(const FMulticastScriptDel
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execEquipDefaultArmor) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FToolData*)Z_Param__Result=P_THIS->EquipDefaultArmor(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execEquipDefaultWeapon) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FToolData*)Z_Param__Result=P_THIS->EquipDefaultWeapon(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execRemoveTool) \
 	{ \
 		P_GET_STRUCT(FToolData,Z_Param_toolToRemove); \
@@ -258,7 +290,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UToolComponent); \
 	FORCEINLINE static uint32 __PPO__weaponEqipped() { return STRUCT_OFFSET(UToolComponent, weaponEqipped); } \
 	FORCEINLINE static uint32 __PPO__weaponUeqipped() { return STRUCT_OFFSET(UToolComponent, weaponUeqipped); } \
 	FORCEINLINE static uint32 __PPO__armorEqipped() { return STRUCT_OFFSET(UToolComponent, armorEqipped); } \
-	FORCEINLINE static uint32 __PPO__armorUeqipped() { return STRUCT_OFFSET(UToolComponent, armorUeqipped); }
+	FORCEINLINE static uint32 __PPO__armorUeqipped() { return STRUCT_OFFSET(UToolComponent, armorUeqipped); } \
+	FORCEINLINE static uint32 __PPO__weapons() { return STRUCT_OFFSET(UToolComponent, weapons); }
 
 
 #define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_Components_ToolComponent_h_45_PROLOG

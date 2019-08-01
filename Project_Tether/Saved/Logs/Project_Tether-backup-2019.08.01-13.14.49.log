@@ -1,0 +1,1316 @@
+﻿Log file open, 08/01/19 12:37:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Project_Tether
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.277763
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.090s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: E:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.08.01-16.37.42:494][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.01-16.37.42:494][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.01-16.37.42:501][  0]LogHAL: Display: Platform has ~ 32 GB [34316865536 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.01-16.37.42:501][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.08.01-16.37.42:501][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.01-16.37.42:501][  0]LogInit: Computer: WSROLLER45
+[2019.08.01-16.37.42:501][  0]LogInit: User: aaronhines
+[2019.08.01-16.37.42:501][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.08.01-16.37.42:501][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.08.01-16.37.42:501][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.08.01-16.37.42:501][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.01-16.37.42:501][  0]LogMemory: Process Physical Memory: 102.04 MB used, 102.04 MB peak
+[2019.08.01-16.37.42:501][  0]LogMemory: Process Virtual Memory: 93.32 MB used, 93.32 MB peak
+[2019.08.01-16.37.42:501][  0]LogMemory: Physical Memory: 12444.92 MB used,  20282.19 MB free, 32727.11 MB total
+[2019.08.01-16.37.42:501][  0]LogMemory: Virtual Memory: 4616.47 MB used,  20282.19 MB free, 134217728.00 MB total
+[2019.08.01-16.37.42:523][  0]LogInit: Using OS detected language (en-US).
+[2019.08.01-16.37.42:523][  0]LogInit: Using OS detected locale (en-US).
+[2019.08.01-16.37.42:524][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.08.01-16.37.42:870][  0]LogStreaming: Display: Took  0.346s to InitEngineTextLocalization.
+[2019.08.01-16.37.42:870][  0]LogInit: Setting process to per monitor DPI aware
+[2019.08.01-16.37.42:921][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.01-16.37.42:921][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.01-16.37.43:153][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.08.01-16.37.43:154][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.01-16.37.43:221][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.08.01-16.37.43:221][  0]LogD3D11RHI:       6052/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.08.01-16.37.43:224][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.01-16.37.43:224][  0]LogD3D11RHI:       0/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.01-16.37.43:224][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.01-16.37.43:233][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.01-16.37.43:233][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.01-16.37.43:233][  0]LogWindows: EnumDisplayDevices:
+[2019.08.01-16.37.43:233][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.08.01-16.37.43:234][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.08.01-16.37.43:234][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.08.01-16.37.43:234][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.08.01-16.37.43:235][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.08.01-16.37.43:235][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.08.01-16.37.43:235][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2019.08.01-16.37.43:235][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2019.08.01-16.37.43:235][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.08.01-16.37.43:277][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.01-16.37.43:290][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.08.01-16.37.43:389][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../Tether/Project_Tether/Project_Tether/Intermediate/Shaders/WorkingDirectory/26172/).
+[2019.08.01-16.37.43:389][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aaron.hines/AppData/Local/Temp/UnrealShaderWorkingDir/7026620C47781F1B7588CA9F9BFAF148/'.
+[2019.08.01-16.37.43:679][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.08.01-16.37.43:689][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.08.01-16.37.43:702][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.08.01-16.37.43:715][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.08.01-16.37.43:726][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.08.01-16.37.43:740][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.08.01-16.37.43:752][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.08.01-16.37.43:765][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.08.01-16.37.43:771][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:843][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.01-16.37.43:844][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.08.01-16.37.43:903][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.01-16.37.43:903][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.01-16.37.43:926][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.01-16.37.43:926][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.01-16.37.43:937][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.08.01-16.37.43:948][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.08.01-16.37.43:959][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.08.01-16.37.43:972][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.08.01-16.37.43:981][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.08.01-16.37.43:981][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.01-16.37.44:032][  0]LogXGEController: Cleaning working directory: C:/Users/aaron.hines/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.08.01-16.37.44:032][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.08.01-16.37.44:032][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.08.01-16.37.44:032][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.08.01-16.37.44:716][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.01-16.37.44:767][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/aaron.hines/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.08.01-16.37.44:768][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/aaron.hines/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.08.01-16.37.44:768][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Tether/Project_Tether/Project_Tether/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.01-16.37.44:768][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.01-16.37.44:768][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Tether/Project_Tether/Project_Tether/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.01-16.37.44:768][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.01-16.37.44:782][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.01-16.37.44:795][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aaron.hines/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.01-16.37.44:795][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.01-16.37.44:795][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.01-16.37.44:813][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.01-16.37.44:815][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.01-16.37.44:815][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.01-16.37.44:896][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2019.08.01-16.37.45:228][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.01-16.37.45:360][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.08.01-16.37.45:363][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.08.01-16.37.45:363][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.01-16.37.45:363][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.01-16.37.45:363][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.08.01-16.37.45:385][  0]LogNetVersion: Project_Tether 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2290113244)
+[2019.08.01-16.37.45:849][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.080568 seconds
+[2019.08.01-16.37.45:854][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.08.01-16.37.45:854][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.08.01-16.37.45:854][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.01-16.37.46:710][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.01-16.37.46:722][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.01-16.37.46:831][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.08.01-16.37.46:831][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.08.01-16.37.46:831][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2019.08.01-16.37.46:831][  0]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.08.01-16.37.46:831][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.08.01-16.37.46:831][  0]LogUObjectBase: Warning: Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.08.01-16.37.48:416][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.01-16.37.48:418][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.01-16.37.48:453][  0]SourceControl: Source control is disabled
+[2019.08.01-16.37.48:453][  0]SourceControl: Source control is disabled
+[2019.08.01-16.37.48:454][  0]SourceControl: Source control is disabled
+[2019.08.01-16.37.48:455][  0]SourceControl: Source control is disabled
+[2019.08.01-16.37.48:613][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.01-16.37.48:709][  0]LogOcInput: OculusInput pre-init called
+[2019.08.01-16.37.48:763][  0]LogEngine: Initializing Engine...
+[2019.08.01-16.37.48:787][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2019.08.01-16.37.48:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.01-16.37.48:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.01-16.37.48:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.01-16.37.48:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.01-16.37.48:982][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.01-16.37.48:992][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.01-16.37.49:023][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.01-16.37.49:046][  0]LogInit: FAudioDevice initialized.
+[2019.08.01-16.37.49:047][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.01-16.37.49:130][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/aaron.hines/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.08.01-16.37.49:134][  0]LogInit: Texture streaming: Enabled
+[2019.08.01-16.37.49:152][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.01-16.37.49:152][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={BFCF2539-445F-3B88-A45B-D0A3412209CE}
+[2019.08.01-16.37.49:164][  0]LogInit: Transaction tracking system initialized
+[2019.08.01-16.37.49:184][  0]BlueprintLog: New page: Editor Load
+[2019.08.01-16.37.49:254][  0]LocalizationService: Localization service is disabled
+[2019.08.01-16.37.49:478][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.01-16.37.49:478][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.01-16.37.49:478][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.08.01-16.37.49:478][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.01-16.37.49:478][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.01-16.37.49:478][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.01-16.37.49:478][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.01-16.37.49:586][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Content/' took 0.03s
+[2019.08.01-16.37.49:593][  0]SourceControl: Source control is disabled
+[2019.08.01-16.37.49:593][  0]Cmd: MAP LOAD FILE="../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.01-16.37.49:594][  0]LightingResults: New page: Lighting Build
+[2019.08.01-16.37.49:596][  0]MapCheck: New page: Map Check
+[2019.08.01-16.37.49:596][  0]LightingResults: New page: Lighting Build
+[2019.08.01-16.37.50:027][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.08.01-16.37.50:037][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.01-16.37.50:060][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.01-16.37.50:123][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.286ms to complete.
+[2019.08.01-16.37.50:123][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.531
+[2019.08.01-16.37.50:226][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.01-16.37.50:234][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.01-16.37.50:240][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.01-16.37.50:249][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.01-16.37.50:254][  0]LogCollectionManager: Loaded 0 collections in 0.001307 seconds
+[2019.08.01-16.37.50:300][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Saved/Collections/' took 0.01s
+[2019.08.01-16.37.50:300][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Content/Developers/aaronhines/Collections/' took 0.01s
+[2019.08.01-16.37.50:300][  0]LogFileCache: Scanning file cache for directory 'E:/Tether/Project_Tether/Project_Tether/Content/Collections/' took 0.01s
+[2019.08.01-16.37.50:300][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.08.01-16.37.50:309][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2602 classes and 621 folders.
+[2019.08.01-16.37.50:316][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.08.01-16.37.50:372][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.08.01-16.37.50:377][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.08.01-16.37.51:267][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.08.01-16.37.51:309][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.01-16.37.51:312][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.01-16.37.51:320][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.08.01-16.37.51:323][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.08.01-16.37.51:443][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectTether
+[2019.08.01-16.37.51:443][  0]LogTemp: CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.08.01-16.37.51:443][  0]LogTemp: Initial Dir: E:\Epic Games\UE_4.20
+[2019.08.01-16.37.51:443][  0]LogTemp: Env CWD: E:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.08.01-16.37.51:443][  0]LogTemp: BranchPath = WSROLLER45/E/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = WSROLLER45/E/Epic Games/UE_4.20/Engine/Binaries
+[2019.08.01-16.37.51:443][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\aaron.hines\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.08.01-16.37.51:444][  0]LogRenderer: Reallocating scene render targets to support 1208x512 Format 10 NumSamples 1 (Frame:1).
+[2019.08.01-16.37.51:572][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.08.01-16.37.51:573][  0]LogLoad: (Engine Initialization) Total time: 10.85 seconds
+[2019.08.01-16.37.51:573][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.01-16.37.51:609][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.01-16.37.51:703][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.01-16.37.51:727][  1]LogAssetRegistry: Asset discovery search completed in 6.8528 seconds
+[2019.08.01-16.37.51:729][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.08.01-16.37.51:729][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000312 seconds (updated 0 objects)
+[2019.08.01-16.38.59:837][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.39.00:005][624]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/RarePickup.RarePickup
+[2019.08.01-16.39.00:437][624]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2019.08.01-16.39.01:215][624]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/CommonPickup.CommonPickup
+[2019.08.01-16.39.01:559][624]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/LegendaryPickup.LegendaryPickup
+[2019.08.01-16.39.01:880][624]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/BaseToolPickup.BaseToolPickup
+[2019.08.01-16.39.02:201][624]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/UncommonPickup.UncommonPickup
+[2019.08.01-16.39.02:529][624]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	RarePickup_C /Engine/Transient.World_1:PersistentLevel.RarePickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/RarePickup.RarePickup_C:ExecuteUbergraph_RarePickup:02E0
+[2019.08.01-16.39.02:530][624]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	RarePickup_C /Engine/Transient.World_1:PersistentLevel.RarePickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/RarePickup.RarePickup_C:ExecuteUbergraph_RarePickup:02E0
+[2019.08.01-16.39.02:531][624]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	CommonPickup_C /Engine/Transient.World_2:PersistentLevel.CommonPickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/CommonPickup.CommonPickup_C:ExecuteUbergraph_CommonPickup:028F
+[2019.08.01-16.39.02:532][624]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	CommonPickup_C /Engine/Transient.World_2:PersistentLevel.CommonPickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/CommonPickup.CommonPickup_C:ExecuteUbergraph_CommonPickup:028F
+[2019.08.01-16.39.02:533][624]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	LegendaryPickup_C /Engine/Transient.World_3:PersistentLevel.LegendaryPickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/LegendaryPickup.LegendaryPickup_C:ExecuteUbergraph_LegendaryPickup:0221
+[2019.08.01-16.39.02:533][624]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	LegendaryPickup_C /Engine/Transient.World_3:PersistentLevel.LegendaryPickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/LegendaryPickup.LegendaryPickup_C:ExecuteUbergraph_LegendaryPickup:0221
+[2019.08.01-16.39.02:534][624]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BaseToolPickup_C /Engine/Transient.World_4:PersistentLevel.BaseToolPickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/BaseToolPickup.BaseToolPickup_C:ExecuteUbergraph_BaseToolPickup:0293
+[2019.08.01-16.39.02:535][624]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	BaseToolPickup_C /Engine/Transient.World_4:PersistentLevel.BaseToolPickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/BaseToolPickup.BaseToolPickup_C:ExecuteUbergraph_BaseToolPickup:0293
+[2019.08.01-16.39.02:536][624]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	UncommonPickup_C /Engine/Transient.World_5:PersistentLevel.UncommonPickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/UncommonPickup.UncommonPickup_C:ExecuteUbergraph_UncommonPickup:0293
+[2019.08.01-16.39.02:536][624]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	UncommonPickup_C /Engine/Transient.World_5:PersistentLevel.UncommonPickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/UncommonPickup.UncommonPickup_C:ExecuteUbergraph_UncommonPickup:0293
+[2019.08.01-16.39.02:541][624]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.01-16.39.02:655][625]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.08.01-16.39.06:186][961]LogSlate: Window 'LegendaryPickup' being destroyed
+[2019.08.01-16.39.31:486][954]BlueprintLog: New page: Compile RarePickup
+[2019.08.01-16.39.31:747][954]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/RarePickupE1A5872E4E434732A21B7EAE283A864C.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/RarePickup.uasset'
+[2019.08.01-16.39.35:035][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.39.36:556][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.39.36:638][514]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.01-16.39.36:669][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.39.36:670][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.01-16.39.36:683][514]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 1, 2019, 8:39:36 AM)
+[2019.08.01-16.39.36:683][514]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.08.01-16.39.36:695][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011618s)
+[2019.08.01-16.39.36:696][514]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.08.01-16.39.36:696][514]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2019.08.01-16.39.36:696][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013188s)
+[2019.08.01-16.39.36:755][514]LogInit: XAudio2 using 'Speakers (2- Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.01-16.39.36:778][514]LogInit: FAudioDevice initialized.
+[2019.08.01-16.39.36:822][514]LogLoad: Game class is 'GameMode'
+[2019.08.01-16.39.36:826][514]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.08.01-12.39.36
+[2019.08.01-16.39.36:827][514]LogWorld: Bringing up level for play took: 0.002163
+[2019.08.01-16.39.36:844][514]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2019.08.01-16.39.36:844][514]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.01-16.39.36:844][514]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.01-16.39.36:844][514]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.08.01-16.39.36:845][514]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.08.01-16.39.36:845][514]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.08.01-16.39.36:845][514]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.016
+[2019.08.01-16.39.36:845][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.39.38:717][732]LogBlueprintUserMessages: [TopDownCharacter_BP_5] Test Sword Tool
+[2019.08.01-16.39.39:620][838]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.39.39:621][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.01-16.39.39:653][838]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.01-16.39.39:653][838]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.39.39:686][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.01-16.39.39:727][840]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.08.01-16.39.41:423][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.39.47:352][729]BlueprintLog: New page: Compile RarePickup
+[2019.08.01-16.39.47:598][729]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/RarePickupF92E1E844078B67F6F1CCA96EF6FAD54.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/RarePickup.uasset'
+[2019.08.01-16.40.55:473][749]LogInit: XAudio2 using 'DELL S2415H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.01-16.42.56:588][153]BlueprintLog: New page: Compile RarePickup
+[2019.08.01-16.42.56:836][153]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/RarePickup21FB50804DC07A0463EF1987887336E9.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/RarePickup.uasset'
+[2019.08.01-16.43.00:299][557]LogAssetEditorManager: Opening Asset editor for ToolDatabase /Game/IronForgedGames/Implementation/Gameplay/System/Tool/ToolDatabases/TestToolDatabase.TestToolDatabase
+[2019.08.01-16.43.16:006][416]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestToolDatabase14513FC44B05CFDD76691E88FC58414F.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolDatabases/TestToolDatabase.uasset'
+[2019.08.01-16.43.24:233][384]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.43.24:299][392]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.01-16.43.24:338][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.43.24:339][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.01-16.43.24:339][392]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 1, 2019, 8:43:24 AM)
+[2019.08.01-16.43.24:340][392]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.08.01-16.43.24:351][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011285s)
+[2019.08.01-16.43.24:352][392]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.08.01-16.43.24:352][392]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2019.08.01-16.43.24:352][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012773s)
+[2019.08.01-16.43.24:412][392]LogInit: XAudio2 using 'DELL S2415H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.01-16.43.24:427][392]LogInit: FAudioDevice initialized.
+[2019.08.01-16.43.24:456][392]LogLoad: Game class is 'GameMode'
+[2019.08.01-16.43.24:459][392]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.08.01-12.43.24
+[2019.08.01-16.43.24:459][392]LogWorld: Bringing up level for play took: 0.002079
+[2019.08.01-16.43.24:471][392]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.01-16.43.24:472][392]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.01-16.43.24:472][392]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.08.01-16.43.24:472][392]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.08.01-16.43.24:472][392]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.08.01-16.43.24:472][392]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.389
+[2019.08.01-16.43.24:473][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.43.26:039][574]LogBlueprintUserMessages: [TopDownCharacter_BP_5] Test Sword Tool
+[2019.08.01-16.43.26:930][680]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.43.26:931][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.01-16.43.26:972][680]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.01-16.43.26:973][680]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.43.27:006][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.01-16.43.27:051][682]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.08.01-16.43.31:171][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.43.36:594][794]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap39EA5665469254925978B792C5207B50.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.08.01-16.43.41:043][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.44.02:654][785]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/EpicPickupEBB9C18248397C739C426B85095C39E2.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/EpicPickup.uasset'
+[2019.08.01-16.44.02:657][785]LogMetaData: Removing '/Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/EpicPickup.SKEL_EpicPickup_C' ref from Metadata '/Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/CommonPickup_2.PackageMetaData'
+[2019.08.01-16.44.02:658][785]LogMetaData: Removing '/Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/EpicPickup.EpicPickup_C' ref from Metadata '/Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/CommonPickup_2.PackageMetaData'
+[2019.08.01-16.44.02:723][785]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/EpicPickup7A1D277C4DBE49BAEFD9A1B77ABC42ED.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/EpicPickup.uasset'
+[2019.08.01-16.44.04:732][996]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/EpicPickup.EpicPickup
+[2019.08.01-16.44.05:041][996]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	EpicPickup_C /Engine/Transient.World_13:PersistentLevel.EpicPickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/EpicPickup.EpicPickup_C:ExecuteUbergraph_EpicPickup:028F
+[2019.08.01-16.44.05:041][996]LogScript: Warning: Accessed None trying to read property CallFunc_GetComponentByClass_ReturnValue
+	EpicPickup_C /Engine/Transient.World_13:PersistentLevel.EpicPickup_C_0
+	Function /Game/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/EpicPickup.EpicPickup_C:ExecuteUbergraph_EpicPickup:028F
+[2019.08.01-16.44.09:848][555]BlueprintLog: New page: Compile EpicPickup
+[2019.08.01-16.44.10:077][555]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/EpicPickup9F0C7D244F8EFF830EE563B3029FB44A.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/Pickups/EpicPickup.uasset'
+[2019.08.01-16.44.11:831][751]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.01-16.44.12:457][826]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.01-16.44.12:491][826]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.44.12:492][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.01-16.44.12:492][826]PIE: New page: PIE session: ThirdPersonExampleMap (Aug 1, 2019, 8:44:12 AM)
+[2019.08.01-16.44.12:492][826]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.08.01-16.44.12:504][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011335s)
+[2019.08.01-16.44.12:505][826]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.08.01-16.44.12:505][826]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2019.08.01-16.44.12:505][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012884s)
+[2019.08.01-16.44.12:569][826]LogInit: XAudio2 using 'DELL S2415H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.01-16.44.12:581][826]LogInit: FAudioDevice initialized.
+[2019.08.01-16.44.12:616][826]LogLoad: Game class is 'GameMode'
+[2019.08.01-16.44.12:619][826]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.08.01-12.44.12
+[2019.08.01-16.44.12:619][826]LogWorld: Bringing up level for play took: 0.002221
+[2019.08.01-16.44.12:631][826]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.01-16.44.12:631][826]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.08.01-16.44.12:632][826]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.08.01-16.44.12:632][826]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.08.01-16.44.12:632][826]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.08.01-16.44.12:632][826]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.229
+[2019.08.01-16.44.12:633][826]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.44.14:359][ 28]LogBlueprintUserMessages: [TopDownCharacter_BP_5] Test Sword Tool
+[2019.08.01-16.44.14:736][ 73]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.44.14:737][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.01-16.44.14:773][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.01-16.44.14:773][ 73]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.08.01-16.44.14:806][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.01-16.44.14:850][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.08.01-16.44.16:094][214]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.01-16.44.16:290][214]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMapDDF2EF5E4ABA1267D0B817A5DD870217.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.08.01-16.44.35:405][483]Candidate modules for hot reload:
+[2019.08.01-16.44.35:405][483]  Project_Tether
+[2019.08.01-16.44.35:406][483]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,8428 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.08.01-16.44.35:412][483]Warning: Starting HotReload took  0.0s.
+[2019.08.01-16.44.45:132][615]CompilerResultsLog: New page: Compilation - Aug 1, 2019, 8:44:45 AM
+[2019.08.01-16.44.45:132][615]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.08.01-16.44.45:133][615]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (ini files are newer than UBTMakefile)
+[2019.08.01-16.44.45:133][615]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.01-16.44.45:133][615]CompilerResultsLog: Using Visual Studio 2017 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.01-16.44.45:133][615]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.08.01-16.44.45:133][615]CompilerResultsLog:   [1/3] ToolComponent.cpp
+[2019.08.01-16.44.45:133][615]CompilerResultsLog:   [2/3] UE4Editor-Project_Tether-8428.lib
+[2019.08.01-16.44.45:133][615]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8428.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8428.exp
+[2019.08.01-16.44.45:134][615]CompilerResultsLog:   [3/3] UE4Editor-Project_Tether-8428.dll
+[2019.08.01-16.44.45:134][615]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8428.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-8428.suppressed.exp
+[2019.08.01-16.44.45:134][615]CompilerResultsLog: Total build time: 9.40 seconds (Parallel executor: 3.46 seconds)
+[2019.08.01-16.44.45:134][615]LogMainFrame: MainFrame: Module compiling took 9.737 seconds
+[2019.08.01-16.44.45:441][615]LogClass: StatModifier HotReload.
+[2019.08.01-16.44.45:441][615]LogClass: ToolData HotReload.
+[2019.08.01-16.44.45:441][615]LogClass: FHandedness HotReload.
+[2019.08.01-16.44.45:441][615]LogClass: FArmorSlot HotReload.
+[2019.08.01-16.44.45:441][615]LogClass: FRarity HotReload.
+[2019.08.01-16.44.45:441][615]LogClass: FUsageType HotReload.
+[2019.08.01-16.44.45:441][615]LogClass: Status HotReload.
+[2019.08.01-16.44.45:442][615]LogClass: Slot HotReload.
+[2019.08.01-16.44.45:442][615]LogClass: Stat HotReload.
+[2019.08.01-16.44.45:442][615]LogClass: ToolDataKey HotReload.
+[2019.08.01-16.44.45:442][615]LogClass: ToolDataSlot HotReload.
+[2019.08.01-16.44.45:442][615]LogClass: ResistanceModifier HotReload.
+[2019.08.01-16.44.45:442][615]LogClass: HealInfo HotReload.
+[2019.08.01-16.44.45:442][615]LogClass: DamageInfo HotReload.
+[2019.08.01-16.44.45:447][615]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.08.01-16.44.45:452][615]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0009 seconds. Added 30 classes and 18 folders.
+[2019.08.01-16.44.45:452][615]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.08.01-16.44.45:455][615]Display: HotReload successful (58 functions remapped  9 scriptstructs remapped)
+[2019.08.01-16.44.45:845][615]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2603 classes and 623 folders.
+[2019.08.01-16.44.45:845][615]Display: HotReload took 10.5s.
+[2019.08.01-16.45.49:965][234]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.08.01-16.45.50:244][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.08.01-16.45.50:414][272]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.08.01-16.45.50:591][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.08.01-16.45.52:379][489]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.08.01-16.45.57:441][ 45]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.45.58:347][144]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.TopDownCharacter_BP
+[2019.08.01-16.45.58:710][144]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.46.00:701][285]LogSlate: Window 'TopDownCharacter_BP' being destroyed
+[2019.08.01-16.49.26:642][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.49.48:072][326]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSwordCA20656841E8314B9C3F88A01F2FAA8B.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword.uasset'
+[2019.08.01-16.49.48:429][326]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BPE0B79EFA49B90324BF8FD88BBDF2AA5D.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-16.49.48:443][326]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestSwordTool4B6B7BFC43CB9F7AF0C34481F90B3731.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSwordTool.uasset'
+[2019.08.01-16.49.55:752][871]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_2F90C45184634511E2874B984F2A4314E.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_2.uasset'
+[2019.08.01-16.49.57:220][975]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword.StaticMeshSword
+[2019.08.01-16.49.57:863][976]LogRenderer: Reallocating scene render targets to support 1208x588 Format 10 NumSamples 1 (Frame:1).
+[2019.08.01-16.50.14:259][341]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword9E0144B444B0CAC7EBAF16AC70E0F732.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword.uasset'
+[2019.08.01-16.50.17:697][624]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_2.StaticMeshSword_2
+[2019.08.01-16.50.34:027][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.50.34:146][942]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_2896179D4494B5AFE01791D8D37CF6E09.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_2.uasset'
+[2019.08.01-16.50.38:670][289]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_37D8AE7FB4029F9EF11DC04ABED72B038.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_3.uasset'
+[2019.08.01-16.50.39:913][389]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_3.StaticMeshSword_3
+[2019.08.01-16.50.47:743][942]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_3955C7BE14C14981B196AECA4E413B887.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_3.uasset'
+[2019.08.01-16.51.07:203][497]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_4407ADA83466232C0C8A07285CFEB5649.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_4.uasset'
+[2019.08.01-16.51.08:271][576]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_4.StaticMeshSword_4
+[2019.08.01-16.51.16:999][168]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_4C0B7BE474078A6F3DAC6649F02BF943F.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_4.uasset'
+[2019.08.01-16.51.26:065][863]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_5DBA1F9EA4353F6696BC2E7A67B6B72F0.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_5.uasset'
+[2019.08.01-16.51.27:364][953]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_5.StaticMeshSword_5
+[2019.08.01-16.51.34:185][377]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_5F03C7C0549DE4C026B6DD6A7C85E077B.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_5.uasset'
+[2019.08.01-16.51.43:165][ 54]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_51BC7A79740FC9A9CE73F919E86D282FC.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_5.uasset'
+[2019.08.01-16.51.48:123][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.52.14:059][ 27]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.08.01-16.52.14:085][ 27]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.52.14:166][ 27]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.52.14:198][ 27]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.52.14:200][ 27]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.52.14:201][ 27]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.52.14:203][ 27]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.52.14:421][ 27]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.52.16:420][120]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap9C5349C446C5DB561A885EA931767BD4.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.08.01-16.52.28:502][849]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/Gold7260CEDB4F69AF79333D219D0EEA0186.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Testing/Materials/Gold.uasset'
+[2019.08.01-16.52.29:413][908]LogAssetEditorManager: Opening Asset editor for Material /Game/IronForgedGames/Implementation/Testing/Materials/Gold.Gold
+[2019.08.01-16.52.29:416][908]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.29:534][908]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.29:550][908]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.29:579][908]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.08.01-16.52.29:579][908]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.01-16.52.29:579][908]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.08.01-16.52.29:579][908]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.08.01-16.52.30:166][933]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.08.01-16.52.30:249][937]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.08.01-16.52.30:249][937]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.08.01-16.52.30:271][938]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.08.01-16.52.30:418][945]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.08.01-16.52.30:505][949]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.08.01-16.52.30:546][951]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.08.01-16.52.30:585][953]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.01-16.52.30:666][957]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.08.01-16.52.30:865][967]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.08.01-16.52.31:006][974]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.08.01-16.52.31:063][977]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.08.01-16.52.31:142][981]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.08.01-16.52.31:307][989]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.08.01-16.52.31:346][991]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.08.01-16.52.31:545][999]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.08.01-16.52.31:604][  2]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.08.01-16.52.31:999][ 24]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.08.01-16.52.32:000][ 24]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.08.01-16.52.32:000][ 24]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.08.01-16.52.32:000][ 24]MaterialEditorStats: Texture samplers: 3/16
+[2019.08.01-16.52.33:579][141]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.33:592][141]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.08.01-16.52.33:592][141]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.01-16.52.33:592][141]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.08.01-16.52.33:592][141]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.08.01-16.52.33:592][141]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.08.01-16.52.33:827][151]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.08.01-16.52.33:846][152]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.08.01-16.52.33:885][153]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.08.01-16.52.33:885][153]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.08.01-16.52.34:035][161]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.08.01-16.52.34:056][162]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.08.01-16.52.34:094][164]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.08.01-16.52.34:113][165]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.08.01-16.52.34:256][173]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.08.01-16.52.34:380][179]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.01-16.52.34:550][187]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.08.01-16.52.34:591][189]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.08.01-16.52.34:715][195]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.08.01-16.52.34:822][200]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.08.01-16.52.34:887][203]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.08.01-16.52.35:094][213]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.08.01-16.52.35:115][214]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.08.01-16.52.35:235][220]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.08.01-16.52.35:334][225]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.08.01-16.52.35:563][236]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.35:577][236]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.08.01-16.52.35:577][236]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.01-16.52.35:578][236]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.08.01-16.52.35:583][236]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.08.01-16.52.35:599][236]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.01-16.52.35:799][245]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.08.01-16.52.35:836][247]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.08.01-16.52.35:856][248]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.08.01-16.52.35:874][249]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.08.01-16.52.36:004][255]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.08.01-16.52.36:025][256]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.08.01-16.52.36:046][257]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.08.01-16.52.36:103][260]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.08.01-16.52.36:199][265]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.08.01-16.52.36:380][274]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.01-16.52.36:518][281]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.08.01-16.52.36:556][283]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.08.01-16.52.36:711][289]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.08.01-16.52.36:851][296]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.08.01-16.52.36:954][301]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.08.01-16.52.37:084][307]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.08.01-16.52.37:125][309]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.08.01-16.52.37:260][316]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.08.01-16.52.37:382][322]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.08.01-16.52.37:565][331]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.08.01-16.52.37:565][331]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.08.01-16.52.37:565][331]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.08.01-16.52.37:566][331]MaterialEditorStats: Texture samplers: 3/16
+[2019.08.01-16.52.38:394][389]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.08.01-16.52.38:409][389]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.08.01-16.52.38:409][389]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.08.01-16.52.38:423][389]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.38:438][389]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.08.01-16.52.38:438][389]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.01-16.52.38:679][401]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.08.01-16.52.38:720][403]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.08.01-16.52.38:743][404]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.08.01-16.52.38:785][406]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.08.01-16.52.38:933][413]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.08.01-16.52.38:933][413]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.08.01-16.52.38:994][416]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.08.01-16.52.38:994][416]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.08.01-16.52.39:093][421]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.08.01-16.52.39:155][424]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.01-16.52.39:175][425]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.08.01-16.52.39:435][437]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.08.01-16.52.39:456][438]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.08.01-16.52.39:617][446]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.08.01-16.52.39:677][449]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.08.01-16.52.39:715][451]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.08.01-16.52.39:899][460]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.08.01-16.52.40:006][465]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.08.01-16.52.40:136][471]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.08.01-16.52.40:458][487]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.08.01-16.52.40:458][487]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.08.01-16.52.40:458][487]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.08.01-16.52.40:458][487]MaterialEditorStats: Texture samplers: 3/16
+[2019.08.01-16.52.40:591][495]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.08.01-16.52.40:606][495]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.08.01-16.52.40:606][495]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.08.01-16.52.40:620][495]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.40:635][495]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.08.01-16.52.40:636][495]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.01-16.52.40:876][507]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.08.01-16.52.40:897][508]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.08.01-16.52.40:918][509]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.08.01-16.52.41:013][514]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.08.01-16.52.41:115][519]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.08.01-16.52.41:136][520]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.08.01-16.52.41:136][520]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.08.01-16.52.41:251][526]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.08.01-16.52.41:258][526]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.41:278][526]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.08.01-16.52.41:278][526]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.08.01-16.52.41:295][526]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.08.01-16.52.41:309][526]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.08.01-16.52.41:311][526]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.08.01-16.52.41:340][526]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.41:372][526]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.08.01-16.52.41:402][526]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.41:418][526]LogSlate: Window 'Color Picker' being destroyed
+[2019.08.01-16.52.41:528][531]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.08.01-16.52.41:549][532]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.08.01-16.52.41:698][540]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.08.01-16.52.41:721][541]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.01-16.52.41:821][545]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.08.01-16.52.41:900][549]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.08.01-16.52.41:945][550]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.08.01-16.52.42:007][554]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.08.01-16.52.42:077][557]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.08.01-16.52.42:098][558]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.08.01-16.52.42:155][561]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.08.01-16.52.42:195][563]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.08.01-16.52.42:225][564]LogMaterialEditor: Saving and Compiling material Gold
+[2019.08.01-16.52.42:906][564]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.08.01-16.52.42:906][564]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.01-16.52.42:906][564]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.08.01-16.52.42:906][564]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.08.01-16.52.42:906][564]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.08.01-16.52.42:906][564]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.08.01-16.52.42:906][564]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.08.01-16.52.42:906][564]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.08.01-16.52.42:907][564]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.08.01-16.52.42:927][564]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.42:993][564]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.08.01-16.52.43:009][564]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.01-16.52.43:009][564]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.43:033][564]LogMaterial: Display: Missing cached shader map for material Gold, compiling. 
+[2019.08.01-16.52.43:088][564]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.08.01-16.52.43:088][564]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Gold, compiling. 
+[2019.08.01-16.52.44:308][564]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.08.01-16.52.44:308][564]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.08.01-16.52.44:309][564]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.08.01-16.52.44:309][564]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.08.01-16.52.44:309][564]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.08.01-16.52.44:309][564]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.08.01-16.52.44:309][564]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.08.01-16.52.44:309][564]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.08.01-16.52.44:310][564]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.08.01-16.52.44:310][564]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.08.01-16.52.44:310][564]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.08.01-16.52.44:310][564]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.08.01-16.52.44:310][564]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.08.01-16.52.44:310][564]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.08.01-16.52.44:310][564]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.08.01-16.52.44:310][564]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.08.01-16.52.44:310][564]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.08.01-16.52.44:311][564]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.08.01-16.52.44:311][564]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.08.01-16.52.44:311][564]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.08.01-16.52.44:311][564]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.08.01-16.52.44:311][564]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.08.01-16.52.44:313][564]TextureStreamingBuild: Display: Compiling optional shaders took 1.232 seconds.
+[2019.08.01-16.52.46:619][564]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/Gold9FE057EE40A2122CC5AB28B56A0637D9.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Testing/Materials/Gold.uasset'
+[2019.08.01-16.52.46:632][564]MaterialEditorStats: Base pass shader: 100 instructions
+[2019.08.01-16.52.46:632][564]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 173 instructions
+[2019.08.01-16.52.46:632][564]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.08.01-16.52.46:632][564]MaterialEditorStats: Texture samplers: 3/16
+[2019.08.01-16.53.01:944][598]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_6B04CAC0C44648842DAF1F5B7DAE42395.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_6.uasset'
+[2019.08.01-16.53.04:572][768]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_6.StaticMeshSword_6
+[2019.08.01-16.53.13:859][350]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/StaticMeshSword_6F3EC8E2D469C7EE24E862C8D8599326A.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Content/Assets/Animations/Sword/Original/Weapon/StaticMeshSword/StaticMeshSword_6.uasset'
+[2019.08.01-16.53.25:429][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.53.34:362][908]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:19318).
+[2019.08.01-16.53.38:051][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.53.41:194][488]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP02DBA09E4B7CA8BB71E4F5A8B69ABC7A.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-16.53.42:770][632]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.08.01-16.53.42:790][632]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.53.42:870][632]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.53.42:900][632]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.53.42:901][632]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.53.42:902][632]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.53.42:904][632]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.53.43:107][632]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.53.54:347][430]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.08.01-16.53.54:368][430]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.53.54:448][430]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.53.54:475][430]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.53.54:477][430]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.53.54:478][430]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.53.54:479][430]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.53.54:687][430]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.53.54:776][430]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP90569EDE4F36CBFDF01461BDAF1C3CDD.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-16.55.08:064][937]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP9693CCE644A0DF41E5486ABCF8E72EC3.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-16.55.21:151][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.55.24:128][240]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP6A68670B4AD00BF76F0DE390F89A2E83.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-16.55.26:616][420]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP3085B9CC41E754A71DCF278E1BA6A656.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-16.55.36:411][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.55.42:477][663]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.08.01-16.55.42:497][663]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.55.42:577][663]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.55.42:606][663]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.55.42:608][663]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.55.42:609][663]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.55.42:611][663]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-16.55.42:812][663]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-16.55.42:899][663]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP2D55C5BB40DE2521EC4F4FAA3260421F.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-16.55.44:668][804]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.01-16.55.44:706][804]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP9B37A5674E43FA58455165BAD2B011F1.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-16.55.49:599][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.55.51:763][318]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.08.01-16.55.59:487][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.56.11:556][847]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestSwordToolB69E8E6D40A64C47CE55EFA4748D11E8.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSwordTool.uasset'
+[2019.08.01-16.56.17:352][336]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestSword_1D6F0CE3045F7B7A8B372498558DA2770.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_1.uasset'
+[2019.08.01-16.56.17:549][336]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestToolDatabase85882F0F4C325998274AF48239928567.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolDatabases/TestToolDatabase.uasset'
+[2019.08.01-16.56.24:355][888]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestSword_243E18CB94390A538CC953A86FEADEE60.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_2.uasset'
+[2019.08.01-16.56.31:312][440]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestSword_3A06B04844C9939B900C6158BEABEC266.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_3.uasset'
+[2019.08.01-16.57.06:121][370]LogAssetEditorManager: Opening Asset editor for Tool /Game/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_2.TestSword_2
+[2019.08.01-16.57.29:242][546]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestSword_2BA8C9A9A403EEEC7761F21B3A7E96806.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_2.uasset'
+[2019.08.01-16.57.31:310][721]LogAssetEditorManager: Opening Asset editor for Tool /Game/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_1.TestSword_1
+[2019.08.01-16.57.36:689][227]LogAssetEditorManager: Opening Asset editor for Tool /Game/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_3.TestSword_3
+[2019.08.01-16.57.43:345][823]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestSword_36EC1EF984FC098B86EBA32AB4A59BDEF.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_3.uasset'
+[2019.08.01-16.57.45:500][ 43]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestSword_31D913DC74D24EFB3F79BCB8C9C98B3F2.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_3.uasset'
+[2019.08.01-16.57.46:135][110]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestSword_3B001E91942286A6E9EC980AD5B5B62F8.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_3.uasset'
+[2019.08.01-16.57.46:291][125]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestSword_32CC243884EBF08ECAA5FAAA98C0FBD0D.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolAsset/Weapons/Warrior/TestSword_3.uasset'
+[2019.08.01-16.57.48:423][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.57.48:679][312]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap7EF0DEFA4C8992D6CB92EBAB4321EBBE.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.08.01-16.57.51:276][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.01-16.57.52:011][566]LogAssetEditorManager: Opening Asset editor for ToolDatabase /Game/IronForgedGames/Implementation/Gameplay/System/Tool/ToolDatabases/TestToolDatabase.TestToolDatabase
+[2019.08.01-16.59.34:946][695]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TestToolDatabase600573B3471B7A974C3C00A533DA5865.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/System/Tool/ToolDatabases/TestToolDatabase.uasset'
+[2019.08.01-17.00.51:677][506]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP187E710F442285868A56C39E8E7DB87A.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-17.02.18:494][200]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.08.01-17.02.18:518][200]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.02.18:520][200]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-17.02.18:522][200]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.02.18:524][200]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-17.02.18:525][200]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.02.18:526][200]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-17.02.18:663][200]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.02.18:765][200]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP23A5753B4F2DF57726DD789D325E4835.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-17.02.53:618][211]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.08.01-17.02.53:643][211]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.02.53:645][211]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-17.02.53:647][211]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.02.53:649][211]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-17.02.53:650][211]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.02.53:651][211]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-17.02.53:781][211]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.02.54:180][211]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP1C4FE3C24CB4FACD8E7F6DA3F32B4AA9.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-17.03.28:639][612]Candidate modules for hot reload:
+[2019.08.01-17.03.28:639][612]  Project_Tether
+[2019.08.01-17.03.28:639][612]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,7961 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.08.01-17.03.28:645][612]Warning: Starting HotReload took  0.0s.
+[2019.08.01-17.03.43:317][734]CompilerResultsLog: New page: Compilation - Aug 1, 2019, 9:03:43 AM
+[2019.08.01-17.03.43:318][734]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.08.01-17.03.43:318][734]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.01-17.03.43:318][734]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.08.01-17.03.43:318][734]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.01-17.03.43:319][734]CompilerResultsLog: Error: E:/Tether/Project_Tether/Project_Tether/Source/Project_Tether/Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(123)  : Error: Function parameter: 'armor' cannot be defined in 'EquipArmor' as it is already defined in scope 'ToolComponent' (shadowing is not allowed)
+[2019.08.01-17.03.43:319][734]CompilerResultsLog: UnrealHeaderTool failed for target 'Project_TetherEditor' (platform: Win64, module info: E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest).
+[2019.08.01-17.03.43:320][734]LogMainFrame: MainFrame: Module compiling took 14.688 seconds
+[2019.08.01-17.03.43:320][734]Warning: HotReload failed, recompile failed
+[2019.08.01-17.04.31:886][950]Candidate modules for hot reload:
+[2019.08.01-17.04.31:886][950]  Project_Tether
+[2019.08.01-17.04.31:886][950]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,5855 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.08.01-17.04.31:892][950]Warning: Starting HotReload took  0.0s.
+[2019.08.01-17.04.48:275][469]CompilerResultsLog: New page: Compilation - Aug 1, 2019, 9:04:48 AM
+[2019.08.01-17.04.48:276][469]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.08.01-17.04.48:276][469]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.01-17.04.48:276][469]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.08.01-17.04.48:276][469]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.01-17.04.48:276][469]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 9.7687815 seconds
+[2019.08.01-17.04.48:276][469]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.08.01-17.04.48:276][469]CompilerResultsLog:   [1/5] ToolComponent.gen.cpp
+[2019.08.01-17.04.48:276][469]CompilerResultsLog:   [2/5] TopDown_E_Character.cpp
+[2019.08.01-17.04.48:276][469]CompilerResultsLog:   [3/5] ToolComponent.cpp
+[2019.08.01-17.04.48:276][469]CompilerResultsLog:   [4/5] UE4Editor-Project_Tether-5855.lib
+[2019.08.01-17.04.48:276][469]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-5855.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-5855.exp
+[2019.08.01-17.04.48:276][469]CompilerResultsLog:   [5/5] UE4Editor-Project_Tether-5855.dll
+[2019.08.01-17.04.48:276][469]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-5855.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-5855.suppressed.exp
+[2019.08.01-17.04.48:276][469]CompilerResultsLog: Total build time: 16.05 seconds (Parallel executor: 4.22 seconds)
+[2019.08.01-17.04.48:276][469]LogMainFrame: MainFrame: Module compiling took 16.398 seconds
+[2019.08.01-17.04.48:587][469]LogClass: StatModifier HotReload.
+[2019.08.01-17.04.48:587][469]LogClass: ToolData HotReload.
+[2019.08.01-17.04.48:587][469]LogClass: FHandedness HotReload.
+[2019.08.01-17.04.48:587][469]LogClass: FArmorSlot HotReload.
+[2019.08.01-17.04.48:587][469]LogClass: FRarity HotReload.
+[2019.08.01-17.04.48:587][469]LogClass: FUsageType HotReload.
+[2019.08.01-17.04.48:587][469]LogClass: Status HotReload.
+[2019.08.01-17.04.48:587][469]LogClass: Slot HotReload.
+[2019.08.01-17.04.48:587][469]LogClass: Stat HotReload.
+[2019.08.01-17.04.48:587][469]LogClass: ToolDataKey HotReload.
+[2019.08.01-17.04.48:588][469]LogClass: ToolDataSlot HotReload.
+[2019.08.01-17.04.48:588][469]LogClass: ResistanceModifier HotReload.
+[2019.08.01-17.04.48:588][469]LogClass: HealInfo HotReload.
+[2019.08.01-17.04.48:588][469]LogClass: DamageInfo HotReload.
+[2019.08.01-17.04.48:593][469]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.08.01-17.04.48:597][469]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0008 seconds. Added 30 classes and 18 folders.
+[2019.08.01-17.04.48:597][469]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.08.01-17.04.48:601][469]Display: HotReload successful (58 functions remapped  9 scriptstructs remapped)
+[2019.08.01-17.04.48:924][469]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2603 classes and 623 folders.
+[2019.08.01-17.04.48:924][469]Display: HotReload took 17.1s.
+[2019.08.01-17.05.01:898][679]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.01-17.05.02:591][716]Candidate modules for hot reload:
+[2019.08.01-17.05.02:591][716]  Project_Tether
+[2019.08.01-17.05.02:591][716]Launching UnrealBuildTool... [E:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,4830 Win64 Development -TargetType=Editor -Project="../../../../../Tether/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Tether/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.08.01-17.05.02:596][716]Warning: Starting HotReload took  0.0s.
+[2019.08.01-17.05.21:620][106]CompilerResultsLog: New page: Compilation - Aug 1, 2019, 9:05:21 AM
+[2019.08.01-17.05.21:620][106]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.08.01-17.05.21:620][106]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.01-17.05.21:620][106]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.08.01-17.05.21:620][106]CompilerResultsLog:   Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.01-17.05.21:620][106]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 12.5633071 seconds
+[2019.08.01-17.05.21:620][106]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.08.01-17.05.21:620][106]CompilerResultsLog:   [1/6] Project_Tether.init.gen.cpp
+[2019.08.01-17.05.21:620][106]CompilerResultsLog:   [2/6] ToolComponent.gen.cpp
+[2019.08.01-17.05.21:620][106]CompilerResultsLog:   [3/6] TopDown_E_Character.cpp
+[2019.08.01-17.05.21:620][106]CompilerResultsLog:   [4/6] ToolComponent.cpp
+[2019.08.01-17.05.21:621][106]CompilerResultsLog:   [5/6] UE4Editor-Project_Tether-4830.lib
+[2019.08.01-17.05.21:621][106]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4830.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4830.exp
+[2019.08.01-17.05.21:621][106]CompilerResultsLog:   [6/6] UE4Editor-Project_Tether-4830.dll
+[2019.08.01-17.05.21:621][106]CompilerResultsLog:      Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4830.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4830.suppressed.exp
+[2019.08.01-17.05.21:621][106]CompilerResultsLog: Total build time: 18.72 seconds (Parallel executor: 4.30 seconds)
+[2019.08.01-17.05.21:621][106]LogMainFrame: MainFrame: Module compiling took 19.036 seconds
+[2019.08.01-17.05.21:915][106]LogClass: Could not find existing class ToolComponent in package /Script/Project_Tether for HotReload, assuming new class
+[2019.08.01-17.05.21:915][106]LogClass: Function AddTool is new.
+[2019.08.01-17.05.21:915][106]LogClass: Function CreateToolInstance is new.
+[2019.08.01-17.05.21:915][106]LogClass: Function EquipArmor is new.
+[2019.08.01-17.05.21:915][106]LogClass: Function EquipWeapon is new.
+[2019.08.01-17.05.21:915][106]LogClass: Function RemoveTool is new.
+[2019.08.01-17.05.21:915][106]LogClass: Function SwapArmor is new.
+[2019.08.01-17.05.21:915][106]LogClass: Function SwapWeapons is new.
+[2019.08.01-17.05.21:915][106]LogClass: Function UnequipArmor is new.
+[2019.08.01-17.05.21:916][106]LogClass: Function UnequipWeapon is new.
+[2019.08.01-17.05.21:923][106]LogClass: StatModifier HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: ToolData HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: FHandedness HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: FArmorSlot HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: FRarity HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: FUsageType HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: Status HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: Slot HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: Stat HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: ToolDataKey HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: ToolDataSlot HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: ResistanceModifier HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: HealInfo HotReload.
+[2019.08.01-17.05.21:924][106]LogClass: DamageInfo HotReload.
+[2019.08.01-17.05.21:930][106]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.08.01-17.05.21:937][106]LogHotReload: Re-instancing ToolComponent after hot-reload.
+[2019.08.01-17.05.22:089][106]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0009 seconds. Added 30 classes and 18 folders.
+[2019.08.01-17.05.22:089][106]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.08.01-17.05.22:093][106]Display: HotReload successful (49 functions remapped  9 scriptstructs remapped)
+[2019.08.01-17.05.22:426][106]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2603 classes and 623 folders.
+[2019.08.01-17.05.22:426][106]Display: HotReload took 19.8s.
+[2019.08.01-17.06.34:314][124]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.08.01-17.06.34:340][124]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.06.34:343][124]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-17.06.34:344][124]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.06.34:346][124]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-17.06.34:346][124]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.06.34:348][124]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.08.01-17.06.34:582][124]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.08.01-17.06.34:684][124]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP3754204B4D5ACFA4D0B87281860A9326.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/CharactersBP/PlayerCharacters/Base/TopDownCharacter_BP.uasset'
+[2019.08.01-17.06.36:997][236]LogSlate: Window 'Save Content' being destroyed
+[2019.08.01-17.06.37:326][236]LogSavePackage: Moving '../../../../../Tether/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap4FD1D04B4BF8A9D8C71E669043EF24F8.tmp' to '../../../../../Tether/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.08.01-17.06.37:361][236]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.335
+[2019.08.01-17.06.38:179][236]LogSlate: Window 'StaticMeshSword_6' being destroyed
+[2019.08.01-17.06.38:302][236]LogSlate: Window 'Project_Tether - Unreal Editor' being destroyed
+[2019.08.01-17.06.38:304][236]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.01-17.06.38:526][237]Cmd: QUIT_EDITOR
+[2019.08.01-17.06.39:186][237]LogExit: Preparing to exit.
+[2019.08.01-17.06.39:670][237]LogExit: Editor shut down
+[2019.08.01-17.06.39:670][237]LogExit: Transaction tracking system shut down
+[2019.08.01-17.06.40:194][237]LogExit: Object subsystem successfully closed.
+[2019.08.01-17.06.40:215][237]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.08.01-17.06.40:216][237]LogD3D11RHI: Shutdown
+[2019.08.01-17.06.40:216][237]LogD3D11RHI: CleanupD3DDevice
+[2019.08.01-17.06.40:219][237]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module Project_Tether (627)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (625)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (623)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (620)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module Voice (618)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module BlueprintGraph (616)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (612)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.08.01-17.06.40:228][237]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.08.01-17.06.40:229][237]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.08.01-17.06.41:220][237]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.08.01-17.06.41:220][237]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.08.01-17.06.41:220][237]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.08.01-17.06.41:220][237]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.08.01-17.06.41:221][237]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.08.01-17.06.41:276][237]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.08.01-17.06.41:276][237]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.08.01-17.06.41:276][237]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.08.01-17.06.41:276][237]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.08.01-17.06.41:276][237]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.08.01-17.06.41:276][237]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.08.01-17.06.41:276][237]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.08.01-17.06.41:276][237]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.08.01-17.06.41:276][237]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.08.01-17.06.41:276][237]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.08.01-17.06.41:283][237]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.08.01-17.06.41:284][237]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.08.01-17.06.41:285][237]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.08.01-17.06.41:285][237]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.08.01-17.06.41:285][237]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.08.01-17.06.41:285][237]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.08.01-17.06.41:410][237]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.08.01-17.06.41:413][237]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.08.01-17.06.41:414][237]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.08.01-17.06.41:415][237]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.08.01-17.06.41:516][237]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.08.01-17.06.41:617][237]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.08.01-17.06.41:617][237]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.08.01-17.06.41:617][237]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.08.01-17.06.41:617][237]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.08.01-17.06.41:617][237]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.08.01-17.06.41:617][237]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.08.01-17.06.41:617][237]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.08.01-17.06.41:618][237]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.08.01-17.06.41:618][237]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.08.01-17.06.41:618][237]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.08.01-17.06.41:618][237]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.08.01-17.06.41:618][237]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.08.01-17.06.41:619][237]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.08.01-17.06.41:620][237]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.08.01-17.06.41:620][237]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.08.01-17.06.41:620][237]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.08.01-17.06.41:620][237]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.08.01-17.06.41:620][237]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.08.01-17.06.41:621][237]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.08.01-17.06.41:627][237]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.08.01-17.06.41:628][237]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.08.01-17.06.41:628][237]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.08.01-17.06.41:628][237]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.08.01-17.06.41:628][237]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.08.01-17.06.41:628][237]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.08.01-17.06.41:630][237]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.08.01-17.06.41:683][237]LogDerivedDataCache: Shutdown
+[2019.08.01-17.06.41:683][237]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.08.01-17.06.41:683][237]LogXGEController: Cleaning working directory: C:/Users/aaron.hines/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.08.01-17.06.41:684][237]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.08.01-17.06.41:685][237]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.08.01-17.06.41:685][237]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.08.01-17.06.41:686][237]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.08.01-17.06.41:686][237]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.08.01-17.06.41:692][237]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.08.01-17.06.41:692][237]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.08.01-17.06.41:692][237]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.08.01-17.06.41:693][237]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.08.01-17.06.41:694][237]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.08.01-17.06.41:698][237]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.08.01-17.06.41:698][237]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.08.01-17.06.41:698][237]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B10179C30-4390-8D51-E53A-059105383CE2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=b73960f145a75f8d123881b4daf3cb67%7C5e0c94b460c94235a6f9d9aa0432c0f9%7C237e01de-c593-4ddd-a2ca-ecc20c8d76fe&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.08.01-17.06.41:731][237]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.08.01-17.06.41:734][237]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.08.01-17.06.41:734][237]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.08.01-17.06.41:734][237]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.08.01-17.06.41:734][237]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.08.01-17.06.41:734][237]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.08.01-17.06.41:734][237]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.08.01-17.06.41:734][237]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.08.01-17.06.41:734][237]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.08.01-17.06.41:735][237]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.08.01-17.06.41:735][237]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.08.01-17.06.41:735][237]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.08.01-17.06.41:735][237]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.08.01-17.06.41:735][237]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.08.01-17.06.41:735][237]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.08.01-17.06.41:735][237]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.08.01-17.06.41:735][237]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.08.01-17.06.41:735][237]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.08.01-17.06.41:735][237]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.08.01-17.06.41:736][237]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.08.01-17.06.41:736][237]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.08.01-17.06.41:736][237]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.08.01-17.06.41:736][237]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.08.01-17.06.41:736][237]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.08.01-17.06.41:736][237]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.08.01-17.06.41:736][237]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.08.01-17.06.41:737][237]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.08.01-17.06.41:737][237]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.08.01-17.06.41:737][237]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.08.01-17.06.41:737][237]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.08.01-17.06.41:747][237]LogExit: Exiting.
+[2019.08.01-17.06.41:754][237]Log file closed, 08/01/19 13:06:41

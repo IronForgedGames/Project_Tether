@@ -23,6 +23,8 @@ void EmptyLinkFunctionForGeneratedCodeToolComponent() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UToolComponent_AddTool();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UToolComponent_CreateToolInstance();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UToolComponent_EquipArmor();
+	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UToolComponent_EquipDefaultArmor();
+	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UToolComponent_EquipWeapon();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UToolComponent_RemoveTool();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UToolComponent_SwapArmor();
@@ -164,6 +166,8 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFToolData
 			{ "AddTool", &UToolComponent::execAddTool },
 			{ "CreateToolInstance", &UToolComponent::execCreateToolInstance },
 			{ "EquipArmor", &UToolComponent::execEquipArmor },
+			{ "EquipDefaultArmor", &UToolComponent::execEquipDefaultArmor },
+			{ "EquipDefaultWeapon", &UToolComponent::execEquipDefaultWeapon },
 			{ "EquipWeapon", &UToolComponent::execEquipWeapon },
 			{ "RemoveTool", &UToolComponent::execRemoveTool },
 			{ "SwapArmor", &UToolComponent::execSwapArmor },
@@ -283,6 +287,70 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFToolData
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UToolComponent_EquipArmor_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics
+	{
+		struct ToolComponent_eventEquipDefaultArmor_Parms
+		{
+			FToolData ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(ToolComponent_eventEquipDefaultArmor_Parms, ReturnValue), Z_Construct_UScriptStruct_FToolData, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UToolComponent, "EquipDefaultArmor", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(ToolComponent_eventEquipDefaultArmor_Parms), Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UToolComponent_EquipDefaultArmor()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UToolComponent_EquipDefaultArmor_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics
+	{
+		struct ToolComponent_eventEquipDefaultWeapon_Parms
+		{
+			FToolData ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Struct, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(ToolComponent_eventEquipDefaultWeapon_Parms, ReturnValue), Z_Construct_UScriptStruct_FToolData, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UToolComponent, "EquipDefaultWeapon", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(ToolComponent_eventEquipDefaultWeapon_Parms), Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -528,6 +596,11 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFToolData
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_weapons_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_weapons;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_weapons_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_armorUeqipped_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_armorUeqipped;
@@ -589,6 +662,8 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFToolData
 		{ &Z_Construct_UFunction_UToolComponent_AddTool, "AddTool" }, // 1210612913
 		{ &Z_Construct_UFunction_UToolComponent_CreateToolInstance, "CreateToolInstance" }, // 1567834496
 		{ &Z_Construct_UFunction_UToolComponent_EquipArmor, "EquipArmor" }, // 3693782157
+		{ &Z_Construct_UFunction_UToolComponent_EquipDefaultArmor, "EquipDefaultArmor" }, // 1334423276
+		{ &Z_Construct_UFunction_UToolComponent_EquipDefaultWeapon, "EquipDefaultWeapon" }, // 119957393
 		{ &Z_Construct_UFunction_UToolComponent_EquipWeapon, "EquipWeapon" }, // 3996227483
 		{ &Z_Construct_UFunction_UToolComponent_RemoveTool, "RemoveTool" }, // 3453642121
 		{ &Z_Construct_UFunction_UToolComponent_SwapArmor, "SwapArmor" }, // 2466180671
@@ -604,6 +679,14 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFToolData
 		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UToolComponent_Statics::NewProp_weapons_MetaData[] = {
+		{ "Category", "ToolComponent" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UToolComponent_Statics::NewProp_weapons = { UE4CodeGen_Private::EPropertyClass::Array, "weapons", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000014, 1, nullptr, STRUCT_OFFSET(UToolComponent, weapons), METADATA_PARAMS(Z_Construct_UClass_UToolComponent_Statics::NewProp_weapons_MetaData, ARRAY_COUNT(Z_Construct_UClass_UToolComponent_Statics::NewProp_weapons_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UToolComponent_Statics::NewProp_weapons_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "weapons", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FToolData, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UToolComponent_Statics::NewProp_armorUeqipped_MetaData[] = {
 		{ "Category", "Tool Events" },
@@ -689,6 +772,8 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFToolData
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UToolComponent_Statics::NewProp_classType = { UE4CodeGen_Private::EPropertyClass::Object, "classType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000015, 1, nullptr, STRUCT_OFFSET(UToolComponent, classType), Z_Construct_UClass_UPlayerClassType_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UToolComponent_Statics::NewProp_classType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UToolComponent_Statics::NewProp_classType_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UToolComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UToolComponent_Statics::NewProp_weapons,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UToolComponent_Statics::NewProp_weapons_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UToolComponent_Statics::NewProp_armorUeqipped,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UToolComponent_Statics::NewProp_armorEqipped,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UToolComponent_Statics::NewProp_weaponUeqipped,
@@ -730,7 +815,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFToolData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UToolComponent, 519260932);
+	IMPLEMENT_CLASS(UToolComponent, 4092427489);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UToolComponent(Z_Construct_UClass_UToolComponent, &UToolComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UToolComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UToolComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
