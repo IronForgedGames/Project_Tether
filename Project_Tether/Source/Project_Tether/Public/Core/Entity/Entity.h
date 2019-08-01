@@ -6,8 +6,11 @@ Studio: Iron Forged Games
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Identity.h"
 #include "Components/ActorComponent.h"
 #include "Entity.generated.h"
+
+class UIdenitity;
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROJECT_TETHER_API UEntity : public UActorComponent
@@ -27,7 +30,7 @@ protected:
 	void DeRegisterEntity();
 
 	UPROPERTY(EditAnywhere, Category = "Entity")
-	TSubclassOf<UIdentity> identity;
+	UIdentity* identity;
 
 	UPROPERTY(EditAnywhere, Category = "Entity")
 	FGuid id;
@@ -37,10 +40,10 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable, Category = "Entity")
-	TSubclassOf<UIdentity> GetIdentity() { return identity; }
+	UIdentity* GetIdentity() { return identity; }
 
 	UFUNCTION(BlueprintCallable, Category = "Entity")
-	TSubclassOf<UGroup> GetGroup();
+	UGroup* GetGroup() { return identity->group; }
 	
 	UFUNCTION(BlueprintCallable, Category = "Entity")
 	FGuid GetId() { return id; }

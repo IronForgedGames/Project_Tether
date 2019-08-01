@@ -17,6 +17,8 @@ class UIdentity;
 class UGroup;
 class UEntity;
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FEntityEventSignature, UEntity*, entity);
+
 UCLASS(Blueprintable, BlueprintType)
 /**
  *Manages Entities
@@ -31,10 +33,16 @@ protected:
 	TArray<UEntity*> entities;
 	
 public:
+	UPROPERTY(BlueprintAssignable)
+	FEntityEventSignature entityAddedEvent;
+	
+	UPROPERTY(BlueprintAssignable)
+	FEntityEventSignature entityRemovedEvent;
+
 	void RegisterEntity(UEntity* entity);
 	void DeRegisterEntity(UEntity*  entity);
 
-	TArray<UEntity*> GetEntities(TSubclassOf<UIdentity> identity);
-	TArray<UEntity*> GetEntities(TSubclassOf<UGroup> group);
+	TArray<UEntity*> GetEntities(UIdentity* identity);
+	TArray<UEntity*> GetEntities(UGroup* group);
 
 };

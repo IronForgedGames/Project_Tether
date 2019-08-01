@@ -21,7 +21,7 @@ enum FUsageType
 	Armor UMETA(DisplayName = "Armor")
 };
 
-UENUM()
+UENUM(BlueprintType)
 enum FRarity
 {
 	Common UMETA(DisplayName = "Common"),

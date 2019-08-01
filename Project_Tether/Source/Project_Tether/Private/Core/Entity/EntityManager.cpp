@@ -19,7 +19,7 @@ void UEntityManager::RegisterEntity(UEntity * entity)
 	if (!entities.Contains(entity))
 	{
 		entities.Add(entity);
-		// fire event
+		entityAddedEvent.Broadcast(entity);
 	}
 }
 
@@ -28,11 +28,11 @@ void UEntityManager::DeRegisterEntity(UEntity * entity)
 	if (entities.Contains(entity))
 	{
 		entities.Remove(entity);
-		// fire event
+		entityRemovedEvent.Broadcast(entity);
 	}
 }
 
-TArray<UEntity*> UEntityManager::GetEntities(TSubclassOf<UIdentity> identity)
+TArray<UEntity*> UEntityManager::GetEntities(UIdentity* identity)
 {
 	TArray<UEntity*> _entities = TArray<UEntity*>();
 	for(UEntity* _entity : entities)
@@ -45,12 +45,12 @@ TArray<UEntity*> UEntityManager::GetEntities(TSubclassOf<UIdentity> identity)
 	return _entities;
 }
 
-TArray<UEntity*> UEntityManager::GetEntities(TSubclassOf<UGroup> group)
+TArray<UEntity*> UEntityManager::GetEntities(UGroup* group)
 {
 	TArray<UEntity*> _entities = TArray<UEntity*>();
 	for (UEntity* _entity : entities)
 	{
-		if (Cast<UIdentity>(_entity->GetIdentity())->GetGroup() == group)
+		if (Cast<UIdentity>(_entity->GetIdentity())->group == group)
 		{
 			_entities.Add(_entity);
 		}

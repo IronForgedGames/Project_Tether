@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeGroup() {}
 // Cross Module References
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UGroup_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UGroup();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
+	ENGINE_API UClass* Z_Construct_UClass_UDataAsset();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UGroup_GetName();
 // End Cross Module References
@@ -80,7 +80,7 @@ void EmptyLinkFunctionForGeneratedCodeGroup() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_UGroup_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_UObject,
+		(UObject* (*)())Z_Construct_UClass_UDataAsset,
 		(UObject* (*)())Z_Construct_UPackage__Script_Project_Tether,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UGroup_Statics::FuncInfo[] = {
@@ -128,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeGroup() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGroup, 1181328176);
+	IMPLEMENT_CLASS(UGroup, 2522469260);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UGroup(Z_Construct_UClass_UGroup, &UGroup::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UGroup"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UGroup);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

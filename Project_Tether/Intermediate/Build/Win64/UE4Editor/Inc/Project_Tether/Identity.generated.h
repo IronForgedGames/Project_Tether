@@ -8,8 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
-class UGroup;
+class UIdentity;
 #ifdef PROJECT_TETHER_Identity_generated_h
 #error "Identity.generated.h already included, missing '#pragma once' in Identity.h"
 #endif
@@ -17,54 +16,42 @@ class UGroup;
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_Identity_h_19_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetActorBlueprint) \
+	DECLARE_FUNCTION(execIsDecendantOf) \
 	{ \
+		P_GET_OBJECT(UIdentity,Z_Param_ancestor); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TSubclassOf<AActor> *)Z_Param__Result=P_THIS->GetActorBlueprint(); \
+		*(bool*)Z_Param__Result=P_THIS->IsDecendantOf(Z_Param_ancestor); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execGetGroup) \
+	DECLARE_FUNCTION(execIsAncestorOf) \
 	{ \
+		P_GET_OBJECT(UIdentity,Z_Param_decendant); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TSubclassOf<UGroup> *)Z_Param__Result=P_THIS->GetGroup(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetName) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(FString*)Z_Param__Result=P_THIS->GetName(); \
+		*(bool*)Z_Param__Result=P_THIS->IsAncestorOf(Z_Param_decendant); \
 		P_NATIVE_END; \
 	}
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_Identity_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetActorBlueprint) \
+	DECLARE_FUNCTION(execIsDecendantOf) \
 	{ \
+		P_GET_OBJECT(UIdentity,Z_Param_ancestor); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TSubclassOf<AActor> *)Z_Param__Result=P_THIS->GetActorBlueprint(); \
+		*(bool*)Z_Param__Result=P_THIS->IsDecendantOf(Z_Param_ancestor); \
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execGetGroup) \
+	DECLARE_FUNCTION(execIsAncestorOf) \
 	{ \
+		P_GET_OBJECT(UIdentity,Z_Param_decendant); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TSubclassOf<UGroup> *)Z_Param__Result=P_THIS->GetGroup(); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetName) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(FString*)Z_Param__Result=P_THIS->GetName(); \
+		*(bool*)Z_Param__Result=P_THIS->IsAncestorOf(Z_Param_decendant); \
 		P_NATIVE_END; \
 	}
 
@@ -74,7 +61,7 @@ private: \
 	static void StaticRegisterNativesUIdentity(); \
 	friend struct Z_Construct_UClass_UIdentity_Statics; \
 public: \
-	DECLARE_CLASS(UIdentity, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UIdentity, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UIdentity)
 
 
@@ -83,7 +70,7 @@ private: \
 	static void StaticRegisterNativesUIdentity(); \
 	friend struct Z_Construct_UClass_UIdentity_Statics; \
 public: \
-	DECLARE_CLASS(UIdentity, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UIdentity, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UIdentity)
 
 
@@ -111,12 +98,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UIdentity); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UIdentity)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Identity_h_19_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__name() { return STRUCT_OFFSET(UIdentity, name); } \
-	FORCEINLINE static uint32 __PPO__group() { return STRUCT_OFFSET(UIdentity, group); } \
-	FORCEINLINE static uint32 __PPO__actorBlueprint() { return STRUCT_OFFSET(UIdentity, actorBlueprint); }
-
-
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Identity_h_19_PRIVATE_PROPERTY_OFFSET
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_Identity_h_16_PROLOG
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_Identity_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

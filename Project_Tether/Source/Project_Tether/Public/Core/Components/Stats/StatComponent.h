@@ -11,6 +11,9 @@
 
 class UIdentity;
 class UStatType;
+struct FStatModifier;
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FStatChangedEvent, UStatType*, statType);
 
 USTRUCT(Blueprintable)
 struct PROJECT_TETHER_API FStat
@@ -48,7 +51,7 @@ struct PROJECT_TETHER_API FStatModifier
 	GENERATED_USTRUCT_BODY()
 
 	FStatModifier(){}
-	FStatModifier(UStatType* statType, TSubclassOf<UIdentity> source,
+	FStatModifier(UStatType* statType, UIdentity* source,
 		bool canStack = false, bool usePercentage = false, float percentage = 0.f, float amount = 0.f, float duration = 0.f, bool indefinite = false)
 	{
 		this->statType = statType;
@@ -62,7 +65,7 @@ struct PROJECT_TETHER_API FStatModifier
 	}
 
 	UStatType* statType;
-	TSubclassOf<UIdentity> source;
+	UIdentity* source;
 
 	bool canStack = false;
 	bool usePercentage = false;
@@ -85,17 +88,17 @@ FORCEINLINE uint32 GetTypeHash(const FStatModifier& other)
 	return FCrc::MemCrc_DEPRECATED(&other, sizeof(FStatModifier));
 }
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FModifierEvent, UStatType*, statType, FStatModifier, statModifier);
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROJECT_TETHER_API UStatComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:	
-	// Sets default values for this component's properties
 	UStatComponent();
 
 protected:
-	// Called when the game starts
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, Category = "Stats")
@@ -105,12 +108,19 @@ protected:
 	float GetModifiedAmount(FStat* stat);
 
 public:	
-	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	//UFUNCTION(BlueprintCallable)
-	FStat* GetStat(UStatType* type);
+	UPROPERTY(BlueprintAssignable)
+	FStatChangedEvent statChangedEvent;
+
+	UPROPERTY(BlueprintAssignable)
+	FModifierEvent modifierAddedEvent;
 	
+	UPROPERTY(BlueprintAssignable)
+	FModifierEvent modifierRemovedEvent;
+
+	FStat* GetStat(UStatType* type);
+
 	UFUNCTION(BlueprintCallable)
 	float GetValue(UStatType* type);
 
@@ -130,7 +140,7 @@ public:
 	bool AddModifier(FStatModifier mod);
 
 	UFUNCTION(BlueprintCallable)
-	void RemoveModifier(TSubclassOf<UIdentity> source);
+	void RemoveModifier(UIdentity* source);
 
 	UFUNCTION(BlueprintCallable)
 	void RemoveAllModifiersForStat(UStatType* type);

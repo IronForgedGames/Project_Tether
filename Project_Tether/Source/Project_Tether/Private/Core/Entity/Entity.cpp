@@ -54,10 +54,3 @@ void UEntity::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponen
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 }
-
-TSubclassOf<UGroup> UEntity::GetGroup()
-{
-	//return TSubclassOf<UGroup>();
-	return Cast<UIdentity>(identity)->GetGroup();
-}
-

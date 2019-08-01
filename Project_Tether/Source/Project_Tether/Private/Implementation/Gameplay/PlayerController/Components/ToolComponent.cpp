@@ -56,7 +56,9 @@ FToolData UToolComponent::CreateToolInstance(UTool* toolBase)
 
 bool UToolComponent::AddTool(FToolData newTool)
 {
-	if (newTool.toolBase->classType != nullptr && newTool.toolBase->classType == classType)
+	UE_LOG(LogTemp, Warning, TEXT("add check for class type"));
+	
+	if (newTool.toolBase->classType != nullptr && newTool.toolBase->classType == this->classType)
 	{
 		if (newTool.toolBase->usageType == FUsageType::Armor)
 		{

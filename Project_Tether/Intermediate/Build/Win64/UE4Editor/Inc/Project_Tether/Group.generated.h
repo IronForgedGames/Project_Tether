@@ -40,7 +40,7 @@ private: \
 	static void StaticRegisterNativesUGroup(); \
 	friend struct Z_Construct_UClass_UGroup_Statics; \
 public: \
-	DECLARE_CLASS(UGroup, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UGroup, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UGroup)
 
 
@@ -49,7 +49,7 @@ private: \
 	static void StaticRegisterNativesUGroup(); \
 	friend struct Z_Construct_UClass_UGroup_Statics; \
 public: \
-	DECLARE_CLASS(UGroup, UObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_CLASS(UGroup, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
 	DECLARE_SERIALIZER(UGroup)
 
 

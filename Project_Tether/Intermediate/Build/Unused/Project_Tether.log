@@ -1,17 +1,61 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Parsing headers for Project_TetherEditor
-    Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for Project_TetherEditor in 10.1185766 seconds
-  Building 8 actions with 8 processes...
-    [1/8] Tool.cpp
-    [2/8] Tool.gen.cpp
-    [3/8] TopDown_E_Character.gen.cpp
-    [4/8] ToolComponent.gen.cpp
-    [5/8] TopDown_E_Character.cpp
-    [6/8] ToolComponent.cpp
-    [7/8] UE4Editor-Project_Tether.lib
-       Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.exp
-    [8/8] UE4Editor-Project_Tether.dll
-       Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.exp
+  Creating makefile for Project_TetherEditor (ini files are newer than UBTMakefile)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1107.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1107.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1569.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1569.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-17.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-17.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1913.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1913.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1924.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1924.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2779.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2779.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2814.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2814.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-3693.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-3693.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-425.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-425.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4452.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4452.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4856.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4856.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-5119.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-5119.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-5548.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-5548.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-5586.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-5586.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-638.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-638.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-6431.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-6431.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-6863.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-6863.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-7310.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-7310.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-7341.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-7341.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-7677.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-7677.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-8047.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-8047.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9248.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9248.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9262.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9262.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9674.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9674.pdb".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9943.dll".
+  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9943.pdb".
+  Building 3 actions with 12 processes...
+    [1/3] ToolComponent.cpp
+    [2/3] UE4Editor-Project_Tether.lib
+       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.exp
+    [3/3] UE4Editor-Project_Tether.dll
+       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.exp
   Deploying Project_TetherEditor Win64 Development...
-  Total build time: 15.04 seconds (Parallel executor: 3.67 seconds)
+  Total build time: 6.29 seconds (Parallel executor: 2.34 seconds)

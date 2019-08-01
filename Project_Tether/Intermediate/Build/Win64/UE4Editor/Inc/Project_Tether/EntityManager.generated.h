@@ -8,14 +8,28 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UEntity;
 #ifdef PROJECT_TETHER_EntityManager_generated_h
 #error "EntityManager.generated.h already included, missing '#pragma once' in EntityManager.h"
 #endif
 #define PROJECT_TETHER_EntityManager_generated_h
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_RPC_WRAPPERS
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_RPC_WRAPPERS_NO_PURE_DECLS
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_INCLASS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_20_DELEGATE \
+struct _Script_Project_Tether_eventEntityEventSignature_Parms \
+{ \
+	UEntity* entity; \
+}; \
+static inline void FEntityEventSignature_DelegateWrapper(const FMulticastScriptDelegate& EntityEventSignature, UEntity* entity) \
+{ \
+	_Script_Project_Tether_eventEntityEventSignature_Parms Parms; \
+	Parms.entity=entity; \
+	EntityEventSignature.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_RPC_WRAPPERS
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_RPC_WRAPPERS_NO_PURE_DECLS
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUEntityManager(); \
 	friend struct Z_Construct_UClass_UEntityManager_Statics; \
@@ -24,7 +38,7 @@ public: \
 	DECLARE_SERIALIZER(UEntityManager)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_INCLASS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_INCLASS \
 private: \
 	static void StaticRegisterNativesUEntityManager(); \
 	friend struct Z_Construct_UClass_UEntityManager_Statics; \
@@ -33,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(UEntityManager)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_STANDARD_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UEntityManager(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEntityManager) \
@@ -46,7 +60,7 @@ private: \
 public:
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_ENHANCED_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UEntityManager(UEntityManager&&); \
@@ -57,26 +71,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEntityManager); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEntityManager)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_PRIVATE_PROPERTY_OFFSET
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_20_PROLOG
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_GENERATED_BODY_LEGACY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_PRIVATE_PROPERTY_OFFSET
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_22_PROLOG
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_RPC_WRAPPERS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_INCLASS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_STANDARD_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_RPC_WRAPPERS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_INCLASS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_INCLASS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_26_ENHANCED_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_INCLASS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_EntityManager_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

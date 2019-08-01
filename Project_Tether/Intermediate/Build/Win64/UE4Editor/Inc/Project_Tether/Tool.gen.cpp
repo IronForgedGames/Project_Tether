@@ -139,7 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 		return Singleton;
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_FRarity(FRarity_StaticEnum, TEXT("/Script/Project_Tether"), TEXT("FRarity"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Project_Tether_FRarity_CRC() { return 2860727827U; }
+	uint32 Get_Z_Construct_UEnum_Project_Tether_FRarity_CRC() { return 864459093U; }
 	UEnum* Z_Construct_UEnum_Project_Tether_FRarity()
 	{
 #if WITH_HOT_RELOAD
@@ -159,6 +159,7 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
 				{ "Common.DisplayName", "Common" },
 				{ "Epic.DisplayName", "Epic" },
 				{ "Legendary.DisplayName", "Legendary" },

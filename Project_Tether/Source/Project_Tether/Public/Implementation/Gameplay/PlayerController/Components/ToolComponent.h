@@ -10,6 +10,7 @@
 class UClassType;
 class UTool;
 class ATopDown_E_Character;
+class UToolDatabase;
 struct FToolData;
 
 USTRUCT(Blueprintable, BlueprintType)
@@ -52,7 +53,7 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	UPlayerClassType* classType;
 	
 	UPROPERTY(EditAnywhere)

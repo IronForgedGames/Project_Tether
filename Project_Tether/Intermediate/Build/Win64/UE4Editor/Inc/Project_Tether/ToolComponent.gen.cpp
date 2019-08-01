@@ -687,7 +687,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFToolData
 		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UToolComponent_Statics::NewProp_classType = { UE4CodeGen_Private::EPropertyClass::Object, "classType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(UToolComponent, classType), Z_Construct_UClass_UPlayerClassType_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UToolComponent_Statics::NewProp_classType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UToolComponent_Statics::NewProp_classType_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UToolComponent_Statics::NewProp_classType = { UE4CodeGen_Private::EPropertyClass::Object, "classType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000015, 1, nullptr, STRUCT_OFFSET(UToolComponent, classType), Z_Construct_UClass_UPlayerClassType_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UToolComponent_Statics::NewProp_classType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UToolComponent_Statics::NewProp_classType_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UToolComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UToolComponent_Statics::NewProp_armorUeqipped,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UToolComponent_Statics::NewProp_armorEqipped,
@@ -730,7 +730,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFToolData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UToolComponent, 1130837934);
+	IMPLEMENT_CLASS(UToolComponent, 519260932);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UToolComponent(Z_Construct_UClass_UToolComponent, &UToolComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UToolComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UToolComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

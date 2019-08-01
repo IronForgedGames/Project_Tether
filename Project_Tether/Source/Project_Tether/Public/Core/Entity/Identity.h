@@ -6,7 +6,7 @@ Studio: Iron Forged Games
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
+#include "Engine/DataAsset.h"
 #include "Public/Core/Entity/Group.h"
 #include "Identity.generated.h"
 
@@ -14,29 +14,28 @@ Studio: Iron Forged Games
  * Class used to identify entities
  */
 UCLASS(Blueprintable, BlueprintType)
-class PROJECT_TETHER_API UIdentity : public UObject
+class PROJECT_TETHER_API UIdentity : public UDataAsset
 {
 	GENERATED_BODY()
 
 	UIdentity();
 	
 public:
-	UFUNCTION(BlueprintCallable, Category = "Group")
-	FString GetName() { return name; }
-	
-	UFUNCTION(BlueprintCallable, Category = "Group")
-	TSubclassOf<UGroup> GetGroup() { return group; }
-	
-	UFUNCTION(BlueprintCallable, Category = "Group")
-	TSubclassOf<AActor> GetActorBlueprint() { return actorBlueprint; }
-
-protected:
-	UPROPERTY(EditAnywhere, Category = "Group Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	FString name;
 
-	UPROPERTY(EditAnywhere, Category = "Group Properties")
-	TSubclassOf<UGroup> group;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UIdentity* parent;
 
-	UPROPERTY(EditAnywhere, Category = "Group Properties")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UGroup* group;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TSubclassOf<AActor> actorBlueprint;
+
+	UFUNCTION(BlueprintCallable)
+	bool IsAncestorOf(UIdentity* decendant);
+	
+	UFUNCTION(BlueprintCallable)
+	bool IsDecendantOf(UIdentity* ancestor);
 };

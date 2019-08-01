@@ -12,7 +12,38 @@ class UTool;
 class UPlayerClassType;
 enum FRarity;
 
-UCLASS()
+USTRUCT(Blueprintable)
+struct PROJECT_TETHER_API FToolDataSlot
+{
+	GENERATED_USTRUCT_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	TArray<UTool*> tools;
+};
+
+USTRUCT(Blueprintable)
+struct PROJECT_TETHER_API FToolDataKey
+{
+	GENERATED_USTRUCT_BODY()
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	UPlayerClassType* playerClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	TEnumAsByte<FRarity> rarity;
+
+	bool operator == (const FToolDataKey& other) const
+	{
+		return playerClass == other.playerClass && rarity == other.rarity;
+	}
+};
+
+FORCEINLINE uint32 GetTypeHash(const FToolDataKey& other)
+{
+	return FCrc::MemCrc_DEPRECATED(&other, sizeof(FToolDataKey));
+}
+
+UCLASS(Blueprintable, BlueprintType)
 class UToolDatabase : public UDataAsset
 {
 	GENERATED_BODY()
@@ -23,23 +54,16 @@ public:
 protected:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TArray<UTool*> CommonTools;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TArray<UTool*> UnCommonTools;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TArray<UTool*> RareTools;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TArray<UTool*> LegendaryTools;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TArray<UTool*> EpicTools;
+	TMap<FToolDataKey, FToolDataSlot> database;
 
 public:
+	UFUNCTION(BlueprintCallable)
 	TArray<UTool*> GetToolsOfRarity(FRarity rarity);
+	
+	UFUNCTION(BlueprintCallable)
 	TArray<UTool*> GetToolsOfClassType(UPlayerClassType* playerClass);
+	
+	UFUNCTION(BlueprintCallable)
 	TArray<UTool*> GetToolsOfClassTypeAndRarity(UPlayerClassType* playerClass, FRarity rarity);
 
 	UFUNCTION(BlueprintCallable)

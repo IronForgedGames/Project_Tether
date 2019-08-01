@@ -13,10 +13,12 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStatComponent() {}
 // Cross Module References
-	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FStatModifier();
+	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
-	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FStat();
+	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FStatModifier();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStatType_NoRegister();
+	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature();
+	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FStat();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStatComponent_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStatComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
@@ -28,7 +30,6 @@ void EmptyLinkFunctionForGeneratedCodeStatComponent() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_RemoveAllModifiers();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_RemoveModifier();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UIdentity_NoRegister();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_ResetAll();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_SetMaxValue();
@@ -38,6 +39,74 @@ void EmptyLinkFunctionForGeneratedCodeStatComponent() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_SetValue();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UStatComponent_Subtract();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics
+	{
+		struct _Script_Project_Tether_eventModifierEvent_Parms
+		{
+			UStatType* statType;
+			FStatModifier statModifier;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_statModifier;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_statType;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::NewProp_statModifier = { UE4CodeGen_Private::EPropertyClass::Struct, "statModifier", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(_Script_Project_Tether_eventModifierEvent_Parms, statModifier), Z_Construct_UScriptStruct_FStatModifier, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::NewProp_statType = { UE4CodeGen_Private::EPropertyClass::Object, "statType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(_Script_Project_Tether_eventModifierEvent_Parms, statType), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::NewProp_statModifier,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::NewProp_statType,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Core/Components/Stats/StatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_Project_Tether, "ModifierEvent__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, sizeof(_Script_Project_Tether_eventModifierEvent_Parms), Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics
+	{
+		struct _Script_Project_Tether_eventStatChangedEvent_Parms
+		{
+			UStatType* statType;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_statType;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics::NewProp_statType = { UE4CodeGen_Private::EPropertyClass::Object, "statType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(_Script_Project_Tether_eventStatChangedEvent_Parms, statType), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics::NewProp_statType,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Core/Components/Stats/StatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_Project_Tether, "StatChangedEvent__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, sizeof(_Script_Project_Tether_eventStatChangedEvent_Parms), Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 class UScriptStruct* FStatModifier::StaticStruct()
 {
 	static class UScriptStruct* Singleton = NULL;
@@ -488,16 +557,16 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	{
 		struct StatComponent_eventRemoveModifier_Parms
 		{
-			TSubclassOf<UIdentity>  source;
+			UIdentity* source;
 		};
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_source;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_source;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::NewProp_source = { UE4CodeGen_Private::EPropertyClass::Class, "source", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventRemoveModifier_Parms, source), Z_Construct_UClass_UIdentity_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::NewProp_source = { UE4CodeGen_Private::EPropertyClass::Object, "source", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StatComponent_eventRemoveModifier_Parms, source), Z_Construct_UClass_UIdentity_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStatComponent_RemoveModifier_Statics::NewProp_source,
 	};
@@ -782,6 +851,18 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_modifierRemovedEvent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_modifierRemovedEvent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_modifierAddedEvent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_modifierAddedEvent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_statChangedEvent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_statChangedEvent;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_stats_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_stats;
@@ -802,7 +883,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		{ &Z_Construct_UFunction_UStatComponent_GetValue, "GetValue" }, // 1239928330
 		{ &Z_Construct_UFunction_UStatComponent_RemoveAllModifiers, "RemoveAllModifiers" }, // 4220253171
 		{ &Z_Construct_UFunction_UStatComponent_RemoveAllModifiersForStat, "RemoveAllModifiersForStat" }, // 248007959
-		{ &Z_Construct_UFunction_UStatComponent_RemoveModifier, "RemoveModifier" }, // 1510300703
+		{ &Z_Construct_UFunction_UStatComponent_RemoveModifier, "RemoveModifier" }, // 1507634473
 		{ &Z_Construct_UFunction_UStatComponent_ResetAll, "ResetAll" }, // 807572928
 		{ &Z_Construct_UFunction_UStatComponent_SetMaxValue, "SetMaxValue" }, // 2230744562
 		{ &Z_Construct_UFunction_UStatComponent_SetMinValue, "SetMinValue" }, // 3021306278
@@ -820,6 +901,24 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatComponent_Statics::NewProp_modifierRemovedEvent_MetaData[] = {
+		{ "ModuleRelativePath", "Public/Core/Components/Stats/StatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UStatComponent_Statics::NewProp_modifierRemovedEvent = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "modifierRemovedEvent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UStatComponent, modifierRemovedEvent), Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UStatComponent_Statics::NewProp_modifierRemovedEvent_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStatComponent_Statics::NewProp_modifierRemovedEvent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatComponent_Statics::NewProp_modifierAddedEvent_MetaData[] = {
+		{ "ModuleRelativePath", "Public/Core/Components/Stats/StatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UStatComponent_Statics::NewProp_modifierAddedEvent = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "modifierAddedEvent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UStatComponent, modifierAddedEvent), Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UStatComponent_Statics::NewProp_modifierAddedEvent_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStatComponent_Statics::NewProp_modifierAddedEvent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatComponent_Statics::NewProp_statChangedEvent_MetaData[] = {
+		{ "ModuleRelativePath", "Public/Core/Components/Stats/StatComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UStatComponent_Statics::NewProp_statChangedEvent = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "statChangedEvent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000010080000, 1, nullptr, STRUCT_OFFSET(UStatComponent, statChangedEvent), Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UStatComponent_Statics::NewProp_statChangedEvent_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStatComponent_Statics::NewProp_statChangedEvent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatComponent_Statics::NewProp_stats_MetaData[] = {
 		{ "Category", "Stats" },
 		{ "ModuleRelativePath", "Public/Core/Components/Stats/StatComponent.h" },
@@ -828,6 +927,9 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UStatComponent_Statics::NewProp_stats = { UE4CodeGen_Private::EPropertyClass::Array, "stats", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(UStatComponent, stats), METADATA_PARAMS(Z_Construct_UClass_UStatComponent_Statics::NewProp_stats_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStatComponent_Statics::NewProp_stats_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UStatComponent_Statics::NewProp_stats_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "stats", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FStat, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UStatComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatComponent_Statics::NewProp_modifierRemovedEvent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatComponent_Statics::NewProp_modifierAddedEvent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatComponent_Statics::NewProp_statChangedEvent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatComponent_Statics::NewProp_stats,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStatComponent_Statics::NewProp_stats_Inner,
 	};
@@ -854,7 +956,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStat
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UStatComponent, 501682499);
+	IMPLEMENT_CLASS(UStatComponent, 773669704);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UStatComponent(Z_Construct_UClass_UStatComponent, &UStatComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UStatComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UStatComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

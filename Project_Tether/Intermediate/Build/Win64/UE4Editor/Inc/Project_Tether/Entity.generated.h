@@ -16,7 +16,7 @@ class UIdentity;
 #endif
 #define PROJECT_TETHER_Entity_generated_h
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_RPC_WRAPPERS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetId) \
 	{ \
@@ -30,7 +30,7 @@ class UIdentity;
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TSubclassOf<UGroup> *)Z_Param__Result=P_THIS->GetGroup(); \
+		*(UGroup**)Z_Param__Result=P_THIS->GetGroup(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -38,12 +38,12 @@ class UIdentity;
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TSubclassOf<UIdentity> *)Z_Param__Result=P_THIS->GetIdentity(); \
+		*(UIdentity**)Z_Param__Result=P_THIS->GetIdentity(); \
 		P_NATIVE_END; \
 	}
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetId) \
 	{ \
@@ -57,7 +57,7 @@ class UIdentity;
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TSubclassOf<UGroup> *)Z_Param__Result=P_THIS->GetGroup(); \
+		*(UGroup**)Z_Param__Result=P_THIS->GetGroup(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -65,12 +65,12 @@ class UIdentity;
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(TSubclassOf<UIdentity> *)Z_Param__Result=P_THIS->GetIdentity(); \
+		*(UIdentity**)Z_Param__Result=P_THIS->GetIdentity(); \
 		P_NATIVE_END; \
 	}
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_INCLASS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUEntity(); \
 	friend struct Z_Construct_UClass_UEntity_Statics; \
@@ -79,7 +79,7 @@ public: \
 	DECLARE_SERIALIZER(UEntity)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_INCLASS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesUEntity(); \
 	friend struct Z_Construct_UClass_UEntity_Statics; \
@@ -88,7 +88,7 @@ public: \
 	DECLARE_SERIALIZER(UEntity)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_STANDARD_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UEntity(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEntity) \
@@ -101,7 +101,7 @@ private: \
 public:
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_ENHANCED_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UEntity(UEntity&&); \
@@ -112,30 +112,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEntity); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEntity)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_PRIVATE_PROPERTY_OFFSET \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__identity() { return STRUCT_OFFSET(UEntity, identity); } \
 	FORCEINLINE static uint32 __PPO__id() { return STRUCT_OFFSET(UEntity, id); }
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_12_PROLOG
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_GENERATED_BODY_LEGACY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_PROLOG
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_RPC_WRAPPERS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_INCLASS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_STANDARD_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_RPC_WRAPPERS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_INCLASS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_INCLASS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_15_ENHANCED_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_INCLASS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_Entity_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

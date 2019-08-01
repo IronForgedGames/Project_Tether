@@ -144,6 +144,7 @@ float UStatComponent::SetValue(UStatType* type, float value)
 			}
 
 			_statptr->currentAmount = _amount;
+			statChangedEvent.Broadcast(_statptr->statType);
 			return _statptr->currentAmount;
 		}
 	}
@@ -169,6 +170,7 @@ float UStatComponent::Add(UStatType* type, float value)
 			}
 
 			_statptr->currentAmount = _amount;
+			statChangedEvent.Broadcast(_statptr->statType);
 
 			return _statptr->currentAmount;
 		}
@@ -192,6 +194,7 @@ bool UStatComponent::AddModifier(FStatModifier mod)
 					if (_statMod->canStack)
 					{
 						_statMod->currentTime = 0.f;
+						modifierAddedEvent.Broadcast(_statptr->statType, mod);
 						return true;
 					}
 				}
@@ -205,7 +208,7 @@ bool UStatComponent::AddModifier(FStatModifier mod)
 	return false;
 }
 
-void UStatComponent::RemoveModifier(TSubclassOf<UIdentity> source)
+void UStatComponent::RemoveModifier(UIdentity* source)
 {
 	for (int _i = 0; _i < stats.Num(); _i++)
 	{
@@ -225,6 +228,7 @@ void UStatComponent::RemoveModifier(TSubclassOf<UIdentity> source)
 		{
 			FStatModifier* _removed = _markedForRemoval[_k];
 			_statptr->modifiers.Remove(*_removed);
+			modifierRemovedEvent.Broadcast(_statptr->statType, *_removed);
 		}
 	}
 }
@@ -248,6 +252,7 @@ void UStatComponent::RemoveAllModifiersForStat(UStatType* type)
 		{
 			FStatModifier* _removed = _markedForRemoval[_k];
 			_statptr->modifiers.Remove(*_removed);
+			modifierRemovedEvent.Broadcast(_statptr->statType, *_removed);
 		}
 	}
 }
@@ -268,6 +273,7 @@ void UStatComponent::RemoveAllModifiers()
 		{
 			FStatModifier* _removed = _markedForRemoval[_k];
 			_statptr->modifiers.Remove(*_removed);
+			modifierRemovedEvent.Broadcast(_statptr->statType, *_removed);
 		}
 	}
 }
@@ -290,6 +296,7 @@ float UStatComponent::Subtract(UStatType* type, float value)
 			}
 
 			_statptr->currentAmount = _amount;
+			statChangedEvent.Broadcast(_statptr->statType);
 			return _statptr->currentAmount;
 		}
 	}
@@ -332,6 +339,7 @@ float UStatComponent::SetToMax(UStatType* type)
 		if (_statptr->statType == type)
 		{
 			_statptr->currentAmount = _statptr->minAmount;
+			statChangedEvent.Broadcast(_statptr->statType);
 			return _statptr->currentAmount;
 		}
 	}
@@ -346,6 +354,7 @@ float UStatComponent::SetToMin(UStatType* type)
 		if (_statptr->statType == type)
 		{
 			_statptr->currentAmount = _statptr->minAmount;
+			statChangedEvent.Broadcast(_statptr->statType);
 			return _statptr->currentAmount;
 		}
 	}
@@ -358,5 +367,6 @@ void UStatComponent::ResetAll()
 	{
 		FStat* _statptr = &stats[_i];
 		_statptr->currentAmount = _statptr->minAmount;
+		statChangedEvent.Broadcast(_statptr->statType);
 	}
 }

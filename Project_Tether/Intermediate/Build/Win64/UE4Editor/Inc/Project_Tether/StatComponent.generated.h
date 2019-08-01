@@ -9,24 +9,52 @@
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UStatType;
-class UIdentity;
 struct FStatModifier;
+class UIdentity;
 #ifdef PROJECT_TETHER_StatComponent_generated_h
 #error "StatComponent.generated.h already included, missing '#pragma once' in StatComponent.h"
 #endif
 #define PROJECT_TETHER_StatComponent_generated_h
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_48_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_51_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FStatModifier_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_18_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_21_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FStat_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_RPC_WRAPPERS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_DELEGATE \
+struct _Script_Project_Tether_eventModifierEvent_Parms \
+{ \
+	UStatType* statType; \
+	FStatModifier statModifier; \
+}; \
+static inline void FModifierEvent_DelegateWrapper(const FMulticastScriptDelegate& ModifierEvent, UStatType* statType, FStatModifier statModifier) \
+{ \
+	_Script_Project_Tether_eventModifierEvent_Parms Parms; \
+	Parms.statType=statType; \
+	Parms.statModifier=statModifier; \
+	ModifierEvent.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_16_DELEGATE \
+struct _Script_Project_Tether_eventStatChangedEvent_Parms \
+{ \
+	UStatType* statType; \
+}; \
+static inline void FStatChangedEvent_DelegateWrapper(const FMulticastScriptDelegate& StatChangedEvent, UStatType* statType) \
+{ \
+	_Script_Project_Tether_eventStatChangedEvent_Parms Parms; \
+	Parms.statType=statType; \
+	StatChangedEvent.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execResetAll) \
 	{ \
@@ -103,7 +131,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execRemoveModifier) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_source); \
+		P_GET_OBJECT(UIdentity,Z_Param_source); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->RemoveModifier(Z_Param_source); \
@@ -167,7 +195,7 @@ struct FStatModifier;
 	}
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execResetAll) \
 	{ \
@@ -244,7 +272,7 @@ struct FStatModifier;
  \
 	DECLARE_FUNCTION(execRemoveModifier) \
 	{ \
-		P_GET_OBJECT(UClass,Z_Param_source); \
+		P_GET_OBJECT(UIdentity,Z_Param_source); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->RemoveModifier(Z_Param_source); \
@@ -308,7 +336,7 @@ struct FStatModifier;
 	}
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_INCLASS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUStatComponent(); \
 	friend struct Z_Construct_UClass_UStatComponent_Statics; \
@@ -317,7 +345,7 @@ public: \
 	DECLARE_SERIALIZER(UStatComponent)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_INCLASS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_INCLASS \
 private: \
 	static void StaticRegisterNativesUStatComponent(); \
 	friend struct Z_Construct_UClass_UStatComponent_Statics; \
@@ -326,7 +354,7 @@ public: \
 	DECLARE_SERIALIZER(UStatComponent)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_STANDARD_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UStatComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UStatComponent) \
@@ -339,7 +367,7 @@ private: \
 public:
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_ENHANCED_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UStatComponent(UStatComponent&&); \
@@ -350,29 +378,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UStatComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UStatComponent)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_PRIVATE_PROPERTY_OFFSET \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__stats() { return STRUCT_OFFSET(UStatComponent, stats); }
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_88_PROLOG
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_GENERATED_BODY_LEGACY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_93_PROLOG
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_RPC_WRAPPERS \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_INCLASS \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_STANDARD_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_RPC_WRAPPERS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_INCLASS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_INCLASS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_91_ENHANCED_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_INCLASS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Components_Stats_StatComponent_h_96_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
