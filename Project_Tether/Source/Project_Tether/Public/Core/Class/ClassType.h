@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
-#include "Public/Core/Tools/WeaponType.h"
 #include "ClassType.generated.h"
 
 /**
@@ -16,7 +15,7 @@ class PROJECT_TETHER_API UPlayerClassType : public UDataAsset
 	GENERATED_BODY()
 	
 protected:
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Class")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	FString className;
 
 public:
@@ -25,3 +24,8 @@ public:
 		return className == other.className;
 	}
 };
+
+FORCEINLINE uint32 GetTypeHash(const UPlayerClassType& other)
+{
+	return FCrc::MemCrc_DEPRECATED(&other, sizeof(UPlayerClassType));
+}

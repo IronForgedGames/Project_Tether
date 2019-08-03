@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROJECT_TETHER_ClassType_generated_h
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_RPC_WRAPPERS
-#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_INCLASS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_RPC_WRAPPERS
+#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPlayerClassType(); \
 	friend struct Z_Construct_UClass_UPlayerClassType_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayerClassType)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_INCLASS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUPlayerClassType(); \
 	friend struct Z_Construct_UClass_UPlayerClassType_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UPlayerClassType)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_STANDARD_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayerClassType(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayerClassType) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_ENHANCED_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPlayerClassType(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,29 +59,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayerClassType); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayerClassType)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_PRIVATE_PROPERTY_OFFSET \
+#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__className() { return STRUCT_OFFSET(UPlayerClassType, className); }
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_13_PROLOG
-#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_GENERATED_BODY_LEGACY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_12_PROLOG
+#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_RPC_WRAPPERS \
-	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_INCLASS \
-	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_STANDARD_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_RPC_WRAPPERS \
+	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_INCLASS \
+	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_INCLASS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_16_ENHANCED_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_INCLASS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Class_ClassType_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

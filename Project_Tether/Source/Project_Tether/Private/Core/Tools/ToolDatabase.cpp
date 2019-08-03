@@ -45,7 +45,7 @@ TArray<UTool*> UToolDatabase::GetToolsOfClassTypeAndRarity(UPlayerClassType * pl
 	TArray<UTool*> _result = TArray<UTool*>();
 	for (auto& _item : database)
 	{
-		if (_item.Key.playerClass == playerClass && _item.Key.rarity == rarity)
+		///if (_item.Key.playerClass == playerClass && _item.Key.rarity == rarity)
 		{
 			for (auto& _tool : _item.Value.tools)
 			{

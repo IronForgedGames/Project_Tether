@@ -57,7 +57,7 @@ protected:
 	UPlayerClassType* classType;
 	
 	UPROPERTY(EditAnywhere)
-	TMap<TEnumAsByte<FHandedness>, UTool*> defaultWeapons;
+	TArray<UTool*> defaultWeapons;
 
 	UPROPERTY(EditAnywhere)
 	TMap<TEnumAsByte<FArmorSlot>, UTool*> defaultArmor; // nude
@@ -88,14 +88,13 @@ protected:
 
 	UPROPERTY(BlueprintReadOnly)
 	TArray<FToolData> weapons;
+
+	UPROPERTY(BlueprintReadOnly)
+	TArray<FToolData> armor;
 	
 	TMap<TEnumAsByte<FHandedness>, FToolData> equippedWeapons;
-
-	//UPROPERTY(BlueprintReadOnly)
-	TArray<FToolData> armor;
 	TMap<TEnumAsByte<FArmorSlot>, FToolData> equippedArmor;
-
-	TMap<TEnumAsByte<FArmorSlot>, FToolData> nudeArmor; // nude
+	TMap<TEnumAsByte<FArmorSlot>, FToolData> nudeArmor;
 	
 	UInventoryComponent* playerInventory;
 
@@ -114,7 +113,7 @@ public:
 	bool RemoveTool(FToolData toolToRemove);
 	
 	UFUNCTION(BlueprintCallable)
-	FToolData EquipDefaultWeapon();
+	FToolData EquipDefaultWeapon(FHandedness hand);
 	
 	UFUNCTION(BlueprintCallable)
 	FToolData EquipDefaultArmor();
@@ -126,15 +125,14 @@ public:
 	FToolData UnequipWeapon(FToolData weapon);
 
 	UFUNCTION(BlueprintCallable)
-	FToolData EquipArmor(FToolData armor);
+	FToolData EquipArmor(FToolData armorToEquip);
 
 	UFUNCTION(BlueprintCallable)
-	FToolData UnequipArmor(FToolData armor);
+	FToolData UnequipArmor(FToolData armorToUnequip);
 
 	UFUNCTION(BlueprintCallable)
-	FToolData SwapWeapons(int direction, FHandedness hand); // direction is up or down by 1
+	FToolData SwapWeapons(FHandedness hand, int direction = 1); // direction is up or down by 1
 
 	UFUNCTION(BlueprintCallable)
-	FToolData SwapArmor(int direction, FArmorSlot slot); // direction is up or down by 1
-
+	FToolData SwapArmor( FArmorSlot slot, int direction = 1); // direction is up or down by 1
 };

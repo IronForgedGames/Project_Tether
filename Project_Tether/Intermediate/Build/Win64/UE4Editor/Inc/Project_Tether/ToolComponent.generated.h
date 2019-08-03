@@ -37,39 +37,39 @@ static inline void FToolEventSigniture_DelegateWrapper(const FMulticastScriptDel
  \
 	DECLARE_FUNCTION(execSwapArmor) \
 	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_direction); \
 		P_GET_PROPERTY(UByteProperty,Z_Param_slot); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_direction); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(FToolData*)Z_Param__Result=P_THIS->SwapArmor(Z_Param_direction,FArmorSlot(Z_Param_slot)); \
+		*(FToolData*)Z_Param__Result=P_THIS->SwapArmor(FArmorSlot(Z_Param_slot),Z_Param_direction); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execSwapWeapons) \
 	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_direction); \
 		P_GET_PROPERTY(UByteProperty,Z_Param_hand); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_direction); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(FToolData*)Z_Param__Result=P_THIS->SwapWeapons(Z_Param_direction,FHandedness(Z_Param_hand)); \
+		*(FToolData*)Z_Param__Result=P_THIS->SwapWeapons(FHandedness(Z_Param_hand),Z_Param_direction); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execUnequipArmor) \
 	{ \
-		P_GET_STRUCT(FToolData,Z_Param_armor); \
+		P_GET_STRUCT(FToolData,Z_Param_armorToUnequip); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(FToolData*)Z_Param__Result=P_THIS->UnequipArmor(Z_Param_armor); \
+		*(FToolData*)Z_Param__Result=P_THIS->UnequipArmor(Z_Param_armorToUnequip); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execEquipArmor) \
 	{ \
-		P_GET_STRUCT(FToolData,Z_Param_armor); \
+		P_GET_STRUCT(FToolData,Z_Param_armorToEquip); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(FToolData*)Z_Param__Result=P_THIS->EquipArmor(Z_Param_armor); \
+		*(FToolData*)Z_Param__Result=P_THIS->EquipArmor(Z_Param_armorToEquip); \
 		P_NATIVE_END; \
 	} \
  \
@@ -101,9 +101,10 @@ static inline void FToolEventSigniture_DelegateWrapper(const FMulticastScriptDel
  \
 	DECLARE_FUNCTION(execEquipDefaultWeapon) \
 	{ \
+		P_GET_PROPERTY(UByteProperty,Z_Param_hand); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(FToolData*)Z_Param__Result=P_THIS->EquipDefaultWeapon(); \
+		*(FToolData*)Z_Param__Result=P_THIS->EquipDefaultWeapon(FHandedness(Z_Param_hand)); \
 		P_NATIVE_END; \
 	} \
  \
@@ -139,39 +140,39 @@ static inline void FToolEventSigniture_DelegateWrapper(const FMulticastScriptDel
  \
 	DECLARE_FUNCTION(execSwapArmor) \
 	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_direction); \
 		P_GET_PROPERTY(UByteProperty,Z_Param_slot); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_direction); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(FToolData*)Z_Param__Result=P_THIS->SwapArmor(Z_Param_direction,FArmorSlot(Z_Param_slot)); \
+		*(FToolData*)Z_Param__Result=P_THIS->SwapArmor(FArmorSlot(Z_Param_slot),Z_Param_direction); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execSwapWeapons) \
 	{ \
-		P_GET_PROPERTY(UIntProperty,Z_Param_direction); \
 		P_GET_PROPERTY(UByteProperty,Z_Param_hand); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_direction); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(FToolData*)Z_Param__Result=P_THIS->SwapWeapons(Z_Param_direction,FHandedness(Z_Param_hand)); \
+		*(FToolData*)Z_Param__Result=P_THIS->SwapWeapons(FHandedness(Z_Param_hand),Z_Param_direction); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execUnequipArmor) \
 	{ \
-		P_GET_STRUCT(FToolData,Z_Param_armor); \
+		P_GET_STRUCT(FToolData,Z_Param_armorToUnequip); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(FToolData*)Z_Param__Result=P_THIS->UnequipArmor(Z_Param_armor); \
+		*(FToolData*)Z_Param__Result=P_THIS->UnequipArmor(Z_Param_armorToUnequip); \
 		P_NATIVE_END; \
 	} \
  \
 	DECLARE_FUNCTION(execEquipArmor) \
 	{ \
-		P_GET_STRUCT(FToolData,Z_Param_armor); \
+		P_GET_STRUCT(FToolData,Z_Param_armorToEquip); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(FToolData*)Z_Param__Result=P_THIS->EquipArmor(Z_Param_armor); \
+		*(FToolData*)Z_Param__Result=P_THIS->EquipArmor(Z_Param_armorToEquip); \
 		P_NATIVE_END; \
 	} \
  \
@@ -203,9 +204,10 @@ static inline void FToolEventSigniture_DelegateWrapper(const FMulticastScriptDel
  \
 	DECLARE_FUNCTION(execEquipDefaultWeapon) \
 	{ \
+		P_GET_PROPERTY(UByteProperty,Z_Param_hand); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(FToolData*)Z_Param__Result=P_THIS->EquipDefaultWeapon(); \
+		*(FToolData*)Z_Param__Result=P_THIS->EquipDefaultWeapon(FHandedness(Z_Param_hand)); \
 		P_NATIVE_END; \
 	} \
  \
@@ -291,7 +293,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UToolComponent); \
 	FORCEINLINE static uint32 __PPO__weaponUeqipped() { return STRUCT_OFFSET(UToolComponent, weaponUeqipped); } \
 	FORCEINLINE static uint32 __PPO__armorEqipped() { return STRUCT_OFFSET(UToolComponent, armorEqipped); } \
 	FORCEINLINE static uint32 __PPO__armorUeqipped() { return STRUCT_OFFSET(UToolComponent, armorUeqipped); } \
-	FORCEINLINE static uint32 __PPO__weapons() { return STRUCT_OFFSET(UToolComponent, weapons); }
+	FORCEINLINE static uint32 __PPO__weapons() { return STRUCT_OFFSET(UToolComponent, weapons); } \
+	FORCEINLINE static uint32 __PPO__armor() { return STRUCT_OFFSET(UToolComponent, armor); }
 
 
 #define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_Components_ToolComponent_h_45_PROLOG

@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
 #include "Engine/StaticMesh.h"
+#include "WeaponHandedness.h"
 #include "Public/Core/Class/ClassType.h"
 #include "Public/Core/Tools/WeaponType.h"
 #include "Tool.generated.h"
@@ -13,6 +14,7 @@ class UStaticMesh;
 class UItem;
 class UPlayerClassType;
 class UWeaponType;
+class UWeaponHandedness;
 
 UENUM()
 enum FUsageType

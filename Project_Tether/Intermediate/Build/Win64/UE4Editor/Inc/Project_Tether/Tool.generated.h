@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROJECT_TETHER_Tool_generated_h
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_RPC_WRAPPERS
-#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_RPC_WRAPPERS_NO_PURE_DECLS
-#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_INCLASS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_RPC_WRAPPERS
+#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_RPC_WRAPPERS_NO_PURE_DECLS
+#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUTool(); \
 	friend struct Z_Construct_UClass_UTool_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(UTool)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_INCLASS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_INCLASS \
 private: \
 	static void StaticRegisterNativesUTool(); \
 	friend struct Z_Construct_UClass_UTool_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UTool)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_STANDARD_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTool) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_ENHANCED_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UTool(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UTool); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UTool)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_PRIVATE_PROPERTY_OFFSET
-#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_51_PROLOG
-#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_GENERATED_BODY_LEGACY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_PRIVATE_PROPERTY_OFFSET
+#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_53_PROLOG
+#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_RPC_WRAPPERS \
-	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_INCLASS \
-	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_STANDARD_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_RPC_WRAPPERS \
+	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_INCLASS \
+	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_INCLASS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_54_ENHANCED_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_INCLASS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Tools_Tool_h_56_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

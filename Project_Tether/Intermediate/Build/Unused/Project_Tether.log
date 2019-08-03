@@ -1,78 +1,19 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for Project_TetherEditor (no existing makefile)
-  Performing full C++ include scan (no include cache file)
-  Using Visual Studio 2017 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Creating makefile for Project_TetherEditor (ini files are newer than UBTMakefile)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for Project_TetherEditor
-    Running UnrealHeaderTool "E:\Tether\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for Project_TetherEditor in 12.0200142 seconds
-  Building 65 actions with 8 processes...
-    [1/65] SharedPCH.Engine.cpp
-    Detected compiler newer than Visual Studio 2017, please update min version checking in WindowsPlatformCompilerSetup.h
-    [2/65] E_DamageType.gen.cpp
-    [3/65] EvadeComponent.gen.cpp
-    [4/65] Group.gen.cpp
-    [5/65] E_Actor.gen.cpp
-    [6/65] E_Pawn.gen.cpp
-    [7/65] E_PlayerCharacter.gen.cpp
-    [8/65] E_GameModeBase.gen.cpp
-    [9/65] E_Character.gen.cpp
-    [10/65] IEntity.gen.cpp
-    [11/65] Project_Tether.init.gen.cpp
-    [12/65] Entity.gen.cpp
-    [13/65] Inventory.gen.cpp
-    [14/65] ItemSlot.gen.cpp
-    [15/65] Identity.gen.cpp
-    [16/65] InventoryComponent.gen.cpp
-    [17/65] Item.gen.cpp
-    [18/65] StatType.gen.cpp
-    [19/65] TestDataAsset.gen.cpp
-    [20/65] Tool.gen.cpp
-    [21/65] Project_TetherGameMode.gen.cpp
-    [22/65] Project_TetherCharacter.gen.cpp
-    [23/65] StatComponent.gen.cpp
-    [24/65] ToolDatabase.gen.cpp
-    [25/65] ItemCategory.gen.cpp
-    [26/65] WeaponType.gen.cpp
-    [27/65] ClassType.gen.cpp
-    [28/65] ToolComponent.gen.cpp
-    [29/65] VitalsComponent.gen.cpp
-    [30/65] TopDown_E_Character.gen.cpp
-    [31/65] AnimBPHook.gen.cpp
-    [32/65] E_Pawn.cpp
-    [33/65] TestDataAsset.cpp
-    [34/65] Project_TetherGameMode.cpp
-    [35/65] E_DamageType.cpp
-    [36/65] ClassType.cpp
-    [37/65] Project_TetherCharacter.cpp
-    [38/65] StatType.cpp
-    [39/65] StatComponent.cpp
-    [40/65] VitalsComponent.cpp
-    [41/65] Entity.cpp
-    [42/65] EntityManager.cpp
-    [43/65] E_Actor.cpp
-    [44/65] E_GameModeBase.cpp
-    [45/65] IEntity.cpp
-    [46/65] Identity.cpp
-    [47/65] Group.cpp
-    [48/65] E_Character.cpp
-    [49/65] Inventory.cpp
-    [50/65] InventoryComponent.cpp
-    [51/65] Item.cpp
-    [52/65] ItemCategory.cpp
-    [53/65] Tool.cpp
-    [54/65] ItemSlot.cpp
-    [55/65] ToolComponent.cpp
-    [56/65] WeaponType.cpp
-    [57/65] Project_Tether.cpp
-    [58/65] EvadeComponent.cpp
-    [59/65] E_PlayerCharacter.cpp
-    [60/65] ToolDatabase.cpp
-    [61/65] AnimBPHook.cpp
-    [62/65] EntityManager.gen.cpp
-    [63/65] TopDown_E_Character.cpp
-    [64/65] UE4Editor-Project_Tether.lib
-       Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.exp
-    [65/65] UE4Editor-Project_Tether.dll
-       Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.exp
+    Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for Project_TetherEditor in 7.5943437 seconds
+  [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
+  [Adaptive unity build] Excluded from Project_Tether unity file: Tool_StaticMeshComponent.cpp, ToolDatabase.cpp, WeaponHandedness.cpp, ToolComponent.cpp
+  [Adaptive unity build] Excluded from Project_Tether.gen unity file: ClassType.gen.cpp, Project_Tether.init.gen.cpp, Tool_StaticMeshComponent.gen.cpp, ToolComponent.gen.cpp, WeaponHandedness.gen.cpp
+  Building 5 actions with 12 processes...
+    [1/5] Project_Tether.init.gen.cpp
+    [2/5] Tool_StaticMeshComponent.cpp
+    [3/5] Tool_StaticMeshComponent.gen.cpp
+    [4/5] UE4Editor-Project_Tether.lib
+       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.exp
+    [5/5] UE4Editor-Project_Tether.dll
+       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.exp
   Deploying Project_TetherEditor Win64 Development...
-  Total build time: 67.13 seconds (Parallel executor: 41.15 seconds)
+  Total build time: 16.94 seconds (Parallel executor: 5.52 seconds)

@@ -53,7 +53,7 @@ void EmptyLinkFunctionForGeneratedCodeClassType() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerClassType_Statics::NewProp_className_MetaData[] = {
-		{ "Category", "Class" },
+		{ "Category", "PlayerClassType" },
 		{ "ModuleRelativePath", "Public/Core/Class/ClassType.h" },
 	};
 #endif
@@ -84,7 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeClassType() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerClassType, 1832091775);
+	IMPLEMENT_CLASS(UPlayerClassType, 2859184260);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UPlayerClassType(Z_Construct_UClass_UPlayerClassType, &UPlayerClassType::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UPlayerClassType"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UPlayerClassType);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

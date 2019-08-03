@@ -16,16 +16,18 @@ void UToolComponent::BeginPlay()
 
 	playerInventory = Cast<UInventoryComponent>(GetOwner()->GetComponentByClass(UInventoryComponent::StaticClass()));
 
+	equippedWeapons.Add(FHandedness::RightHanded, FToolData());
+	equippedWeapons.Add(FHandedness::LeftHanded, FToolData());
+	equippedWeapons.Add(FHandedness::TwoHanded, FToolData());
 
-	// set up the default weapons
+	equippedArmor.Add(FArmorSlot::Head, FToolData());
+	equippedArmor.Add(FArmorSlot::Torso, FToolData());
+	equippedArmor.Add(FArmorSlot::Arms, FToolData());
+	equippedArmor.Add(FArmorSlot::Legs, FToolData());
+
 	for (auto& _item : defaultWeapons)
 	{
-		AddTool(CreateToolInstance(_item.Value));
-	}
-
-	if (weapons.Num() > 0)
-	{
-		EquipWeapon(weapons[0]);
+		AddTool(CreateToolInstance(_item));
 	}
 
 	for (auto& _armor : defaultArmor)
@@ -41,7 +43,6 @@ void UToolComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 
 int UToolComponent::GetCurrentPowerRating()
 {
-	// average of all tools
 	return 0;
 }
 
@@ -51,6 +52,7 @@ FToolData UToolComponent::CreateToolInstance(UTool* toolBase)
 	_result.toolBase = toolBase;
 	_result.power = 100.f; // TODO : update this
 	
+
 	return _result;
 }
 
@@ -58,11 +60,10 @@ bool UToolComponent::AddTool(FToolData newTool)
 {
 	if (newTool.toolBase == nullptr)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("dont grab"));
 		return false;
 	}
 
-	if (newTool.toolBase->classType != nullptr && newTool.toolBase->classType == classType)
+	if (newTool.toolBase->classType != nullptr/* && newTool.toolBase->classType == classType*/)
 	{
 		if (newTool.toolBase->usageType == FUsageType::Armor)
 		{
@@ -131,16 +132,17 @@ bool UToolComponent::RemoveTool(FToolData toolToRemove)
 	return false;
 }
 
-FToolData UToolComponent::EquipDefaultWeapon()
+FToolData UToolComponent::EquipDefaultWeapon(FHandedness hand)
 {
 	if (weapons.Num() > 0)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("equip"));
-		return EquipWeapon(weapons[0]);
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("equip"));
+		for (auto& _item : weapons)
+		{
+			if (_item.toolBase->handedness == hand)
+			{
+				return EquipWeapon(_item);
+			}
+		}
 	}
 
 	return FToolData();
@@ -153,7 +155,7 @@ FToolData UToolComponent::EquipDefaultArmor()
 
 FToolData UToolComponent::EquipWeapon(FToolData weapon)
 {
-	if (weapon.toolBase->classType != classType)
+	if (weapon.toolBase == nullptr)
 	{
 		return FToolData();
 	}
@@ -176,6 +178,7 @@ FToolData UToolComponent::EquipWeapon(FToolData weapon)
 
 		equippedWeapons[FHandedness::TwoHanded] = weapon;
 	}
+
 	else if (weapon.toolBase->handedness == FHandedness::RightHanded)
 	{
 		UnequipWeapon(equippedWeapons[FHandedness::TwoHanded]);
@@ -187,17 +190,21 @@ FToolData UToolComponent::EquipWeapon(FToolData weapon)
 	{
 		UnequipWeapon(equippedWeapons[FHandedness::TwoHanded]);
 		UnequipWeapon(equippedWeapons[FHandedness::LeftHanded]);
-
+		
 		equippedWeapons[FHandedness::LeftHanded] = weapon;
 	}
 	
 	weaponEqipped.Broadcast(weapon);
-
 	return weapon;
 }
 
 FToolData UToolComponent::UnequipWeapon(FToolData weapon)
 {
+	if (weapon.toolBase == nullptr)
+	{
+		return FToolData();
+	}
+
 	if (weapon.toolBase->usageType != FUsageType::Weapon)
 	{
 		return FToolData();
@@ -213,56 +220,148 @@ FToolData UToolComponent::UnequipWeapon(FToolData weapon)
 	return weapon;
 }
 
-FToolData UToolComponent::EquipArmor(FToolData armor)
+FToolData UToolComponent::EquipArmor(FToolData armorToEquip)
 {
-	if (armor.toolBase->classType != classType)
+	if (armorToEquip.toolBase->classType != classType)
 	{
 		return FToolData();
 	}
 
-	if (armor.toolBase->usageType != FUsageType::Armor)
+	if (armorToEquip.toolBase->usageType != FUsageType::Armor)
 	{
 		return FToolData();
 	}
 
-	if (!this->armor.Contains(armor))
+	if (!this->armor.Contains(armorToEquip))
 	{
 		return FToolData();
 	}
 
-	if (equippedArmor[armor.toolBase->armorSlot] != nudeArmor[armor.toolBase->armorSlot])
+	if (equippedArmor[armorToEquip.toolBase->armorSlot] != nudeArmor[armorToEquip.toolBase->armorSlot])
 	{
-		UnequipArmor(equippedArmor[armor.toolBase->armorSlot]);
-		equippedArmor[armor.toolBase->armorSlot] = armor;
-		armorEqipped.Broadcast(armor);
+		UnequipArmor(equippedArmor[armorToEquip.toolBase->armorSlot]);
+		equippedArmor[armorToEquip.toolBase->armorSlot] = armorToEquip;
+		armorEqipped.Broadcast(armorToEquip);
 	}
 
 	return FToolData();
 }
 
-FToolData UToolComponent::UnequipArmor(FToolData armor)
+FToolData UToolComponent::UnequipArmor(FToolData armorToUnequip)
 {
-	if (armor.toolBase->usageType != FUsageType::Armor)
+	if (armorToUnequip.toolBase == nullptr)
 	{
 		return FToolData();
 	}
 
-	if (!this->armor.Contains(armor))
+	if (armorToUnequip.toolBase->usageType != FUsageType::Armor)
 	{
 		return FToolData();
 	}
 
-	equippedArmor[armor.toolBase->armorSlot] = FToolData();
-	armorUeqipped.Broadcast(armor);
+	if (!this->armor.Contains(armorToUnequip))
+	{
+		return FToolData();
+	}
+
+	equippedArmor[armorToUnequip.toolBase->armorSlot] = FToolData();
+	armorUeqipped.Broadcast(armorToUnequip);
 	return FToolData();
 }
 
-FToolData UToolComponent::SwapWeapons(int direction, FHandedness hand)
+FToolData UToolComponent::SwapWeapons(FHandedness hand, int direction)
 {
+	FToolData _current = equippedWeapons[hand];
+	
+	if (_current.toolBase == nullptr)
+	{
+		return FToolData();
+	}
+	
+	for (int i = 0; i < weapons.Num(); i++)
+	{
+		FToolData* _currentInteration = &weapons[i];
+
+		if (_currentInteration->toolBase == _current.toolBase)
+		{
+			int _next = i + (1 * direction);
+
+			if (_next >= weapons.Num())
+			{
+				_next = 0;
+			}
+			else if(_next < 0)
+			{
+				_next = weapons.Num() - 1;
+			}
+			
+			while (&weapons[_next] != _currentInteration)
+			{
+				if (weapons[_next].toolBase->handedness == hand)
+				{
+					return EquipWeapon(weapons[_next]);
+				}
+				_next += 1 * direction;
+				
+				if (_next >= weapons.Num())
+				{
+					_next = 0;
+				}
+				else if (_next < 0)
+				{
+					_next = weapons.Num() - 1;
+				}
+			}
+		}
+	}
+	
 	return FToolData();
 }
 
-FToolData UToolComponent::SwapArmor(int direction, FArmorSlot slot)
+FToolData UToolComponent::SwapArmor(FArmorSlot slot, int direction)
 {
+	FToolData _current = equippedArmor[slot];
+
+	if (_current.toolBase == nullptr)
+	{
+		return FToolData();
+	}
+
+	for (int i = 0; i < armor.Num(); i++)
+	{
+		FToolData* _currentInteration = &armor[i];
+
+		if (_currentInteration->toolBase == _current.toolBase)
+		{
+			int _next = i + (1 * direction);
+
+			if (_next >= armor.Num())
+			{
+				_next = 0;
+			}
+			else if (_next < 0)
+			{
+				_next = armor.Num() - 1;
+			}
+
+			while (&armor[_next] != _currentInteration)
+			{
+				if (armor[_next].toolBase->armorSlot == slot)
+				{
+					return EquipArmor(armor[_next]);
+				}
+				_next += 1 * direction;
+
+				if (_next >= armor.Num())
+				{
+					_next = 0;
+				}
+				else if (_next < 0)
+				{
+					_next = armor.Num() - 1;
+				}
+			}
+		}
+	}
 	return FToolData();
 }
