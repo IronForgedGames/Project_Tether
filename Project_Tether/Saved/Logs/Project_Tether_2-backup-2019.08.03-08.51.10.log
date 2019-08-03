@@ -1,0 +1,1529 @@
+﻿Log file open, 07/25/19 19:16:51
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Project_Tether
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.395118
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.094s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: E:/Epic Games Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.07.25-23.16.51:785][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.25-23.16.51:785][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.25-23.16.51:797][  0]LogHAL: Display: Platform has ~ 16 GB [17121992704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.25-23.16.51:797][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.07.25-23.16.51:797][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.25-23.16.51:798][  0]LogInit: Computer: AARONS-DESKTOP
+[2019.07.25-23.16.51:798][  0]LogInit: User: AaronsDesktop
+[2019.07.25-23.16.51:798][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.07.25-23.16.51:798][  0]LogInit: High frequency timer resolution =3.609376 MHz
+[2019.07.25-23.16.51:798][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.07.25-23.16.51:798][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.25-23.16.51:798][  0]LogMemory: Process Physical Memory: 102.16 MB used, 102.16 MB peak
+[2019.07.25-23.16.51:798][  0]LogMemory: Process Virtual Memory: 98.22 MB used, 98.22 MB peak
+[2019.07.25-23.16.51:798][  0]LogMemory: Physical Memory: 6534.39 MB used,  9794.41 MB free, 16328.80 MB total
+[2019.07.25-23.16.51:798][  0]LogMemory: Virtual Memory: 4669.73 MB used,  9794.41 MB free, 134217728.00 MB total
+[2019.07.25-23.16.51:817][  0]LogInit: Using OS detected language (en-US).
+[2019.07.25-23.16.51:817][  0]LogInit: Using OS detected locale (en-US).
+[2019.07.25-23.16.51:818][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.07.25-23.16.52:143][  0]LogStreaming: Display: Took  0.325s to InitEngineTextLocalization.
+[2019.07.25-23.16.52:143][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.25-23.16.52:180][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.25-23.16.52:180][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.25-23.16.52:342][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.25-23.16.52:342][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.25-23.16.52:389][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.07.25-23.16.52:389][  0]LogD3D11RHI:       6052/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.07.25-23.16.52:391][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.25-23.16.52:391][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.25-23.16.52:391][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.25-23.16.52:397][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.25-23.16.52:397][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.25-23.16.52:397][  0]LogWindows: EnumDisplayDevices:
+[2019.07.25-23.16.52:397][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.07.25-23.16.52:398][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.07.25-23.16.52:398][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.07.25-23.16.52:398][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.07.25-23.16.52:398][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.25-23.16.52:398][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.07.25-23.16.52:398][  0]LogD3D11RHI:   Driver Version: 418.81 (internal:25.21.14.1881, unified:418.81)
+[2019.07.25-23.16.52:398][  0]LogD3D11RHI:      Driver Date: 1-30-2019
+[2019.07.25-23.16.52:398][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.07.25-23.16.52:449][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.25-23.16.52:493][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.25-23.16.52:591][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Intermediate/Shaders/WorkingDirectory/9060/).
+[2019.07.25-23.16.52:591][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aaron's Desktop/AppData/Local/Temp/UnrealShaderWorkingDir/33FB464743548B4A93A901ADBEDEFEC2/'.
+[2019.07.25-23.16.52:837][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.25-23.16.52:847][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.25-23.16.52:863][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.25-23.16.52:876][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.25-23.16.52:887][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.25-23.16.52:898][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.25-23.16.52:908][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.25-23.16.52:920][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.25-23.16.52:925][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:010][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.25-23.16.53:011][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.25-23.16.53:065][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.25-23.16.53:065][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.25-23.16.53:084][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.25-23.16.53:085][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.25-23.16.53:095][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.25-23.16.53:110][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.25-23.16.53:127][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.25-23.16.53:142][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.25-23.16.53:152][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.25-23.16.53:152][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.25-23.16.53:191][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.25-23.16.53:192][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.25-23.16.53:192][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.25-23.16.53:848][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.25-23.16.53:905][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.25-23.16.53:906][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.07.25-23.16.53:906][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.25-23.16.53:906][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.25-23.16.53:906][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.25-23.16.53:906][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.25-23.16.53:922][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.25-23.16.53:935][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.25-23.16.53:935][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.25-23.16.53:935][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.25-23.16.53:956][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.25-23.16.53:957][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.25-23.16.53:958][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.25-23.16.54:026][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2019.07.25-23.16.54:301][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.25-23.16.54:429][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.25-23.16.54:433][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.25-23.16.54:433][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.25-23.16.54:433][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.25-23.16.54:433][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.25-23.16.54:452][  0]LogNetVersion: Project_Tether 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2290113244)
+[2019.07.25-23.16.54:942][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.084171 seconds
+[2019.07.25-23.16.54:948][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.07.25-23.16.54:948][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.07.25-23.16.54:948][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.25-23.16.55:645][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.25-23.16.55:658][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.25-23.16.55:758][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.07.25-23.16.55:758][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter'
+[2019.07.25-23.16.55:758][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C'
+[2019.07.25-23.16.55:758][  0]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.25-23.16.55:758][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2019.07.25-23.16.55:758][  0]LogUObjectBase: Warning: Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.25-23.16.55:772][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.25-23.16.57:214][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.25-23.16.57:243][  0]SourceControl: Source control is disabled
+[2019.07.25-23.16.57:243][  0]SourceControl: Source control is disabled
+[2019.07.25-23.16.57:244][  0]SourceControl: Source control is disabled
+[2019.07.25-23.16.57:245][  0]SourceControl: Source control is disabled
+[2019.07.25-23.16.57:388][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.25-23.16.57:478][  0]LogOcInput: OculusInput pre-init called
+[2019.07.25-23.16.57:546][  0]LogEngine: Initializing Engine...
+[2019.07.25-23.16.57:547][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.25-23.16.57:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.25-23.16.57:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.25-23.16.57:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.25-23.16.57:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.25-23.16.57:713][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.25-23.16.57:721][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.25-23.16.57:787][  0]LogInit: XAudio2 using 'G257HL (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.25-23.16.57:798][  0]LogInit: FAudioDevice initialized.
+[2019.07.25-23.16.57:798][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.25-23.16.57:850][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Aaron's Desktop/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.25-23.16.57:877][  0]LogInit: Texture streaming: Enabled
+[2019.07.25-23.16.57:892][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.25-23.16.57:906][  0]LogInit: Transaction tracking system initialized
+[2019.07.25-23.16.57:927][  0]BlueprintLog: New page: Editor Load
+[2019.07.25-23.16.57:977][  0]LocalizationService: Localization service is disabled
+[2019.07.25-23.16.58:183][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.25-23.16.58:183][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.25-23.16.58:183][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.25-23.16.58:183][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.25-23.16.58:183][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.25-23.16.58:183][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.25-23.16.58:183][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.25-23.16.58:265][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/' took 0.02s
+[2019.07.25-23.16.58:265][  0]SourceControl: Source control is disabled
+[2019.07.25-23.16.58:266][  0]LightingResults: New page: Lighting Build
+[2019.07.25-23.16.58:267][  0]MapCheck: New page: Map Check
+[2019.07.25-23.16.58:267][  0]LightingResults: New page: Lighting Build
+[2019.07.25-23.16.58:657][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.25-23.16.58:666][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.25-23.16.58:698][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.25-23.16.58:746][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.53ms to complete.
+[2019.07.25-23.16.58:746][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.480
+[2019.07.25-23.16.58:819][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.25-23.16.58:858][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.25-23.16.58:865][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.25-23.16.58:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.25-23.16.58:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.25-23.16.58:884][  0]LogCollectionManager: Loaded 0 collections in 0.000718 seconds
+[2019.07.25-23.16.58:926][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Collections/' took 0.01s
+[2019.07.25-23.16.58:926][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Developers/AaronsDesktop/Collections/' took 0.01s
+[2019.07.25-23.16.58:926][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Content/Collections/' took 0.01s
+[2019.07.25-23.16.58:926][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.25-23.16.58:934][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2598 classes and 617 folders.
+[2019.07.25-23.16.58:939][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.25-23.16.58:968][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.25-23.16.58:976][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.07.25-23.17.00:035][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.07.25-23.17.00:065][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.25-23.17.00:067][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.25-23.17.00:073][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.25-23.17.00:077][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.07.25-23.17.00:184][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectTether
+[2019.07.25-23.17.00:184][  0]LogTemp: CWD: E:\Epic Games Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.25-23.17.00:184][  0]LogTemp: Initial Dir: E:\Epic Games Games\UE_4.20
+[2019.07.25-23.17.00:184][  0]LogTemp: Env CWD: E:\Epic Games Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.25-23.17.00:185][  0]LogTemp: BranchPath = AARONS-DESKTOP/E/Epic Games Games/UE_4.20/Engine/Binaries --- GameBranchPath = AARONS-DESKTOP/E/Epic Games Games/UE_4.20/Engine/Binaries
+[2019.07.25-23.17.00:185][  0]LogRenderer: Reallocating scene render targets to support 1232x584 Format 10 NumSamples 1 (Frame:1).
+[2019.07.25-23.17.00:434][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Aaron's Desktop\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.07.25-23.17.00:448][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.25-23.17.00:448][  0]LogLoad: (Engine Initialization) Total time: 10.09 seconds
+[2019.07.25-23.17.00:448][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.25-23.17.00:486][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.25-23.17.00:526][  0]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.25-23.17.00:547][  1]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.25-23.17.00:876][  2]LogAssetRegistry: Asset discovery search completed in 6.8729 seconds
+[2019.07.25-23.17.00:878][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.25-23.17.00:878][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000213 seconds (updated 0 objects)
+[2019.07.25-23.32.48:122][931]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.25-23.32.48:193][938]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.25-23.32.48:806][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.25-23.32.50:899][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.25-23.32.50:999][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.25-23.32.51:011][249]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.25-23.33.28:407][ 87]Running E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -invalidatemakefilesonly
+[2019.07.25-23.33.28:913][ 87]Invalidating makefiles only in this run.
+[2019.07.25-23.33.29:247][ 87]Candidate modules for hot reload:
+[2019.07.25-23.33.29:248][ 87]  Project_Tether
+[2019.07.25-23.33.29:248][ 87]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,4923 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.25-23.33.47:178][ 87]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 2:33:47 PM
+[2019.07.25-23.33.47:191][ 87]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.25-23.33.47:191][ 87]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (no existing makefile)
+[2019.07.25-23.33.47:192][ 87]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.25-23.33.47:192][ 87]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.25-23.33.47:192][ 87]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.25-23.33.47:192][ 87]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 7.9111198 seconds
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog: Building 58 actions with 12 processes...
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [1/58] Group.gen.cpp
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [2/58] E_DamageType.gen.cpp
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [3/58] IEntity.gen.cpp
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [4/58] Inventory.gen.cpp
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [5/58] EvadeComponent.gen.cpp
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [6/58] Identity.gen.cpp
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [7/58] EntityManager.gen.cpp
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [8/58] E_Actor.gen.cpp
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [9/58] E_GameModeBase.gen.cpp
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [10/58] E_Pawn.gen.cpp
+[2019.07.25-23.33.47:193][ 87]CompilerResultsLog:   [11/58] E_Character.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [12/58] E_PlayerCharacter.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [13/58] Project_Tether.init.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [14/58] ItemCategory.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [15/58] Item.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [16/58] StatType.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [17/58] ItemSlot.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [18/58] ToolComponent.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [19/58] Project_TetherGameMode.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [20/58] Project_TetherCharacter.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [21/58] Tool.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [22/58] InventoryComponent.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [23/58] TopDown_E_Character.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [24/58] StatComponent.gen.cpp
+[2019.07.25-23.33.47:194][ 87]CompilerResultsLog:   [25/58] ClassType.gen.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [26/58] Entity.gen.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [27/58] AnimBPHook.gen.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [28/58] E_DamageType.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [29/58] ClassType.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [30/58] E_GameModeBase.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [31/58] VitalsComponent.gen.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [32/58] StatType.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [33/58] Project_TetherGameMode.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [34/58] Project_Tether.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [35/58] E_Actor.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [36/58] StatComponent.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [37/58] ToolComponent.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [38/58] Project_TetherCharacter.cpp
+[2019.07.25-23.33.47:195][ 87]CompilerResultsLog:   [39/58] E_Pawn.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [40/58] IEntity.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [41/58] Entity.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [42/58] EntityManager.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [43/58] Identity.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [44/58] VitalsComponent.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [45/58] Inventory.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [46/58] ItemSlot.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [47/58] Item.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [48/58] ItemCategory.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [49/58] E_Character.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [50/58] InventoryComponent.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [51/58] AnimBPHook.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [52/58] Tool.cpp
+[2019.07.25-23.33.47:196][ 87]CompilerResultsLog:   [53/58] EvadeComponent.cpp
+[2019.07.25-23.33.47:197][ 87]CompilerResultsLog:   [54/58] E_PlayerCharacter.cpp
+[2019.07.25-23.33.47:197][ 87]CompilerResultsLog:   [55/58] Group.cpp
+[2019.07.25-23.33.47:197][ 87]CompilerResultsLog:   [56/58] TopDown_E_Character.cpp
+[2019.07.25-23.33.47:197][ 87]CompilerResultsLog:   [57/58] UE4Editor-Project_Tether-4923.lib
+[2019.07.25-23.33.47:197][ 87]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4923.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4923.exp
+[2019.07.25-23.33.47:198][ 87]CompilerResultsLog:   [58/58] UE4Editor-Project_Tether-4923.dll
+[2019.07.25-23.33.47:198][ 87]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4923.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4923.suppressed.exp
+[2019.07.25-23.33.47:198][ 87]CompilerResultsLog: Total build time: 17.73 seconds (Parallel executor: 5.84 seconds)
+[2019.07.25-23.33.47:198][ 87]LogMainFrame: MainFrame: Module compiling took 18.006 seconds
+[2019.07.25-23.33.47:259][ 87]LogClass: Could not find existing class ClassType in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.25-23.33.47:270][ 87]LogClass: Could not find existing class Tool in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.25-23.33.47:270][ 87]LogClass: Function GetArmorSlot is new.
+[2019.07.25-23.33.47:270][ 87]LogClass: Function GetItem is new.
+[2019.07.25-23.33.47:270][ 87]LogClass: Function GetName is new.
+[2019.07.25-23.33.47:270][ 87]LogClass: Function GetRarity is new.
+[2019.07.25-23.33.47:270][ 87]LogClass: Function GetUsage is new.
+[2019.07.25-23.33.47:272][ 87]LogClass: Could not find existing type ArmorSlot for HotReload. Assuming new
+[2019.07.25-23.33.47:273][ 87]LogClass: Could not find existing type Rarity for HotReload. Assuming new
+[2019.07.25-23.33.47:273][ 87]LogClass: Could not find existing type UsageType for HotReload. Assuming new
+[2019.07.25-23.33.47:273][ 87]LogClass: Status HotReload.
+[2019.07.25-23.33.47:273][ 87]LogClass: Slot HotReload.
+[2019.07.25-23.33.47:273][ 87]LogClass: StatModifier HotReload.
+[2019.07.25-23.33.47:273][ 87]LogClass: Stat HotReload.
+[2019.07.25-23.33.47:273][ 87]LogClass: ResistanceModifier HotReload.
+[2019.07.25-23.33.47:273][ 87]LogClass: HealInfo HotReload.
+[2019.07.25-23.33.47:273][ 87]LogClass: DamageInfo HotReload.
+[2019.07.25-23.33.47:288][ 87]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.25-23.33.47:290][ 87]LogHotReload: Re-instancing Tool after hot-reload.
+[2019.07.25-23.33.47:347][ 87]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0006 seconds. Added 27 classes and 15 folders.
+[2019.07.25-23.33.47:348][ 87]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.25-23.33.47:351][ 87]Display: HotReload successful (45 functions remapped  6 scriptstructs remapped)
+[2019.07.25-23.33.47:510][ 87]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2600 classes and 620 folders.
+[2019.07.25-23.33.47:636][ 87]Display: HotReload took 18.5s.
+[2019.07.25-23.33.47:637][ 87]Warning: HotReload operation took 18.5s.
+[2019.07.25-23.33.47:863][ 87]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.07.25-23.33.47:872][ 87]LogHotReload: New module detected: UE4Editor-Project_Tether-4923.dll
+[2019.07.25-23.33.47:984][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.25-23.33.47:999][ 88]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.25-23.33.48:047][ 88]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0007 seconds. Added 27 classes and 15 folders.
+[2019.07.25-23.33.48:050][ 88]Display: HotReload successful (0 functions remapped  6 scriptstructs remapped)
+[2019.07.25-23.33.48:079][ 88]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2600 classes and 620 folders.
+[2019.07.25-23.33.48:091][ 88]Display: HotReload took  0.1s.
+[2019.07.25-23.34.59:279][827]Running E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -invalidatemakefilesonly
+[2019.07.25-23.34.59:786][827]Invalidating makefiles only in this run.
+[2019.07.25-23.34.59:908][827]Candidate modules for hot reload:
+[2019.07.25-23.34.59:908][827]  Project_Tether
+[2019.07.25-23.34.59:908][827]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,1991 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.25-23.35.12:449][827]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 2:35:12 PM
+[2019.07.25-23.35.12:449][827]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.25-23.35.12:449][827]CompilerResultsLog: Creating makefile for hot reloading Project_TetherEditor (no existing makefile)
+[2019.07.25-23.35.12:449][827]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.25-23.35.12:449][827]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.25-23.35.12:449][827]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.25-23.35.12:449][827]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.25-23.35.12:449][827]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 7.7333234 seconds
+[2019.07.25-23.35.12:449][827]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.07.25-23.35.12:449][827]CompilerResultsLog:   [1/5] WeaponType.cpp
+[2019.07.25-23.35.12:449][827]CompilerResultsLog:   [2/5] Project_Tether.init.gen.cpp
+[2019.07.25-23.35.12:449][827]CompilerResultsLog:   [3/5] WeaponType.gen.cpp
+[2019.07.25-23.35.12:449][827]CompilerResultsLog:   [4/5] UE4Editor-Project_Tether-1991.lib
+[2019.07.25-23.35.12:449][827]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1991.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1991.exp
+[2019.07.25-23.35.12:449][827]CompilerResultsLog:   [5/5] UE4Editor-Project_Tether-1991.dll
+[2019.07.25-23.35.12:449][827]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1991.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-1991.suppressed.exp
+[2019.07.25-23.35.12:449][827]CompilerResultsLog: Total build time: 12.35 seconds (Parallel executor: 1.26 seconds)
+[2019.07.25-23.35.12:449][827]LogMainFrame: MainFrame: Module compiling took 12.549 seconds
+[2019.07.25-23.35.12:500][827]LogClass: Could not find existing class WeaponType in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.25-23.35.12:501][827]LogClass: ArmorSlot HotReload.
+[2019.07.25-23.35.12:501][827]LogClass: Rarity HotReload.
+[2019.07.25-23.35.12:501][827]LogClass: UsageType HotReload.
+[2019.07.25-23.35.12:501][827]LogClass: Status HotReload.
+[2019.07.25-23.35.12:501][827]LogClass: Slot HotReload.
+[2019.07.25-23.35.12:501][827]LogClass: StatModifier HotReload.
+[2019.07.25-23.35.12:501][827]LogClass: Stat HotReload.
+[2019.07.25-23.35.12:501][827]LogClass: ResistanceModifier HotReload.
+[2019.07.25-23.35.12:501][827]LogClass: HealInfo HotReload.
+[2019.07.25-23.35.12:501][827]LogClass: DamageInfo HotReload.
+[2019.07.25-23.35.12:505][827]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.25-23.35.12:507][827]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0005 seconds. Added 28 classes and 15 folders.
+[2019.07.25-23.35.12:507][827]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.25-23.35.12:509][827]Display: HotReload successful (50 functions remapped  6 scriptstructs remapped)
+[2019.07.25-23.35.12:551][827]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2601 classes and 620 folders.
+[2019.07.25-23.35.12:554][827]Display: HotReload took 12.7s.
+[2019.07.25-23.35.12:556][827]Warning: HotReload operation took 12.7s.
+[2019.07.25-23.35.12:716][827]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.07.25-23.35.12:731][827]LogHotReload: New module detected: UE4Editor-Project_Tether-1991.dll
+[2019.07.25-23.35.12:807][828]LogHotReload: Starting Hot-Reload from IDE
+[2019.07.25-23.35.12:869][828]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0008 seconds. Added 28 classes and 15 folders.
+[2019.07.25-23.35.12:873][828]Display: HotReload successful (0 functions remapped  6 scriptstructs remapped)
+[2019.07.25-23.35.12:906][828]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2601 classes and 620 folders.
+[2019.07.25-23.35.12:916][828]Display: HotReload took  0.1s.
+[2019.07.25-23.35.42:010][425]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP
+[2019.07.25-23.35.42:368][425]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.07.25-23.35.43:025][425]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.25-23.35.43:104][426]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.25-23.35.45:229][662]LogSlate: Window 'TopDownCharacter_BP' being destroyed
+[2019.07.25-23.36.06:331][917]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TestToolSword.TestToolSword
+[2019.07.25-23.36.33:047][143]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.25-23.36.35:538][432]BlueprintLog: New page: Compile TestToolSword
+[2019.07.25-23.36.35:595][432]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TestToolSwordDA433AFD49CA1C3D62E78495A71601A8.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TestToolSword.uasset'
+[2019.07.25-23.36.46:517][734]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TestToolSword.TestToolSword
+[2019.07.25-23.40.34:722][701]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.07.26-00.27.21:186][918]Candidate modules for hot reload:
+[2019.07.26-00.27.21:186][918]  Project_Tether
+[2019.07.26-00.27.21:187][918]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,2507 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-00.27.21:190][918]Warning: Starting HotReload took  0.0s.
+[2019.07.26-00.27.32:523][328]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 3:27:32 PM
+[2019.07.26-00.27.32:525][328]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-00.27.32:526][328]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-00.27.32:526][328]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-00.27.32:526][328]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-00.27.32:528][328]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 7.9772985 seconds
+[2019.07.26-00.27.32:528][328]CompilerResultsLog: Building 9 actions with 12 processes...
+[2019.07.26-00.27.32:528][328]CompilerResultsLog:   [1/9] Project_Tether.init.gen.cpp
+[2019.07.26-00.27.32:528][328]CompilerResultsLog:   [2/9] WeaponType.cpp
+[2019.07.26-00.27.32:528][328]CompilerResultsLog:   [3/9] ClassType.cpp
+[2019.07.26-00.27.32:529][328]CompilerResultsLog:   [4/9] Tool.cpp
+[2019.07.26-00.27.32:529][328]CompilerResultsLog:   [5/9] WeaponType.gen.cpp
+[2019.07.26-00.27.32:529][328]CompilerResultsLog:   [6/9] ClassType.gen.cpp
+[2019.07.26-00.27.32:529][328]CompilerResultsLog:   [7/9] Tool.gen.cpp
+[2019.07.26-00.27.32:529][328]CompilerResultsLog:   [8/9] UE4Editor-Project_Tether-2507.lib
+[2019.07.26-00.27.32:529][328]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2507.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2507.exp
+[2019.07.26-00.27.32:530][328]CompilerResultsLog:   [9/9] UE4Editor-Project_Tether-2507.dll
+[2019.07.26-00.27.32:530][328]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2507.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-2507.suppressed.exp
+[2019.07.26-00.27.32:531][328]CompilerResultsLog: Total build time: 10.84 seconds (Parallel executor: 1.45 seconds)
+[2019.07.26-00.27.32:531][328]LogMainFrame: MainFrame: Module compiling took 11.356 seconds
+[2019.07.26-00.27.32:676][328]LogClass: Could not find existing class ClassType in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.26-00.27.32:676][328]LogClass: Function GetClassName is new.
+[2019.07.26-00.27.32:708][328]LogClass: Could not find existing class Tool in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.26-00.27.32:709][328]LogClass: Function GetAnimAlt_1 is new.
+[2019.07.26-00.27.32:709][328]LogClass: Function GetAnimAlt_2 is new.
+[2019.07.26-00.27.32:709][328]LogClass: Function GetArmorSlot is new.
+[2019.07.26-00.27.32:709][328]LogClass: Function GetItem is new.
+[2019.07.26-00.27.32:709][328]LogClass: Function GetName is new.
+[2019.07.26-00.27.32:709][328]LogClass: Function GetRarity is new.
+[2019.07.26-00.27.32:709][328]LogClass: Function GetStandardAnims is new.
+[2019.07.26-00.27.32:709][328]LogClass: Function GetUsage is new.
+[2019.07.26-00.27.32:709][328]LogClass: Function GetWeaponType is new.
+[2019.07.26-00.27.32:713][328]LogClass: Could not find existing class WeaponType in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.26-00.27.32:713][328]LogClass: ArmorSlot HotReload.
+[2019.07.26-00.27.32:713][328]LogClass: Rarity HotReload.
+[2019.07.26-00.27.32:714][328]LogClass: Status HotReload.
+[2019.07.26-00.27.32:714][328]LogClass: Slot HotReload.
+[2019.07.26-00.27.32:715][328]LogClass: StatModifier HotReload.
+[2019.07.26-00.27.32:715][328]LogClass: Stat HotReload.
+[2019.07.26-00.27.32:715][328]LogClass: ResistanceModifier HotReload.
+[2019.07.26-00.27.32:715][328]LogClass: HealInfo HotReload.
+[2019.07.26-00.27.32:715][328]LogClass: DamageInfo HotReload.
+[2019.07.26-00.27.32:725][328]LogHotReload: Re-instancing ClassType after hot-reload.
+[2019.07.26-00.27.32:835][328]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.26-00.27.32:840][328]LogHotReload: Re-instancing Tool after hot-reload.
+[2019.07.26-00.27.32:955][328]LogHotReload: Re-instancing WeaponType after hot-reload.
+[2019.07.26-00.27.33:034][328]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0011 seconds. Added 28 classes and 15 folders.
+[2019.07.26-00.27.33:035][328]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.26-00.27.33:038][328]Display: HotReload successful (45 functions remapped  6 scriptstructs remapped)
+[2019.07.26-00.27.33:385][328]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2601 classes and 620 folders.
+[2019.07.26-00.27.33:393][328]Display: HotReload took 12.2s.
+[2019.07.26-00.28.33:233][799]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TestToolSword.TestToolSword
+[2019.07.26-00.28.35:375][ 19]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.26-00.58.51:394][107]Candidate modules for hot reload:
+[2019.07.26-00.58.51:394][107]  Project_Tether
+[2019.07.26-00.58.51:394][107]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,7046 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-00.58.51:509][107]Warning: Starting HotReload took  0.2s.
+[2019.07.26-01.01.07:497][837]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall6)
+[2019.07.26-01.01.11:247][837]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.26-01.01.26:747][639]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.07.26-01.02.12:278][275]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:02:12 PM
+[2019.07.26-01.02.12:279][275]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.02.12:279][275]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.02.12:279][275]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.02.12:280][275]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.02.12:281][275]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 27.9161647 seconds
+[2019.07.26-01.02.12:281][275]CompilerResultsLog: Building 4 actions with 12 processes...
+[2019.07.26-01.02.12:281][275]CompilerResultsLog:   [1/4] Tool.cpp
+[2019.07.26-01.02.12:281][275]CompilerResultsLog:   [2/4] Tool.gen.cpp
+[2019.07.26-01.02.12:281][275]CompilerResultsLog:   [3/4] UE4Editor-Project_Tether-7046.lib
+[2019.07.26-01.02.12:282][275]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7046.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7046.exp
+[2019.07.26-01.02.12:283][275]CompilerResultsLog:   [4/4] UE4Editor-Project_Tether-7046.dll
+[2019.07.26-01.02.12:283][275]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7046.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7046.suppressed.exp
+[2019.07.26-01.02.12:284][275]CompilerResultsLog: Total build time: 199.54 seconds (Parallel executor: 166.67 seconds)
+[2019.07.26-01.02.12:284][275]LogMainFrame: MainFrame: Module compiling took 200.899 seconds
+[2019.07.26-01.02.12:487][275]LogClass: ArmorSlot HotReload.
+[2019.07.26-01.02.12:487][275]LogClass: Rarity HotReload.
+[2019.07.26-01.02.12:487][275]LogClass: UsageType HotReload.
+[2019.07.26-01.02.12:487][275]LogClass: Status HotReload.
+[2019.07.26-01.02.12:487][275]LogClass: Slot HotReload.
+[2019.07.26-01.02.12:487][275]LogClass: StatModifier HotReload.
+[2019.07.26-01.02.12:487][275]LogClass: Stat HotReload.
+[2019.07.26-01.02.12:487][275]LogClass: ResistanceModifier HotReload.
+[2019.07.26-01.02.12:487][275]LogClass: HealInfo HotReload.
+[2019.07.26-01.02.12:487][275]LogClass: DamageInfo HotReload.
+[2019.07.26-01.02.12:512][275]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.26-01.02.12:520][275]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0061 seconds. Added 28 classes and 15 folders.
+[2019.07.26-01.02.12:520][275]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.26-01.02.12:524][275]Display: HotReload successful (55 functions remapped  6 scriptstructs remapped)
+[2019.07.26-01.02.12:884][275]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2601 classes and 620 folders.
+[2019.07.26-01.02.12:889][275]Display: HotReload took 201.6s.
+[2019.07.26-01.02.40:696][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.26-01.02.52:601][616]Candidate modules for hot reload:
+[2019.07.26-01.02.52:601][616]  Project_Tether
+[2019.07.26-01.02.52:601][616]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,7184 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.02.52:603][616]Warning: Starting HotReload took  0.2s.
+[2019.07.26-01.03.16:022][794]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:03:16 PM
+[2019.07.26-01.03.16:023][794]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.03.16:024][794]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.03.16:024][794]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.03.16:025][794]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.03.16:027][794]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 7.7132908 seconds
+[2019.07.26-01.03.16:028][794]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.07.26-01.03.16:028][794]CompilerResultsLog:   [1/5] Tool.cpp
+[2019.07.26-01.03.16:028][794]CompilerResultsLog:   [2/5] Tool.gen.cpp
+[2019.07.26-01.03.16:029][794]CompilerResultsLog:   [3/5] Project_Tether.init.gen.cpp
+[2019.07.26-01.03.16:029][794]CompilerResultsLog:   [4/5] UE4Editor-Project_Tether-7184.lib
+[2019.07.26-01.03.16:030][794]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7184.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7184.exp
+[2019.07.26-01.03.16:032][794]CompilerResultsLog:   [5/5] UE4Editor-Project_Tether-7184.dll
+[2019.07.26-01.03.16:033][794]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7184.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7184.suppressed.exp
+[2019.07.26-01.03.16:035][794]CompilerResultsLog: Total build time: 23.00 seconds (Parallel executor: 13.79 seconds)
+[2019.07.26-01.03.16:035][794]LogMainFrame: MainFrame: Module compiling took 23.445 seconds
+[2019.07.26-01.03.16:186][794]LogClass: Could not find existing class Tool in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.26-01.03.16:186][794]LogClass: Function CreateToolInstance is new.
+[2019.07.26-01.03.16:186][794]LogClass: Function GetAnimAlt_1 is new.
+[2019.07.26-01.03.16:186][794]LogClass: Function GetAnimAlt_2 is new.
+[2019.07.26-01.03.16:186][794]LogClass: Function GetArmorSlot is new.
+[2019.07.26-01.03.16:186][794]LogClass: Function GetItem is new.
+[2019.07.26-01.03.16:186][794]LogClass: Function GetName is new.
+[2019.07.26-01.03.16:186][794]LogClass: Function GetRarity is new.
+[2019.07.26-01.03.16:186][794]LogClass: Function GetStandardAnims is new.
+[2019.07.26-01.03.16:186][794]LogClass: Function GetUsage is new.
+[2019.07.26-01.03.16:186][794]LogClass: Function GetWeaponType is new.
+[2019.07.26-01.03.16:193][794]LogClass: ArmorSlot HotReload.
+[2019.07.26-01.03.16:193][794]LogClass: Rarity HotReload.
+[2019.07.26-01.03.16:193][794]LogClass: UsageType HotReload.
+[2019.07.26-01.03.16:194][794]LogClass: Status HotReload.
+[2019.07.26-01.03.16:194][794]LogClass: Slot HotReload.
+[2019.07.26-01.03.16:194][794]LogClass: StatModifier HotReload.
+[2019.07.26-01.03.16:194][794]LogClass: Stat HotReload.
+[2019.07.26-01.03.16:194][794]LogClass: ResistanceModifier HotReload.
+[2019.07.26-01.03.16:194][794]LogClass: HealInfo HotReload.
+[2019.07.26-01.03.16:194][794]LogClass: DamageInfo HotReload.
+[2019.07.26-01.03.16:200][794]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.26-01.03.16:205][794]LogHotReload: Re-instancing Tool after hot-reload.
+[2019.07.26-01.03.16:348][794]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0005 seconds. Added 28 classes and 15 folders.
+[2019.07.26-01.03.16:348][794]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.26-01.03.16:353][794]Display: HotReload successful (46 functions remapped  6 scriptstructs remapped)
+[2019.07.26-01.03.16:653][794]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2601 classes and 620 folders.
+[2019.07.26-01.03.16:661][794]Display: HotReload took 24.3s.
+[2019.07.26-01.04.05:868][ 37]LogSlate: Took 0.017410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.07.26-01.04.52:853][428]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.07.26-01.04.55:242][688]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.07.26-01.05.18:954][484]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.26-01.06.24:045][182]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.06.24:070][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.06.24:121][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.06.24:142][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.06.24:143][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.06.24:144][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.06.24:145][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.06.24:369][182]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.06.24:686][182]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP73248D374E720D2BFEF40B904E9AAE95.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.06.31:057][932]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.26-01.06.31:141][932]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.06.31:154][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.26-01.06.31:238][932]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 25, 2019, 4:06:31 PM)
+[2019.07.26-01.06.31:246][932]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.26-01.06.31:437][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.189441s)
+[2019.07.26-01.06.31:465][932]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.26-01.06.31:492][932]LogPlayLevel: PIE: World Init took: (0.055400s)
+[2019.07.26-01.06.31:502][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.261893s)
+[2019.07.26-01.06.31:595][932]LogInit: XAudio2 using 'G257HL (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.26-01.06.31:619][932]LogInit: FAudioDevice initialized.
+[2019.07.26-01.06.31:722][932]LogLoad: Game class is 'GameMode'
+[2019.07.26-01.06.31:835][932]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.25-21.06.31
+[2019.07.26-01.06.31:857][932]LogWorld: Bringing up level for play took: 0.059458
+[2019.07.26-01.06.32:304][932]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.07.26-01.06.32:316][932]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.06.32:326][932]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.06.32:326][932]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.06.32:345][932]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.26-01.06.32:345][932]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.06.32:348][932]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.165
+[2019.07.26-01.06.32:348][932]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.06.33:388][ 15]LogScript: Warning: Accessed None trying to read property ToolTest
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:00F6
+[2019.07.26-01.06.33:389][ 15]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ToolTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.06.33:389][ 15]LogScript: Warning: Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:0133
+[2019.07.26-01.06.33:390][ 15]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.06.33:390][ 15]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.06.34:396][136]LogScript: Warning: Accessed None trying to read property ToolTest
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:00F6
+[2019.07.26-01.06.34:397][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ToolTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.06.34:397][136]LogScript: Warning: Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:0133
+[2019.07.26-01.06.34:398][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.06.34:398][136]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.06.34:913][198]LogScript: Warning: Accessed None trying to read property ToolTest
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:00F6
+[2019.07.26-01.06.34:914][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ToolTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.06.34:914][198]LogScript: Warning: Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:0133
+[2019.07.26-01.06.34:915][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.06.34:915][198]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.06.36:220][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.06.36:230][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.06.36:317][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.26-01.06.36:318][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.06.36:377][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.06.36:440][354]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.07.26-01.06.37:735][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.26-01.07.02:591][473]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.26-01.07.07:977][115]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.07.07:998][115]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.07.08:000][115]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.07.08:001][115]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.07.08:002][115]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.07.08:003][115]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.07.08:004][115]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.07.08:160][115]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.07.08:240][115]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BPB608D22B4A895BE0493BFD89B7B40420.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.07.10:674][399]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.26-01.07.10:704][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.07.10:705][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.26-01.07.10:705][399]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 25, 2019, 4:07:10 PM)
+[2019.07.26-01.07.10:705][399]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.26-01.07.10:717][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011871s)
+[2019.07.26-01.07.10:718][399]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.26-01.07.10:718][399]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2019.07.26-01.07.10:718][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013225s)
+[2019.07.26-01.07.10:800][399]LogInit: XAudio2 using 'G257HL (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.26-01.07.10:809][399]LogInit: FAudioDevice initialized.
+[2019.07.26-01.07.10:831][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.07.10:867][399]LogLoad: Game class is 'GameMode'
+[2019.07.26-01.07.10:869][399]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.25-21.07.10
+[2019.07.26-01.07.10:869][399]LogWorld: Bringing up level for play took: 0.001610
+[2019.07.26-01.07.10:881][399]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.07.26-01.07.10:881][399]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.07.10:881][399]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.07.10:882][399]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.07.10:882][399]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.26-01.07.10:882][399]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.07.10:882][399]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.7
+[2019.07.26-01.07.10:887][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.07.10:937][399]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.07.26-01.07.11:660][481]LogScript: Warning: Accessed None trying to read property ToolTest
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:0071
+[2019.07.26-01.07.11:661][481]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ToolTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.07.11:661][481]LogScript: Warning: Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:00AE
+[2019.07.26-01.07.11:662][481]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.07.11:662][481]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.07.12:419][572]LogScript: Warning: Accessed None trying to read property ToolTest
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:0071
+[2019.07.26-01.07.12:419][572]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ToolTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.07.12:420][572]LogScript: Warning: Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:00AE
+[2019.07.26-01.07.12:420][572]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.07.12:420][572]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.07.12:652][600]LogScript: Warning: Accessed None trying to read property ToolTest
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:0071
+[2019.07.26-01.07.12:653][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ToolTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.07.12:653][600]LogScript: Warning: Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:00AE
+[2019.07.26-01.07.12:654][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.07.12:654][600]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.07.12:877][627]LogScript: Warning: Accessed None trying to read property ToolTest
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:0071
+[2019.07.26-01.07.12:878][627]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ToolTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.07.12:878][627]LogScript: Warning: Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:00AE
+[2019.07.26-01.07.12:879][627]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.07.12:879][627]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.07.13:670][722]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.07.13:671][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.07.13:688][722]LogSlate: Window 'Project_Tether Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.26-01.07.13:730][722]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.26-01.07.13:731][722]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.07.13:833][723]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.07.26-01.07.17:727][187]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.26-01.07.17:749][187]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.07.17:749][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.26-01.07.17:749][187]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 25, 2019, 4:07:17 PM)
+[2019.07.26-01.07.17:749][187]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.26-01.07.17:763][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014045s)
+[2019.07.26-01.07.17:764][187]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.26-01.07.17:764][187]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2019.07.26-01.07.17:764][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014868s)
+[2019.07.26-01.07.17:821][187]LogInit: XAudio2 using 'G257HL (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.26-01.07.17:828][187]LogInit: FAudioDevice initialized.
+[2019.07.26-01.07.17:858][187]LogLoad: Game class is 'GameMode'
+[2019.07.26-01.07.17:859][187]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.25-21.07.17
+[2019.07.26-01.07.17:860][187]LogWorld: Bringing up level for play took: 0.001247
+[2019.07.26-01.07.17:871][187]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.07.17:871][187]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.07.17:871][187]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.07.17:872][187]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.26-01.07.17:872][187]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.07.17:872][187]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.311
+[2019.07.26-01.07.17:872][187]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.07.19:100][330]LogScript: Warning: Accessed None trying to read property ToolTest
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:0071
+[2019.07.26-01.07.19:101][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property ToolTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.07.19:101][330]LogScript: Warning: Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:00AE
+[2019.07.26-01.07.19:102][330]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.07.19:102][330]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.07.20:436][490]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.07.20:437][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.07.20:477][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.26-01.07.20:478][490]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.07.20:505][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.07.20:538][491]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.07.26-01.07.20:931][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.26-01.08.34:633][775]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_Auto1097C2CD849B3BC55EEE027B9D03F9A11.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Autosaves/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2019.07.26-01.08.34:657][775]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.453
+[2019.07.26-01.08.34:658][775]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.453
+[2019.07.26-01.08.34:662][775]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP] ([1] browsable assets)...
+[2019.07.26-01.08.34:685][775]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP]
+[2019.07.26-01.08.34:686][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP]
+[2019.07.26-01.08.34:751][775]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP_Auto1B4779ABE4F6750E43F0F23BE78F8AE6D.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Autosaves/Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP_Auto1.uasset'
+[2019.07.26-01.08.34:763][775]LogFileHelpers: Auto-saving content packages took 0.104
+[2019.07.26-01.10.19:265][916]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.10.19:284][916]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.10.19:286][916]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.10.19:287][916]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.10.19:288][916]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.10.19:289][916]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.10.19:290][916]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.10.19:453][916]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.10.19:534][916]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP5B0839F24BBC1BD8A20C3A8FEEC0A758.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.11.43:948][804]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.11.43:968][804]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.11.43:970][804]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.11.43:970][804]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.11.43:972][804]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.11.43:972][804]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.11.43:973][804]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.11.44:135][804]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.11.44:229][804]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP9740FBCB4DBC06D6D23043BA8F795CFA.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.11.50:968][602]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.26-01.11.50:998][602]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.11.50:999][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.26-01.11.50:999][602]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 25, 2019, 4:11:50 PM)
+[2019.07.26-01.11.50:999][602]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.26-01.11.51:044][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043945s)
+[2019.07.26-01.11.51:045][602]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.26-01.11.51:045][602]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2019.07.26-01.11.51:045][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.045340s)
+[2019.07.26-01.11.51:104][602]LogInit: XAudio2 using 'G257HL (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.26-01.11.51:113][602]LogInit: FAudioDevice initialized.
+[2019.07.26-01.11.51:146][602]LogLoad: Game class is 'GameMode'
+[2019.07.26-01.11.51:147][602]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.25-21.11.51
+[2019.07.26-01.11.51:148][602]LogWorld: Bringing up level for play took: 0.001503
+[2019.07.26-01.11.51:161][602]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.11.51:161][602]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.11.51:161][602]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.11.51:161][602]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.26-01.11.51:161][602]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.11.51:161][602]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.979
+[2019.07.26-01.11.51:162][602]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.11.51:742][668]LogScript: Warning: Accessed None trying to read property copyofTest
+	TopDownCharacter_BP_C /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.TopDownCharacter_2
+	Function /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP_C:ExecuteUbergraph_TopDownCharacter_BP:0034
+[2019.07.26-01.11.51:743][668]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property copyofTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.11.51:743][668]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.11.52:476][756]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property copyofTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.11.52:477][756]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.11.52:767][791]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property copyofTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.11.52:768][791]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.11.52:950][813]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property copyofTest". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.11.52:950][813]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.11.53:614][890]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.11.53:616][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.11.53:659][890]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.26-01.11.53:659][890]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.11.53:699][890]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.11.53:739][891]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.07.26-01.11.54:324][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.26-01.12.10:138][546]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP881BBB6949A56FCDB1954EA6BDDC061F.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.12.11:200][673]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.12.11:218][673]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.12.11:219][673]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.12.11:220][673]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.12.11:221][673]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.12.11:222][673]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.12.11:223][673]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.12.11:387][673]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.12.12:333][773]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP66E67DA0429F39EB466C63B1FC2428AB.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.18.38:124][ 82]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_Auto29483A2DF447C0DC7F71A5885B14A4B92.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Autosaves/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2019.07.26-01.18.38:128][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.229
+[2019.07.26-01.18.38:129][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.229
+[2019.07.26-01.22.20:196][957]Candidate modules for hot reload:
+[2019.07.26-01.22.20:196][957]  Project_Tether
+[2019.07.26-01.22.20:196][957]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,7710 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.22.20:287][957]Warning: Starting HotReload took  0.1s.
+[2019.07.26-01.22.49:540][215]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:22:49 PM
+[2019.07.26-01.22.49:541][215]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.22.49:541][215]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.22.49:541][215]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.22.49:541][215]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.22.49:542][215]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 18.0154167 seconds
+[2019.07.26-01.22.49:542][215]CompilerResultsLog: Building 6 actions with 12 processes...
+[2019.07.26-01.22.49:542][215]CompilerResultsLog:   [1/6] Project_Tether.init.gen.cpp
+[2019.07.26-01.22.49:542][215]CompilerResultsLog:   [2/6] ToolComponent.cpp
+[2019.07.26-01.22.49:542][215]CompilerResultsLog:   [3/6] Tool.cpp
+[2019.07.26-01.22.49:542][215]CompilerResultsLog:   [4/6] Tool.gen.cpp
+[2019.07.26-01.22.49:542][215]CompilerResultsLog:   [5/6] UE4Editor-Project_Tether-7710.lib
+[2019.07.26-01.22.49:542][215]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7710.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7710.exp
+[2019.07.26-01.22.49:543][215]CompilerResultsLog:   [6/6] UE4Editor-Project_Tether-7710.dll
+[2019.07.26-01.22.49:543][215]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7710.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-7710.suppressed.exp
+[2019.07.26-01.22.49:543][215]CompilerResultsLog: Total build time: 28.44 seconds (Parallel executor: 7.95 seconds)
+[2019.07.26-01.22.49:543][215]LogMainFrame: MainFrame: Module compiling took 29.355 seconds
+[2019.07.26-01.22.49:652][215]LogClass: Could not find existing class Tool in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.26-01.22.49:652][215]LogClass: Function CreateToolInstance is new.
+[2019.07.26-01.22.49:653][215]LogClass: Function GetAnimAlt_1 is new.
+[2019.07.26-01.22.49:653][215]LogClass: Function GetAnimAlt_2 is new.
+[2019.07.26-01.22.49:653][215]LogClass: Function GetArmorSlot is new.
+[2019.07.26-01.22.49:653][215]LogClass: Function GetItem is new.
+[2019.07.26-01.22.49:653][215]LogClass: Function GetName is new.
+[2019.07.26-01.22.49:653][215]LogClass: Function GetRarity is new.
+[2019.07.26-01.22.49:653][215]LogClass: Function GetStandardAnims is new.
+[2019.07.26-01.22.49:653][215]LogClass: Function GetUsage is new.
+[2019.07.26-01.22.49:653][215]LogClass: Function GetWeaponType is new.
+[2019.07.26-01.22.49:661][215]LogClass: ArmorSlot HotReload.
+[2019.07.26-01.22.49:661][215]LogClass: Rarity HotReload.
+[2019.07.26-01.22.49:661][215]LogClass: UsageType HotReload.
+[2019.07.26-01.22.49:661][215]LogClass: Status HotReload.
+[2019.07.26-01.22.49:661][215]LogClass: Slot HotReload.
+[2019.07.26-01.22.49:661][215]LogClass: StatModifier HotReload.
+[2019.07.26-01.22.49:661][215]LogClass: Stat HotReload.
+[2019.07.26-01.22.49:661][215]LogClass: ResistanceModifier HotReload.
+[2019.07.26-01.22.49:661][215]LogClass: HealInfo HotReload.
+[2019.07.26-01.22.49:661][215]LogClass: DamageInfo HotReload.
+[2019.07.26-01.22.49:669][215]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.26-01.22.49:674][215]LogHotReload: Re-instancing Tool after hot-reload.
+[2019.07.26-01.22.49:830][215]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0006 seconds. Added 28 classes and 15 folders.
+[2019.07.26-01.22.49:830][215]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.26-01.22.49:836][215]Display: HotReload successful (46 functions remapped  6 scriptstructs remapped)
+[2019.07.26-01.22.50:129][215]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2601 classes and 620 folders.
+[2019.07.26-01.22.50:134][215]Display: HotReload took 30.0s.
+[2019.07.26-01.23.51:149][753]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BPC9837D4C4EDD217A6C7A3586439CD7EC.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.25.15:864][742]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.25.15:881][742]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.25.15:883][742]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.25.15:884][742]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.25.15:886][742]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.25.15:886][742]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.25.15:887][742]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.25.16:113][742]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.25.16:193][742]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP83A9C233423BA9CA14C84992FFA84CA8.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.25.24:002][666]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.26-01.25.24:067][666]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP62F1DF24432E451CE78D3DAB842681BE.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.25.26:572][949]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP40E9301545F7F8F884FE458FFA14EE29.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.28.38:877][736]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_Auto35F60FD9747AF4E8D2936BD85FDBCF5E9.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Autosaves/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2019.07.26-01.28.38:882][736]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.285
+[2019.07.26-01.28.38:882][736]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.285
+[2019.07.26-01.29.14:439][843]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.29.14:457][843]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.29.14:458][843]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.29.14:460][843]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.29.14:462][843]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.29.14:462][843]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.29.14:463][843]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.29.14:627][843]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.29.16:137][ 17]Candidate modules for hot reload:
+[2019.07.26-01.29.16:137][ 17]  Project_Tether
+[2019.07.26-01.29.16:137][ 17]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,4944 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.29.16:140][ 17]Warning: Starting HotReload took  0.0s.
+[2019.07.26-01.29.50:993][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.26-01.30.15:644][676]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:30:15 PM
+[2019.07.26-01.30.15:645][676]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.30.15:645][676]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.30.15:645][676]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.30.15:645][676]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.30.15:645][676]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.7962489 seconds
+[2019.07.26-01.30.15:645][676]CompilerResultsLog: Building 7 actions with 12 processes...
+[2019.07.26-01.30.15:646][676]CompilerResultsLog:   [1/7] Project_Tether.init.gen.cpp
+[2019.07.26-01.30.15:646][676]CompilerResultsLog:   [2/7] ToolComponent.gen.cpp
+[2019.07.26-01.30.15:646][676]CompilerResultsLog:   [3/7] ToolComponent.cpp
+[2019.07.26-01.30.15:646][676]CompilerResultsLog:   [4/7] TopDown_E_Character.gen.cpp
+[2019.07.26-01.30.15:646][676]CompilerResultsLog:   [5/7] TopDown_E_Character.cpp
+[2019.07.26-01.30.15:646][676]CompilerResultsLog:   [6/7] UE4Editor-Project_Tether-4944.lib
+[2019.07.26-01.30.15:646][676]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4944.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4944.exp
+[2019.07.26-01.30.15:646][676]CompilerResultsLog:   [7/7] UE4Editor-Project_Tether-4944.dll
+[2019.07.26-01.30.15:647][676]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4944.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-4944.suppressed.exp
+[2019.07.26-01.30.15:647][676]CompilerResultsLog: Total build time: 58.99 seconds (Parallel executor: 48.71 seconds)
+[2019.07.26-01.30.15:647][676]LogMainFrame: MainFrame: Module compiling took 59.518 seconds
+[2019.07.26-01.30.15:735][676]LogClass: Could not find existing class ToolComponent in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.26-01.30.15:735][676]LogClass: Function GetTestSub is new.
+[2019.07.26-01.30.15:741][676]LogClass: ArmorSlot HotReload.
+[2019.07.26-01.30.15:741][676]LogClass: Rarity HotReload.
+[2019.07.26-01.30.15:741][676]LogClass: UsageType HotReload.
+[2019.07.26-01.30.15:741][676]LogClass: Status HotReload.
+[2019.07.26-01.30.15:742][676]LogClass: Slot HotReload.
+[2019.07.26-01.30.15:742][676]LogClass: StatModifier HotReload.
+[2019.07.26-01.30.15:742][676]LogClass: Stat HotReload.
+[2019.07.26-01.30.15:742][676]LogClass: ResistanceModifier HotReload.
+[2019.07.26-01.30.15:742][676]LogClass: HealInfo HotReload.
+[2019.07.26-01.30.15:742][676]LogClass: DamageInfo HotReload.
+[2019.07.26-01.30.15:747][676]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.26-01.30.15:752][676]LogHotReload: Re-instancing ToolComponent after hot-reload.
+[2019.07.26-01.30.15:945][676]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0006 seconds. Added 28 classes and 15 folders.
+[2019.07.26-01.30.15:946][676]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.26-01.30.15:952][676]Display: HotReload successful (56 functions remapped  6 scriptstructs remapped)
+[2019.07.26-01.30.16:233][676]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2601 classes and 620 folders.
+[2019.07.26-01.30.16:237][676]Display: HotReload took 60.1s.
+[2019.07.26-01.30.37:140][104]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMapA2D2F72E4101E9C280598DA371537F85.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2019.07.26-01.30.46:404][200]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.07.26-01.36.09:394][610]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.36.09:438][610]LogBlueprint: Warning: [Compiler TopDownCharacter_BP] TopDown_E_Character.toolComponent is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get toolComponent
+[2019.07.26-01.36.09:442][610]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.36.09:444][610]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.36.09:446][610]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.36.09:447][610]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.36.09:448][610]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.36.09:449][610]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.36.09:682][610]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.36.09:698][610]LogBlueprint: Warning: [Compiler TopDownCharacter_BP] [8359.34] Compile of TopDownCharacter_BP successful, but with 1 Warning(s) [in 303 ms] (/Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP)
+[2019.07.26-01.36.17:745][562]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.36.17:762][562]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.36.17:764][562]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.36.17:765][562]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.36.17:766][562]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.36.17:767][562]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.36.17:768][562]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.36.17:934][562]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.36.18:011][562]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BPB7B8209D400A04DF56E779AB9B012837.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.36.23:214][180]Candidate modules for hot reload:
+[2019.07.26-01.36.23:214][180]  Project_Tether
+[2019.07.26-01.36.23:214][180]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,3835 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.36.23:217][180]Warning: Starting HotReload took  0.0s.
+[2019.07.26-01.36.41:341][807]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:36:41 PM
+[2019.07.26-01.36.41:341][807]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.36.41:341][807]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.36.41:341][807]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.36.41:341][807]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.36.41:341][807]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.2043619 seconds
+[2019.07.26-01.36.41:341][807]CompilerResultsLog: Building 6 actions with 12 processes...
+[2019.07.26-01.36.41:341][807]CompilerResultsLog:   [1/6] Project_Tether.init.gen.cpp
+[2019.07.26-01.36.41:341][807]CompilerResultsLog:   [2/6] ToolComponent.gen.cpp
+[2019.07.26-01.36.41:341][807]CompilerResultsLog:   [3/6] ToolComponent.cpp
+[2019.07.26-01.36.41:341][807]CompilerResultsLog:   [4/6] TopDown_E_Character.cpp
+[2019.07.26-01.36.41:341][807]CompilerResultsLog:   [5/6] UE4Editor-Project_Tether-3835.lib
+[2019.07.26-01.36.41:341][807]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-3835.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-3835.exp
+[2019.07.26-01.36.41:341][807]CompilerResultsLog:   [6/6] UE4Editor-Project_Tether-3835.dll
+[2019.07.26-01.36.41:341][807]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-3835.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-3835.suppressed.exp
+[2019.07.26-01.36.41:341][807]CompilerResultsLog: Total build time: 17.63 seconds (Parallel executor: 8.03 seconds)
+[2019.07.26-01.36.41:341][807]LogMainFrame: MainFrame: Module compiling took 18.134 seconds
+[2019.07.26-01.36.41:447][807]LogClass: Could not find existing class ToolComponent in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.26-01.36.41:447][807]LogClass: Function GetTestPTR is new.
+[2019.07.26-01.36.41:447][807]LogClass: Function GetTestSub is new.
+[2019.07.26-01.36.41:453][807]LogClass: ArmorSlot HotReload.
+[2019.07.26-01.36.41:453][807]LogClass: Rarity HotReload.
+[2019.07.26-01.36.41:453][807]LogClass: UsageType HotReload.
+[2019.07.26-01.36.41:453][807]LogClass: Status HotReload.
+[2019.07.26-01.36.41:453][807]LogClass: Slot HotReload.
+[2019.07.26-01.36.41:453][807]LogClass: StatModifier HotReload.
+[2019.07.26-01.36.41:453][807]LogClass: Stat HotReload.
+[2019.07.26-01.36.41:453][807]LogClass: ResistanceModifier HotReload.
+[2019.07.26-01.36.41:453][807]LogClass: HealInfo HotReload.
+[2019.07.26-01.36.41:453][807]LogClass: DamageInfo HotReload.
+[2019.07.26-01.36.41:459][807]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.26-01.36.41:464][807]LogHotReload: Re-instancing ToolComponent after hot-reload.
+[2019.07.26-01.36.41:622][807]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0006 seconds. Added 28 classes and 15 folders.
+[2019.07.26-01.36.41:623][807]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.26-01.36.41:627][807]Display: HotReload successful (56 functions remapped  6 scriptstructs remapped)
+[2019.07.26-01.36.41:905][807]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2601 classes and 620 folders.
+[2019.07.26-01.36.41:910][807]Display: HotReload took 18.7s.
+[2019.07.26-01.37.29:829][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.26-01.38.12:040][306]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.38.12:056][306]LogBlueprint: Warning: [Compiler TopDownCharacter_BP] TopDown_E_Character.toolComponent is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get toolComponent
+[2019.07.26-01.38.12:059][306]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.38.12:092][306]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.38.12:093][306]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.38.12:094][306]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.38.12:095][306]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.38.12:096][306]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.38.12:331][306]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.38.12:340][306]LogBlueprint: Warning: [Compiler TopDownCharacter_BP] [8481.98] Compile of TopDownCharacter_BP successful, but with 1 Warning(s) [in 300 ms] (/Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP)
+[2019.07.26-01.39.56:700][946]Candidate modules for hot reload:
+[2019.07.26-01.39.56:700][946]  Project_Tether
+[2019.07.26-01.39.56:701][946]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,7301 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.39.56:703][946]Warning: Starting HotReload took  0.0s.
+[2019.07.26-01.40.06:580][260]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:40:06 PM
+[2019.07.26-01.40.06:580][260]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.40.06:580][260]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.40.06:580][260]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.40.06:580][260]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.40.06:580][260]CompilerResultsLog: Error: E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Source/Project_Tether/Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h(30)  : LogCompile: Error: BlueprintReadWrite should not be used on private members
+[2019.07.26-01.40.06:580][260]CompilerResultsLog: UnrealHeaderTool failed for target 'Project_TetherEditor' (platform: Win64, module info: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest).
+[2019.07.26-01.40.06:580][260]LogMainFrame: MainFrame: Module compiling took 9.888 seconds
+[2019.07.26-01.40.06:580][260]Warning: HotReload failed, recompile failed
+[2019.07.26-01.40.44:772][848]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/ThirdPersonExampleMap_Auto4FD8442534C75FADDA32D39A020A7E87F.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Autosaves/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2019.07.26-01.40.44:782][848]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 0.304
+[2019.07.26-01.40.44:782][848]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.304
+[2019.07.26-01.40.44:785][848]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP] ([1] browsable assets)...
+[2019.07.26-01.40.44:801][848]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.TopDownCharacter_BP]
+[2019.07.26-01.40.44:802][848]OBJ SavePackage: Finished generating thumbnails for package [/Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP]
+[2019.07.26-01.40.44:941][848]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP_Auto43A74041543604DDF0F9C748B29F4E295.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/Autosaves/Game/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP_Auto4.uasset'
+[2019.07.26-01.40.44:942][848]LogFileHelpers: Auto-saving content packages took 0.159
+[2019.07.26-01.40.47:665][171]Candidate modules for hot reload:
+[2019.07.26-01.40.47:665][171]  Project_Tether
+[2019.07.26-01.40.47:665][171]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,9253 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.40.47:668][171]Warning: Starting HotReload took  0.0s.
+[2019.07.26-01.40.59:370][623]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:40:59 PM
+[2019.07.26-01.40.59:370][623]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.40.59:370][623]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.40.59:370][623]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.40.59:370][623]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.40.59:370][623]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.1392894 seconds
+[2019.07.26-01.40.59:370][623]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.07.26-01.40.59:370][623]CompilerResultsLog:   [1/5] Project_Tether.init.gen.cpp
+[2019.07.26-01.40.59:370][623]CompilerResultsLog:   [2/5] TopDown_E_Character.gen.cpp
+[2019.07.26-01.40.59:370][623]CompilerResultsLog:   [3/5] TopDown_E_Character.cpp
+[2019.07.26-01.40.59:370][623]CompilerResultsLog:   [4/5] UE4Editor-Project_Tether-9253.lib
+[2019.07.26-01.40.59:370][623]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9253.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9253.exp
+[2019.07.26-01.40.59:370][623]CompilerResultsLog:   [5/5] UE4Editor-Project_Tether-9253.dll
+[2019.07.26-01.40.59:370][623]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9253.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9253.suppressed.exp
+[2019.07.26-01.40.59:370][623]CompilerResultsLog: Total build time: 11.24 seconds (Parallel executor: 1.74 seconds)
+[2019.07.26-01.40.59:370][623]LogMainFrame: MainFrame: Module compiling took 11.713 seconds
+[2019.07.26-01.40.59:475][623]LogClass: Could not find existing class TopDown_E_Character in package /Script/Project_Tether for HotReload, assuming new class
+[2019.07.26-01.40.59:475][623]LogClass: Function EndFocus is new.
+[2019.07.26-01.40.59:475][623]LogClass: Function FocusTick is new.
+[2019.07.26-01.40.59:475][623]LogClass: Function GetFocused is new.
+[2019.07.26-01.40.59:475][623]LogClass: Function StartFocus is new.
+[2019.07.26-01.40.59:479][623]LogClass: ArmorSlot HotReload.
+[2019.07.26-01.40.59:479][623]LogClass: Rarity HotReload.
+[2019.07.26-01.40.59:479][623]LogClass: UsageType HotReload.
+[2019.07.26-01.40.59:479][623]LogClass: Status HotReload.
+[2019.07.26-01.40.59:479][623]LogClass: Slot HotReload.
+[2019.07.26-01.40.59:479][623]LogClass: StatModifier HotReload.
+[2019.07.26-01.40.59:479][623]LogClass: Stat HotReload.
+[2019.07.26-01.40.59:479][623]LogClass: ResistanceModifier HotReload.
+[2019.07.26-01.40.59:479][623]LogClass: HealInfo HotReload.
+[2019.07.26-01.40.59:479][623]LogClass: DamageInfo HotReload.
+[2019.07.26-01.40.59:485][623]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.26-01.40.59:491][623]LogHotReload: Re-instancing TopDown_E_Character after hot-reload.
+[2019.07.26-01.40.59:516][623]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.40.59:518][623]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.40.59:519][623]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.40.59:520][623]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.40.59:520][623]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.40.59:521][623]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.40.59:692][623]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.40.59:783][623]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BPE8B8CCA04263A91620166D89A4C991D2.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.40.59:957][623]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0006 seconds. Added 28 classes and 15 folders.
+[2019.07.26-01.40.59:958][623]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.26-01.40.59:962][623]Display: HotReload successful (54 functions remapped  6 scriptstructs remapped)
+[2019.07.26-01.41.00:236][623]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2601 classes and 620 folders.
+[2019.07.26-01.41.00:240][623]Display: HotReload took 12.6s.
+[2019.07.26-01.41.23:830][390]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.41.23:869][390]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.41.23:871][390]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.41.23:872][390]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.41.23:873][390]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.41.23:873][390]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.41.23:874][390]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.41.23:875][390]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.41.23:875][390]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.41.24:102][390]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.41.24:182][390]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP08345B3A4A3372290816AF8888FAE6A1.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.41.28:412][882]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.26-01.41.28:445][882]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.41.28:446][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.26-01.41.28:446][882]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 25, 2019, 4:41:28 PM)
+[2019.07.26-01.41.28:446][882]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.26-01.41.28:493][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047926s)
+[2019.07.26-01.41.28:512][882]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.26-01.41.28:513][882]LogPlayLevel: PIE: World Init took: (0.019326s)
+[2019.07.26-01.41.28:513][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.067719s)
+[2019.07.26-01.41.28:578][882]LogInit: XAudio2 using 'G257HL (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.26-01.41.28:588][882]LogInit: FAudioDevice initialized.
+[2019.07.26-01.41.28:617][882]LogLoad: Game class is 'GameMode'
+[2019.07.26-01.41.28:619][882]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.25-21.41.28
+[2019.07.26-01.41.28:620][882]LogWorld: Bringing up level for play took: 0.001502
+[2019.07.26-01.41.28:653][882]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.41.28:653][882]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.41.28:654][882]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.41.28:666][882]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.26-01.41.28:667][882]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.41.28:667][882]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.484
+[2019.07.26-01.41.28:667][882]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.41.30:274][ 72]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetTestPTR_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.41.30:274][ 72]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.41.30:275][ 72]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.41.30:891][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetTestPTR_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.41.30:891][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.41.30:891][146]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.41.31:100][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetTestPTR_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.41.31:100][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.41.31:100][171]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.41.31:282][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetTestPTR_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.41.31:283][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.41.31:283][193]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.41.31:465][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetTestPTR_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Create Tool Instance
+[2019.07.26-01.41.31:466][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_CreateToolInstance_ReturnValue". Blueprint:  TopDownCharacter_BP Function:  Execute Ubergraph Top Down Character BP Graph:  EventGraph Node:  Get Name
+[2019.07.26-01.41.31:466][215]LogBlueprintUserMessages: [TopDownCharacter_2] 
+[2019.07.26-01.41.34:325][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.41.34:326][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.41.34:364][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.26-01.41.34:364][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.41.34:390][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.26-01.41.34:445][560]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.07.26-01.41.35:046][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.26-01.45.16:284][633]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.45.16:320][633]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.45.16:321][633]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.45.16:322][633]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.45.16:324][633]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.45.16:324][633]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.45.16:325][633]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.45.16:490][633]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.45.16:571][633]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BP742531F948F00D90FFCF8F999B169252.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.45.17:695][761]Candidate modules for hot reload:
+[2019.07.26-01.45.17:695][761]  Project_Tether
+[2019.07.26-01.45.17:695][761]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,3805 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.45.17:697][761]Warning: Starting HotReload took  0.0s.
+[2019.07.26-01.45.32:819][385]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:45:32 PM
+[2019.07.26-01.45.32:819][385]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.45.32:819][385]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.45.32:819][385]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.45.32:819][385]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.0095301 seconds
+[2019.07.26-01.45.32:819][385]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:   [1/5] ToolComponent.gen.cpp
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UTool'
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:   e:\projects\ironforgedgames\project_tether\project_tether\intermediate\build\win64\ue4editor\inc\project_tether\ToolComponent.generated.h(11): note: see declaration of 'UTool'
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UTool>::operator *(void) const'
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/Casts.h(274): note: see reference to function template instantiation 'UClass *TSubclassOf<UTool>::operator *(void) const' being compiled
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(24): note: see reference to class template instantiation 'TSubclassOf<UTool>' being compiled
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:   [2/5] ToolComponent.cpp
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:   [3/5] TopDown_E_Character.cpp
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UTool'
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\ToolComponent.generated.h(11): note: see declaration of 'UTool'
+[2019.07.26-01.45.32:819][385]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UTool>::operator *(void) const'
+[2019.07.26-01.45.32:820][385]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/Casts.h(274): note: see reference to function template instantiation 'UClass *TSubclassOf<UTool>::operator *(void) const' being compiled
+[2019.07.26-01.45.32:820][385]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(24): note: see reference to class template instantiation 'TSubclassOf<UTool>' being compiled
+[2019.07.26-01.45.32:820][385]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.26-01.45.32:820][385]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-3805.dll
+[2019.07.26-01.45.32:820][385]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.26-01.45.32:820][385]CompilerResultsLog: Total build time: 14.72 seconds (Parallel executor: 0.00 seconds)
+[2019.07.26-01.45.32:820][385]LogMainFrame: MainFrame: Module compiling took 15.132 seconds
+[2019.07.26-01.45.32:820][385]Warning: HotReload failed, recompile failed
+[2019.07.26-01.48.29:660][103]Candidate modules for hot reload:
+[2019.07.26-01.48.29:660][103]  Project_Tether
+[2019.07.26-01.48.29:660][103]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,2940 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.48.29:663][103]Warning: Starting HotReload took  0.0s.
+[2019.07.26-01.48.43:151][708]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:48:43 PM
+[2019.07.26-01.48.43:152][708]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.48.43:152][708]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.48.43:152][708]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.48.43:152][708]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.48.43:153][708]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.5637256 seconds
+[2019.07.26-01.48.43:153][708]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.07.26-01.48.43:153][708]CompilerResultsLog:   [1/5] ToolComponent.gen.cpp
+[2019.07.26-01.48.43:153][708]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UTool'
+[2019.07.26-01.48.43:154][708]CompilerResultsLog:   e:\projects\ironforgedgames\project_tether\project_tether\intermediate\build\win64\ue4editor\inc\project_tether\ToolComponent.generated.h(11): note: see declaration of 'UTool'
+[2019.07.26-01.48.43:154][708]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UTool>::operator *(void) const'
+[2019.07.26-01.48.43:154][708]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77): note: see reference to function template instantiation 'UClass *TSubclassOf<UTool>::operator *(void) const' being compiled
+[2019.07.26-01.48.43:154][708]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(24): note: see reference to class template instantiation 'TSubclassOf<UTool>' being compiled
+[2019.07.26-01.48.43:155][708]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.26-01.48.43:155][708]CompilerResultsLog:   [2/5] ToolComponent.cpp
+[2019.07.26-01.48.43:155][708]CompilerResultsLog:   [3/5] TopDown_E_Character.cpp
+[2019.07.26-01.48.43:155][708]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UTool'
+[2019.07.26-01.48.43:155][708]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\ToolComponent.generated.h(11): note: see declaration of 'UTool'
+[2019.07.26-01.48.43:156][708]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UTool>::operator *(void) const'
+[2019.07.26-01.48.43:156][708]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77): note: see reference to function template instantiation 'UClass *TSubclassOf<UTool>::operator *(void) const' being compiled
+[2019.07.26-01.48.43:157][708]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(24): note: see reference to class template instantiation 'TSubclassOf<UTool>' being compiled
+[2019.07.26-01.48.43:158][708]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.26-01.48.43:158][708]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-2940.dll
+[2019.07.26-01.48.43:159][708]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.26-01.48.43:159][708]CompilerResultsLog: Total build time: 13.20 seconds (Parallel executor: 0.00 seconds)
+[2019.07.26-01.48.43:159][708]LogMainFrame: MainFrame: Module compiling took 13.506 seconds
+[2019.07.26-01.48.43:159][708]Warning: HotReload failed, recompile failed
+[2019.07.26-01.48.47:762][257]Candidate modules for hot reload:
+[2019.07.26-01.48.47:762][257]  Project_Tether
+[2019.07.26-01.48.47:762][257]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,4441 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.48.47:765][257]Warning: Starting HotReload took  0.0s.
+[2019.07.26-01.48.50:025][514]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:48:50 PM
+[2019.07.26-01.48.50:025][514]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.48.50:025][514]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.48.50:025][514]CompilerResultsLog: Building 4 actions with 12 processes...
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:   [1/4] ToolComponent.gen.cpp
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UTool'
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:   e:\projects\ironforgedgames\project_tether\project_tether\intermediate\build\win64\ue4editor\inc\project_tether\ToolComponent.generated.h(11): note: see declaration of 'UTool'
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UTool>::operator *(void) const'
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77): note: see reference to function template instantiation 'UClass *TSubclassOf<UTool>::operator *(void) const' being compiled
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(24): note: see reference to class template instantiation 'TSubclassOf<UTool>' being compiled
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:   [2/4] TopDown_E_Character.cpp
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UTool'
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Inc\Project_Tether\ToolComponent.generated.h(11): note: see declaration of 'UTool'
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UTool>::operator *(void) const'
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77): note: see reference to function template instantiation 'UClass *TSubclassOf<UTool>::operator *(void) const' being compiled
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(24): note: see reference to class template instantiation 'TSubclassOf<UTool>' being compiled
+[2019.07.26-01.48.50:025][514]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.26-01.48.50:026][514]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-4441.dll
+[2019.07.26-01.48.50:026][514]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.26-01.48.50:026][514]CompilerResultsLog: Total build time: 2.05 seconds (Parallel executor: 0.00 seconds)
+[2019.07.26-01.48.50:026][514]LogMainFrame: MainFrame: Module compiling took 2.270 seconds
+[2019.07.26-01.48.50:026][514]Warning: HotReload failed, recompile failed
+[2019.07.26-01.49.07:516][592]Candidate modules for hot reload:
+[2019.07.26-01.49.07:516][592]  Project_Tether
+[2019.07.26-01.49.07:516][592]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,9468 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.49.07:519][592]Warning: Starting HotReload took  0.0s.
+[2019.07.26-01.49.18:856][941]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:49:18 PM
+[2019.07.26-01.49.18:857][941]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.49.18:857][941]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.49.18:857][941]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.49.18:857][941]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.49.18:857][941]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.889703 seconds
+[2019.07.26-01.49.18:858][941]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.07.26-01.49.18:858][941]CompilerResultsLog:   [1/5] ToolComponent.gen.cpp
+[2019.07.26-01.49.18:858][941]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UTool'
+[2019.07.26-01.49.18:858][941]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(9): note: see declaration of 'UTool'
+[2019.07.26-01.49.18:858][941]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UTool>::operator *(void) const'
+[2019.07.26-01.49.18:859][941]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77): note: see reference to function template instantiation 'UClass *TSubclassOf<UTool>::operator *(void) const' being compiled
+[2019.07.26-01.49.18:859][941]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether/Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(25): note: see reference to class template instantiation 'TSubclassOf<UTool>' being compiled
+[2019.07.26-01.49.18:859][941]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.26-01.49.18:860][941]CompilerResultsLog:   [2/5] ToolComponent.cpp
+[2019.07.26-01.49.18:860][941]CompilerResultsLog:   [3/5] TopDown_E_Character.cpp
+[2019.07.26-01.49.18:860][941]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C2027: use of undefined type 'UTool'
+[2019.07.26-01.49.18:860][941]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(9): note: see declaration of 'UTool'
+[2019.07.26-01.49.18:860][941]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(54): note: while compiling class template member function 'UClass *TSubclassOf<UTool>::operator *(void) const'
+[2019.07.26-01.49.18:861][941]CompilerResultsLog:   E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(77): note: see reference to function template instantiation 'UClass *TSubclassOf<UTool>::operator *(void) const' being compiled
+[2019.07.26-01.49.18:861][941]CompilerResultsLog:   E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h(25): note: see reference to class template instantiation 'TSubclassOf<UTool>' being compiled
+[2019.07.26-01.49.18:861][941]CompilerResultsLog:    E:\Epic Games Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55) : error C3861: 'StaticClass': identifier not found
+[2019.07.26-01.49.18:862][941]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9468.dll
+[2019.07.26-01.49.18:862][941]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.26-01.49.18:862][941]CompilerResultsLog: Total build time: 11.11 seconds (Parallel executor: 0.00 seconds)
+[2019.07.26-01.49.18:862][941]LogMainFrame: MainFrame: Module compiling took 11.354 seconds
+[2019.07.26-01.49.18:862][941]Warning: HotReload failed, recompile failed
+[2019.07.26-01.49.52:984][364]Candidate modules for hot reload:
+[2019.07.26-01.49.52:984][364]  Project_Tether
+[2019.07.26-01.49.52:985][364]Launching UnrealBuildTool... [E:/Epic Games Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Project_Tether,9444 Win64 Development -TargetType=Editor -Project="../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" -canskiplink "E:/Projects/IronForgedGames/Project_Tether/Project_Tether/Project_Tether.uproject" ]
+[2019.07.26-01.49.52:989][364]Warning: Starting HotReload took  0.0s.
+[2019.07.26-01.50.10:297][782]CompilerResultsLog: New page: Compilation - Jul 25, 2019, 4:50:10 PM
+[2019.07.26-01.50.10:297][782]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.26-01.50.10:297][782]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.26-01.50.10:297][782]CompilerResultsLog: Parsing headers for Project_TetherEditor
+[2019.07.26-01.50.10:297][782]CompilerResultsLog:   Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.26-01.50.10:297][782]CompilerResultsLog: Reflection code generated for Project_TetherEditor in 8.1527732 seconds
+[2019.07.26-01.50.10:297][782]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.07.26-01.50.10:297][782]CompilerResultsLog:   [1/5] ToolComponent.cpp
+[2019.07.26-01.50.10:297][782]CompilerResultsLog:   [2/5] ToolComponent.gen.cpp
+[2019.07.26-01.50.10:297][782]CompilerResultsLog:   [3/5] TopDown_E_Character.cpp
+[2019.07.26-01.50.10:297][782]CompilerResultsLog:   [4/5] UE4Editor-Project_Tether-9444.lib
+[2019.07.26-01.50.10:297][782]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9444.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9444.exp
+[2019.07.26-01.50.10:297][782]CompilerResultsLog:   [5/5] UE4Editor-Project_Tether-9444.dll
+[2019.07.26-01.50.10:297][782]CompilerResultsLog:      Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9444.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-9444.suppressed.exp
+[2019.07.26-01.50.10:297][782]CompilerResultsLog: Total build time: 17.07 seconds (Parallel executor: 7.45 seconds)
+[2019.07.26-01.50.10:298][782]LogMainFrame: MainFrame: Module compiling took 17.322 seconds
+[2019.07.26-01.50.10:414][782]LogClass: ArmorSlot HotReload.
+[2019.07.26-01.50.10:414][782]LogClass: Rarity HotReload.
+[2019.07.26-01.50.10:414][782]LogClass: UsageType HotReload.
+[2019.07.26-01.50.10:414][782]LogClass: Status HotReload.
+[2019.07.26-01.50.10:414][782]LogClass: Slot HotReload.
+[2019.07.26-01.50.10:414][782]LogClass: StatModifier HotReload.
+[2019.07.26-01.50.10:414][782]LogClass: Stat HotReload.
+[2019.07.26-01.50.10:414][782]LogClass: ResistanceModifier HotReload.
+[2019.07.26-01.50.10:414][782]LogClass: HealInfo HotReload.
+[2019.07.26-01.50.10:414][782]LogClass: DamageInfo HotReload.
+[2019.07.26-01.50.10:420][782]Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+[2019.07.26-01.50.10:422][782]LogContentBrowser: Native class hierarchy updated for 'Project_Tether' in 0.0005 seconds. Added 28 classes and 15 folders.
+[2019.07.26-01.50.10:423][782]Warning: Some classes could not be reloaded:
+Error: CDO Constructor (Project_TetherGameMode): Failed to find /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+
+
+[2019.07.26-01.50.10:428][782]Display: HotReload successful (58 functions remapped  6 scriptstructs remapped)
+[2019.07.26-01.50.10:743][782]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2601 classes and 620 folders.
+[2019.07.26-01.50.10:748][782]Display: HotReload took 17.8s.
+[2019.07.26-01.50.54:385][ 40]BlueprintLog: New page: Compile TopDownCharacter_BP
+[2019.07.26-01.50.54:404][ 40]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.50.54:405][ 40]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.50.54:406][ 40]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.50.54:407][ 40]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.50.54:408][ 40]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.50.54:408][ 40]LogBlueprintUserMessages: [TopDownAnim_BP_C_1] Pawn does not have AnimBP hook
+[2019.07.26-01.50.54:628][ 40]LogBlueprintUserMessages: [TopDownAnim_BP_C_0] Pawn does not have AnimBP hook
+[2019.07.26-01.50.54:709][ 40]LogSavePackage: Moving '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Saved/TopDownCharacter_BPB55A825B4CF592C8D9E87094252DA873.tmp' to '../../../../../Projects/IronForgedGames/Project_Tether/Project_Tether/Content/IronForgedGames/Implementation/Gameplay/PlayerController/Test_TopDown_Controller/Blueprints/TopDownCharacter_BP.uasset'
+[2019.07.26-01.50.56:296][226]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.26-01.50.56:325][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.50.56:326][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.26-01.50.56:326][226]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 25, 2019, 4:50:56 PM)
+[2019.07.26-01.50.56:326][226]LogPlayLevel: Creating play world package: /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.07.26-01.50.56:338][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012015s)
+[2019.07.26-01.50.56:339][226]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.07.26-01.50.56:340][226]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2019.07.26-01.50.56:340][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.013770s)
+[2019.07.26-01.50.56:423][226]LogInit: XAudio2 using 'G257HL (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.26-01.50.56:432][226]LogInit: FAudioDevice initialized.
+[2019.07.26-01.50.56:462][226]LogLoad: Game class is 'GameMode'
+[2019.07.26-01.50.56:464][226]LogWorld: Bringing World /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.07.25-21.50.56
+[2019.07.26-01.50.56:465][226]LogWorld: Bringing up level for play took: 0.001577
+[2019.07.26-01.50.56:477][226]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.50.56:477][226]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.07.26-01.50.56:477][226]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.50.56:478][226]LogTemp: Error: Health stat was found, the Vitals will not work
+[2019.07.26-01.50.56:478][226]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.07.26-01.50.56:478][226]PIE: Play in editor start time for /Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.295
+[2019.07.26-01.50.56:478][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/IronForgedGames/Core/Entity/Test/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.07.26-01.50.57:612][359]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.07.26-01.51.14:877][359]LogWindows: Error: === Critical error: ===
+[2019.07.26-01.51.14:877][359]LogWindows: Error: 
+[2019.07.26-01.51.14:877][359]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 2276] 
+[2019.07.26-01.51.14:877][359]LogWindows: Error: Object is not packaged: Tool None
+[2019.07.26-01.51.14:877][359]LogWindows: Error: 
+[2019.07.26-01.51.14:877][359]LogWindows: Error: 
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffbd372a388 KERNELBASE.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb970a6850 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb87eb62fc UE4Editor-Core.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb87e451db UE4Editor-Core.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb879b2232 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb879af4a5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb879b2b5c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffba6023673 UE4Editor-Project_Tether-9444.dll!UToolComponent::GetTestPTR() [e:\projects\ironforgedgames\project_tether\project_tether\source\project_tether\public\implementation\gameplay\playercontroller\components\toolcomponent.h:39]
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffba6023c73 UE4Editor-Project_Tether-9444.dll!UToolComponent::execGetTestPTR() [e:\projects\ironforgedgames\project_tether\project_tether\source\project_tether\public\implementation\gameplay\playercontroller\components\toolcomponent.h:15]
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb876f6467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb879016ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb8791f499 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb87952266 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb87921b96 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb8790205d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb87921b96 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb876f6467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb87921133 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb78578033 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb798223a0 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb79853f52 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb7932017c UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb79334608 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb7931dbcb UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb793334c3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb78555630 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb797516bd UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb87cd1f92 UE4Editor-Core.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb87cd2456 UE4Editor-Core.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb87ce6d25 UE4Editor-Core.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb797a5b04 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb797b4d92 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb78eb87e4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb78ec4003 UE4Editor-Engine.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb85d97335 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffb8668f666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ff762255cbd UE4Editor.exe!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ff762265b3c UE4Editor.exe!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ff762265bba UE4Editor.exe!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ff762273dac UE4Editor.exe!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ff762275aaa UE4Editor.exe!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffbd6b64034 KERNEL32.DLL!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: [Callstack] 0x00007ffbd7043691 ntdll.dll!UnknownFunction []
+[2019.07.26-01.51.14:878][359]LogWindows: Error: 
+[2019.07.26-01.51.14:893][359]LogExit: Executing StaticShutdownAfterError
+[2019.07.26-01.51.15:625][359]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.07.26-01.51.15:764][359]Log file closed, 07/25/19 21:51:15
