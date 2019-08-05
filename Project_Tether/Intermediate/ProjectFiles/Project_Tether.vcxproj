@@ -266,8 +266,7 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\Project_Tether\Project_Tether.Build.cs" />
-    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Tools\Tool_StaticMeshComponent.cpp" />
-    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Tools\WeaponHandedness.cpp" />
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\PlayerComboComponent.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Project_Tether.cpp" />
     <ClInclude Include="..\..\Source\Project_Tether\Project_Tether.h" />
     <ClCompile Include="..\..\Source\Project_Tether\Project_TetherCharacter.cpp" />
@@ -297,14 +296,15 @@
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Tools\Tool.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Tools\ToolDatabase.cpp" />
     <ClInclude Include="..\..\Source\Project_Tether\Private\Core\Tools\ToolDatabase.h" />
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Tools\Tool_StaticMeshComponent.cpp" />
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Tools\WeaponHandedness.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Tools\WeaponType.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\Player\E_PlayerCharacter.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\TopDown_E_Character.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\AnimBPHook.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\EvadeComponent.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\ToolComponent.cpp" />
-    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Tools\Tool_StaticMeshComponent.h" />
-    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Tools\WeaponHandedness.h" />
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\PlayerComboComponent.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\TestDataAsset.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Class\ClassType.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Components\E_DamageType.h" />
@@ -326,6 +326,8 @@
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\ItemCategory.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Item\ItemSlot.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Tools\Tool.h" />
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Tools\Tool_StaticMeshComponent.h" />
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Tools\WeaponHandedness.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Tools\WeaponType.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\TopDown_E_Character.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\AnimBPHook.h" />

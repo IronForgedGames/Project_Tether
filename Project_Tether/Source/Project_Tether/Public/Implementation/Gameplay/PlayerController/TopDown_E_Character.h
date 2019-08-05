@@ -6,14 +6,13 @@ Studio: Iron Forged Games
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Public/Core/Tools/Tool.h"
 #include "Core/Entity/E_Character.h"
 #include "TopDown_E_Character.generated.h"
 
 class USpringArmComponent;
 class UCameraComponent;
 class UToolComponent;
-class UTool;
+//class UPlayerComboComponent;
 
 /**
  *	A simple top down controller used to prototype the player character
@@ -37,8 +36,8 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
 	UToolComponent* toolComponent;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
-	TSubclassOf<UTool> tool;
+	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
+	UPlayerComboComponent* comboComponent;*/
 
 	void MoveForward(float value);
 	void MoveRight(float value);
@@ -66,9 +65,6 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Locomotion")
 	bool GetFocused() { return focused; }
-
-	UFUNCTION(BlueprintCallable, Category = "Locomotion")
-	UTool* GetPTRTool(TSubclassOf<UTool> testtool) { return NewObject<UTool>(this, testtool); }
 
 	FORCEINLINE class USpringArmComponent* GetSpringArm() const { return springArm; }
 	FORCEINLINE class UCameraComponent* GetCamera() const { return camera; }

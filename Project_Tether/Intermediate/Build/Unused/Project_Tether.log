@@ -1,19 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for Project_TetherEditor (ini files are newer than UBTMakefile)
+  Creating makefile for Project_TetherEditor (no existing makefile)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for Project_TetherEditor
-    Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for Project_TetherEditor in 7.5943437 seconds
-  [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
-  [Adaptive unity build] Excluded from Project_Tether unity file: Tool_StaticMeshComponent.cpp, ToolDatabase.cpp, WeaponHandedness.cpp, ToolComponent.cpp
-  [Adaptive unity build] Excluded from Project_Tether.gen unity file: ClassType.gen.cpp, Project_Tether.init.gen.cpp, Tool_StaticMeshComponent.gen.cpp, ToolComponent.gen.cpp, WeaponHandedness.gen.cpp
-  Building 5 actions with 12 processes...
-    [1/5] Project_Tether.init.gen.cpp
-    [2/5] Tool_StaticMeshComponent.cpp
-    [3/5] Tool_StaticMeshComponent.gen.cpp
-    [4/5] UE4Editor-Project_Tether.lib
+  Building 4 actions with 12 processes...
+    [1/4] Module.Project_Tether.gen.cpp
+    [2/4] Module.Project_Tether.cpp
+    [3/4] UE4Editor-Project_Tether.lib
        Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.exp
-    [5/5] UE4Editor-Project_Tether.dll
+    [4/4] UE4Editor-Project_Tether.dll
        Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.exp
   Deploying Project_TetherEditor Win64 Development...
-  Total build time: 16.94 seconds (Parallel executor: 5.52 seconds)
+  Total build time: 145.79 seconds (Parallel executor: 113.61 seconds)

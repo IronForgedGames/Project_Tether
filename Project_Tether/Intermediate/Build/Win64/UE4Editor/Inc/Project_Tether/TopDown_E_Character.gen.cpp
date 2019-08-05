@@ -20,9 +20,6 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_EndFocus();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_FocusTick();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_GetFocused();
-	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool();
-	PROJECT_TETHER_API UClass* Z_Construct_UClass_UTool_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_StartFocus();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UToolComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
@@ -35,7 +32,6 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 			{ "EndFocus", &ATopDown_E_Character::execEndFocus },
 			{ "FocusTick", &ATopDown_E_Character::execFocusTick },
 			{ "GetFocused", &ATopDown_E_Character::execGetFocused },
-			{ "GetPTRTool", &ATopDown_E_Character::execGetPTRTool },
 			{ "StartFocus", &ATopDown_E_Character::execStartFocus },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -125,43 +121,6 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics
-	{
-		struct TopDown_E_Character_eventGetPTRTool_Parms
-		{
-			TSubclassOf<UTool>  testtool;
-			UTool* ReturnValue;
-		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_testtool;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Object, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(TopDown_E_Character_eventGetPTRTool_Parms, ReturnValue), Z_Construct_UClass_UTool_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::NewProp_testtool = { UE4CodeGen_Private::EPropertyClass::Class, "testtool", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000080, 1, nullptr, STRUCT_OFFSET(TopDown_E_Character_eventGetPTRTool_Parms, testtool), Z_Construct_UClass_UTool_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::NewProp_ReturnValue,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::NewProp_testtool,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Locomotion" },
-		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATopDown_E_Character, "GetPTRTool", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(TopDown_E_Character_eventGetPTRTool_Parms), Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	struct Z_Construct_UFunction_ATopDown_E_Character_StartFocus_Statics
 	{
 #if WITH_METADATA
@@ -197,10 +156,6 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_tool_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_tool;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_toolComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_toolComponent;
@@ -224,7 +179,6 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 		{ &Z_Construct_UFunction_ATopDown_E_Character_EndFocus, "EndFocus" }, // 473562587
 		{ &Z_Construct_UFunction_ATopDown_E_Character_FocusTick, "FocusTick" }, // 1124891972
 		{ &Z_Construct_UFunction_ATopDown_E_Character_GetFocused, "GetFocused" }, // 4163560516
-		{ &Z_Construct_UFunction_ATopDown_E_Character_GetPTRTool, "GetPTRTool" }, // 3892007410
 		{ &Z_Construct_UFunction_ATopDown_E_Character_StartFocus, "StartFocus" }, // 344405304
 	};
 #if WITH_METADATA
@@ -235,13 +189,6 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 		{ "ToolTip", "A simple top down controller used to prototype the player character" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_tool_MetaData[] = {
-		{ "Category", "Camera" },
-		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_tool = { UE4CodeGen_Private::EPropertyClass::Class, "tool", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0024080000000005, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, tool), Z_Construct_UClass_UTool_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_tool_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_tool_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent_MetaData[] = {
 		{ "Category", "Camera" },
@@ -267,7 +214,6 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm = { UE4CodeGen_Private::EPropertyClass::Object, "springArm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000080009, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, springArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATopDown_E_Character_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_tool,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm,
@@ -295,7 +241,7 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATopDown_E_Character, 3814043381);
+	IMPLEMENT_CLASS(ATopDown_E_Character, 1425479281);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATopDown_E_Character(Z_Construct_UClass_ATopDown_E_Character, &ATopDown_E_Character::StaticClass, TEXT("/Script/Project_Tether"), TEXT("ATopDown_E_Character"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATopDown_E_Character);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

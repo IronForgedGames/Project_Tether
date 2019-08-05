@@ -78,7 +78,7 @@ public:
 	TEnumAsByte<FHandedness> handedness;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
-	TSubclassOf<UWeaponType> weaponType;
+	UWeaponType* weaponType;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Tool")
 	TEnumAsByte<FArmorSlot> armorSlot;

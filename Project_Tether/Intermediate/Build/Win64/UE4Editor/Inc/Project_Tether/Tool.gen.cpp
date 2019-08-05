@@ -21,7 +21,6 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UTool_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UTool();
 	ENGINE_API UClass* Z_Construct_UClass_UDataAsset();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UWeaponType_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UPlayerClassType_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UItem_NoRegister();
@@ -257,7 +256,7 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_weaponType_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_weaponType;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_weaponType;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_handedness_MetaData[];
 #endif
@@ -326,7 +325,7 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 		{ "ModuleRelativePath", "Public/Core/Tools/Tool.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_weaponType = { UE4CodeGen_Private::EPropertyClass::Class, "weaponType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000015, 1, nullptr, STRUCT_OFFSET(UTool, weaponType), Z_Construct_UClass_UWeaponType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_weaponType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_weaponType_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UTool_Statics::NewProp_weaponType = { UE4CodeGen_Private::EPropertyClass::Object, "weaponType", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UTool, weaponType), Z_Construct_UClass_UWeaponType_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UTool_Statics::NewProp_weaponType_MetaData, ARRAY_COUNT(Z_Construct_UClass_UTool_Statics::NewProp_weaponType_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UTool_Statics::NewProp_handedness_MetaData[] = {
 		{ "Category", "Tool" },
@@ -411,7 +410,7 @@ void EmptyLinkFunctionForGeneratedCodeTool() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UTool, 3180812530);
+	IMPLEMENT_CLASS(UTool, 2435055774);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UTool(Z_Construct_UClass_UTool, &UTool::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UTool"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UTool);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
