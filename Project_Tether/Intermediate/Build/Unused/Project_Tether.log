@@ -1,12 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for Project_TetherEditor (no existing makefile)
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
+  Creating makefile for hot reloading Project_TetherEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Performing full C++ include scan (no include cache file)
+  Using Visual Studio 2017 14.21.27702 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
     [1/4] Module.Project_Tether.gen.cpp
     [2/4] Module.Project_Tether.cpp
-    [3/4] UE4Editor-Project_Tether.lib
-       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.exp
-    [4/4] UE4Editor-Project_Tether.dll
-       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.exp
+    [3/4] UE4Editor-Project_Tether-6498.lib
+       Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-6498.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-6498.exp
+    [4/4] UE4Editor-Project_Tether-6498.dll
+       Creating library E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-6498.suppressed.lib and object E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-6498.suppressed.exp
   Deploying Project_TetherEditor Win64 Development...
-  Total build time: 145.79 seconds (Parallel executor: 113.61 seconds)
+  Total build time: 15.85 seconds (Parallel executor: 9.56 seconds)

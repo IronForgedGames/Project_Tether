@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Project_Tether-5957.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\Module.Project_Tether.cpp.obj"
+"E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\Module.Project_Tether.gen.cpp.obj"
+"E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\PCLaunch.rc.res"
+/OUT:"E:\Tether\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether-5957.lib"

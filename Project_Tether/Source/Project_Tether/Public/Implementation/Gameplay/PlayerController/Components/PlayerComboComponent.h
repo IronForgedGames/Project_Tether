@@ -7,6 +7,8 @@
 class UAnimMontage;
 class UAnimInstance;
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FAttackComboEventSignature, UAnimMontage*, montage);
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROJECT_TETHER_API UPlayerComboComponent : public UActorComponent
 {
@@ -19,24 +21,36 @@ protected:
 	virtual void BeginPlay() override;
 	void SetAnimTick();
 
-	// the currently being used animations
+	ACharacter* owner;
+	UAnimInstance* animInstance;
+
+	bool isInitialized;
+
+	// Animation swapping
 	TArray<UAnimMontage*> currentAnimations;
-	
-	// when trying to set these will be set first
 	TArray<UAnimMontage*> pendingAnimations;
 
 	int currentBlendspaceIndex = 0;
 	int pendingBlendspaceIndex = 0;
-
-	int currentMaxComboCount = 0;
 	int pendingMaxComboCount = 0;
-
+	
 	bool waitingToSwapAnimations  = false;
+	// End animation swapping
 
-	bool isInCombo;
-
+	bool isInCombo = false;
+	bool canTransition;
+	int currentMaxComboCount = 0;
 	int currentInputCount = 0;
 	float currentTimeSinceInput = 0;
+
+	UPROPERTY(BlueprintAssignable)
+	FAttackComboEventSignature attackStartedEvent;
+	
+	UPROPERTY(BlueprintAssignable)
+	FAttackComboEventSignature attackEndedEvent;
+	
+	UPROPERTY(BlueprintAssignable)
+	FAttackComboEventSignature attackHitEvent;
 
 public:	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
@@ -44,10 +58,15 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void OnInputRecieved();
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable) // should be called from blueprint as well as montage ended
 	void OnCanTransition();
 
 	UFUNCTION(BlueprintCallable)
 	void SetAnimations(TArray<UAnimMontage*> animations, int blendspaceIndex = 0);
 	
+	UFUNCTION(BlueprintCallable)
+	void OnMontageEnded(UAnimMontage* montage);
+	
+	UFUNCTION(BlueprintCallable)
+	void OnMontageHit(UAnimMontage* montage);
 };
