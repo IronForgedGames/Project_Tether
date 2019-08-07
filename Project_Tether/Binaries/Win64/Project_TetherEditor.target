@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Project_Tether-6498.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Project_Tether-6075.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Project_Tether-6498.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Project_Tether-6075.pdb",
 			"Type": "SymbolFile"
 		},
 		{

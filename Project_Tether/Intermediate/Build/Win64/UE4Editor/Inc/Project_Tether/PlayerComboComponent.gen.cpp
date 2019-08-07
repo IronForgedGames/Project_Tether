@@ -119,7 +119,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 		struct PlayerComboComponent_eventOnMontageEnded_Parms
 		{
 			UAnimMontage* montage;
+			bool interrupted;
 		};
+		static void NewProp_interrupted_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_interrupted;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_montage;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -127,8 +130,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
+	void Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded_Statics::NewProp_interrupted_SetBit(void* Obj)
+	{
+		((PlayerComboComponent_eventOnMontageEnded_Parms*)Obj)->interrupted = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded_Statics::NewProp_interrupted = { UE4CodeGen_Private::EPropertyClass::Bool, "interrupted", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(PlayerComboComponent_eventOnMontageEnded_Parms), &Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded_Statics::NewProp_interrupted_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded_Statics::NewProp_montage = { UE4CodeGen_Private::EPropertyClass::Object, "montage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(PlayerComboComponent_eventOnMontageEnded_Parms, montage), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded_Statics::NewProp_interrupted,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded_Statics::NewProp_montage,
 	};
 #if WITH_METADATA
@@ -252,7 +261,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_UPlayerComboComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UPlayerComboComponent_OnCanTransition, "OnCanTransition" }, // 3378632478
 		{ &Z_Construct_UFunction_UPlayerComboComponent_OnInputRecieved, "OnInputRecieved" }, // 2066940419
-		{ &Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded, "OnMontageEnded" }, // 3309741893
+		{ &Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded, "OnMontageEnded" }, // 462309713
 		{ &Z_Construct_UFunction_UPlayerComboComponent_OnMontageHit, "OnMontageHit" }, // 659159951
 		{ &Z_Construct_UFunction_UPlayerComboComponent_SetAnimations, "SetAnimations" }, // 4175481664
 	};
@@ -310,7 +319,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerComboComponent, 2619058728);
+	IMPLEMENT_CLASS(UPlayerComboComponent, 302329979);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UPlayerComboComponent(Z_Construct_UClass_UPlayerComboComponent, &UPlayerComboComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UPlayerComboComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UPlayerComboComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

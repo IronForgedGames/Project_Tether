@@ -16,6 +16,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly , Category = "WeaponType")
 	FString weaponTypeName;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "WeaponType")
+	int blendSpaceIndex = 0;
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly , Category = "WeaponType")
 	TArray<UAnimMontage*> standardAttackAnims;
 

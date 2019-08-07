@@ -48,6 +48,10 @@ void EmptyLinkFunctionForGeneratedCodeWeaponType() {}
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_standardAttackAnims;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_standardAttackAnims_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_blendSpaceIndex_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_blendSpaceIndex;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_weaponTypeName_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_weaponTypeName;
@@ -92,6 +96,13 @@ void EmptyLinkFunctionForGeneratedCodeWeaponType() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UWeaponType_Statics::NewProp_standardAttackAnims = { UE4CodeGen_Private::EPropertyClass::Array, "standardAttackAnims", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UWeaponType, standardAttackAnims), METADATA_PARAMS(Z_Construct_UClass_UWeaponType_Statics::NewProp_standardAttackAnims_MetaData, ARRAY_COUNT(Z_Construct_UClass_UWeaponType_Statics::NewProp_standardAttackAnims_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UWeaponType_Statics::NewProp_standardAttackAnims_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "standardAttackAnims", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UWeaponType_Statics::NewProp_blendSpaceIndex_MetaData[] = {
+		{ "Category", "WeaponType" },
+		{ "ModuleRelativePath", "Public/Core/Tools/WeaponType.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UWeaponType_Statics::NewProp_blendSpaceIndex = { UE4CodeGen_Private::EPropertyClass::Int, "blendSpaceIndex", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(UWeaponType, blendSpaceIndex), METADATA_PARAMS(Z_Construct_UClass_UWeaponType_Statics::NewProp_blendSpaceIndex_MetaData, ARRAY_COUNT(Z_Construct_UClass_UWeaponType_Statics::NewProp_blendSpaceIndex_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UWeaponType_Statics::NewProp_weaponTypeName_MetaData[] = {
 		{ "Category", "WeaponType" },
 		{ "ModuleRelativePath", "Public/Core/Tools/WeaponType.h" },
@@ -105,6 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeWeaponType() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponType_Statics::NewProp_altAttackAnims_1_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponType_Statics::NewProp_standardAttackAnims,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponType_Statics::NewProp_standardAttackAnims_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponType_Statics::NewProp_blendSpaceIndex,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UWeaponType_Statics::NewProp_weaponTypeName,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UWeaponType_Statics::StaticCppClassTypeInfo = {
@@ -130,7 +142,7 @@ void EmptyLinkFunctionForGeneratedCodeWeaponType() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UWeaponType, 570107950);
+	IMPLEMENT_CLASS(UWeaponType, 533807279);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UWeaponType(Z_Construct_UClass_UWeaponType, &UWeaponType::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UWeaponType"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UWeaponType);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -6,6 +6,7 @@
 
 class UAnimMontage;
 class UAnimInstance;
+class ACharacter;
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FAttackComboEventSignature, UAnimMontage*, montage);
 
@@ -19,7 +20,9 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
+
 	void SetAnimTick();
+	void AnimTransitionTick();
 
 	ACharacter* owner;
 	UAnimInstance* animInstance;
@@ -37,11 +40,12 @@ protected:
 	bool waitingToSwapAnimations  = false;
 	// End animation swapping
 
-	bool isInCombo = false;
-	bool canTransition;
+	bool inCombo = false;
+	bool canTransition = true;
+
 	int currentMaxComboCount = 0;
 	int currentInputCount = 0;
-	float currentTimeSinceInput = 0;
+	int currentIndex = 0;
 
 	UPROPERTY(BlueprintAssignable)
 	FAttackComboEventSignature attackStartedEvent;
@@ -65,7 +69,7 @@ public:
 	void SetAnimations(TArray<UAnimMontage*> animations, int blendspaceIndex = 0);
 	
 	UFUNCTION(BlueprintCallable)
-	void OnMontageEnded(UAnimMontage* montage);
+	void OnMontageEnded(UAnimMontage* montage, bool interrupted);
 	
 	UFUNCTION(BlueprintCallable)
 	void OnMontageHit(UAnimMontage* montage);
