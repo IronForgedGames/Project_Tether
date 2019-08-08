@@ -7,6 +7,7 @@
 class UAnimMontage;
 class UAnimInstance;
 class ACharacter;
+class UWeaponType;
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FAttackComboEventSignature, UAnimMontage*, montage);
 
@@ -30,8 +31,11 @@ protected:
 	bool isInitialized;
 
 	// Animation swapping
-	TArray<UAnimMontage*> currentAnimations;
-	TArray<UAnimMontage*> pendingAnimations;
+	TArray<UAnimMontage*> currentStandardAnimations;
+	TArray<UAnimMontage*> pendingStandardAnimations;
+
+	TArray<UAnimMontage*> currentAlternateAnimations;
+	TArray<UAnimMontage*> pendingAlternateAnimations;
 
 	int currentBlendspaceIndex = 0;
 	int pendingBlendspaceIndex = 0;
@@ -42,6 +46,7 @@ protected:
 
 	bool inCombo = false;
 	bool canTransition = true;
+	bool shouldBranch = false;
 
 	int currentMaxComboCount = 0;
 	int currentInputCount = 0;
@@ -69,8 +74,14 @@ public:
 	void SetAnimations(TArray<UAnimMontage*> animations, int blendspaceIndex = 0);
 	
 	UFUNCTION(BlueprintCallable)
+	void SetAnimationsFromWeapon(UWeaponType* weaponType);
+
+	UFUNCTION(BlueprintCallable)
 	void OnMontageEnded(UAnimMontage* montage, bool interrupted);
 	
 	UFUNCTION(BlueprintCallable)
 	void OnMontageHit(UAnimMontage* montage);
+
+	UFUNCTION(BlueprintCallable)
+	bool SetShouldBranch(bool shouldBranch);
 };
