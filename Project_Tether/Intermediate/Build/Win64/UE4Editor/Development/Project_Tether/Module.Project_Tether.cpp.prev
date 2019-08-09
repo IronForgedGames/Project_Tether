@@ -13,8 +13,6 @@
 #include "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\Group.cpp"
 #include "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\Identity.cpp"
 #include "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\IEntity.cpp"
-#include "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Item\Inventory.cpp"
-#include "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Item\InventoryComponent.cpp"
 #include "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Item\Item.cpp"
 #include "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Item\ItemCategory.cpp"
 #include "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Item\ItemSlot.cpp"

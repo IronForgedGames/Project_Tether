@@ -8,7 +8,6 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UInventory;
 class UEntityManager;
 #ifdef PROJECT_TETHER_E_GameModeBase_generated_h
 #error "E_GameModeBase.generated.h already included, missing '#pragma once' in E_GameModeBase.h"
@@ -16,14 +15,6 @@ class UEntityManager;
 #define PROJECT_TETHER_E_GameModeBase_generated_h
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execGetInventory) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(TSubclassOf<UInventory> *)Z_Param__Result=P_THIS->GetInventory(); \
-		P_NATIVE_END; \
-	} \
  \
 	DECLARE_FUNCTION(execGetEntityManager) \
 	{ \
@@ -35,14 +26,6 @@ class UEntityManager;
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execGetInventory) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(TSubclassOf<UInventory> *)Z_Param__Result=P_THIS->GetInventory(); \
-		P_NATIVE_END; \
-	} \
  \
 	DECLARE_FUNCTION(execGetEntityManager) \
 	{ \
@@ -98,8 +81,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AE_GameModeBase); \
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__entityManager() { return STRUCT_OFFSET(AE_GameModeBase, entityManager); } \
-	FORCEINLINE static uint32 __PPO__inventory() { return STRUCT_OFFSET(AE_GameModeBase, inventory); }
+	FORCEINLINE static uint32 __PPO__entityManager() { return STRUCT_OFFSET(AE_GameModeBase, entityManager); }
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_15_PROLOG

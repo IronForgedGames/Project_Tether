@@ -8,14 +8,52 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UInventory;
+class UEntityManager;
 #ifdef PROJECT_TETHER_E_GameInstance_generated_h
 #error "E_GameInstance.generated.h already included, missing '#pragma once' in E_GameInstance.h"
 #endif
 #define PROJECT_TETHER_E_GameInstance_generated_h
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_RPC_WRAPPERS
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_INCLASS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetInventory) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UInventory**)Z_Param__Result=P_THIS->GetInventory(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetEntityManager) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UEntityManager**)Z_Param__Result=P_THIS->GetEntityManager(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetInventory) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UInventory**)Z_Param__Result=P_THIS->GetInventory(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetEntityManager) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(UEntityManager**)Z_Param__Result=P_THIS->GetEntityManager(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUE_GameInstance(); \
 	friend struct Z_Construct_UClass_UE_GameInstance_Statics; \
@@ -24,7 +62,7 @@ public: \
 	DECLARE_SERIALIZER(UE_GameInstance)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_INCLASS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUE_GameInstance(); \
 	friend struct Z_Construct_UClass_UE_GameInstance_Statics; \
@@ -33,7 +71,7 @@ public: \
 	DECLARE_SERIALIZER(UE_GameInstance)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_STANDARD_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UE_GameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UE_GameInstance) \
@@ -46,7 +84,7 @@ private: \
 public:
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_ENHANCED_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UE_GameInstance(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +97,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UE_GameInstance); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UE_GameInstance)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_PRIVATE_PROPERTY_OFFSET
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_12_PROLOG
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_GENERATED_BODY_LEGACY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__inventory() { return STRUCT_OFFSET(UE_GameInstance, inventory); }
+
+
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_14_PROLOG
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_RPC_WRAPPERS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_INCLASS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_STANDARD_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_RPC_WRAPPERS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_INCLASS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_INCLASS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_15_ENHANCED_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_INCLASS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameInstance_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

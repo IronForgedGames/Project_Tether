@@ -6,6 +6,8 @@
 #include "Engine/GameInstance.h"
 #include "E_GameInstance.generated.h"
 
+class UEntityManager;
+
 /**
  * 
  */
@@ -14,7 +16,18 @@ class PROJECT_TETHER_API UE_GameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 	
+protected:
 	
+	UEntityManager* entityManager; // generated
+
+	UPROPERTY(EditAnywhere)
+	UInventory* inventory; // dataasset
 	
+public:
+	UFUNCTION(BlueprintCallable)
+	UEntityManager* GetEntityManager();
+	
+	UFUNCTION(BlueprintCallable)
+	UInventory* GetInventory();
 	
 };

@@ -51,7 +51,6 @@ FToolData UToolComponent::CreateToolInstance(UTool* toolBase)
 	FToolData _result = FToolData();
 	_result.toolBase = toolBase;
 	_result.power = 100.f; // TODO : update this
-	
 
 	return _result;
 }

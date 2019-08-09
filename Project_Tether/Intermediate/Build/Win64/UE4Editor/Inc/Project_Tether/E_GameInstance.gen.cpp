@@ -17,9 +17,83 @@ void EmptyLinkFunctionForGeneratedCodeE_GameInstance() {}
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UE_GameInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UGameInstance();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
+	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UE_GameInstance_GetEntityManager();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UEntityManager_NoRegister();
+	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UE_GameInstance_GetInventory();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UInventory_NoRegister();
 // End Cross Module References
 	void UE_GameInstance::StaticRegisterNativesUE_GameInstance()
 	{
+		UClass* Class = UE_GameInstance::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "GetEntityManager", &UE_GameInstance::execGetEntityManager },
+			{ "GetInventory", &UE_GameInstance::execGetInventory },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics
+	{
+		struct E_GameInstance_eventGetEntityManager_Parms
+		{
+			UEntityManager* ReturnValue;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Object, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(E_GameInstance_eventGetEntityManager_Parms, ReturnValue), Z_Construct_UClass_UEntityManager_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Core/Entity/E_GameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UE_GameInstance, "GetEntityManager", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(E_GameInstance_eventGetEntityManager_Parms), Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UE_GameInstance_GetEntityManager()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UE_GameInstance_GetEntityManager_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics
+	{
+		struct E_GameInstance_eventGetInventory_Parms
+		{
+			UInventory* ReturnValue;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Object, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, STRUCT_OFFSET(E_GameInstance_eventGetInventory_Parms, ReturnValue), Z_Construct_UClass_UInventory_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Core/Entity/E_GameInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UE_GameInstance, "GetInventory", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(E_GameInstance_eventGetInventory_Parms), Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UE_GameInstance_GetInventory()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UE_GameInstance_GetInventory_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UE_GameInstance_NoRegister()
 	{
@@ -28,9 +102,15 @@ void EmptyLinkFunctionForGeneratedCodeE_GameInstance() {}
 	struct Z_Construct_UClass_UE_GameInstance_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_inventory_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_inventory;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -38,12 +118,27 @@ void EmptyLinkFunctionForGeneratedCodeE_GameInstance() {}
 		(UObject* (*)())Z_Construct_UClass_UGameInstance,
 		(UObject* (*)())Z_Construct_UPackage__Script_Project_Tether,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UE_GameInstance_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UE_GameInstance_GetEntityManager, "GetEntityManager" }, // 1815362405
+		{ &Z_Construct_UFunction_UE_GameInstance_GetInventory, "GetInventory" }, // 686851476
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UE_GameInstance_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "Core/Entity/E_GameInstance.h" },
 		{ "ModuleRelativePath", "Public/Core/Entity/E_GameInstance.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UE_GameInstance_Statics::NewProp_inventory_MetaData[] = {
+		{ "Category", "E_GameInstance" },
+		{ "ModuleRelativePath", "Public/Core/Entity/E_GameInstance.h" },
+		{ "ToolTip", "generated" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UE_GameInstance_Statics::NewProp_inventory = { UE4CodeGen_Private::EPropertyClass::Object, "inventory", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(UE_GameInstance, inventory), Z_Construct_UClass_UInventory_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UE_GameInstance_Statics::NewProp_inventory_MetaData, ARRAY_COUNT(Z_Construct_UClass_UE_GameInstance_Statics::NewProp_inventory_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UE_GameInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UE_GameInstance_Statics::NewProp_inventory,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UE_GameInstance_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UE_GameInstance>::IsAbstract,
 	};
@@ -51,8 +146,8 @@ void EmptyLinkFunctionForGeneratedCodeE_GameInstance() {}
 		&UE_GameInstance::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x001000A8u,
-		nullptr, 0,
-		nullptr, 0,
+		FuncInfo, ARRAY_COUNT(FuncInfo),
+		Z_Construct_UClass_UE_GameInstance_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_UE_GameInstance_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -67,7 +162,7 @@ void EmptyLinkFunctionForGeneratedCodeE_GameInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UE_GameInstance, 2085240403);
+	IMPLEMENT_CLASS(UE_GameInstance, 959679184);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UE_GameInstance(Z_Construct_UClass_UE_GameInstance, &UE_GameInstance::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UE_GameInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UE_GameInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
