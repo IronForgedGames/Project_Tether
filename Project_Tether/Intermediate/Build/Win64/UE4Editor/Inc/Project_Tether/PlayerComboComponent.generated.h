@@ -67,16 +67,6 @@ static inline void FAttackComboEventSignature_DelegateWrapper(const FMulticastSc
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execSetAnimations) \
-	{ \
-		P_GET_TARRAY(UAnimMontage*,Z_Param_animations); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_blendspaceIndex); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetAnimations(Z_Param_animations,Z_Param_blendspaceIndex); \
-		P_NATIVE_END; \
-	} \
- \
 	DECLARE_FUNCTION(execOnCanTransition) \
 	{ \
 		P_FINISH; \
@@ -130,16 +120,6 @@ static inline void FAttackComboEventSignature_DelegateWrapper(const FMulticastSc
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->SetAnimationsFromWeapon(Z_Param_weaponType); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execSetAnimations) \
-	{ \
-		P_GET_TARRAY(UAnimMontage*,Z_Param_animations); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_blendspaceIndex); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->SetAnimations(Z_Param_animations,Z_Param_blendspaceIndex); \
 		P_NATIVE_END; \
 	} \
  \

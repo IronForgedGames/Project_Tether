@@ -23,7 +23,6 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UPlayerComboComponent_OnInputRecieved();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UPlayerComboComponent_OnMontageHit();
-	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UPlayerComboComponent_SetAnimations();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UPlayerComboComponent_SetAnimationsFromWeapon();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UWeaponType_NoRegister();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UPlayerComboComponent_SetShouldBranch();
@@ -68,7 +67,6 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 			{ "OnInputRecieved", &UPlayerComboComponent::execOnInputRecieved },
 			{ "OnMontageEnded", &UPlayerComboComponent::execOnMontageEnded },
 			{ "OnMontageHit", &UPlayerComboComponent::execOnMontageHit },
-			{ "SetAnimations", &UPlayerComboComponent::execSetAnimations },
 			{ "SetAnimationsFromWeapon", &UPlayerComboComponent::execSetAnimationsFromWeapon },
 			{ "SetShouldBranch", &UPlayerComboComponent::execSetShouldBranch },
 		};
@@ -192,46 +190,6 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics
-	{
-		struct PlayerComboComponent_eventSetAnimations_Parms
-		{
-			TArray<UAnimMontage*> animations;
-			int32 blendspaceIndex;
-		};
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_blendspaceIndex;
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_animations;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_animations_Inner;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::NewProp_blendspaceIndex = { UE4CodeGen_Private::EPropertyClass::Int, "blendspaceIndex", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(PlayerComboComponent_eventSetAnimations_Parms, blendspaceIndex), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::NewProp_animations = { UE4CodeGen_Private::EPropertyClass::Array, "animations", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(PlayerComboComponent_eventSetAnimations_Parms, animations), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::NewProp_animations_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "animations", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::NewProp_blendspaceIndex,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::NewProp_animations,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::NewProp_animations_Inner,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::Function_MetaDataParams[] = {
-		{ "CPP_Default_blendspaceIndex", "0" },
-		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/Components/PlayerComboComponent.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UPlayerComboComponent, "SetAnimations", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, sizeof(PlayerComboComponent_eventSetAnimations_Parms), Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UPlayerComboComponent_SetAnimations()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UPlayerComboComponent_SetAnimations_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	struct Z_Construct_UFunction_UPlayerComboComponent_SetAnimationsFromWeapon_Statics
 	{
 		struct PlayerComboComponent_eventSetAnimationsFromWeapon_Parms
@@ -346,7 +304,6 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 		{ &Z_Construct_UFunction_UPlayerComboComponent_OnInputRecieved, "OnInputRecieved" }, // 2066940419
 		{ &Z_Construct_UFunction_UPlayerComboComponent_OnMontageEnded, "OnMontageEnded" }, // 462309713
 		{ &Z_Construct_UFunction_UPlayerComboComponent_OnMontageHit, "OnMontageHit" }, // 659159951
-		{ &Z_Construct_UFunction_UPlayerComboComponent_SetAnimations, "SetAnimations" }, // 4175481664
 		{ &Z_Construct_UFunction_UPlayerComboComponent_SetAnimationsFromWeapon, "SetAnimationsFromWeapon" }, // 77294452
 		{ &Z_Construct_UFunction_UPlayerComboComponent_SetShouldBranch, "SetShouldBranch" }, // 1803963413
 	};
@@ -404,7 +361,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerComboComponent, 2351025074);
+	IMPLEMENT_CLASS(UPlayerComboComponent, 4149804864);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UPlayerComboComponent(Z_Construct_UClass_UPlayerComboComponent, &UPlayerComboComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UPlayerComboComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UPlayerComboComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

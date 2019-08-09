@@ -71,9 +71,6 @@ public:
 	void OnCanTransition();
 
 	UFUNCTION(BlueprintCallable)
-	void SetAnimations(TArray<UAnimMontage*> animations, int blendspaceIndex = 0);
-	
-	UFUNCTION(BlueprintCallable)
 	void SetAnimationsFromWeapon(UWeaponType* weaponType);
 
 	UFUNCTION(BlueprintCallable)

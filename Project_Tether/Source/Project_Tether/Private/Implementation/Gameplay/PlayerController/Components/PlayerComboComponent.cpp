@@ -21,7 +21,6 @@ void UPlayerComboComponent::BeginPlay()
 		if (animInstance != nullptr)
 		{
 			isInitialized = true;
-			UE_LOG(LogTemp, Warning, TEXT("Is initialized"));
 		}
 	}
 }
@@ -113,14 +112,6 @@ void UPlayerComboComponent::SetAnimTick()
 	}
 }
 
-void UPlayerComboComponent::SetAnimations(TArray<UAnimMontage*> animations, int blendspaceIndex)
-{
-	waitingToSwapAnimations = true;
-	pendingStandardAnimations = animations;
-	pendingMaxComboCount = animations.Num();
-	pendingBlendspaceIndex = blendspaceIndex;
-}
-
 void UPlayerComboComponent::SetAnimationsFromWeapon(UWeaponType * weaponType)
 {
 	if (weaponType->standardAttackAnims.Num() > 0)
@@ -130,7 +121,6 @@ void UPlayerComboComponent::SetAnimationsFromWeapon(UWeaponType * weaponType)
 
 		if (weaponType->altAttackAnims_1.Num() > 0)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("set the pending"));
 			pendingAlternateAnimations = weaponType->altAttackAnims_1;
 		}
 
