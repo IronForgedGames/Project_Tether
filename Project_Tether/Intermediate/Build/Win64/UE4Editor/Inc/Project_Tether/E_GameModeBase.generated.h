@@ -8,34 +8,13 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UEntityManager;
 #ifdef PROJECT_TETHER_E_GameModeBase_generated_h
 #error "E_GameModeBase.generated.h already included, missing '#pragma once' in E_GameModeBase.h"
 #endif
 #define PROJECT_TETHER_E_GameModeBase_generated_h
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execGetEntityManager) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(UEntityManager**)Z_Param__Result=P_THIS->GetEntityManager(); \
-		P_NATIVE_END; \
-	}
-
-
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execGetEntityManager) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(UEntityManager**)Z_Param__Result=P_THIS->GetEntityManager(); \
-		P_NATIVE_END; \
-	}
-
-
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_RPC_WRAPPERS
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_RPC_WRAPPERS_NO_PURE_DECLS
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAE_GameModeBase(); \
@@ -80,10 +59,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AE_GameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AE_GameModeBase)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__entityManager() { return STRUCT_OFFSET(AE_GameModeBase, entityManager); }
-
-
+#define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_PRIVATE_PROPERTY_OFFSET
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_15_PROLOG
 #define Project_Tether_Source_Project_Tether_Public_Core_Entity_E_GameModeBase_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

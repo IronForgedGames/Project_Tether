@@ -424,11 +424,8 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Source\Project_Tether\Private\Core\Entity\E_GameModeBase.cpp"
-/FI"E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\Definitions.Project_Tether.h"
+/FI"E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\Definitions.Adaptive.h"
 /Fo"E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\E_GameModeBase.cpp.obj"
 /TP
 /GR-

@@ -7,6 +7,8 @@ Studio: Iron Forged Games
 #include "Public/Core/Entity/EntityManager.h"
 #include "Public/Core/Entity/Identity.h"
 #include "Public/Core/Entity/Group.h"
+#include "E_GameInstance.h"
+#include "Engine/World.h"
 
 
 // Sets default values for this component's properties
@@ -33,19 +35,19 @@ void UEntity::EndPlay(const EEndPlayReason::Type EndPlayReason)
 
 void UEntity::RegisterEntity()
 {
-	AE_GameModeBase* e_gameMode = Cast<AE_GameModeBase>(GetWorld()->GetAuthGameMode());
-	if (e_gameMode != nullptr)
+	UE_GameInstance* _gameInstance = Cast<UE_GameInstance>(GetWorld()->GetGameInstance());
+	if (_gameInstance != nullptr)
 	{
-		e_gameMode->GetEntityManager()->RegisterEntity(this);
+		_gameInstance->GetEntityManager()->RegisterEntity(this);
 	}
 }
 
 void UEntity::DeRegisterEntity()
 {
-	AE_GameModeBase* e_gameMode = Cast<AE_GameModeBase>(GetWorld()->GetAuthGameMode());
-	if (e_gameMode != nullptr)
+	UE_GameInstance* _gameInstance = Cast<UE_GameInstance>(GetWorld()->GetGameInstance());
+	if (_gameInstance != nullptr)
 	{
-		e_gameMode->GetEntityManager()->DeRegisterEntity(this);
+		_gameInstance->GetEntityManager()->DeRegisterEntity(this);
 	}
 }
 
