@@ -57,6 +57,7 @@ FORCEINLINE uint32 GetTypeHash(const FDamageInfo& other)
 	return FCrc::MemCrc_DEPRECATED(&other, sizeof(FDamageInfo));
 }
 
+
 USTRUCT(Blueprintable)
 struct PROJECT_TETHER_API FHealInfo
 {
@@ -101,6 +102,7 @@ FORCEINLINE uint32 GetTypeHash(const FHealInfo& other)
 	return FCrc::MemCrc_DEPRECATED(&other, sizeof(FHealInfo));
 }
 
+
 USTRUCT(Blueprintable)
 struct PROJECT_TETHER_API FResistanceModifier
 {
@@ -113,6 +115,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Resistance")
 	float multiplier;
 };
+
 
 UENUM()
 enum Status
@@ -130,26 +133,28 @@ class PROJECT_TETHER_API UVitalsComponent : public UActorComponent
 public:	
 	UVitalsComponent();
 
+	UPROPERTY(EditAnywhere)
+	bool isInvinsible = false;
+
 protected:
 	virtual void BeginPlay() override;
 
 	UStatComponent* statComponent;
-	
 	bool isInitialized = false;
 
+	UPROPERTY(EditAnywhere)
 	UStatType* healthStat;
 
-	UPROPERTY(EditAnywhere, Category = "Status")
+	UPROPERTY(EditAnywhere)
 	TEnumAsByte<Status> status;
 	
-	UPROPERTY(EditAnywhere, Category = "Status")
+	UPROPERTY(EditAnywhere)
 	TArray<FResistanceModifier> resistanceModifiers;
 
 	TArray<FDamageInfo> dots; // damage over time infos
 	TArray<FHealInfo> hots; // heal over time infos
 
 public:	
-	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	void Evaluate();

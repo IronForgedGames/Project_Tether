@@ -1,16 +1,11 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 #include "EvadeComponent.h"
+#include "StateComponent.h"
+#include "GameFramework/Actor.h"
 
-
-// Sets default values for this component's properties
 UEvadeComponent::UEvadeComponent()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
-	// ...
 }
 
 
@@ -19,8 +14,11 @@ void UEvadeComponent::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
-	
+	stateComponent = Cast<UStateComponent>(GetOwner()->GetComponentByClass(UStateComponent::StaticClass()));
+	if (stateComponent != nullptr)
+	{
+		initialized = true;
+	}
 }
 
 
@@ -28,7 +26,22 @@ void UEvadeComponent::BeginPlay()
 void UEvadeComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+}
 
-	// ...
+void UEvadeComponent::StartEvade(FVector currentVelocity)
+{
+	if (initialized)
+	{
+		if (!stateComponent->AnyStateTrue(unavailableStates))
+		{
+			UE_LOG(LogTemp, Warning, TEXT("fire event"));	
+			evadeStarted.Broadcast();
+		}
+	}
+}
+
+void UEvadeComponent::EndEvade()
+{
+	evadeEnded.Broadcast();
 }
 

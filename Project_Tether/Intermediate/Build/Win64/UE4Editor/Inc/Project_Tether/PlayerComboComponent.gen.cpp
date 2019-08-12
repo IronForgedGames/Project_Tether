@@ -13,8 +13,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 // Cross Module References
-	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_AttackComboEventSignature__DelegateSignature();
+	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
+	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_AttackComboEventSignature__DelegateSignature();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UPlayerComboComponent_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UPlayerComboComponent();
@@ -27,6 +28,28 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UWeaponType_NoRegister();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UPlayerComboComponent_SetShouldBranch();
 // End Cross Module References
+	struct Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/Components/PlayerComboComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_Project_Tether, "AttackingStatusEventSignature__DelegateSignature", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00130000, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UDelegateFunction_Project_Tether_AttackComboEventSignature__DelegateSignature_Statics
 	{
 		struct _Script_Project_Tether_eventAttackComboEventSignature_Parms
@@ -280,6 +303,14 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_endedComboEvent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_endedComboEvent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_startedComboEvent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_startedComboEvent;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_attackHitEvent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMulticastDelegatePropertyParams NewProp_attackHitEvent;
@@ -316,6 +347,18 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_endedComboEvent_MetaData[] = {
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/Components/PlayerComboComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_endedComboEvent = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "endedComboEvent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080010080000, 1, nullptr, STRUCT_OFFSET(UPlayerComboComponent, endedComboEvent), Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_endedComboEvent_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_endedComboEvent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_startedComboEvent_MetaData[] = {
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/Components/PlayerComboComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_startedComboEvent = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "startedComboEvent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080010080000, 1, nullptr, STRUCT_OFFSET(UPlayerComboComponent, startedComboEvent), Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_startedComboEvent_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_startedComboEvent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_attackHitEvent_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/Components/PlayerComboComponent.h" },
 	};
@@ -334,6 +377,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 #endif
 	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_attackStartedEvent = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "attackStartedEvent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080010080000, 1, nullptr, STRUCT_OFFSET(UPlayerComboComponent, attackStartedEvent), Z_Construct_UDelegateFunction_Project_Tether_AttackComboEventSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_attackStartedEvent_MetaData, ARRAY_COUNT(Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_attackStartedEvent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerComboComponent_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_endedComboEvent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_startedComboEvent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_attackHitEvent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_attackEndedEvent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerComboComponent_Statics::NewProp_attackStartedEvent,
@@ -361,7 +406,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerComboComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerComboComponent, 4149804864);
+	IMPLEMENT_CLASS(UPlayerComboComponent, 2198446761);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UPlayerComboComponent(Z_Construct_UClass_UPlayerComboComponent, &UPlayerComboComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UPlayerComboComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UPlayerComboComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeVitalsComponent() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UVitalsComponent_Heal();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UVitalsComponent_HealAll();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_UVitalsComponent_KillImmediately();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStatType_NoRegister();
 // End Cross Module References
 	static UEnum* Status_StaticEnum()
 	{
@@ -532,6 +533,15 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFDamageInfo
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_status_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_status;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_healthStat_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_healthStat;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isInvinsible_MetaData[];
+#endif
+		static void NewProp_isInvinsible_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isInvinsible;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -557,7 +567,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFDamageInfo
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVitalsComponent_Statics::NewProp_resistanceModifiers_MetaData[] = {
-		{ "Category", "Status" },
+		{ "Category", "VitalsComponent" },
 		{ "ModuleRelativePath", "Public/Core/Components/VitalsComponent.h" },
 	};
 #endif
@@ -565,15 +575,35 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFDamageInfo
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UVitalsComponent_Statics::NewProp_resistanceModifiers_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "resistanceModifiers", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FResistanceModifier, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVitalsComponent_Statics::NewProp_status_MetaData[] = {
-		{ "Category", "Status" },
+		{ "Category", "VitalsComponent" },
 		{ "ModuleRelativePath", "Public/Core/Components/VitalsComponent.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_UVitalsComponent_Statics::NewProp_status = { UE4CodeGen_Private::EPropertyClass::Byte, "status", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(UVitalsComponent, status), Z_Construct_UEnum_Project_Tether_Status, METADATA_PARAMS(Z_Construct_UClass_UVitalsComponent_Statics::NewProp_status_MetaData, ARRAY_COUNT(Z_Construct_UClass_UVitalsComponent_Statics::NewProp_status_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVitalsComponent_Statics::NewProp_healthStat_MetaData[] = {
+		{ "Category", "VitalsComponent" },
+		{ "ModuleRelativePath", "Public/Core/Components/VitalsComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UVitalsComponent_Statics::NewProp_healthStat = { UE4CodeGen_Private::EPropertyClass::Object, "healthStat", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(UVitalsComponent, healthStat), Z_Construct_UClass_UStatType_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UVitalsComponent_Statics::NewProp_healthStat_MetaData, ARRAY_COUNT(Z_Construct_UClass_UVitalsComponent_Statics::NewProp_healthStat_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVitalsComponent_Statics::NewProp_isInvinsible_MetaData[] = {
+		{ "Category", "VitalsComponent" },
+		{ "ModuleRelativePath", "Public/Core/Components/VitalsComponent.h" },
+	};
+#endif
+	void Z_Construct_UClass_UVitalsComponent_Statics::NewProp_isInvinsible_SetBit(void* Obj)
+	{
+		((UVitalsComponent*)Obj)->isInvinsible = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVitalsComponent_Statics::NewProp_isInvinsible = { UE4CodeGen_Private::EPropertyClass::Bool, "isInvinsible", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UVitalsComponent), &Z_Construct_UClass_UVitalsComponent_Statics::NewProp_isInvinsible_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVitalsComponent_Statics::NewProp_isInvinsible_MetaData, ARRAY_COUNT(Z_Construct_UClass_UVitalsComponent_Statics::NewProp_isInvinsible_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UVitalsComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVitalsComponent_Statics::NewProp_resistanceModifiers,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVitalsComponent_Statics::NewProp_resistanceModifiers_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVitalsComponent_Statics::NewProp_status,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVitalsComponent_Statics::NewProp_healthStat,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVitalsComponent_Statics::NewProp_isInvinsible,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UVitalsComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UVitalsComponent>::IsAbstract,
@@ -598,7 +628,7 @@ static struct FScriptStruct_Project_Tether_StaticRegisterNativesFDamageInfo
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UVitalsComponent, 4235827863);
+	IMPLEMENT_CLASS(UVitalsComponent, 70352084);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UVitalsComponent(Z_Construct_UClass_UVitalsComponent, &UVitalsComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UVitalsComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UVitalsComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

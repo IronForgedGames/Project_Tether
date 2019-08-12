@@ -10,6 +10,7 @@ class ACharacter;
 class UWeaponType;
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FAttackComboEventSignature, UAnimMontage*, montage);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FAttackingStatusEventSignature);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class PROJECT_TETHER_API UPlayerComboComponent : public UActorComponent
@@ -60,6 +61,12 @@ protected:
 	
 	UPROPERTY(BlueprintAssignable)
 	FAttackComboEventSignature attackHitEvent;
+
+	UPROPERTY(BlueprintAssignable)
+	FAttackingStatusEventSignature startedComboEvent;
+	
+	UPROPERTY(BlueprintAssignable)
+	FAttackingStatusEventSignature endedComboEvent;
 
 public:	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;

@@ -36,6 +36,12 @@ void UPlayerComboComponent::TickComponent(float DeltaTime, ELevelTick TickType, 
 void UPlayerComboComponent::OnInputRecieved()
 {
 	currentInputCount++;
+	
+	if (!inCombo)
+	{
+		startedComboEvent.Broadcast();
+	}
+
 	inCombo = true;
 }
 
@@ -79,6 +85,8 @@ void UPlayerComboComponent::OnMontageEnded(UAnimMontage * montage, bool interrup
 			currentInputCount = 0;
 			currentIndex = 0;
 			OnCanTransition();
+
+			endedComboEvent.Broadcast();
 		}
 
 		attackEndedEvent.Broadcast(montage);
