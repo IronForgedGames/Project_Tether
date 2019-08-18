@@ -21,7 +21,16 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_FocusTick();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_GetFocused();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_ATopDown_E_Character_StartFocus();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UState_NoRegister();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UDashComponent_NoRegister();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UEvadeComponent_NoRegister();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UPlayerComboComponent_NoRegister();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UAnimBPHook_NoRegister();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStateComponent_NoRegister();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UInventoryComponent_NoRegister();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UVitalsComponent_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UToolComponent_NoRegister();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStatComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
@@ -156,9 +165,50 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_focusRotateSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_focusRotateSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_focusStates_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_focusStates;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_focusStates_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_dashComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_dashComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_evadeComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_evadeComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_comboComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_comboComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_animHook_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_animHook;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_stateComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_stateComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_inventoryComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_inventoryComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_vitalsComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_vitalsComponent;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_toolComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_toolComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_statComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_statComponent;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_camera_MetaData[];
 #endif
@@ -190,6 +240,77 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusRotateSpeed_MetaData[] = {
+		{ "Category", "Locomotion" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusRotateSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "focusRotateSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, focusRotateSpeed), METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusRotateSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusRotateSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusStates_MetaData[] = {
+		{ "Category", "Locomotion" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusStates = { UE4CodeGen_Private::EPropertyClass::Array, "focusStates", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000001, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, focusStates), METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusStates_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusStates_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusStates_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "focusStates", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_UState_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_dashComponent_MetaData[] = {
+		{ "Category", "Entity" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_dashComponent = { UE4CodeGen_Private::EPropertyClass::Object, "dashComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, dashComponent), Z_Construct_UClass_UDashComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_dashComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_dashComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_evadeComponent_MetaData[] = {
+		{ "Category", "Entity" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_evadeComponent = { UE4CodeGen_Private::EPropertyClass::Object, "evadeComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, evadeComponent), Z_Construct_UClass_UEvadeComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_evadeComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_evadeComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_comboComponent_MetaData[] = {
+		{ "Category", "Entity" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_comboComponent = { UE4CodeGen_Private::EPropertyClass::Object, "comboComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, comboComponent), Z_Construct_UClass_UPlayerComboComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_comboComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_comboComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_animHook_MetaData[] = {
+		{ "Category", "Entity" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_animHook = { UE4CodeGen_Private::EPropertyClass::Object, "animHook", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, animHook), Z_Construct_UClass_UAnimBPHook_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_animHook_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_animHook_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_stateComponent_MetaData[] = {
+		{ "Category", "Entity" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_stateComponent = { UE4CodeGen_Private::EPropertyClass::Object, "stateComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, stateComponent), Z_Construct_UClass_UStateComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_stateComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_stateComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_inventoryComponent_MetaData[] = {
+		{ "Category", "Entity" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_inventoryComponent = { UE4CodeGen_Private::EPropertyClass::Object, "inventoryComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, inventoryComponent), Z_Construct_UClass_UInventoryComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_inventoryComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_inventoryComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_vitalsComponent_MetaData[] = {
+		{ "Category", "Entity" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_vitalsComponent = { UE4CodeGen_Private::EPropertyClass::Object, "vitalsComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, vitalsComponent), Z_Construct_UClass_UVitalsComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_vitalsComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_vitalsComponent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "EditInline", "true" },
@@ -197,6 +318,14 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent = { UE4CodeGen_Private::EPropertyClass::Object, "toolComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, toolComponent), Z_Construct_UClass_UToolComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_statComponent_MetaData[] = {
+		{ "Category", "Entity" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_statComponent = { UE4CodeGen_Private::EPropertyClass::Object, "statComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, statComponent), Z_Construct_UClass_UStatComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_statComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_statComponent_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_camera_MetaData[] = {
 		{ "Category", "Camera" },
@@ -214,7 +343,18 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm = { UE4CodeGen_Private::EPropertyClass::Object, "springArm", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0040000000080009, 1, nullptr, STRUCT_OFFSET(ATopDown_E_Character, springArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATopDown_E_Character_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusRotateSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusStates,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_focusStates_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_dashComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_evadeComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_comboComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_animHook,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_stateComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_inventoryComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_vitalsComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_toolComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_statComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATopDown_E_Character_Statics::NewProp_springArm,
 	};
@@ -241,7 +381,7 @@ void EmptyLinkFunctionForGeneratedCodeTopDown_E_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATopDown_E_Character, 1425479281);
+	IMPLEMENT_CLASS(ATopDown_E_Character, 26632391);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATopDown_E_Character(Z_Construct_UClass_ATopDown_E_Character, &ATopDown_E_Character::StaticClass, TEXT("/Script/Project_Tether"), TEXT("ATopDown_E_Character"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATopDown_E_Character);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

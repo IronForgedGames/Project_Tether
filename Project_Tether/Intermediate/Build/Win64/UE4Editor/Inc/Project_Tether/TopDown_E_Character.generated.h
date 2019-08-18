@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROJECT_TETHER_TopDown_E_Character_generated_h
 
-#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_RPC_WRAPPERS \
+#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetFocused) \
 	{ \
@@ -48,7 +48,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetFocused) \
 	{ \
@@ -83,7 +83,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_INCLASS_NO_PURE_DECLS \
+#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATopDown_E_Character(); \
 	friend struct Z_Construct_UClass_ATopDown_E_Character_Statics; \
@@ -92,7 +92,7 @@ public: \
 	DECLARE_SERIALIZER(ATopDown_E_Character)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_INCLASS \
+#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_INCLASS \
 private: \
 	static void StaticRegisterNativesATopDown_E_Character(); \
 	friend struct Z_Construct_UClass_ATopDown_E_Character_Statics; \
@@ -101,7 +101,7 @@ public: \
 	DECLARE_SERIALIZER(ATopDown_E_Character)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_STANDARD_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATopDown_E_Character(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATopDown_E_Character) \
@@ -114,7 +114,7 @@ private: \
 public:
 
 
-#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_ENHANCED_CONSTRUCTORS \
+#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATopDown_E_Character(ATopDown_E_Character&&); \
@@ -125,31 +125,41 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATopDown_E_Character); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATopDown_E_Character)
 
 
-#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_PRIVATE_PROPERTY_OFFSET \
+#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__springArm() { return STRUCT_OFFSET(ATopDown_E_Character, springArm); } \
 	FORCEINLINE static uint32 __PPO__camera() { return STRUCT_OFFSET(ATopDown_E_Character, camera); } \
-	FORCEINLINE static uint32 __PPO__toolComponent() { return STRUCT_OFFSET(ATopDown_E_Character, toolComponent); }
+	FORCEINLINE static uint32 __PPO__statComponent() { return STRUCT_OFFSET(ATopDown_E_Character, statComponent); } \
+	FORCEINLINE static uint32 __PPO__toolComponent() { return STRUCT_OFFSET(ATopDown_E_Character, toolComponent); } \
+	FORCEINLINE static uint32 __PPO__vitalsComponent() { return STRUCT_OFFSET(ATopDown_E_Character, vitalsComponent); } \
+	FORCEINLINE static uint32 __PPO__inventoryComponent() { return STRUCT_OFFSET(ATopDown_E_Character, inventoryComponent); } \
+	FORCEINLINE static uint32 __PPO__stateComponent() { return STRUCT_OFFSET(ATopDown_E_Character, stateComponent); } \
+	FORCEINLINE static uint32 __PPO__animHook() { return STRUCT_OFFSET(ATopDown_E_Character, animHook); } \
+	FORCEINLINE static uint32 __PPO__comboComponent() { return STRUCT_OFFSET(ATopDown_E_Character, comboComponent); } \
+	FORCEINLINE static uint32 __PPO__evadeComponent() { return STRUCT_OFFSET(ATopDown_E_Character, evadeComponent); } \
+	FORCEINLINE static uint32 __PPO__dashComponent() { return STRUCT_OFFSET(ATopDown_E_Character, dashComponent); } \
+	FORCEINLINE static uint32 __PPO__focusStates() { return STRUCT_OFFSET(ATopDown_E_Character, focusStates); } \
+	FORCEINLINE static uint32 __PPO__focusRotateSpeed() { return STRUCT_OFFSET(ATopDown_E_Character, focusRotateSpeed); }
 
 
-#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_20_PROLOG
-#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_GENERATED_BODY_LEGACY \
+#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_30_PROLOG
+#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_RPC_WRAPPERS \
-	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_INCLASS \
-	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_STANDARD_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_RPC_WRAPPERS \
+	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_INCLASS \
+	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_GENERATED_BODY \
+#define Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_PRIVATE_PROPERTY_OFFSET \
-	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_INCLASS_NO_PURE_DECLS \
-	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_23_ENHANCED_CONSTRUCTORS \
+	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_PRIVATE_PROPERTY_OFFSET \
+	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_INCLASS_NO_PURE_DECLS \
+	Project_Tether_Source_Project_Tether_Public_Implementation_Gameplay_PlayerController_TopDown_E_Character_h_33_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

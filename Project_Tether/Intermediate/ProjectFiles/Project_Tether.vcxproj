@@ -268,6 +268,7 @@
     <None Include="..\..\Source\Project_Tether\Project_Tether.Build.cs" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Components\state.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Components\StateComponent.cpp" />
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\DashComponent.cpp" />
     <ClCompile Include="..\..\Source\Project_Tether\Project_Tether.cpp" />
     <ClInclude Include="..\..\Source\Project_Tether\Project_Tether.h" />
     <ClCompile Include="..\..\Source\Project_Tether\Project_TetherCharacter.cpp" />
@@ -309,6 +310,7 @@
     <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\ToolComponent.cpp" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Components\state.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Components\StateComponent.h" />
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\DashComponent.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\TestDataAsset.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Class\ClassType.h" />
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Components\E_DamageType.h" />

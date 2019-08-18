@@ -1,25 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for Project_TetherEditor (no existing makefile)
+  Creating makefile for hot reloading Project_TetherEditor (modules to compile have changed)
+  Compiling game modules for hot reload
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for Project_TetherEditor
-    Running UnrealHeaderTool "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Project_Tether.uproject" "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\Project_TetherEditor\Development\Project_TetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for Project_TetherEditor in 7.713195 seconds
-  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1459.dll".
-  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-1459.pdb".
-  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-861.dll".
-  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-861.pdb".
-  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9601.dll".
-  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9601.pdb".
-  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9819.dll".
-  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9819.pdb".
-  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9859.dll".
-  Deleting old hot reload file: "E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Binaries\Win64\UE4Editor-Project_Tether-9859.pdb".
-  Building 4 actions with 12 processes...
-    [1/4] Module.Project_Tether.gen.cpp
-    [2/4] Module.Project_Tether.cpp
-    [3/4] UE4Editor-Project_Tether.lib
-       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.exp
-    [4/4] UE4Editor-Project_Tether.dll
-       Creating library E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.lib and object E:\Projects\IronForgedGames\Project_Tether\Project_Tether\Intermediate\Build\Win64\UE4Editor\Development\Project_Tether\UE4Editor-Project_Tether.suppressed.exp
+  [Adaptive unity build] Disabling PCH for excluded files. Set bAdaptiveUnityDisablesPCH to false in BuildConfiguration.xml to change this behavior.
+  [Adaptive unity build] Excluded from Project_Tether unity file: StateComponent.cpp, E_Character.cpp, EvadeComponent.cpp, PlayerComboComponent.cpp, TopDown_E_Character.cpp
+  [Adaptive unity build] Excluded from Project_Tether.gen unity file: E_Character.gen.cpp, E_PlayerCharacter.gen.cpp, EvadeComponent.gen.cpp, Project_Tether.init.gen.cpp, state.gen.cpp, StateComponent.gen.cpp, TopDown_E_Character.gen.cpp
+  Target is up to date
   Deploying Project_TetherEditor Win64 Development...
-  Total build time: 15.39 seconds (Parallel executor: 4.06 seconds)
+  Total build time: 26.22 seconds (NoActionsToExecute executor: 0.00 seconds)

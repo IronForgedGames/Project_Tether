@@ -19,9 +19,6 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
 	PROJECT_TETHER_API UFunction* Z_Construct_UFunction_AE_Character_GetEntity();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UEntity_NoRegister();
-	PROJECT_TETHER_API UClass* Z_Construct_UClass_UInventoryComponent_NoRegister();
-	PROJECT_TETHER_API UClass* Z_Construct_UClass_UVitalsComponent_NoRegister();
-	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStatComponent_NoRegister();
 // End Cross Module References
 	void AE_Character::StaticRegisterNativesAE_Character()
 	{
@@ -84,18 +81,6 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_inventoryComponent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_inventoryComponent;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_vitalsComponent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_vitalsComponent;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_statComponent_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_statComponent;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_entity_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_entity;
@@ -118,30 +103,6 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AE_Character_Statics::NewProp_inventoryComponent_MetaData[] = {
-		{ "Category", "Entity" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/Core/Entity/E_Character.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_inventoryComponent = { UE4CodeGen_Private::EPropertyClass::Object, "inventoryComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(AE_Character, inventoryComponent), Z_Construct_UClass_UInventoryComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_inventoryComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_inventoryComponent_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent_MetaData[] = {
-		{ "Category", "Entity" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/Core/Entity/E_Character.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent = { UE4CodeGen_Private::EPropertyClass::Object, "vitalsComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(AE_Character, vitalsComponent), Z_Construct_UClass_UVitalsComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent_MetaData[] = {
-		{ "Category", "Entity" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Public/Core/Entity/E_Character.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent = { UE4CodeGen_Private::EPropertyClass::Object, "statComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(AE_Character, statComponent), Z_Construct_UClass_UStatComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AE_Character_Statics::NewProp_entity_MetaData[] = {
 		{ "Category", "Entity" },
 		{ "EditInline", "true" },
@@ -150,9 +111,6 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AE_Character_Statics::NewProp_entity = { UE4CodeGen_Private::EPropertyClass::Object, "entity", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x002008000008000d, 1, nullptr, STRUCT_OFFSET(AE_Character, entity), Z_Construct_UClass_UEntity_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AE_Character_Statics::NewProp_entity_MetaData, ARRAY_COUNT(Z_Construct_UClass_AE_Character_Statics::NewProp_entity_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AE_Character_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AE_Character_Statics::NewProp_inventoryComponent,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AE_Character_Statics::NewProp_vitalsComponent,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AE_Character_Statics::NewProp_statComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AE_Character_Statics::NewProp_entity,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AE_Character_Statics::StaticCppClassTypeInfo = {
@@ -178,7 +136,7 @@ void EmptyLinkFunctionForGeneratedCodeE_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AE_Character, 4148407004);
+	IMPLEMENT_CLASS(AE_Character, 492406994);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AE_Character(Z_Construct_UClass_AE_Character, &AE_Character::StaticClass, TEXT("/Script/Project_Tether"), TEXT("AE_Character"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AE_Character);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

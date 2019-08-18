@@ -2,42 +2,35 @@
 #include "EvadeComponent.h"
 #include "StateComponent.h"
 #include "GameFramework/Actor.h"
+#include "state.h"
 
 UEvadeComponent::UEvadeComponent()
 {
 	PrimaryComponentTick.bCanEverTick = true;
 }
 
-
-// Called when the game starts
 void UEvadeComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
-	stateComponent = Cast<UStateComponent>(GetOwner()->GetComponentByClass(UStateComponent::StaticClass()));
-	if (stateComponent != nullptr)
-	{
-		initialized = true;
-	}
 }
 
 
-// Called every frame
 void UEvadeComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 }
 
-void UEvadeComponent::StartEvade(FVector currentVelocity)
+void UEvadeComponent::StartEvade(FVector currentVelocity, bool shouldRotate)
 {
-	if (initialized)
+	// rotate the player in the direction of the movemnts
+	currentVelocity.Z = 0.f;
+	if (shouldRotate && currentVelocity.X != 0 || currentVelocity.Y != 0)
 	{
-		if (!stateComponent->AnyStateTrue(unavailableStates))
-		{
-			UE_LOG(LogTemp, Warning, TEXT("fire event"));	
-			evadeStarted.Broadcast();
-		}
+		FMatrix _rotationMatrix = FRotationMatrix::MakeFromXZ(currentVelocity, GetOwner()->GetActorUpVector());
+		GetOwner()->SetActorRotation(_rotationMatrix.Rotator());
 	}
+
+	evadeStarted.Broadcast();
 }
 
 void UEvadeComponent::EndEvade()

@@ -6,6 +6,7 @@
 #include "EvadeComponent.generated.h"
 
 class UStateComponent;
+class UState;
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FEvadeEvent);
 
@@ -24,21 +25,17 @@ public:
 	FEvadeEvent evadeEnded;
 
 	UPROPERTY(EditAnywhere)
-	TArray<FString> unavailableStates;
+	TArray<UState*> unavailableStates;
 
 protected:
 	
-	
 	virtual void BeginPlay() override;
-
-	UStateComponent* stateComponent;
-	bool initialized = false;
 
 public:	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UFUNCTION(BlueprintCallable)
-	void StartEvade(FVector currentVelocity);
+	void StartEvade(FVector currentVelocity, bool shouldRotate);
 
 	UFUNCTION(BlueprintCallable)
 	void EndEvade(); // called from whatever system is doing the particular evade

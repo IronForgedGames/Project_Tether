@@ -39,6 +39,7 @@ void UPlayerComboComponent::OnInputRecieved()
 	
 	if (!inCombo)
 	{
+		UE_LOG(LogTemp, Warning, TEXT("fire"));
 		startedComboEvent.Broadcast();
 	}
 
@@ -89,6 +90,7 @@ void UPlayerComboComponent::OnMontageEnded(UAnimMontage * montage, bool interrup
 			endedComboEvent.Broadcast();
 		}
 
+		inCombo = false;
 		attackEndedEvent.Broadcast(montage);
 	}
 }

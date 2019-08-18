@@ -9,6 +9,21 @@
 
 class UState;
 
+USTRUCT(Blueprintable)
+struct PROJECT_TETHER_API FStateSlot
+{
+	GENERATED_USTRUCT_BODY()
+
+public:
+	
+	UPROPERTY(EditAnywhere)
+	UState* state;
+	
+	UPROPERTY(EditAnywhere)
+	bool status;
+};
+
+
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FStateEvent, UState*, state, bool, status);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -24,7 +39,7 @@ public:
 
 
 	UPROPERTY(EditAnywhere)
-	TMap<UState*, bool> states;
+	TArray<FStateSlot> states;
 
 protected:
 	virtual void BeginPlay() override;

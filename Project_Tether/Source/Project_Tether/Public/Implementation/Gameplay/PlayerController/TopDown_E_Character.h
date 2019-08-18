@@ -11,8 +11,18 @@ Studio: Iron Forged Games
 
 class USpringArmComponent;
 class UCameraComponent;
+
 class UToolComponent;
-//class UPlayerComboComponent;
+class UStatComponent;
+class UVitalsComponent;
+class UInventoryComponent;
+class UStateComponent;
+class UAnimBPHook;
+class UPlayerComboComponent;
+class UEvadeComponent;
+class UDashComponent;
+
+class UState;
 
 /**
  *	A simple top down controller used to prototype the player character
@@ -32,12 +42,38 @@ public:
 	ATopDown_E_Character();
 	
 protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Entity")
+	UStatComponent* statComponent;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
 	UToolComponent* toolComponent;
 
-	/*UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Camera")
-	UPlayerComboComponent* comboComponent;*/
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Entity")
+	UVitalsComponent* vitalsComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Entity")
+	UInventoryComponent* inventoryComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Entity")
+	UStateComponent* stateComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Entity")
+	UAnimBPHook* animHook;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Entity")
+	UPlayerComboComponent* comboComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Entity")
+	UEvadeComponent* evadeComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Entity")
+	UDashComponent* dashComponent;
+
+	UPROPERTY(EditAnywhere, Category = "Locomotion")
+	TArray<UState*> focusStates;
+	
+	UPROPERTY(EditAnywhere, Category = "Locomotion")
+	float focusRotateSpeed;
 
 	void MoveForward(float value);
 	void MoveRight(float value);

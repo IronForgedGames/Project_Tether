@@ -4,12 +4,24 @@ Studio: Iron Forged Games
 */
 
 #include "Public/Implementation/Gameplay/PlayerController/TopDown_E_Character.h"
-#include "Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h"
 
+#include "GameFramework/PlayerController.h"
+#include "Components/InputComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
+
+#include "DashComponent.h"
+#include "Public/Implementation/Gameplay/PlayerController/Components/ToolComponent.h"
+#include "Public/Core/Components/StateComponent.h"
+#include "Public/Core/Components/Stats/StatComponent.h"
+#include "Public/Core/Components/VitalsComponent.h"
+#include "Public/Core/Item/InventoryComponent.h"
+#include "Public/Core/Components/StateComponent.h"
+#include "Public/Implementation/Gameplay/PlayerController/Components/AnimBPHook.h"
+#include "Public/Implementation/Gameplay/PlayerController/Components/PlayerComboComponent.h"
+#include "Public/Implementation/Gameplay/PlayerController/Components/EvadeComponent.h"
 
 ATopDown_E_Character::ATopDown_E_Character()
 {
@@ -38,6 +50,14 @@ ATopDown_E_Character::ATopDown_E_Character()
 
 	// gameplay
 	toolComponent = CreateDefaultSubobject<UToolComponent>(TEXT("Tool Component"));
+	statComponent = CreateDefaultSubobject<UStatComponent>(TEXT("Stat Component"));
+	vitalsComponent = CreateDefaultSubobject<UVitalsComponent>(TEXT("Vitals Component"));
+	inventoryComponent = CreateDefaultSubobject<UInventoryComponent>(TEXT("Inventory Component"));
+	stateComponent = CreateDefaultSubobject<UStateComponent>(TEXT("State Component"));
+	animHook = CreateDefaultSubobject<UAnimBPHook>(TEXT("Anim Hook"));
+	comboComponent = CreateDefaultSubobject<UPlayerComboComponent>(TEXT("Combo"));
+	evadeComponent = CreateDefaultSubobject<UEvadeComponent>(TEXT("Evade"));
+	dashComponent = CreateDefaultSubobject<UDashComponent>(TEXT("Dash Component"));
 }
 
 void ATopDown_E_Character::MoveForward(float value)
@@ -90,7 +110,7 @@ void ATopDown_E_Character::EndFocus()
 
 void ATopDown_E_Character::FocusTick()
 {
-	if (focused)
+	if (focused && !stateComponent->AnyStateTrue(focusStates))
 	{
 		if (useExternalTarget)
 		{
@@ -113,7 +133,7 @@ void ATopDown_E_Character::FocusTick()
 				focusDirection = _alteredHitLocation - GetActorLocation();
 
 				FMatrix _rotationMatrix = FRotationMatrix::MakeFromXZ(focusDirection, GetActorUpVector());
-				FRotator _lerpedRot = FMath::Lerp(GetActorRotation(), _rotationMatrix.Rotator(), 0.5f);
+				FRotator _lerpedRot = FMath::Lerp(GetActorRotation(), _rotationMatrix.Rotator(), focusRotateSpeed);
 				
 				SetActorRotation(_lerpedRot);
 			}

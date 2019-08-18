@@ -17,25 +17,33 @@ void UStateComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 }
 
-bool UStateComponent::GetState(FString state)
+bool UStateComponent::GetState(UState* state)
 {
-	if (states.Contains(state))
+	for (int i = 0; i < states.Num(); i++)
 	{
-		return states[state];
+		FStateSlot* _slot = &states[i];
+		if (_slot->state == state)
+		{
+			return _slot->status;
+		}
 	}
 
 	return false;
 }
 
-bool UStateComponent::AnyStateTrue(TArray<FString> statesToCheck)
+bool UStateComponent::AnyStateTrue(TArray<UState*> statesToCheck)
 {
-	for (auto& _state : statesToCheck)
+	for (int i = 0; i < states.Num(); i++)
 	{
-		if (states.Contains(_state))
+		FStateSlot* _stateSlot = &states[i];
+		for (int j = 0; j < statesToCheck.Num(); j++)
 		{
-			if (states[_state])
+			if (_stateSlot->state == statesToCheck[j])
 			{
-				return true;
+				if (_stateSlot->status == true)
+				{
+					return true;
+				}
 			}
 		}
 	}
@@ -43,15 +51,19 @@ bool UStateComponent::AnyStateTrue(TArray<FString> statesToCheck)
 	return false;
 }
 
-bool UStateComponent::AnyStatFalse(TArray<FString> statesToCheck)
+bool UStateComponent::AnyStatFalse(TArray<UState*> statesToCheck)
 {
-	for (auto& _state : statesToCheck)
+	for (int i = 0; i < states.Num(); i++)
 	{
-		if (states.Contains(_state))
+		FStateSlot* _stateSlot = &states[i];
+		for (int j = 0; j < statesToCheck.Num(); j++)
 		{
-			if (!states[_state])
+			if (_stateSlot->state == statesToCheck[j])
 			{
-				return true;
+				if (_stateSlot->status == false)
+				{
+					return true;
+				}
 			}
 		}
 	}
@@ -59,26 +71,30 @@ bool UStateComponent::AnyStatFalse(TArray<FString> statesToCheck)
 	return false;
 }
 
-void UStateComponent::SetState(FString state, bool status)
+void UStateComponent::SetState(UState* state, bool status)
 {
-	if (states.Contains(state))
+	for (int i = 0; i < states.Num(); i++)
 	{
-		if (states[state] != status)
+		FStateSlot* _stateSlot = &states[i];
+		if (_stateSlot->state == state)
 		{
-			states[state] = status;
-			stateChangedEvent.Broadcast(state, status);
+			if (_stateSlot->status != status)
+			{
+				_stateSlot->status = status;
+				stateChangedEvent.Broadcast(state, status);
+			}
 		}
 	}
 }
 
-void UStateComponent::SetStateTrue(FString state)
+void UStateComponent::SetStateTrue(UState* state)
 {
 	SetState(state, true);
 }
 
-void UStateComponent::SetStateFalse(FString state)
+void UStateComponent::SetStateFalse(UState* state)
 {
-	SetState(state, true);
+	SetState(state, false);
 }
 
 

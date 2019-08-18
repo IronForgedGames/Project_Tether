@@ -17,46 +17,46 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Project_Tether_Source_Project_Tether_Public_Core_Components_state_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define Project_Tether_Source_Project_Tether_Public_Core_Components_state_h_15_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesUstate(); \
-	friend struct Z_Construct_UClass_Ustate_Statics; \
+	static void StaticRegisterNativesUState(); \
+	friend struct Z_Construct_UClass_UState_Statics; \
 public: \
-	DECLARE_CLASS(Ustate, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
-	DECLARE_SERIALIZER(Ustate)
+	DECLARE_CLASS(UState, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_SERIALIZER(UState)
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Components_state_h_15_INCLASS \
 private: \
-	static void StaticRegisterNativesUstate(); \
-	friend struct Z_Construct_UClass_Ustate_Statics; \
+	static void StaticRegisterNativesUState(); \
+	friend struct Z_Construct_UClass_UState_Statics; \
 public: \
-	DECLARE_CLASS(Ustate, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
-	DECLARE_SERIALIZER(Ustate)
+	DECLARE_CLASS(UState, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Project_Tether"), NO_API) \
+	DECLARE_SERIALIZER(UState)
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Components_state_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API Ustate(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Ustate) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, Ustate); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(Ustate); \
+	NO_API UState(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UState) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UState); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UState); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API Ustate(Ustate&&); \
-	NO_API Ustate(const Ustate&); \
+	NO_API UState(UState&&); \
+	NO_API UState(const UState&); \
 public:
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Components_state_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API Ustate(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+	NO_API UState(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API Ustate(Ustate&&); \
-	NO_API Ustate(const Ustate&); \
+	NO_API UState(UState&&); \
+	NO_API UState(const UState&); \
 public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, Ustate); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(Ustate); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(Ustate)
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UState); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UState); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UState)
 
 
 #define Project_Tether_Source_Project_Tether_Public_Core_Components_state_h_15_PRIVATE_PROPERTY_OFFSET

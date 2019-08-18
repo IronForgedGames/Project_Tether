@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeProject_Tether_init() {}
 	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature();
 	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature();
 	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_EntityEventSignature__DelegateSignature();
+	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_DashEvent__DelegateSignature();
 	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_EvadeEvent__DelegateSignature();
 	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_AttackComboEventSignature__DelegateSignature();
 	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature();
@@ -29,6 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeProject_Tether_init() {}
 				(UObject* (*)())Z_Construct_UDelegateFunction_Project_Tether_StatChangedEvent__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Project_Tether_ModifierEvent__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Project_Tether_EntityEventSignature__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_Project_Tether_DashEvent__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Project_Tether_EvadeEvent__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Project_Tether_AttackComboEventSignature__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_Project_Tether_AttackingStatusEventSignature__DelegateSignature,
@@ -37,8 +39,8 @@ void EmptyLinkFunctionForGeneratedCodeProject_Tether_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Project_Tether",
 				PKG_CompiledIn | 0x00000000,
-				0xC9F4D0B0,
-				0xD65CAC43,
+				0x635BD256,
+				0x5FF7CA24,
 				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};

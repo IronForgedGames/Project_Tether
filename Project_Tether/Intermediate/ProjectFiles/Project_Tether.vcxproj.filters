@@ -331,6 +331,9 @@
     <ClInclude Include="..\..\Source\Project_Tether\Public\Core\Components\state.h">
       <Filter>Source\Project_Tether\Public\Core\Components</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components\DashComponent.h">
+      <Filter>Source\Project_Tether\Public\Implementation\Gameplay\PlayerController\Components</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Components\StateComponent.cpp">
@@ -338,6 +341,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Project_Tether\Private\Core\Components\state.cpp">
       <Filter>Source\Project_Tether\Private\Core\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components\DashComponent.cpp">
+      <Filter>Source\Project_Tether\Private\Implementation\Gameplay\PlayerController\Components</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

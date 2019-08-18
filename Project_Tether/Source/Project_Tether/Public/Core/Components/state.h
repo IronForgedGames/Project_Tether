@@ -10,7 +10,7 @@
  * 
  */
 UCLASS(Blueprintable)
-class PROJECT_TETHER_API Ustate : public UDataAsset
+class PROJECT_TETHER_API UState : public UDataAsset
 {
 	GENERATED_BODY()
 };

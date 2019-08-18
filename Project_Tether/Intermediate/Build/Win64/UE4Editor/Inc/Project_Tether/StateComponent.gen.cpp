@@ -15,6 +15,8 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 // Cross Module References
 	PROJECT_TETHER_API UFunction* Z_Construct_UDelegateFunction_Project_Tether_StateEvent__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Project_Tether();
+	PROJECT_TETHER_API UClass* Z_Construct_UClass_UState_NoRegister();
+	PROJECT_TETHER_API UScriptStruct* Z_Construct_UScriptStruct_FStateSlot();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStateComponent_NoRegister();
 	PROJECT_TETHER_API UClass* Z_Construct_UClass_UStateComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
@@ -28,12 +30,12 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 	{
 		struct _Script_Project_Tether_eventStateEvent_Parms
 		{
-			FString state;
+			UState* state;
 			bool status;
 		};
 		static void NewProp_status_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_status;
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_state;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_state;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -45,7 +47,7 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 		((_Script_Project_Tether_eventStateEvent_Parms*)Obj)->status = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UDelegateFunction_Project_Tether_StateEvent__DelegateSignature_Statics::NewProp_status = { UE4CodeGen_Private::EPropertyClass::Bool, "status", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(_Script_Project_Tether_eventStateEvent_Parms), &Z_Construct_UDelegateFunction_Project_Tether_StateEvent__DelegateSignature_Statics::NewProp_status_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UDelegateFunction_Project_Tether_StateEvent__DelegateSignature_Statics::NewProp_state = { UE4CodeGen_Private::EPropertyClass::Str, "state", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(_Script_Project_Tether_eventStateEvent_Parms, state), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_Project_Tether_StateEvent__DelegateSignature_Statics::NewProp_state = { UE4CodeGen_Private::EPropertyClass::Object, "state", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(_Script_Project_Tether_eventStateEvent_Parms, state), Z_Construct_UClass_UState_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Project_Tether_StateEvent__DelegateSignature_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_Tether_StateEvent__DelegateSignature_Statics::NewProp_status,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Project_Tether_StateEvent__DelegateSignature_Statics::NewProp_state,
@@ -65,6 +67,103 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 		}
 		return ReturnFunction;
 	}
+class UScriptStruct* FStateSlot::StaticStruct()
+{
+	static class UScriptStruct* Singleton = NULL;
+	if (!Singleton)
+	{
+		extern PROJECT_TETHER_API uint32 Get_Z_Construct_UScriptStruct_FStateSlot_CRC();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FStateSlot, Z_Construct_UPackage__Script_Project_Tether(), TEXT("StateSlot"), sizeof(FStateSlot), Get_Z_Construct_UScriptStruct_FStateSlot_CRC());
+	}
+	return Singleton;
+}
+static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FStateSlot(FStateSlot::StaticStruct, TEXT("/Script/Project_Tether"), TEXT("StateSlot"), false, nullptr, nullptr);
+static struct FScriptStruct_Project_Tether_StaticRegisterNativesFStateSlot
+{
+	FScriptStruct_Project_Tether_StaticRegisterNativesFStateSlot()
+	{
+		UScriptStruct::DeferCppStructOps(FName(TEXT("StateSlot")),new UScriptStruct::TCppStructOps<FStateSlot>);
+	}
+} ScriptStruct_Project_Tether_StaticRegisterNativesFStateSlot;
+	struct Z_Construct_UScriptStruct_FStateSlot_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_status_MetaData[];
+#endif
+		static void NewProp_status_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_status;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_state_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_state;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStateSlot_Statics::Struct_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/Core/Components/StateComponent.h" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FStateSlot_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FStateSlot>();
+	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_status_MetaData[] = {
+		{ "Category", "StateSlot" },
+		{ "ModuleRelativePath", "Public/Core/Components/StateComponent.h" },
+	};
+#endif
+	void Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_status_SetBit(void* Obj)
+	{
+		((FStateSlot*)Obj)->status = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_status = { UE4CodeGen_Private::EPropertyClass::Bool, "status", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(FStateSlot), &Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_status_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_status_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_status_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_state_MetaData[] = {
+		{ "Category", "StateSlot" },
+		{ "ModuleRelativePath", "Public/Core/Components/StateComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_state = { UE4CodeGen_Private::EPropertyClass::Object, "state", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(FStateSlot, state), Z_Construct_UClass_UState_NoRegister, METADATA_PARAMS(Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_state_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_state_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FStateSlot_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_status,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FStateSlot_Statics::NewProp_state,
+	};
+	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FStateSlot_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_Project_Tether,
+		nullptr,
+		&NewStructOps,
+		"StateSlot",
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000201),
+		sizeof(FStateSlot),
+		alignof(FStateSlot),
+		Z_Construct_UScriptStruct_FStateSlot_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UScriptStruct_FStateSlot_Statics::PropPointers),
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FStateSlot_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FStateSlot_Statics::Struct_MetaDataParams))
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FStateSlot()
+	{
+#if WITH_HOT_RELOAD
+		extern uint32 Get_Z_Construct_UScriptStruct_FStateSlot_CRC();
+		UPackage* Outer = Z_Construct_UPackage__Script_Project_Tether();
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("StateSlot"), sizeof(FStateSlot), Get_Z_Construct_UScriptStruct_FStateSlot_CRC(), false);
+#else
+		static UScriptStruct* ReturnStruct = nullptr;
+#endif
+		if (!ReturnStruct)
+		{
+			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FStateSlot_Statics::ReturnStructParams);
+		}
+		return ReturnStruct;
+	}
+	uint32 Get_Z_Construct_UScriptStruct_FStateSlot_CRC() { return 1513282954U; }
 	void UStateComponent::StaticRegisterNativesUStateComponent()
 	{
 		UClass* Class = UStateComponent::StaticClass();
@@ -81,13 +180,13 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 	{
 		struct StateComponent_eventAnyStateTrue_Parms
 		{
-			TArray<FString> statesToCheck;
+			TArray<UState*> statesToCheck;
 			bool ReturnValue;
 		};
 		static void NewProp_ReturnValue_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_statesToCheck;
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_statesToCheck_Inner;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_statesToCheck_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -100,7 +199,7 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UStateComponent_AnyStateTrue_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(StateComponent_eventAnyStateTrue_Parms), &Z_Construct_UFunction_UStateComponent_AnyStateTrue_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UStateComponent_AnyStateTrue_Statics::NewProp_statesToCheck = { UE4CodeGen_Private::EPropertyClass::Array, "statesToCheck", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StateComponent_eventAnyStateTrue_Parms, statesToCheck), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UStateComponent_AnyStateTrue_Statics::NewProp_statesToCheck_Inner = { UE4CodeGen_Private::EPropertyClass::Str, "statesToCheck", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStateComponent_AnyStateTrue_Statics::NewProp_statesToCheck_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "statesToCheck", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_UState_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStateComponent_AnyStateTrue_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStateComponent_AnyStateTrue_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStateComponent_AnyStateTrue_Statics::NewProp_statesToCheck,
@@ -125,13 +224,13 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 	{
 		struct StateComponent_eventAnyStatFalse_Parms
 		{
-			TArray<FString> statesToCheck;
+			TArray<UState*> statesToCheck;
 			bool ReturnValue;
 		};
 		static void NewProp_ReturnValue_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_statesToCheck;
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_statesToCheck_Inner;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_statesToCheck_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -144,7 +243,7 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UStateComponent_AnyStatFalse_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(StateComponent_eventAnyStatFalse_Parms), &Z_Construct_UFunction_UStateComponent_AnyStatFalse_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_UStateComponent_AnyStatFalse_Statics::NewProp_statesToCheck = { UE4CodeGen_Private::EPropertyClass::Array, "statesToCheck", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StateComponent_eventAnyStatFalse_Parms, statesToCheck), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UStateComponent_AnyStatFalse_Statics::NewProp_statesToCheck_Inner = { UE4CodeGen_Private::EPropertyClass::Str, "statesToCheck", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStateComponent_AnyStatFalse_Statics::NewProp_statesToCheck_Inner = { UE4CodeGen_Private::EPropertyClass::Object, "statesToCheck", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UClass_UState_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStateComponent_AnyStatFalse_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStateComponent_AnyStatFalse_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStateComponent_AnyStatFalse_Statics::NewProp_statesToCheck,
@@ -169,12 +268,12 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 	{
 		struct StateComponent_eventGetState_Parms
 		{
-			FString state;
+			UState* state;
 			bool ReturnValue;
 		};
 		static void NewProp_ReturnValue_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_state;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_state;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -186,7 +285,7 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 		((StateComponent_eventGetState_Parms*)Obj)->ReturnValue = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UStateComponent_GetState_Statics::NewProp_ReturnValue = { UE4CodeGen_Private::EPropertyClass::Bool, "ReturnValue", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000580, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(StateComponent_eventGetState_Parms), &Z_Construct_UFunction_UStateComponent_GetState_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UStateComponent_GetState_Statics::NewProp_state = { UE4CodeGen_Private::EPropertyClass::Str, "state", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StateComponent_eventGetState_Parms, state), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStateComponent_GetState_Statics::NewProp_state = { UE4CodeGen_Private::EPropertyClass::Object, "state", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StateComponent_eventGetState_Parms, state), Z_Construct_UClass_UState_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStateComponent_GetState_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStateComponent_GetState_Statics::NewProp_ReturnValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStateComponent_GetState_Statics::NewProp_state,
@@ -210,16 +309,16 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 	{
 		struct StateComponent_eventSetStateFalse_Parms
 		{
-			FString state;
+			UState* state;
 		};
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_state;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_state;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UStateComponent_SetStateFalse_Statics::NewProp_state = { UE4CodeGen_Private::EPropertyClass::Str, "state", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StateComponent_eventSetStateFalse_Parms, state), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStateComponent_SetStateFalse_Statics::NewProp_state = { UE4CodeGen_Private::EPropertyClass::Object, "state", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StateComponent_eventSetStateFalse_Parms, state), Z_Construct_UClass_UState_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStateComponent_SetStateFalse_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStateComponent_SetStateFalse_Statics::NewProp_state,
 	};
@@ -242,16 +341,16 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 	{
 		struct StateComponent_eventSetStateTrue_Parms
 		{
-			FString state;
+			UState* state;
 		};
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_state;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_state;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UStateComponent_SetStateTrue_Statics::NewProp_state = { UE4CodeGen_Private::EPropertyClass::Str, "state", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StateComponent_eventSetStateTrue_Parms, state), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UStateComponent_SetStateTrue_Statics::NewProp_state = { UE4CodeGen_Private::EPropertyClass::Object, "state", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(StateComponent_eventSetStateTrue_Parms, state), Z_Construct_UClass_UState_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UStateComponent_SetStateTrue_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UStateComponent_SetStateTrue_Statics::NewProp_state,
 	};
@@ -284,9 +383,8 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_states_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FMapPropertyParams NewProp_states;
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_states_Key_KeyProp;
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_states_ValueProp;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_states;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_states_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_stateChangedEvent_MetaData[];
 #endif
@@ -300,11 +398,11 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Project_Tether,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UStateComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UStateComponent_AnyStateTrue, "AnyStateTrue" }, // 1754583866
-		{ &Z_Construct_UFunction_UStateComponent_AnyStatFalse, "AnyStatFalse" }, // 484286253
-		{ &Z_Construct_UFunction_UStateComponent_GetState, "GetState" }, // 2367723661
-		{ &Z_Construct_UFunction_UStateComponent_SetStateFalse, "SetStateFalse" }, // 2444422484
-		{ &Z_Construct_UFunction_UStateComponent_SetStateTrue, "SetStateTrue" }, // 2284763830
+		{ &Z_Construct_UFunction_UStateComponent_AnyStateTrue, "AnyStateTrue" }, // 3303355846
+		{ &Z_Construct_UFunction_UStateComponent_AnyStatFalse, "AnyStatFalse" }, // 841803885
+		{ &Z_Construct_UFunction_UStateComponent_GetState, "GetState" }, // 454325699
+		{ &Z_Construct_UFunction_UStateComponent_SetStateFalse, "SetStateFalse" }, // 2850045428
+		{ &Z_Construct_UFunction_UStateComponent_SetStateTrue, "SetStateTrue" }, // 416907573
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStateComponent_Statics::Class_MetaDataParams[] = {
@@ -320,9 +418,8 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 		{ "ModuleRelativePath", "Public/Core/Components/StateComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_UStateComponent_Statics::NewProp_states = { UE4CodeGen_Private::EPropertyClass::Map, "states", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UStateComponent, states), METADATA_PARAMS(Z_Construct_UClass_UStateComponent_Statics::NewProp_states_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStateComponent_Statics::NewProp_states_MetaData)) };
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UStateComponent_Statics::NewProp_states_Key_KeyProp = { UE4CodeGen_Private::EPropertyClass::Str, "states_Key", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000001, 1, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UStateComponent_Statics::NewProp_states_ValueProp = { UE4CodeGen_Private::EPropertyClass::Bool, "states", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000001, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UStateComponent_Statics::NewProp_states = { UE4CodeGen_Private::EPropertyClass::Array, "states", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000001, 1, nullptr, STRUCT_OFFSET(UStateComponent, states), METADATA_PARAMS(Z_Construct_UClass_UStateComponent_Statics::NewProp_states_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStateComponent_Statics::NewProp_states_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UStateComponent_Statics::NewProp_states_Inner = { UE4CodeGen_Private::EPropertyClass::Struct, "states", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000000, 1, nullptr, 0, Z_Construct_UScriptStruct_FStateSlot, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStateComponent_Statics::NewProp_stateChangedEvent_MetaData[] = {
 		{ "ModuleRelativePath", "Public/Core/Components/StateComponent.h" },
@@ -331,8 +428,7 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 	const UE4CodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UStateComponent_Statics::NewProp_stateChangedEvent = { UE4CodeGen_Private::EPropertyClass::MulticastDelegate, "stateChangedEvent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010100000080000, 1, nullptr, STRUCT_OFFSET(UStateComponent, stateChangedEvent), Z_Construct_UDelegateFunction_Project_Tether_StateEvent__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UStateComponent_Statics::NewProp_stateChangedEvent_MetaData, ARRAY_COUNT(Z_Construct_UClass_UStateComponent_Statics::NewProp_stateChangedEvent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UStateComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStateComponent_Statics::NewProp_states,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStateComponent_Statics::NewProp_states_Key_KeyProp,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStateComponent_Statics::NewProp_states_ValueProp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStateComponent_Statics::NewProp_states_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UStateComponent_Statics::NewProp_stateChangedEvent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UStateComponent_Statics::StaticCppClassTypeInfo = {
@@ -358,7 +454,7 @@ void EmptyLinkFunctionForGeneratedCodeStateComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UStateComponent, 3809186544);
+	IMPLEMENT_CLASS(UStateComponent, 2614737224);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UStateComponent(Z_Construct_UClass_UStateComponent, &UStateComponent::StaticClass, TEXT("/Script/Project_Tether"), TEXT("UStateComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UStateComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
